@@ -1,44 +1,27 @@
-<?php
-$pbbs = "https://pbbradio.com:8443/128";
-$pbb = "https://www.kdbuzz.com/PBB/pbbstream.php";
- 
-// PHP program to illustrate
-// stream_get_meta_data function
-  
-#$url = 'http://php.net/manual/en/function.stream-get-meta-data.php';
-  
-/* $file = fopen($pbb, 'r');
-$meta_data = stream_get_meta_data($file);
-  
-print_r($meta_data);
-print($file);  
-fclose($file);
 
-echo "<pre>". $file . "<pre/>";
+<html>
+<head>
+<script src="/js/jquery-3.6.0.js" type="text/javascript"></script>
+</head>
 
-$context = stream_context_create(
-  array (
-    'ssl' => array (
-      'verify_peer' => false,
-      'verify_peer_name' => false
-    )
-  )
-); */
+<body>
+<script>
+$(document).ready(function(){
 
-$f= fopen($pbb, "rb", false, $context);
-$lines = "";
-do{
-  $data=fread($f,1024);
-  if(strlen($data)==0){
-    break;
-  }
-  $lines.=$data;
-}while(true);
-fclose($f);
 
-$objDateTime = new DateTime('NOW');
-//echo $objDateTime->format('c'); // ISO8601 formated datetime
-//echo $objDateTime->format(DateTime::ATOM); 
-echo "<hr/>";
-echo $objDateTime->format(DateTime::ISO8601)." : " . substr($lines,11);
-?>
+  $("#flux").load("title.php");
+  let title = $("#flux").text();
+  $("#log").append(title +"<br/>");
+  $("#log").append(title.slice(32,title.length-32));
+/* 
+setInterval(function(){
+
+$("#flux").load('test.php')
+}, 5000);*/
+}); 
+</script>
+<div id="flux">Flux: </div><hr/>
+<div id="log">Log: </div>
+
+</body>
+</html>
