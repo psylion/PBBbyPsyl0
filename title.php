@@ -40,5 +40,7 @@ $objDateTime = new DateTime('NOW');
 //echo $objDateTime->format('c'); // ISO8601 formated datetime
 //echo $objDateTime->format(DateTime::ATOM); 
 //echo "<hr/>";
-echo $objDateTime->format(DateTime::ISO8601)." : " . substr($lines,11);
+//echo $objDateTime->format(DateTime::ISO8601)." : " . substr($lines,11);
+// Removed some html in front
+echo substr($lines,11);
 ?>

@@ -5,23 +5,34 @@
 </head>
 
 <body>
+<button onclick="clearInterval(myVar)">Stop Loop</button>
 <script>
 $(document).ready(function(){
-
-
+  var myVar = setInterval(myTimer, 5000);
   $("#flux").load("title.php");
-  let title = $("#flux").text();
-  $("#log").append(title +"<br/>");
-  $("#log").append(title.slice(32,title.length-32));
-/* 
-setInterval(function(){
+  
+});
 
-$("#flux").load('test.php')
-}, 5000);*/
-}); 
+function myTimer() {
+  $("#flux").load("title.php");
+  let info = $("#flux").text();
+  let smallinfo = info;
+  var d = new Date();
+  $("#date").html( d.toLocaleTimeString());
+  
+  if ($("#current").html() != info) {
+    //$("#log").append(smallinfo +"(smallinfo)<br/>");
+    $("#log").append(info + "("+d.toLocaleTimeString()+")<br/>");
+    $("#current").html( info);
+  }
+}
+ 
 </script>
+
 <div id="flux">Flux: </div><hr/>
-<div id="log">Log: </div>
+<div id="current"> </div><hr/>
+<div id="date">date: </div><hr/>
+<div id="log"> </div>
 
 </body>
 </html>
