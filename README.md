@@ -5,3 +5,6 @@ The Web radio is called PBB, aka *Pedro Broadcasting Basement*. You can tune in 
 
 I've received the php code to extract those information, and I'm planning to create a way to store a log of all tracks played... and maybe produce some stats and search features...
 
+## 27 Apr 2021: test.php 
+is the current working page, with the title.php which is currently using the pbbstream.php from Kdbuz. Unfortunately I'm not able to request HTTPS with php from my PI4 Nginx webserver
+
