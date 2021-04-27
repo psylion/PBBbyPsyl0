@@ -20,7 +20,7 @@ function myTimer() {
   var d = new Date();
   $("#date").html( d.toLocaleTimeString());
   
-  if ($("#current").html() != info) {
+  if ($("#current").text() != info) {
     //$("#log").append(smallinfo +"(smallinfo)<br/>");
     $("#log").append(info + "("+d.toLocaleTimeString()+")<br/>");
     $("#current").html( info);
