@@ -43,4 +43,17 @@ $objDateTime = new DateTime('NOW');
 //echo $objDateTime->format(DateTime::ISO8601)." : " . substr($lines,11);
 // Removed some html in front
 echo substr($lines,11);
+
+function append2json(string $lbl, string $artist, string $title, string $date){
+  $array = array('label' => $lbl,'artist' => $artist,'title' => $title,'date'=> $date);
+
+  #$fp = fopen('results.json', 'w');
+  $inp = file_get_contents('results.json');
+  $tempArray = json_decode($inp);
+  array_push($tempArray, $data);
+  $jsonData = json_encode($tempArray);
+  file_put_contents('results.json', $jsonData);
+  #fwrite($fp, json_encode($array, JSON_PRETTY_PRINT));   // here it will print the array pretty
+  #fclose($fp);
+}
 ?>
