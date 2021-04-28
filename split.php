@@ -24,9 +24,10 @@ function extractEle($str){
   }
   if (strlen($ft4)>0){
     $label = $ft4;
-  }
+  }else{$label="";}
   
   echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
+  //return $par; $artist; $title; $label ;$time;
 }
 ?>
 <html>
