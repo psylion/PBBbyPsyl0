@@ -1,29 +1,10 @@
 <?php
+    if (isset($_POST['extractEle'])) {
+      echo extractEle($_POST['extractEle']);
+  }
+
 $pbbs = "https://pbbradio.com:8443/128";
 $pbb = "https://www.kdbuzz.com/PBB/pbbstream.php";
- 
-// PHP program to illustrate
-// stream_get_meta_data function
-  
-#$url = 'http://php.net/manual/en/function.stream-get-meta-data.php';
-  
-/* $file = fopen($pbb, 'r');
-$meta_data = stream_get_meta_data($file);
-  
-print_r($meta_data);
-print($file);  
-fclose($file);
-
-echo "<pre>". $file . "<pre/>";
-
-$context = stream_context_create(
-  array (
-    'ssl' => array (
-      'verify_peer' => false,
-      'verify_peer_name' => false
-    )
-  )
-); */
 
 $f= fopen($pbb, "rb", false, $context);
 $lines = "";
@@ -44,18 +25,15 @@ $objDateTime = new DateTime('NOW');
 // Removed some html in front
 echo substr($lines,11);
 
-function append2json(string $lbl, string $artist, string $title, string $date){
-  $array = array('label' => $lbl,'artist' => $artist,'title' => $title,'date'=> $date);
-
-  #$fp = fopen('results.json', 'w');
-  $inp = file_get_contents('results.json');
-  $tempArray = json_decode($inp);
-  array_push($tempArray, $data);
-  $jsonData = json_encode($tempArray);
-  file_put_contents('results.json', $jsonData);
-  #fwrite($fp, json_encode($array, JSON_PRETTY_PRINT));   // here it will print the array pretty
-  #fclose($fp);
+function append2json($jarray){
+  echo "<hr/>get content: " . $inp = file_get_contents('results.json');
+  if($inp != null){ $tempArray = json_decode($inp);}else{$tempArray = array();}
+  array_push($tempArray,$jarray);
+  echo "<hr/> info array: 1)".count($tempArray) ." 2)".count($ar);
+  echo "<hr/> encode: (" . count($tempArray) .")".$jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
+  echo "<hr/>put content: " . file_put_contents('results.json', $jsonData);
 }
+
 function extractEle($str){
   $ftitle = $str;
   $par =  substr($ftitle,0,strpos($ftitle,")")+1);
@@ -73,7 +51,12 @@ function extractEle($str){
     $label = $ft4;
   }else{$label="";}
   
-  //echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
-  append2json($par, $artist, $title, $label,$time);
+  echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
+  $array = array('otitle'=>$ftitle,'par' => $par,'label' => $label,'artist' => $artist,'title' => $title,'time'=> $time);
+  //if ($tArray == null){ array_push($tArray, $array);}else{$tArray=$array;}
+  echo "<hr/> array: " . json_encode($array);
+
+  echo "<hr/> append2json: " . append2json($array);
+  return "append2json completed";
 }
 ?>

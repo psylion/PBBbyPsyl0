@@ -6,9 +6,16 @@ $str4 = "(Fr_N_N) RONE & FLAVIEN BERGER - Polichinelle _ INFINE(17:16:28)";
 $str5 = "(E) AMIRALI - A Fly In Your Tongue _DARK MATTERS(17:20:14)";
 $strs = array($str1,$str2,$str3,$str4,$str5);
 
+echo "<hr/>get content: " . $inp = file_get_contents('results.json');
+  if($inp != null){ $tempArray = json_decode($inp);}else{$tempArray = array();}
 foreach ($strs as $item){
-  extractEle($item);
+  $ar = extractEle($item);
+  array_push($tempArray,$ar);
+  echo "<hr/> info array: 1)".count($tempArray) ." 2)".count($ar);
 }
+echo "<hr/> encode: (" . count($tempArray) .")".$jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
+echo "<hr/>put content: " . file_put_contents('results.json', $jsonData);
+
 function extractEle($str){
   $ftitle = $str;
   $par =  substr($ftitle,0,strpos($ftitle,")")+1);
@@ -27,7 +34,10 @@ function extractEle($str){
   }else{$label="";}
   
   echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
-  //return $par; $artist; $title; $label ;$time;
+  $array = array('otitle' => $ftitle,'label' => $label,'artist' => $artist,'title' => $title,'date'=> $time);
+  //if ($tArray == null){ array_push($tArray, $array);}else{$tArray=$array;}
+  echo "<hr/> array: " . json_encode($array);
+  return $array;
 }
 ?>
 <html>
