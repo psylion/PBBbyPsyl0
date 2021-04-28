@@ -2,8 +2,8 @@
     if (isset($_POST['extractEle'])) {
       echo extractEle($_POST['extractEle']);
   }
-  $today = date_format( new DateTime('NOW'), 'Ymd');
-  
+
+
 $pbbs = "https://pbbradio.com:8443/128";
 $pbb = "https://www.kdbuzz.com/PBB/pbbstream.php";
 
@@ -22,10 +22,8 @@ fclose($f);
 // Removed some html in front
 echo substr($lines,11);
 
-function append2json($jarray){
-  $todayFile = $today.'results.json';
-  //echo "<hr/>todayFile: " . $todayFile;
-  //echo "<hr/>get content: " . 
+function append2json($jarray,$todayFile){
+
   $inp = file_get_contents($todayFile);
   if($inp != null){ $tempArray = json_decode($inp);}else{$tempArray = array();}
   array_push($tempArray,$jarray);
@@ -36,6 +34,9 @@ function append2json($jarray){
 }
 
 function extractEle($str){
+  $today = date_format( new DateTime('NOW'), 'Ymd');
+  $todayFile = $today.'results.json';
+
   $ftitle = $str;
   $par =  substr($ftitle,0,strpos($ftitle,")")+1);
   $time = substr($ftitle,strlen($ftitle)-10);
@@ -57,7 +58,7 @@ function extractEle($str){
   //echo "<hr/> array: " . 
   json_encode($array);
   //echo "<hr/> append2json: " . 
-  append2json($array);
+  append2json($array,$todayFile);
   return "append2json completed";
 }
 ?>

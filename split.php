@@ -12,7 +12,7 @@ $todayFile = $today.'test.json';
 echo "<hr/> todayFile: " .$todayFile;
  
 //echo "<hr/>get content: " . 
-$inp = file_get_contents('test.json');
+$inp = file_get_contents($todayFile);
   if($inp != null){ $tempArray = json_decode($inp);}else{$tempArray = array();}
 foreach ($strs as $item){
   $ar = extractEle($item);
@@ -21,7 +21,7 @@ foreach ($strs as $item){
 }
 //echo "<hr/> encode: (" . count($tempArray) .")".
 $jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
-echo "<hr/>put content: " . file_put_contents('test.json', $jsonData);
+echo "<hr/>put content: " . file_put_contents($todayFile, $jsonData);
 
 function extractEle($str){
   $ftitle = $str;
