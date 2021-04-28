@@ -6,15 +6,22 @@ $str4 = "(Fr_N_N) RONE & FLAVIEN BERGER - Polichinelle _ INFINE(17:16:28)";
 $str5 = "(E) AMIRALI - A Fly In Your Tongue _DARK MATTERS(17:20:14)";
 $strs = array($str1,$str2,$str3,$str4,$str5);
 
-echo "<hr/>get content: " . $inp = file_get_contents('results.json');
+$today = date_format( new DateTime('NOW'), 'Ymd');
+echo "<hr/> today: " .$today;
+$todayFile = $today.'test.json';
+echo "<hr/> todayFile: " .$todayFile;
+ 
+//echo "<hr/>get content: " . 
+$inp = file_get_contents('test.json');
   if($inp != null){ $tempArray = json_decode($inp);}else{$tempArray = array();}
 foreach ($strs as $item){
   $ar = extractEle($item);
   array_push($tempArray,$ar);
-  echo "<hr/> info array: 1)".count($tempArray) ." 2)".count($ar);
+  //echo "<hr/> info array: 1)".count($tempArray) ." 2)".count($ar);
 }
-echo "<hr/> encode: (" . count($tempArray) .")".$jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
-echo "<hr/>put content: " . file_put_contents('results.json', $jsonData);
+//echo "<hr/> encode: (" . count($tempArray) .")".
+$jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
+echo "<hr/>put content: " . file_put_contents('test.json', $jsonData);
 
 function extractEle($str){
   $ftitle = $str;

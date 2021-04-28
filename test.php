@@ -19,8 +19,10 @@ function myTimer() {
   let info = $("#flux").text();
   let smallinfo = info;
     var d = new Date();
-    d =  d.toJSON();
-    d = d.substring(d.indexOf('T')+1,d.length-5);
+    //d = d.substring(d.indexOf('T')+1,d.length-5);
+    // correcting difference between javascript time locale between Mac and Windows
+    d =  d.toTimeString().substr(0,8);
+    
     $("#date").html( d);
   
   if ($("#current").text() != info) {
@@ -35,7 +37,7 @@ function myTimer() {
       data: {'extractEle': info+ "("+d+")"},
       success: function (data) {    
               console.log("call php: " + info);
-              console.log("data: " +data);
+              //console.log("data: " +data);
             }
     });
 

@@ -24,11 +24,14 @@ echo substr($lines,11);
 
 function append2json($jarray){
   $todayFile = $today.'results.json';
-  echo "<hr/>get content: " . $inp = file_get_contents($todayFile);
+  //echo "<hr/>todayFile: " . $todayFile;
+  //echo "<hr/>get content: " . 
+  $inp = file_get_contents($todayFile);
   if($inp != null){ $tempArray = json_decode($inp);}else{$tempArray = array();}
   array_push($tempArray,$jarray);
-  echo "<hr/> info array: 1)".count($tempArray) ." 2)".count($ar);
-  echo "<hr/> encode: (" . count($tempArray) .")".$jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
+  //echo "<hr/> info array: 1)".count($tempArray) ." 2)".count($ar);
+  //echo "<hr/> encode: (" . count($tempArray) .")".
+  $jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
   echo "<hr/>put content: " . file_put_contents($todayFile, $jsonData);
 }
 
@@ -51,8 +54,10 @@ function extractEle($str){
   
   //echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
   $array = array('otitle'=>$ftitle,'par' => $par,'label' => $label,'artist' => $artist,'title' => $title,'time'=> $time);
-  echo "<hr/> array: " . json_encode($array);
-  echo "<hr/> append2json: " . append2json($array);
+  //echo "<hr/> array: " . 
+  json_encode($array);
+  //echo "<hr/> append2json: " . 
+  append2json($array);
   return "append2json completed";
 }
 ?>
