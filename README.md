@@ -20,6 +20,6 @@ is the current working page, with the title.php which is currently using the pbb
   - small issue with information containing underscore in the track title
 
 ### TODO List:
-- edit JSON for errors
-- remove debug console output
-- add JSON filename with days to limit the file to 24hours
+- edit JSON for errors  ::Completed
+- remove debug console output ::Almost Completed
+- add JSON filename with days to limit the file to 24hours ::Completed
