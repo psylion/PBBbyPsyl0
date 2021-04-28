@@ -14,5 +14,109 @@
         "artist": "BONOBO_ ",
         "title": "the",
         "time": "(12:19:54)"
+    },
+    {
+        "otitle": "(F) QUANTIC - disco caribe(12:25:14)",
+        "par": "(F)",
+        "label": "",
+        "artist": "QUANTIC ",
+        "title": "disco caribe",
+        "time": "(12:25:14)"
+    },
+    {
+        "otitle": "(R) TOOTS AND THE MAYTALS - scare him(12:30:14)",
+        "par": "(R)",
+        "label": "",
+        "artist": "TOOTS AND THE MAYTALS ",
+        "title": "scare him",
+        "time": "(12:30:14)"
+    },
+    {
+        "otitle": "(X) THE KONKI DUET - ima wa mori no naka ni(12:32:45)",
+        "par": "(X)",
+        "label": "",
+        "artist": "THE KONKI DUET ",
+        "title": "ima wa mori no naka ni",
+        "time": "(12:32:45)"
+    },
+    {
+        "otitle": "(Ro) THE SONICS - I'm A Man(12:34:55)",
+        "par": "(Ro)",
+        "label": "",
+        "artist": "THE SONICS ",
+        "title": "I'm A Man",
+        "time": "(12:34:55)"
+    },
+    {
+        "otitle": "(Fr) LIMINANAS GARNIER - Juliette dans la caravane _BECAUSE(12:39:03)",
+        "par": "(Fr)",
+        "label": "BECAUSE",
+        "artist": "LIMINANAS GARNIER ",
+        "title": "Juliette dans la caravane ",
+        "time": "(12:39:03)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(12:43:03)",
+        "par": "PBB - Luckily We Still Have Music(12:43:03)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(12:43:03)"
+    },
+    {
+        "otitle": "(Ro_N) THE FOR CARNATION - grace beneath the pines(12:44:03)",
+        "par": "(Ro_N)",
+        "label": "",
+        "artist": "THE FOR CARNATION ",
+        "title": "grace beneath the pines",
+        "time": "(12:44:03)"
+    },
+    {
+        "otitle": "(Jup) BILLY HAMLIN - if you ain't got no bread(12:51:03)",
+        "par": "(Jup)",
+        "label": "",
+        "artist": "BILLY HAMLIN ",
+        "title": "if you ain't got no bread",
+        "time": "(12:51:03)"
+    },
+    {
+        "otitle": "(E) LAWREL - ame(12:55:03)",
+        "par": "(E)",
+        "label": "",
+        "artist": "LAWREL ",
+        "title": "ame",
+        "time": "(12:55:03)"
+    },
+    {
+        "otitle": "(E_N) LUXUS VARTA - Elevation _ IN ABSTRACTO(13:00:01)",
+        "par": "(E_N)",
+        "label": " IN ABSTRACTO",
+        "artist": "LUXUS VARTA ",
+        "title": "Elevation ",
+        "time": "(13:00:01)"
+    },
+    {
+        "otitle": "(H) SOULDYNAMIC - Addiction (Mike Huckaby Rmx) _ EXCEDO(13:05:01)",
+        "par": "(H)",
+        "label": " EXCEDO",
+        "artist": "SOULDYNAMIC ",
+        "title": "Addiction (Mike Huckaby Rmx) ",
+        "time": "(13:05:01)"
+    },
+    {
+        "otitle": "(H) SOLOMUN - love recycled(13:13:03)",
+        "par": "(H)",
+        "label": "",
+        "artist": "SOLOMUN ",
+        "title": "love recycled",
+        "time": "(13:13:03)"
+    },
+    {
+        "otitle": "(T) GARNER - Swinging @ da Suga !(13:19:34)",
+        "par": "(T)",
+        "label": "",
+        "artist": "GARNER ",
+        "title": "Swinging @ da Suga !",
+        "time": "(13:19:34)"
     }
 ]
