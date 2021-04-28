@@ -18,18 +18,21 @@ function myTimer() {
   $("#flux").load("title.php");
   let info = $("#flux").text();
   let smallinfo = info;
-  var d = new Date();
-  $("#date").html( d.toLocaleTimeString());
+    var d = new Date();
+    d =  d.toJSON();
+    d = d.substring(d.indexOf('T')+1,d.length-5);
+    $("#date").html( d);
   
   if ($("#current").text() != info) {
     //$("#log").append(smallinfo +"(smallinfo)<br/>");
-    $("#log").append(info + "("+d.toLocaleTimeString()+")<br/>");
+    $("#log").append(info + "("+d+")<br/>");
     $("#current").html( info);
 //call php passing info through the call
+
     $.ajax({
       type: "POST",
       url: 'title.php',
-      data: {'extractEle': info+ "("+d.toLocaleTimeString()+")"},
+      data: {'extractEle': info+ "("+d+")"},
       success: function (data) {    
               console.log("call php: " + info);
               console.log("data: " +data);

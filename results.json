@@ -1,122 +1,426 @@
 [
     {
-        "otitle": "(T) LAURENT GARNIER - gnanmankoudji (emperor machine remix)(12:17:44)",
-        "par": "(T)",
+        "otitle": "(Beats) NIKITCH & KUNA MAZE - another one(13:35:38)",
+        "par": "(Beats)",
         "label": "",
-        "artist": "LAURENT GARNIER ",
-        "title": "gnanmankoudji (emperor machine remix)",
-        "time": "(12:17:44)"
+        "artist": "NIKITCH & KUNA MAZE ",
+        "title": "another one",
+        "time": "(13:35:38)"
     },
     {
-        "otitle": "(Db) BONOBO_ - the_keeper_(Redeyes_Remix)_(12:19:54)",
-        "par": "(Db)",
-        "label": "keeper_(Redeyes_Remix)_",
-        "artist": "BONOBO_ ",
-        "title": "the",
-        "time": "(12:19:54)"
-    },
-    {
-        "otitle": "(F) QUANTIC - disco caribe(12:25:14)",
-        "par": "(F)",
+        "otitle": "(Beats) NIKITCH & KUNA MAZE - another one(13:38:14)",
+        "par": "(Beats)",
         "label": "",
-        "artist": "QUANTIC ",
-        "title": "disco caribe",
-        "time": "(12:25:14)"
+        "artist": "NIKITCH & KUNA MAZE ",
+        "title": "another one",
+        "time": "(13:38:14)"
     },
     {
-        "otitle": "(R) TOOTS AND THE MAYTALS - scare him(12:30:14)",
-        "par": "(R)",
+        "otitle": "(Beats) NIKITCH & KUNA MAZE - another one(13:40:08)",
+        "par": "(Beats)",
         "label": "",
-        "artist": "TOOTS AND THE MAYTALS ",
-        "title": "scare him",
-        "time": "(12:30:14)"
+        "artist": "NIKITCH & KUNA MAZE ",
+        "title": "another one",
+        "time": "(13:40:08)"
     },
     {
-        "otitle": "(X) THE KONKI DUET - ima wa mori no naka ni(12:32:45)",
-        "par": "(X)",
+        "otitle": "(E) ROBERT LE MAGNIFIQUE - k a m(13:40:48)",
+        "par": "(E)",
         "label": "",
-        "artist": "THE KONKI DUET ",
-        "title": "ima wa mori no naka ni",
-        "time": "(12:32:45)"
+        "artist": "ROBERT LE MAGNIFIQUE ",
+        "title": "k a m",
+        "time": "(13:40:48)"
     },
     {
-        "otitle": "(Ro) THE SONICS - I'm A Man(12:34:55)",
-        "par": "(Ro)",
+        "otitle": "(N) POTE - ur 320210428(13:46:20)",
+        "par": "(N)",
         "label": "",
-        "artist": "THE SONICS ",
-        "title": "I'm A Man",
-        "time": "(12:34:55)"
+        "artist": "POTE ",
+        "title": "ur 320210428",
+        "time": "(13:46:20)"
     },
     {
-        "otitle": "(Fr) LIMINANAS GARNIER - Juliette dans la caravane _BECAUSE(12:39:03)",
-        "par": "(Fr)",
-        "label": "BECAUSE",
-        "artist": "LIMINANAS GARNIER ",
-        "title": "Juliette dans la caravane ",
-        "time": "(12:39:03)"
+        "otitle": "(N) POTE - ur 320210428(13:46:26)",
+        "par": "(N)",
+        "label": "",
+        "artist": "POTE ",
+        "title": "ur 320210428",
+        "time": "(13:46:26)"
     },
     {
-        "otitle": "PBB - Luckily We Still Have Music(12:43:03)",
-        "par": "PBB - Luckily We Still Have Music(12:43:03)",
+        "otitle": "(N) POTE - ur 3(13:47:10)",
+        "par": "(N)",
+        "label": "",
+        "artist": "POTE ",
+        "title": "ur 3",
+        "time": "(13:47:10)"
+    },
+    {
+        "otitle": "(P_D) SARGASSO TRIO - dub the saxlingham one(13:48:20)",
+        "par": "(P_D)",
+        "label": "",
+        "artist": "SARGASSO TRIO ",
+        "title": "dub the saxlingham one",
+        "time": "(13:48:20)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(13:54:40)",
+        "par": "PBB - Luckily We Still Have Music(13:54:40)",
         "label": "",
         "artist": false,
         "title": false,
-        "time": "(12:43:03)"
+        "time": "(13:54:40)"
     },
     {
-        "otitle": "(Ro_N) THE FOR CARNATION - grace beneath the pines(12:44:03)",
-        "par": "(Ro_N)",
+        "otitle": "(J) SOM 3 - margarida b(13:54:55)",
+        "par": "(J)",
         "label": "",
-        "artist": "THE FOR CARNATION ",
-        "title": "grace beneath the pines",
-        "time": "(12:44:03)"
+        "artist": "SOM 3 ",
+        "title": "margarida b",
+        "time": "(13:54:55)"
     },
     {
-        "otitle": "(Jup) BILLY HAMLIN - if you ain't got no bread(12:51:03)",
-        "par": "(Jup)",
+        "otitle": "(J) SOM 3 - margarida b(1:56:46 PM)",
+        "par": "(J)",
         "label": "",
-        "artist": "BILLY HAMLIN ",
-        "title": "if you ain't got no bread",
-        "time": "(12:51:03)"
+        "artist": "SOM 3 ",
+        "title": "margarida b(1",
+        "time": ":56:46 PM)"
     },
     {
-        "otitle": "(E) LAWREL - ame(12:55:03)",
-        "par": "(E)",
+        "otitle": "(S_N) ODETTA - pastures of plenty(1:58:06 PM)",
+        "par": "(S_N)",
         "label": "",
-        "artist": "LAWREL ",
-        "title": "ame",
-        "time": "(12:55:03)"
+        "artist": "ODETTA ",
+        "title": "pastures of plenty(1",
+        "time": ":58:06 PM)"
     },
     {
-        "otitle": "(E_N) LUXUS VARTA - Elevation _ IN ABSTRACTO(13:00:01)",
-        "par": "(E_N)",
-        "label": " IN ABSTRACTO",
-        "artist": "LUXUS VARTA ",
-        "title": "Elevation ",
-        "time": "(13:00:01)"
+        "otitle": "(HH_N) DEADHAND - Touch _ SEA & GRAVE(2:02:06 PM)",
+        "par": "(HH_N)",
+        "label": " SEA & GRAVE(2",
+        "artist": "DEADHAND ",
+        "title": "Touch ",
+        "time": ":02:06 PM)"
     },
     {
-        "otitle": "(H) SOULDYNAMIC - Addiction (Mike Huckaby Rmx) _ EXCEDO(13:05:01)",
-        "par": "(H)",
-        "label": " EXCEDO",
-        "artist": "SOULDYNAMIC ",
-        "title": "Addiction (Mike Huckaby Rmx) ",
-        "time": "(13:05:01)"
+        "otitle": "(Brok) CENGIZ - Tribute _ COOP(2:05:26 PM)",
+        "par": "(Brok)",
+        "label": " COOP(2",
+        "artist": "CENGIZ ",
+        "title": "Tribute ",
+        "time": ":05:26 PM)"
     },
     {
-        "otitle": "(H) SOLOMUN - love recycled(13:13:03)",
-        "par": "(H)",
+        "otitle": "PBB - Luckily We Still Have Music(2:10:42 PM)",
+        "par": "PBB - Luckily We Still Have Music(2:10:42 PM)",
         "label": "",
-        "artist": "SOLOMUN ",
-        "title": "love recycled",
-        "time": "(13:13:03)"
+        "artist": false,
+        "title": false,
+        "time": ":10:42 PM)"
     },
     {
-        "otitle": "(T) GARNER - Swinging @ da Suga !(13:19:34)",
+        "otitle": "(Beats) HUGO MASSIEN - Different People _ E BEAMZ(2:10:56 PM)",
+        "par": "(Beats)",
+        "label": " E BEAMZ(2",
+        "artist": "HUGO MASSIEN ",
+        "title": "Different People ",
+        "time": ":10:56 PM)"
+    },
+    {
+        "otitle": "(T) FIERCE RULING DIVA - You gotta beleive(2:14:46 PM)",
         "par": "(T)",
         "label": "",
-        "artist": "GARNER ",
-        "title": "Swinging @ da Suga !",
-        "time": "(13:19:34)"
+        "artist": "FIERCE RULING DIVA ",
+        "title": "You gotta beleive(2",
+        "time": ":14:46 PM)"
+    },
+    {
+        "otitle": "(DubStep) CALIBRE - stolen shadow(2:21:50 PM)",
+        "par": "(DubStep)",
+        "label": "",
+        "artist": "CALIBRE ",
+        "title": "stolen shadow(2",
+        "time": ":21:50 PM)"
+    },
+    {
+        "otitle": "(Disco) EVELYN CHAMPAGNE KING - shame(2:26:35 PM)",
+        "par": "(Disco)",
+        "label": "",
+        "artist": "EVELYN CHAMPAGNE KING ",
+        "title": "shame(2",
+        "time": ":26:35 PM)"
+    },
+    {
+        "otitle": "(R) GLENN ADAMS - Cant Hide Your Love(2:33:00 PM)",
+        "par": "(R)",
+        "label": "",
+        "artist": "GLENN ADAMS ",
+        "title": "Cant Hide Your Love(2",
+        "time": ":33:00 PM)"
+    },
+    {
+        "otitle": "(P) RADIOHEAD - no surprises EMI(2:36:05 PM)",
+        "par": "(P)",
+        "label": "",
+        "artist": "RADIOHEAD ",
+        "title": "no surprises EMI(2",
+        "time": ":36:05 PM)"
+    },
+    {
+        "otitle": "(Ro) VELVET UNDERGROUND - i m waiting for my men VERVE(2:39:55 PM)",
+        "par": "(Ro)",
+        "label": "",
+        "artist": "VELVET UNDERGROUND ",
+        "title": "i m waiting for my men VERVE(2",
+        "time": ":39:55 PM)"
+    },
+    {
+        "otitle": "(Db) WHINEY - Freedom Dub _ HOSPITAL(2:44:30 PM)",
+        "par": "(Db)",
+        "label": " HOSPITAL(2",
+        "artist": "WHINEY ",
+        "title": "Freedom Dub ",
+        "time": ":44:30 PM)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2:48:35 PM)",
+        "par": "PBB - Luckily We Still Have Music(2:48:35 PM)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ":48:35 PM)"
+    },
+    {
+        "otitle": "(HH_N) ABD AL MALIK - juliette greco(2:48:50 PM)",
+        "par": "(HH_N)",
+        "label": "",
+        "artist": "ABD AL MALIK ",
+        "title": "juliette greco(2",
+        "time": ":48:50 PM)"
+    },
+    {
+        "otitle": "(J) COLLAGE - uheskoos(2:55:30 PM)",
+        "par": "(J)",
+        "label": "",
+        "artist": "COLLAGE ",
+        "title": "uheskoos(2",
+        "time": ":55:30 PM)"
+    },
+    {
+        "otitle": "(Dt) JAC BERROCAL - rock n roll station(2:58:20 PM)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "JAC BERROCAL ",
+        "title": "rock n roll station(2",
+        "time": ":58:20 PM)"
+    },
+    {
+        "otitle": "(T) DYSPAL - Guardian(3:03:01 PM)",
+        "par": "(T)",
+        "label": "",
+        "artist": "DYSPAL ",
+        "title": "Guardian(3",
+        "time": ":03:01 PM)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(3:09:53 PM)",
+        "par": "PBB - Luckily We Still Have Music(3:09:53 PM)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ":09:53 PM)"
+    },
+    {
+        "otitle": "(H) KERRI CHANDLER & JEROME SYDENHAM (feat. Troy Denari) - You're in My System(3:09:56 PM)",
+        "par": "(H)",
+        "label": "",
+        "artist": "KERRI CHANDLER & JEROME SYDENHAM (feat. Troy Denari) ",
+        "title": "You're in My System(3",
+        "time": ":09:56 PM)"
+    },
+    {
+        "otitle": "(T) 2030 - in aeternum(3:17:12 PM)",
+        "par": "(T)",
+        "label": "",
+        "artist": "2030 ",
+        "title": "in aeternum(3",
+        "time": ":17:12 PM)"
+    },
+    {
+        "otitle": "(W) DONSO - mogoya(3:22:12 PM)",
+        "par": "(W)",
+        "label": "",
+        "artist": "DONSO ",
+        "title": "mogoya(3",
+        "time": ":22:12 PM)"
+    },
+    {
+        "otitle": "(S) ARETHA FRANKLIN - the house that jack built(3:25:25 PM)",
+        "par": "(S)",
+        "label": "",
+        "artist": "ARETHA FRANKLIN ",
+        "title": "the house that jack built(3",
+        "time": ":25:25 PM)"
+    },
+    {
+        "otitle": "(HH) MARLOWE - Later with It(3:27:40 PM)",
+        "par": "(HH)",
+        "label": "",
+        "artist": "MARLOWE ",
+        "title": "Later with It(3",
+        "time": ":27:40 PM)"
+    },
+    {
+        "otitle": "(Dt) fuck knows - B1 ET 2(3:30:30 PM)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "fuck knows ",
+        "title": "B1 ET 2(3",
+        "time": ":30:30 PM)"
+    },
+    {
+        "otitle": "(N) JOHN BELTRAN - clouds pull(3:38:15 PM)",
+        "par": "(N)",
+        "label": "",
+        "artist": "JOHN BELTRAN ",
+        "title": "clouds pull(3",
+        "time": ":38:15 PM)"
+    },
+    {
+        "otitle": "(Ro_L) THE DOORS - break on through(3:41:55 PM)",
+        "par": "(Ro_L)",
+        "label": "",
+        "artist": "THE DOORS ",
+        "title": "break on through(3",
+        "time": ":41:55 PM)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(3:48:00 PM)",
+        "par": "PBB - Luckily We Still Have Music(3:48:00 PM)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ":48:00 PM)"
+    },
+    {
+        "otitle": "(Blues) HI REVVING TONGUES - little red rooster(3:48:15 PM)",
+        "par": "(Blues)",
+        "label": "",
+        "artist": "HI REVVING TONGUES ",
+        "title": "little red rooster(3",
+        "time": ":48:15 PM)"
+    },
+    {
+        "otitle": "(D_N) BOHEME - seasons remix(3:53:15 PM)",
+        "par": "(D_N)",
+        "label": "",
+        "artist": "BOHEME ",
+        "title": "seasons remix(3",
+        "time": ":53:15 PM)"
+    },
+    {
+        "otitle": "(T_N) SIMONCINO - Ambient Deep _ JUST JACK(3:58:00 PM)",
+        "par": "(T_N)",
+        "label": " JUST JACK(3",
+        "artist": "SIMONCINO ",
+        "title": "Ambient Deep ",
+        "time": ":58:00 PM)"
+    },
+    {
+        "otitle": "(H) SHADOW CHILD - FFFound _SHALL NOT FADE(4:01:55 PM)",
+        "par": "(H)",
+        "label": "SHALL NOT FADE(4",
+        "artist": "SHADOW CHILD ",
+        "title": "FFFound ",
+        "time": ":01:55 PM)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(4:07:25 PM)",
+        "par": "PBB - Luckily We Still Have Music(4:07:25 PM)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ":07:25 PM)"
+    },
+    {
+        "otitle": "(P) BOULEVARDS - Brother! _NORMALTOWN(4:07:35 PM)",
+        "par": "(P)",
+        "label": "NORMALTOWN(4",
+        "artist": "BOULEVARDS ",
+        "title": "Brother! ",
+        "time": ":07:35 PM)"
+    },
+    {
+        "otitle": "(T) LAURENT GARNIER - coloured city(4:11:30 PM)",
+        "par": "(T)",
+        "label": "",
+        "artist": "LAURENT GARNIER ",
+        "title": "coloured city(4",
+        "time": ":11:30 PM)"
+    },
+    {
+        "otitle": "(HH) BETA HECTOR - Oracle Bones(4:17:40 PM)",
+        "par": "(HH)",
+        "label": "",
+        "artist": "BETA HECTOR ",
+        "title": "Oracle Bones(4",
+        "time": ":17:40 PM)"
+    },
+    {
+        "otitle": "(S) HAMMER - tuane(4:20:40 PM)",
+        "par": "(S)",
+        "label": "",
+        "artist": "HAMMER ",
+        "title": "tuane(4",
+        "time": ":20:40 PM)"
+    },
+    {
+        "otitle": "(Bra) MAGA BO - no balan\ufffdo da canoa(4:23:45 PM)",
+        "par": "(Bra)",
+        "label": "",
+        "artist": "MAGA BO ",
+        "title": "no balan\ufffdo da canoa(4",
+        "time": ":23:45 PM)"
+    },
+    {
+        "otitle": "(Ro) MALACHAI - snowflake(4:27:46 PM)",
+        "par": "(Ro)",
+        "label": "",
+        "artist": "MALACHAI ",
+        "title": "snowflake(4",
+        "time": ":27:46 PM)"
+    },
+    {
+        "otitle": "(Ro) THE DOORS - who do you love(2021-04-28T14:35:30.853Z)",
+        "par": "(Ro)",
+        "label": "",
+        "artist": "THE DOORS ",
+        "title": "who do you love(2021-04-28T14:3",
+        "time": "5:30.853Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(T14:42:44)",
+        "par": "PBB - Luckily We Still Have Music(T14:42:44)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "T14:42:44)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(14:43:02)",
+        "par": "PBB - Luckily We Still Have Music(14:43:02)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(14:43:02)"
+    },
+    {
+        "otitle": "(S_N) CHILDREN OF ZEUS - hard work(14:43:17)",
+        "par": "(S_N)",
+        "label": "",
+        "artist": "CHILDREN OF ZEUS ",
+        "title": "hard work",
+        "time": "(14:43:17)"
     }
 ]

@@ -2,7 +2,8 @@
     if (isset($_POST['extractEle'])) {
       echo extractEle($_POST['extractEle']);
   }
-
+  $today = date_format( new DateTime('NOW'), 'Ymd');
+  
 $pbbs = "https://pbbradio.com:8443/128";
 $pbb = "https://www.kdbuzz.com/PBB/pbbstream.php";
 
@@ -17,21 +18,18 @@ do{
 }while(true);
 fclose($f);
 
-$objDateTime = new DateTime('NOW');
-//echo $objDateTime->format('c'); // ISO8601 formated datetime
-//echo $objDateTime->format(DateTime::ATOM); 
-//echo "<hr/>";
-//echo $objDateTime->format(DateTime::ISO8601)." : " . substr($lines,11);
+
 // Removed some html in front
 echo substr($lines,11);
 
 function append2json($jarray){
-  echo "<hr/>get content: " . $inp = file_get_contents('results.json');
+  $todayFile = $today.'results.json';
+  echo "<hr/>get content: " . $inp = file_get_contents($todayFile);
   if($inp != null){ $tempArray = json_decode($inp);}else{$tempArray = array();}
   array_push($tempArray,$jarray);
   echo "<hr/> info array: 1)".count($tempArray) ." 2)".count($ar);
   echo "<hr/> encode: (" . count($tempArray) .")".$jsonData = json_encode($tempArray, JSON_PRETTY_PRINT);
-  echo "<hr/>put content: " . file_put_contents('results.json', $jsonData);
+  echo "<hr/>put content: " . file_put_contents($todayFile, $jsonData);
 }
 
 function extractEle($str){
@@ -51,11 +49,9 @@ function extractEle($str){
     $label = $ft4;
   }else{$label="";}
   
-  echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
+  //echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
   $array = array('otitle'=>$ftitle,'par' => $par,'label' => $label,'artist' => $artist,'title' => $title,'time'=> $time);
-  //if ($tArray == null){ array_push($tArray, $array);}else{$tArray=$array;}
   echo "<hr/> array: " . json_encode($array);
-
   echo "<hr/> append2json: " . append2json($array);
   return "append2json completed";
 }
