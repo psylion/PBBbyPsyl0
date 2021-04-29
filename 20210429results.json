@@ -1,0 +1,802 @@
+[
+    {
+        "otitle": "(Dt_N) WINSTON NEALE - Sinnerman _ TANGENTIAL MUSIC(00:02:09)",
+        "par": "(Dt_N)",
+        "label": " TANGENTIAL MUSIC",
+        "artist": "WINSTON NEALE ",
+        "title": "Sinnerman ",
+        "time": "(00:02:09)"
+    },
+    {
+        "otitle": "(Dt) NGYN, ESYDIA - Thanks for everything(00:08:14)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "NGYN, ESYDIA ",
+        "title": "Thanks for everything",
+        "time": "(00:08:14)"
+    },
+    {
+        "otitle": "(J_P) BEN LAMAR GAY & EDINHO GERBER - swim swim(00:10:04)",
+        "par": "(J_P)",
+        "label": "",
+        "artist": "BEN LAMAR GAY & EDINHO GERBER ",
+        "title": "swim swim",
+        "time": "(00:10:04)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(00:13:29)",
+        "par": "PBB - Luckily We Still Have Music(00:13:29)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(00:13:29)"
+    },
+    {
+        "otitle": "(t_N) plastikman - mind game(00:13:39)",
+        "par": "(t_N)",
+        "label": "",
+        "artist": "plastikman ",
+        "title": "mind game",
+        "time": "(00:13:39)"
+    },
+    {
+        "otitle": "(A_N) LIGOVSKOI - Thessalonians(00:18:19)",
+        "par": "(A_N)",
+        "label": "",
+        "artist": "LIGOVSKOI ",
+        "title": "Thessalonians",
+        "time": "(00:18:19)"
+    },
+    {
+        "otitle": "(E_N) MOHLAO - amber(00:21:49)",
+        "par": "(E_N)",
+        "label": "",
+        "artist": "MOHLAO ",
+        "title": "amber",
+        "time": "(00:21:49)"
+    },
+    {
+        "otitle": "(E) JON_HOPKINS_ - light_through_the_veins_(00:27:29)",
+        "par": "(E)",
+        "label": "through_the_veins_",
+        "artist": "JON_HOPKINS_ ",
+        "title": "light",
+        "time": "(00:27:29)"
+    },
+    {
+        "otitle": "(J_N) PORTICO QUARTET - beyond dialogue(00:36:44)",
+        "par": "(J_N)",
+        "label": "",
+        "artist": "PORTICO QUARTET ",
+        "title": "beyond dialogue",
+        "time": "(00:36:44)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(00:43:24)",
+        "par": "PBB - Luckily We Still Have Music(00:43:24)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(00:43:24)"
+    },
+    {
+        "otitle": "(Bb_N) M VAUGHAN - Softly _ SUPER TUFF(00:43:39)",
+        "par": "(Bb_N)",
+        "label": " SUPER TUFF",
+        "artist": "M VAUGHAN ",
+        "title": "Softly ",
+        "time": "(00:43:39)"
+    },
+    {
+        "otitle": "(Ra) SLEEPIN GIANTZ - badungdeng(00:47:09)",
+        "par": "(Ra)",
+        "label": "",
+        "artist": "SLEEPIN GIANTZ ",
+        "title": "badungdeng",
+        "time": "(00:47:09)"
+    },
+    {
+        "otitle": "(H_N) PARIS BRIGHTLEDGE & ROBERT BOND - For Love (Eric Kupper Remix) _ CLONE(00:51:34)",
+        "par": "(H_N)",
+        "label": " CLONE",
+        "artist": "PARIS BRIGHTLEDGE & ROBERT BOND ",
+        "title": "For Love (Eric Kupper Remix) ",
+        "time": "(00:51:34)"
+    },
+    {
+        "otitle": "(H_N) PELETRONIC - About The Void _ FORTUNEA(00:57:34)",
+        "par": "(H_N)",
+        "label": " FORTUNEA",
+        "artist": "PELETRONIC ",
+        "title": "About The Void ",
+        "time": "(00:57:34)"
+    },
+    {
+        "otitle": "(E) LALI PUNA - together in electric dreams(01:03:09)",
+        "par": "(E)",
+        "label": "",
+        "artist": "LALI PUNA ",
+        "title": "together in electric dreams",
+        "time": "(01:03:09)"
+    },
+    {
+        "otitle": "(Blues_W) SAINKHO NAMTCHYLAK  - Erge Chokka To - PONDEROSA(01:07:39)",
+        "par": "(Blues_W)",
+        "label": "",
+        "artist": "SAINKHO NAMTCHYLAK  ",
+        "title": "Erge Chokka To - PONDEROSA",
+        "time": "(01:07:39)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(01:14:09)",
+        "par": "PBB - Luckily We Still Have Music(01:14:09)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(01:14:09)"
+    },
+    {
+        "otitle": "(Dt_N) LONE - Borea(01:14:29)",
+        "par": "(Dt_N)",
+        "label": "",
+        "artist": "LONE ",
+        "title": "Borea",
+        "time": "(01:14:29)"
+    },
+    {
+        "otitle": "(H_N) MONOLITHIC - time(01:17:59)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "MONOLITHIC ",
+        "title": "time",
+        "time": "(01:17:59)"
+    },
+    {
+        "otitle": "(E_N) LAPALUX - Earth(01:24:44)",
+        "par": "(E_N)",
+        "label": "",
+        "artist": "LAPALUX ",
+        "title": "Earth",
+        "time": "(01:24:44)"
+    },
+    {
+        "otitle": "(E) FRANZ KIRMANN - liza(01:29:24)",
+        "par": "(E)",
+        "label": "",
+        "artist": "FRANZ KIRMANN ",
+        "title": "liza",
+        "time": "(01:29:24)"
+    },
+    {
+        "otitle": "(S_N) THA 4RCE - neva shoulda(01:35:19)",
+        "par": "(S_N)",
+        "label": "",
+        "artist": "THA 4RCE ",
+        "title": "neva shoulda",
+        "time": "(01:35:19)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(01:39:29)",
+        "par": "PBB - Luckily We Still Have Music(01:39:29)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(01:39:29)"
+    },
+    {
+        "otitle": "(E_N) CHAPELIER FOU - 4, Rue d'Istanbul _ICI D'AILLEURS(01:39:44)",
+        "par": "(E_N)",
+        "label": "ICI D'AILLEURS",
+        "artist": "CHAPELIER FOU ",
+        "title": "4, Rue d'Istanbul ",
+        "time": "(01:39:44)"
+    },
+    {
+        "otitle": "(D) SIDESHOW_ - youth_of_today_(01:41:59)",
+        "par": "(D)",
+        "label": "of_today_",
+        "artist": "SIDESHOW_ ",
+        "title": "youth",
+        "time": "(01:41:59)"
+    },
+    {
+        "otitle": "(H_N) SEVEN DAVID JR - One _ SECRET ANGELS(01:46:54)",
+        "par": "(H_N)",
+        "label": " SECRET ANGELS",
+        "artist": "SEVEN DAVID JR ",
+        "title": "One ",
+        "time": "(01:46:54)"
+    },
+    {
+        "otitle": "(Dt_N) JIMBO JONES - Almost Post Coital _ JPRM(01:53:34)",
+        "par": "(Dt_N)",
+        "label": " JPRM",
+        "artist": "JIMBO JONES ",
+        "title": "Almost Post Coital ",
+        "time": "(01:53:34)"
+    },
+    {
+        "otitle": "(E) LORN - weigh me down(01:57:09)",
+        "par": "(E)",
+        "label": "",
+        "artist": "LORN ",
+        "title": "weigh me down",
+        "time": "(01:57:09)"
+    },
+    {
+        "otitle": "(J) LOS ALAMITOS - latin funk love song(02:00:49)",
+        "par": "(J)",
+        "label": "",
+        "artist": "LOS ALAMITOS ",
+        "title": "latin funk love song",
+        "time": "(02:00:49)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(02:07:39)",
+        "par": "PBB - Luckily We Still Have Music(02:07:39)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(02:07:39)"
+    },
+    {
+        "otitle": "(H_N) CHYMERA - umbrella(02:07:54)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "CHYMERA ",
+        "title": "umbrella",
+        "time": "(02:07:54)"
+    },
+    {
+        "otitle": "(W_N) TRIO TEKKE - Excerpt (in da alt. version)(02:14:49)",
+        "par": "(W_N)",
+        "label": "",
+        "artist": "TRIO TEKKE ",
+        "title": "Excerpt (in da alt. version)",
+        "time": "(02:14:49)"
+    },
+    {
+        "otitle": "(H_N) TIM DELUXE - tryin find a way(02:17:34)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "TIM DELUXE ",
+        "title": "tryin find a way",
+        "time": "(02:17:34)"
+    },
+    {
+        "otitle": "(E) RONE - Babel(02:24:39)",
+        "par": "(E)",
+        "label": "",
+        "artist": "RONE ",
+        "title": "Babel",
+        "time": "(02:24:39)"
+    },
+    {
+        "otitle": "(Dt_N) SONNYMOON - blast off(02:28:49)",
+        "par": "(Dt_N)",
+        "label": "",
+        "artist": "SONNYMOON ",
+        "title": "blast off",
+        "time": "(02:28:49)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(02:32:59)",
+        "par": "PBB - Luckily We Still Have Music(02:32:59)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(02:32:59)"
+    },
+    {
+        "otitle": "(T_N) ANDREA PASSENGER - Begin n(02:33:14)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "ANDREA PASSENGER ",
+        "title": "Begin n",
+        "time": "(02:33:14)"
+    },
+    {
+        "otitle": "(R) DJ VADIM - Hidden Treasure ft. Sabira Jade & Kwasi Asante(02:38:44)",
+        "par": "(R)",
+        "label": "",
+        "artist": "DJ VADIM ",
+        "title": "Hidden Treasure ft. Sabira Jade & Kwasi Asante",
+        "time": "(02:38:44)"
+    },
+    {
+        "otitle": "(J_N) SCRUSCRU - Rain In A Bamboo Grove _ OMENA(02:42:24)",
+        "par": "(J_N)",
+        "label": " OMENA",
+        "artist": "SCRUSCRU ",
+        "title": "Rain In A Bamboo Grove ",
+        "time": "(02:42:24)"
+    },
+    {
+        "otitle": "(T_N) ANTHONY ROTHER - The Unknown X(02:46:19)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "ANTHONY ROTHER ",
+        "title": "The Unknown X",
+        "time": "(02:46:19)"
+    },
+    {
+        "otitle": "(N) KING KRIMSON - nuages VIRGIN(02:51:09)",
+        "par": "(N)",
+        "label": "",
+        "artist": "KING KRIMSON ",
+        "title": "nuages VIRGIN",
+        "time": "(02:51:09)"
+    },
+    {
+        "otitle": "(J) SATHIMA BEA BENJAMIN - africa(02:55:54)",
+        "par": "(J)",
+        "label": "",
+        "artist": "SATHIMA BEA BENJAMIN ",
+        "title": "africa",
+        "time": "(02:55:54)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(03:03:54)",
+        "par": "PBB - Luckily We Still Have Music(03:03:54)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(03:03:54)"
+    },
+    {
+        "otitle": "(Fr_N) ALAIN BASHUNG - la nuit je mens (unplugged)(03:04:09)",
+        "par": "(Fr_N)",
+        "label": "",
+        "artist": "ALAIN BASHUNG ",
+        "title": "la nuit je mens (unplugged)",
+        "time": "(03:04:09)"
+    },
+    {
+        "otitle": "(F_N) THE SOUND DEFECTS - dreaming about dreams(03:08:34)",
+        "par": "(F_N)",
+        "label": "",
+        "artist": "THE SOUND DEFECTS ",
+        "title": "dreaming about dreams",
+        "time": "(03:08:34)"
+    },
+    {
+        "otitle": "(T_N) SARA BERG - another night(03:09:39)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "SARA BERG ",
+        "title": "another night",
+        "time": "(03:09:39)"
+    },
+    {
+        "otitle": "(N) LAMBCHOP - the daily growl CITY SLANG(03:14:49)",
+        "par": "(N)",
+        "label": "",
+        "artist": "LAMBCHOP ",
+        "title": "the daily growl CITY SLANG",
+        "time": "(03:14:49)"
+    },
+    {
+        "otitle": "(S_N) ARLO PARKS - Sophie(03:21:29)",
+        "par": "(S_N)",
+        "label": "",
+        "artist": "ARLO PARKS ",
+        "title": "Sophie",
+        "time": "(03:21:29)"
+    },
+    {
+        "otitle": "(Db_N) MITEKISS - Rain (Falling Down)(03:25:04)",
+        "par": "(Db_N)",
+        "label": "",
+        "artist": "MITEKISS ",
+        "title": "Rain (Falling Down)",
+        "time": "(03:25:04)"
+    },
+    {
+        "otitle": "(L) DEADLINE VS BATACUMBELE - batacumbele(03:29:34)",
+        "par": "(L)",
+        "label": "",
+        "artist": "DEADLINE VS BATACUMBELE ",
+        "title": "batacumbele",
+        "time": "(03:29:34)"
+    },
+    {
+        "otitle": "(Ft_N) JOSEPH EFI - This Is Lovely(03:35:29)",
+        "par": "(Ft_N)",
+        "label": "",
+        "artist": "JOSEPH EFI ",
+        "title": "This Is Lovely",
+        "time": "(03:35:29)"
+    },
+    {
+        "otitle": "(T_N) VINCE WATSON - First Wave(03:39:49)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "VINCE WATSON ",
+        "title": "First Wave",
+        "time": "(03:39:49)"
+    },
+    {
+        "otitle": "(Dt) TALL BLACK GUY - water no enemy(03:45:24)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "TALL BLACK GUY ",
+        "title": "water no enemy",
+        "time": "(03:45:24)"
+    },
+    {
+        "otitle": "(J) DOMINICK MARTIN - the marches(03:50:04)",
+        "par": "(J)",
+        "label": "",
+        "artist": "DOMINICK MARTIN ",
+        "title": "the marches",
+        "time": "(03:50:04)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(03:55:24)",
+        "par": "PBB - Luckily We Still Have Music(03:55:24)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(03:55:24)"
+    },
+    {
+        "otitle": "(E_N) AKIDO - la memoire de l onde(03:55:39)",
+        "par": "(E_N)",
+        "label": "",
+        "artist": "AKIDO ",
+        "title": "la memoire de l onde",
+        "time": "(03:55:39)"
+    },
+    {
+        "otitle": "(T_N) VOPHONIQ - enter the mystic truth (OBE version)(03:58:39)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "VOPHONIQ ",
+        "title": "enter the mystic truth (OBE version)",
+        "time": "(03:58:39)"
+    },
+    {
+        "otitle": "(X_N) FRANCESCO TRISTANO - mambo(04:10:29)",
+        "par": "(X_N)",
+        "label": "",
+        "artist": "FRANCESCO TRISTANO ",
+        "title": "mambo",
+        "time": "(04:10:29)"
+    },
+    {
+        "otitle": "(N) ANDRE ZIMMA - mermaids bay(04:17:04)",
+        "par": "(N)",
+        "label": "",
+        "artist": "ANDRE ZIMMA ",
+        "title": "mermaids bay",
+        "time": "(04:17:04)"
+    },
+    {
+        "otitle": "(Db_N) BETA 2 - cabin fever(04:22:44)",
+        "par": "(Db_N)",
+        "label": "",
+        "artist": "BETA 2 ",
+        "title": "cabin fever",
+        "time": "(04:22:44)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(04:28:19)",
+        "par": "PBB - Luckily We Still Have Music(04:28:19)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(04:28:19)"
+    },
+    {
+        "otitle": "(Dt_N) ZIGGY ZEITGEIST & ERICA TUCCERI - Learning Curve _ LA SAPE(04:28:39)",
+        "par": "(Dt_N)",
+        "label": " LA SAPE",
+        "artist": "ZIGGY ZEITGEIST & ERICA TUCCERI ",
+        "title": "Learning Curve ",
+        "time": "(04:28:39)"
+    },
+    {
+        "otitle": "(R) PRINCE FATTY MEETS THE MUTANT HIFI (04:31:54)",
+        "par": "(R)",
+        "label": "",
+        "artist": "PRINCE FATTY MEETS THE MUTANT HIFI",
+        "title": false,
+        "time": "(04:31:54)"
+    },
+    {
+        "otitle": "(E_N) BOP - Nde(04:35:14)",
+        "par": "(E_N)",
+        "label": "",
+        "artist": "BOP ",
+        "title": "Nde",
+        "time": "(04:35:14)"
+    },
+    {
+        "otitle": "(E_N) CHAPELIER FOU - Senestre Eldorado _ICI D'AILLEURS(04:40:39)",
+        "par": "(E_N)",
+        "label": "ICI D'AILLEURS",
+        "artist": "CHAPELIER FOU ",
+        "title": "Senestre Eldorado ",
+        "time": "(04:40:39)"
+    },
+    {
+        "otitle": "(N) A REMINISCENT DRIVE - i want to remember F COMM(04:44:24)",
+        "par": "(N)",
+        "label": "",
+        "artist": "A REMINISCENT DRIVE ",
+        "title": "i want to remember F COMM",
+        "time": "(04:44:24)"
+    },
+    {
+        "otitle": "(J) CHICK COREA - return to forever(04:48:44)",
+        "par": "(J)",
+        "label": "",
+        "artist": "CHICK COREA ",
+        "title": "return to forever",
+        "time": "(04:48:44)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(05:00:39)",
+        "par": "PBB - Luckily We Still Have Music(05:00:39)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(05:00:39)"
+    },
+    {
+        "otitle": "(Db_N) BREAK AND HYDRO - immaculate(05:00:54)",
+        "par": "(Db_N)",
+        "label": "",
+        "artist": "BREAK AND HYDRO ",
+        "title": "immaculate",
+        "time": "(05:00:54)"
+    },
+    {
+        "otitle": "(Db_N) ANILE - another year(05:07:39)",
+        "par": "(Db_N)",
+        "label": "",
+        "artist": "ANILE ",
+        "title": "another year",
+        "time": "(05:07:39)"
+    },
+    {
+        "otitle": "(X_N) MYRIAM ALTER - Inviting You(05:12:49)",
+        "par": "(X_N)",
+        "label": "",
+        "artist": "MYRIAM ALTER ",
+        "title": "Inviting You",
+        "time": "(05:12:49)"
+    },
+    {
+        "otitle": "(E) MILDNAG - gerloch(05:19:29)",
+        "par": "(E)",
+        "label": "",
+        "artist": "MILDNAG ",
+        "title": "gerloch",
+        "time": "(05:19:29)"
+    },
+    {
+        "otitle": "(Blues_N) LOWELL FULSON - trouble trouble(05:25:24)",
+        "par": "(Blues_N)",
+        "label": "",
+        "artist": "LOWELL FULSON ",
+        "title": "trouble trouble",
+        "time": "(05:25:24)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(05:28:14)",
+        "par": "PBB - Luckily We Still Have Music(05:28:14)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(05:28:14)"
+    },
+    {
+        "otitle": "(E_N) DANIEL AVERY - After The Fire _PHANTASY SOUND(05:28:34)",
+        "par": "(E_N)",
+        "label": "PHANTASY SOUND",
+        "artist": "DANIEL AVERY ",
+        "title": "After The Fire ",
+        "time": "(05:28:34)"
+    },
+    {
+        "otitle": "(L) MILTON ZAPATA - viva zapata(05:31:19)",
+        "par": "(L)",
+        "label": "",
+        "artist": "MILTON ZAPATA ",
+        "title": "viva zapata",
+        "time": "(05:31:19)"
+    },
+    {
+        "otitle": "(H_N) JIMPSTER - Think Of You Always(05:37:54)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "JIMPSTER ",
+        "title": "Think Of You Always",
+        "time": "(05:37:54)"
+    },
+    {
+        "otitle": "(H_N) LAROYE - Potion For Love Never (Give It Up) _ LOCAL TALK(05:44:09)",
+        "par": "(H_N)",
+        "label": " LOCAL TALK",
+        "artist": "LAROYE ",
+        "title": "Potion For Love Never (Give It Up) ",
+        "time": "(05:44:09)"
+    },
+    {
+        "otitle": "(Dt) SISSI - the voice of the ocean CUP OF TEA(05:52:04)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "SISSI ",
+        "title": "the voice of the ocean CUP OF TEA",
+        "time": "(05:52:04)"
+    },
+    {
+        "otitle": "(J) YUSSEF KAMAAL - strings of light(05:55:24)",
+        "par": "(J)",
+        "label": "",
+        "artist": "YUSSEF KAMAAL ",
+        "title": "strings of light",
+        "time": "(05:55:24)"
+    },
+    {
+        "otitle": "(E) LLYR - Powergraze 3D _ MESH(06:03:49)",
+        "par": "(E)",
+        "label": " MESH",
+        "artist": "LLYR ",
+        "title": "Powergraze 3D ",
+        "time": "(06:03:49)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(06:09:34)",
+        "par": "PBB - Luckily We Still Have Music(06:09:34)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(06:09:34)"
+    },
+    {
+        "otitle": "(S) DOMINIC GLOVER & GARY CROCKETT - jazz cat(06:10:09)",
+        "par": "(S)",
+        "label": "",
+        "artist": "DOMINIC GLOVER & GARY CROCKETT ",
+        "title": "jazz cat",
+        "time": "(06:10:09)"
+    },
+    {
+        "otitle": "(L) FAMILY ATLANTICA - Arena(06:13:24)",
+        "par": "(L)",
+        "label": "",
+        "artist": "FAMILY ATLANTICA ",
+        "title": "Arena",
+        "time": "(06:13:24)"
+    },
+    {
+        "otitle": "(H) ROY DAVIS JR - Gabriel(06:17:49)",
+        "par": "(H)",
+        "label": "",
+        "artist": "ROY DAVIS JR ",
+        "title": "Gabriel",
+        "time": "(06:17:49)"
+    },
+    {
+        "otitle": "(Db_N) RUFIGE_CREW_VERSUS_COMMIX_ - envious_(06:25:09)",
+        "par": "(Db_N)",
+        "label": "",
+        "artist": "RUFIGE_CREW_VERSUS_COMMIX_ ",
+        "title": "envious",
+        "time": "(06:25:09)"
+    },
+    {
+        "otitle": "(N) GIL SCOTT HERON - me and the devil(06:32:04)",
+        "par": "(N)",
+        "label": "",
+        "artist": "GIL SCOTT HERON ",
+        "title": "me and the devil",
+        "time": "(06:32:04)"
+    },
+    {
+        "otitle": "(N_N) THE RANDY WATSON EXPERIENCE - morning bell(06:35:39)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "THE RANDY WATSON EXPERIENCE ",
+        "title": "morning bell",
+        "time": "(06:35:39)"
+    },
+    {
+        "otitle": "(S) THE TEMPOS - countdown(06:44:34)",
+        "par": "(S)",
+        "label": "",
+        "artist": "THE TEMPOS ",
+        "title": "countdown",
+        "time": "(06:44:34)"
+    },
+    {
+        "otitle": "(J) MENAGERIE - the chosen(06:47:24)",
+        "par": "(J)",
+        "label": "",
+        "artist": "MENAGERIE ",
+        "title": "the chosen",
+        "time": "(06:47:24)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(06:53:29)",
+        "par": "PBB - Luckily We Still Have Music(06:53:29)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(06:53:29)"
+    },
+    {
+        "otitle": "(Fr_N) SERGE GAINSBOURG - Ah Melody(06:53:44)",
+        "par": "(Fr_N)",
+        "label": "",
+        "artist": "SERGE GAINSBOURG ",
+        "title": "Ah Melody",
+        "time": "(06:53:44)"
+    },
+    {
+        "otitle": "(P) LAURENT_GARNIER_ - pay_tv_ok_bonnie_remix_(06:55:29)",
+        "par": "(P)",
+        "label": "tv_ok_bonnie_remix_",
+        "artist": "LAURENT_GARNIER_ ",
+        "title": "pay",
+        "time": "(06:55:29)"
+    },
+    {
+        "otitle": "(Beats) HUGO MASSIEN - Different People _ E BEAMZ(07:00:24)",
+        "par": "(Beats)",
+        "label": " E BEAMZ",
+        "artist": "HUGO MASSIEN ",
+        "title": "Different People ",
+        "time": "(07:00:24)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(07:04:14)",
+        "par": "PBB - Luckily We Still Have Music(07:04:14)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(07:04:14)"
+    },
+    {
+        "otitle": "(F_N) CLAUDIA VITA - amame(07:04:29)",
+        "par": "(F_N)",
+        "label": "",
+        "artist": "CLAUDIA VITA ",
+        "title": "amame",
+        "time": "(07:04:29)"
+    },
+    {
+        "otitle": "(S) THE_SOUL_FANTASTICS_ - aint_no_sunshine_(07:07:14)",
+        "par": "(S)",
+        "label": "no_sunshine_",
+        "artist": "THE_SOUL_FANTASTICS_ ",
+        "title": "aint",
+        "time": "(07:07:14)"
+    },
+    {
+        "otitle": "(T_N) HIROSHI WATANABE - the Elements of spirit(07:10:24)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "HIROSHI WATANABE ",
+        "title": "the Elements of spirit",
+        "time": "(07:10:24)"
+    },
+    {
+        "otitle": "(Brok) FOURTH WORLD - snake bite(07:19:09)",
+        "par": "(Brok)",
+        "label": "",
+        "artist": "FOURTH WORLD ",
+        "title": "snake bite",
+        "time": "(07:19:09)"
+    },
+    {
+        "otitle": "(Dt) ALEX KID - i think(07:23:19)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "ALEX KID ",
+        "title": "i think",
+        "time": "(07:23:19)"
+    }
+]
