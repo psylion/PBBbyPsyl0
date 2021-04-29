@@ -5,21 +5,10 @@ The Web radio is called PBB, aka *Pedro Broadcasting Basement*. You can tune in 
 
 I've received the php code to extract those information, and I'm planning to create a way to store a log of all tracks played... and maybe produce some stats and search features...
 
-## 27 Apr 2021: test.php 
-is the current working page, with the title.php which is currently using the pbbstream.php from Kdbuz. Unfortunately I'm not able to request HTTPS with php from my PI4 Nginx webserver
-
-## 28 Apr 2021: a lot of updates
-- call extractEle from ajax to split title and record into json file
-- issue with raspberry.local not recognised see article [on raspBerry forum](https://raspberrypi.stackexchange.com/questions/7640/raspberry-pi-not-reachable-via-its-hostname-in-lan)
-  - insserv was not available I used the following.
-`sudo systemctl enable name_of_your_legacy_sysv_service`
-  - this was solving my issue.
-- need to debug the json file creation: no content saved
-- @1200: I have a working code which logs in JSON changed tracks
-  - debug output need to be removed
-  - small issue with information containing underscore in the track title
-
 ### TODO List:
 - edit JSON for errors  ::Completed
 - remove debug console output ::Almost Completed
 - add JSON filename with days to limit the file to 24hours ::Completed
+
+### References
+- [History Log](historylog.md)
