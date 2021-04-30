@@ -1,0 +1,70 @@
+<html>
+<head>
+    <script src="/js/jquery-3.6.0.js" type="text/javascript"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+            $pload = new Date();
+            $checkSaved = new Date();
+            $lastSaved = new Date();
+            $lastLoad = new Date();
+            // correcting difference between javascript time locale between Mac and Windows
+//            var d = new Date();
+            $pload = $pload.toTimeString().substr(0, 8);
+            $("#time").html("page loaded: " + $pload);
+            $jsonFile = "20210430results.json";
+            reloadJSON();
+            $("#load").html("<br/>lastSaved (main):" + $lastSaved);
+            var myVar = setInterval(function () { myTimer('bucht'); }, 5000);
+        });
+        function reloadJSON() {
+            $.getJSON($jsonFile, function (data) {
+                var items = [];
+                data.reverse();
+                $.each(data, function (i, item) {
+                    items.push("<li id='" + i + "'>" + item.otitle + "</li>");
+                });
+                $("<ul/>", {
+                    "class": "my-new-list",
+                    html: items.join("")
+                }).appendTo("#content");
+            });
+            $lastSaved = getLastSaved();
+            console.log($lastSaved);
+        }
+        function getLastSaved() {
+            var xhr = $.ajax({
+                url: $jsonFile,
+                success: function (response) {
+                    $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
+                    $("#saved").html("<br/>saved (from getLastSaved): " + $checkSaved);
+                }
+            });
+            console.log($lastSaved);
+            return $checkSaved;
+        }
+        function myTimer(str) {
+            $pload = new Date();
+            $pload = $pload.toTimeString().substr(0, 8);
+            //$lastSaved = $lastSaved.toTimeString().substr(0,8);
+            $("#time").html("check refresh: " + $pload + "("+str+")"+ 
+                "<br/>lastSaved (myTimer): " + $lastSaved +
+                "<br/>saved (getLastSaved): " + getLastSaved()+
+                "<br/>saved (checkSaved): " + $checkSaved);
+                console.log("fromTimer:" + $lastSaved +"<br/>checkSaved"+$checkSaved);
+            if ($lastSaved != $checkSaved) {
+                $("#content").html("");
+                reloadJSON();
+                $("#time").append("<b>Reloaded</b>");
+               $("#load").html("<br/>lastLoad: " + $lastLoad + " and saved:" +getLastSaved());
+            }
+        }
+    </script>
+    <div id="time"> </div>
+    <div id="load"> </div> 
+    <div id="saved"> </div>
+    <hr />
+    <div id="content"></div>
+</body>
+</html>
