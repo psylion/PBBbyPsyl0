@@ -3,6 +3,10 @@
 *(Record New log on top)*
 
 
+## 01 May 2021: new pages and more
+- In the latest 2 days I've been looking to adapt the project to display tracks.
+- I also added Bootstrap for nice display
+- getJson.html page is the first page which refresh dynamically and list the latest 10 tracks in reverse order.
 
 ## 28 Apr 2021: a lot of updates
 - call extractEle from ajax to split title and record into json file
