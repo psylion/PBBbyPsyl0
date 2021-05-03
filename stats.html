@@ -12,72 +12,15 @@
 <body>
     <script>
         $(document).ready(function () {
-            $pload = new Date();
-            $checkSaved = new Date();
-            $lastSaved = new Date();
-            $lastLoad = new Date();
-            // correcting difference between javascript time locale between Mac and Windows
-            //            var d = new Date();
-            $2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
-            console.log("today: " + $2day);
-            $pload = $pload.toTimeString().substr(0, 8);
-            $("#time").html("page loaded: " + $pload);
-            $jsonFile = $2day + "results.json";
-            reloadJSON();
-            $("#load").html("<br/>lastSaved (main):" + $lastSaved);
-            var myVar = setInterval(function () { myTimer('bucht'); }, 5000);
-            var myTim = setInterval(myTime, 1000);
-        });
-        function reloadJSON() {
-            $.getJSON($jsonFile, function (data) {
-                var items = [];
-                data.reverse();
-                $.each(data, function (i, item) {
-                    items.push("<li id='" + i + "'>" + item.otitle + "</li>");
-                    items.push("<dl class='dl-horizontal'><dt>Title</dt><dd>" + item.title + "</dd>");
-                    items.push("<dt>Artis</dt><dd>" + item.artist + "</dd></dl>");
-                    if (i == 10) return false;
-                });
-                $("<ul/>", {
-                    "class": "my-new-list",
-                    html: items.join("")
-                }).appendTo("#content");
+            $(".brand").append(" - Stats");
 
+            $.get("/json", function (data) {
+                $.each(data, function(i,item){
+                    $("#content").append(item.name+"<br/>");    
+                })
+                // $("#content").append(JSON.parse(data));
             });
-            $lastSaved = getLastSaved();
-            console.log($lastSaved);
-        }
-        function getLastSaved() {
-            var xhr = $.ajax({
-                url: $jsonFile,
-                success: function (response) {
-                    $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
-                    $("#saved").html("<br/>saved (from getLastSaved): " + $checkSaved);
-                }
-            });
-            //console.log($lastSaved);
-            return $checkSaved;
-        }
-        function myTimer(str) {
-            $pload = new Date();
-            $pload = $pload.toTimeString().substr(0, 8);
-            //$lastSaved = $lastSaved.toTimeString().substr(0,8);
-            $("#time").html("check refresh: " + $pload + "(" + str + ")" +
-                "<br/>lastSaved (myTimer): " + $lastSaved +
-                "<br/>saved (getLastSaved): " + getLastSaved() +
-                "<br/>saved (checkSaved): " + $checkSaved);
-            //console.log("fromTimer:" + $lastSaved +"<br/>checkSaved"+$checkSaved);
-            if ($lastSaved != $checkSaved) {
-                $("#content").html("");
-                reloadJSON();
-                $("#time").append("<b>Reloaded</b>");
-                $("#load").html("<br/>lastLoad: " + $lastLoad + " and saved:" + getLastSaved());
-            }
-        }
-        function myTime(){
-            $time = new Date();
-            $("#timeSpan").html($time.toTimeString().substr(0,8));
-        }
+        });
     </script>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner"><span id="timeSpan" style="position: absolute;"></span>
@@ -131,7 +74,7 @@
         <!-- Example row of columns -->
         <div class="row">
             <div class="span8">
-                <h2>Latest track played</h2>
+                <h2>Stats</h2>
                 <p>
                 <div id="content"></div>
                 </p>

@@ -1,0 +1,922 @@
+[
+    {
+        "otitle": "(T_N) VINCE WATSON - First Wave(00:03:56)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "VINCE WATSON ",
+        "title": "First Wave",
+        "time": "(00:03:56)"
+    },
+    {
+        "otitle": "(Dt) ST GERMIAN - Mary L _BLUE NOTE(00:09:31)",
+        "par": "(Dt)",
+        "label": "BLUE NOTE",
+        "artist": "ST GERMIAN ",
+        "title": "Mary L ",
+        "time": "(00:09:31)"
+    },
+    {
+        "otitle": "(Blues) RAY CHARLES & MILT JACKSON - blue funk(00:14:41)",
+        "par": "(Blues)",
+        "label": "",
+        "artist": "RAY CHARLES & MILT JACKSON ",
+        "title": "blue funk",
+        "time": "(00:14:41)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(00:22:46)",
+        "par": "PBB - Luckily We Still Have Music(00:22:46)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(00:22:46)"
+    },
+    {
+        "otitle": "(P_N) PATRICK COWLEY & JORGE SOCARRAS - eddie go to my head(00:22:56)",
+        "par": "(P_N)",
+        "label": "",
+        "artist": "PATRICK COWLEY & JORGE SOCARRAS ",
+        "title": "eddie go to my head",
+        "time": "(00:22:56)"
+    },
+    {
+        "otitle": "(Dt_N) DJ CLICK AND RONA HARTNER - sticle goale cumpar(00:27:11)",
+        "par": "(Dt_N)",
+        "label": "",
+        "artist": "DJ CLICK AND RONA HARTNER ",
+        "title": "sticle goale cumpar",
+        "time": "(00:27:11)"
+    },
+    {
+        "otitle": "(Dt_N) DIMINUTOS - obligo al entusiasmo (Leonel Castillo Remix)(00:31:16)",
+        "par": "(Dt_N)",
+        "label": "",
+        "artist": "DIMINUTOS ",
+        "title": "obligo al entusiasmo (Leonel Castillo Remix)",
+        "time": "(00:31:16)"
+    },
+    {
+        "otitle": "(N) A REMINISCENT DRIVE - what s your style  F COMM(00:35:36)",
+        "par": "(N)",
+        "label": "",
+        "artist": "A REMINISCENT DRIVE ",
+        "title": "what s your style  F COMM",
+        "time": "(00:35:36)"
+    },
+    {
+        "otitle": "(P_N) DEVENDRA BANHART - i just feel like a child(00:40:26)",
+        "par": "(P_N)",
+        "label": "",
+        "artist": "DEVENDRA BANHART ",
+        "title": "i just feel like a child",
+        "time": "(00:40:26)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(00:45:11)",
+        "par": "PBB - Luckily We Still Have Music(00:45:11)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(00:45:11)"
+    },
+    {
+        "otitle": "(E_N) BOP - Nde(00:45:41)",
+        "par": "(E_N)",
+        "label": "",
+        "artist": "BOP ",
+        "title": "Nde",
+        "time": "(00:45:41)"
+    },
+    {
+        "otitle": "(W) ALI FARKA TOURE - ai du WORLD CIRCUIT(00:51:01)",
+        "par": "(W)",
+        "label": "",
+        "artist": "ALI FARKA TOURE ",
+        "title": "ai du WORLD CIRCUIT",
+        "time": "(00:51:01)"
+    },
+    {
+        "otitle": "(E_N) DANIEL AVERY - After The Fire _PHANTASY SOUND(00:58:11)",
+        "par": "(E_N)",
+        "label": "PHANTASY SOUND",
+        "artist": "DANIEL AVERY ",
+        "title": "After The Fire ",
+        "time": "(00:58:11)"
+    },
+    {
+        "otitle": "(N_N) GOTTS STREET PARK - Ivory(01:00:56)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "GOTTS STREET PARK ",
+        "title": "Ivory",
+        "time": "(01:00:56)"
+    },
+    {
+        "otitle": "(N) BO 17 FOIS CECILE CASSARD - je ne parle pas _24 choses LABELS(01:03:06)",
+        "par": "(N)",
+        "label": "24 choses LABELS",
+        "artist": "BO 17 FOIS CECILE CASSARD ",
+        "title": "je ne parle pas ",
+        "time": "(01:03:06)"
+    },
+    {
+        "otitle": "(J) KALYANJI AANADJI - theme music(01:07:36)",
+        "par": "(J)",
+        "label": "",
+        "artist": "KALYANJI AANADJI ",
+        "title": "theme music",
+        "time": "(01:07:36)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(01:10:16)",
+        "par": "PBB - Luckily We Still Have Music(01:10:16)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(01:10:16)"
+    },
+    {
+        "otitle": "(Dt_N) D FOE - The_Heat(01:10:31)",
+        "par": "(Dt_N)",
+        "label": "Heat",
+        "artist": "D FOE ",
+        "title": "The",
+        "time": "(01:10:31)"
+    },
+    {
+        "otitle": "(Ro_N) JACK WHITE - love is blindness(01:15:01)",
+        "par": "(Ro_N)",
+        "label": "",
+        "artist": "JACK WHITE ",
+        "title": "love is blindness",
+        "time": "(01:15:01)"
+    },
+    {
+        "otitle": "(N_N) SHAWN LEE & CLUTCHY HOPKINS - cross rhodes(01:18:16)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "SHAWN LEE & CLUTCHY HOPKINS ",
+        "title": "cross rhodes",
+        "time": "(01:18:16)"
+    },
+    {
+        "otitle": "(E) APHEX TWIN - the woxen pith WARP(01:21:06)",
+        "par": "(E)",
+        "label": "",
+        "artist": "APHEX TWIN ",
+        "title": "the woxen pith WARP",
+        "time": "(01:21:06)"
+    },
+    {
+        "otitle": "(N_N) LEE BURTON - one(01:25:56)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "LEE BURTON ",
+        "title": "one",
+        "time": "(01:25:56)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(01:27:21)",
+        "par": "PBB - Luckily We Still Have Music(01:27:21)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(01:27:21)"
+    },
+    {
+        "otitle": "(T_N) GESLOTEN CIRKEL - Ifmmtv(01:27:36)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "GESLOTEN CIRKEL ",
+        "title": "Ifmmtv",
+        "time": "(01:27:36)"
+    },
+    {
+        "otitle": "(Ra) GHISLAIN POIRIER - no more blood(01:32:36)",
+        "par": "(Ra)",
+        "label": "",
+        "artist": "GHISLAIN POIRIER ",
+        "title": "no more blood",
+        "time": "(01:32:36)"
+    },
+    {
+        "otitle": "(E_N) CHAPELIER FOU - Senestre Eldorado _ICI D'AILLEURS(01:35:26)",
+        "par": "(E_N)",
+        "label": "ICI D'AILLEURS",
+        "artist": "CHAPELIER FOU ",
+        "title": "Senestre Eldorado ",
+        "time": "(01:35:26)"
+    },
+    {
+        "otitle": "(H_N) I Still Love You _ LUMBERJACKS IN HELL -(01:39:11)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "I Still Love You _ LUMBERJACKS IN HELL ",
+        "title": false,
+        "time": "(01:39:11)"
+    },
+    {
+        "otitle": "(E) REPLICANT RUMBA ROCKERS - stereo kiss NON PLACE(01:49:26)",
+        "par": "(E)",
+        "label": "",
+        "artist": "REPLICANT RUMBA ROCKERS ",
+        "title": "stereo kiss NON PLACE",
+        "time": "(01:49:26)"
+    },
+    {
+        "otitle": "(Blues) GIL SCOTT HERON - the get out of the ghetto blues(01:53:11)",
+        "par": "(Blues)",
+        "label": "",
+        "artist": "GIL SCOTT HERON ",
+        "title": "the get out of the ghetto blues",
+        "time": "(01:53:11)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(01:58:16)",
+        "par": "PBB - Luckily We Still Have Music(01:58:16)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(01:58:16)"
+    },
+    {
+        "otitle": "(N_N) MOP MOP - alfa(01:58:31)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "MOP MOP ",
+        "title": "alfa",
+        "time": "(01:58:31)"
+    },
+    {
+        "otitle": "(N_N) KING OF WOOLWOTHS - slimcea(02:00:26)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "KING OF WOOLWOTHS ",
+        "title": "slimcea",
+        "time": "(02:00:26)"
+    },
+    {
+        "otitle": "(J_N) MUMMER - when i go home(02:04:26)",
+        "par": "(J_N)",
+        "label": "",
+        "artist": "MUMMER ",
+        "title": "when i go home",
+        "time": "(02:04:26)"
+    },
+    {
+        "otitle": "(N) JUN MIYAKE - cream NEKTAR(02:07:51)",
+        "par": "(N)",
+        "label": "",
+        "artist": "JUN MIYAKE ",
+        "title": "cream NEKTAR",
+        "time": "(02:07:51)"
+    },
+    {
+        "otitle": "(J_N) MADELAINE PEYROUX - i ll look around(02:16:46)",
+        "par": "(J_N)",
+        "label": "",
+        "artist": "MADELAINE PEYROUX ",
+        "title": "i ll look around",
+        "time": "(02:16:46)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(02:21:31)",
+        "par": "PBB - Luckily We Still Have Music(02:21:31)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(02:21:31)"
+    },
+    {
+        "otitle": "(T_N) HAALLEYCKS - Anxiety (G(02:21:56)",
+        "par": "(T_N)",
+        "label": "",
+        "artist": "HAALLEYCKS ",
+        "title": "Anxiety (G",
+        "time": "(02:21:56)"
+    },
+    {
+        "otitle": "(D) ROOTS MANUVA MEETS WRONGTOM - motion 82(02:29:36)",
+        "par": "(D)",
+        "label": "",
+        "artist": "ROOTS MANUVA MEETS WRONGTOM ",
+        "title": "motion 82",
+        "time": "(02:29:36)"
+    },
+    {
+        "otitle": "(Dt_N) UNKLE - Do Yourself Some Good(02:34:46)",
+        "par": "(Dt_N)",
+        "label": "",
+        "artist": "UNKLE ",
+        "title": "Do Yourself Some Good",
+        "time": "(02:34:46)"
+    },
+    {
+        "otitle": "(J_N) VICTOR MENDOZA - Salty Noodles _ LOUDEAST(02:42:56)",
+        "par": "(J_N)",
+        "label": " LOUDEAST",
+        "artist": "VICTOR MENDOZA ",
+        "title": "Salty Noodles ",
+        "time": "(02:42:56)"
+    },
+    {
+        "otitle": "(E) FOUR TET - parallel jalebi(02:48:36)",
+        "par": "(E)",
+        "label": "",
+        "artist": "FOUR TET ",
+        "title": "parallel jalebi",
+        "time": "(02:48:36)"
+    },
+    {
+        "otitle": "(J) THELONIOUS MONK - in walked dub(02:52:26)",
+        "par": "(J)",
+        "label": "",
+        "artist": "THELONIOUS MONK ",
+        "title": "in walked dub",
+        "time": "(02:52:26)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(02:55:21)",
+        "par": "PBB - Luckily We Still Have Music(02:55:21)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(02:55:21)"
+    },
+    {
+        "otitle": "(Dt_N) KELPE - suitecasing(02:55:36)",
+        "par": "(Dt_N)",
+        "label": "",
+        "artist": "KELPE ",
+        "title": "suitecasing",
+        "time": "(02:55:36)"
+    },
+    {
+        "otitle": "(P_N) STATELESS - hurricane(03:03:51)",
+        "par": "(P_N)",
+        "label": "",
+        "artist": "STATELESS ",
+        "title": "hurricane",
+        "time": "(03:03:51)"
+    },
+    {
+        "otitle": "(N_N) COLDCUT - mr nichols(03:07:46)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "COLDCUT ",
+        "title": "mr nichols",
+        "time": "(03:07:46)"
+    },
+    {
+        "otitle": "(Dt) THE ACID - Veda(03:13:26)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "THE ACID ",
+        "title": "Veda",
+        "time": "(03:13:26)"
+    },
+    {
+        "otitle": "(D_N) MARK STEWART - babycino(03:18:36)",
+        "par": "(D_N)",
+        "label": "",
+        "artist": "MARK STEWART ",
+        "title": "babycino",
+        "time": "(03:18:36)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(03:23:31)",
+        "par": "PBB - Luckily We Still Have Music(03:23:31)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(03:23:31)"
+    },
+    {
+        "otitle": "(Bb_N) M VAUGHAN - Hotboxing(03:24:01)",
+        "par": "(Bb_N)",
+        "label": "",
+        "artist": "M VAUGHAN ",
+        "title": "Hotboxing",
+        "time": "(03:24:01)"
+    },
+    {
+        "otitle": "(L) HAVANA_CULTURA_BAND_ - la_revolucion_del_cuerpo_pt1_(03:29:41)",
+        "par": "(L)",
+        "label": "revolucion_del_cuerpo_pt1_",
+        "artist": "HAVANA_CULTURA_BAND_ ",
+        "title": "la",
+        "time": "(03:29:41)"
+    },
+    {
+        "otitle": "(Db_N) KOHERENT - Bliss _SHOGUN AUDIO(03:34:16)",
+        "par": "(Db_N)",
+        "label": "SHOGUN AUDIO",
+        "artist": "KOHERENT ",
+        "title": "Bliss ",
+        "time": "(03:34:16)"
+    },
+    {
+        "otitle": "(H_N) WILL SIMPSON - Geektown Est.1983(03:38:31)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "WILL SIMPSON ",
+        "title": "Geektown Est.1983",
+        "time": "(03:38:31)"
+    },
+    {
+        "otitle": "(E) RAMJAC - arise(03:45:01)",
+        "par": "(E)",
+        "label": "",
+        "artist": "RAMJAC ",
+        "title": "arise",
+        "time": "(03:45:01)"
+    },
+    {
+        "otitle": "(J) LEE MORGAN - side winder(03:49:11)",
+        "par": "(J)",
+        "label": "",
+        "artist": "LEE MORGAN ",
+        "title": "side winder",
+        "time": "(03:49:11)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(03:59:21)",
+        "par": "PBB - Luckily We Still Have Music(03:59:21)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(03:59:21)"
+    },
+    {
+        "otitle": "(S_N) KISSEY ASPLUND - caos(03:59:31)",
+        "par": "(S_N)",
+        "label": "",
+        "artist": "KISSEY ASPLUND ",
+        "title": "caos",
+        "time": "(03:59:31)"
+    },
+    {
+        "otitle": "(S_N) ART BLEEK - all night(04:03:16)",
+        "par": "(S_N)",
+        "label": "",
+        "artist": "ART BLEEK ",
+        "title": "all night",
+        "time": "(04:03:16)"
+    },
+    {
+        "otitle": "(R_N) FREDDY MC KAY - i'm a free man(04:08:36)",
+        "par": "(R_N)",
+        "label": "",
+        "artist": "FREDDY MC KAY ",
+        "title": "i'm a free man",
+        "time": "(04:08:36)"
+    },
+    {
+        "otitle": "(E) ALEX BAYLY - Loving Hands You Hide(04:12:06)",
+        "par": "(E)",
+        "label": "",
+        "artist": "ALEX BAYLY ",
+        "title": "Loving Hands You Hide",
+        "time": "(04:12:06)"
+    },
+    {
+        "otitle": "(R_N) NINEY AND THE OBSERVERS - confusion in a babylon(04:18:06)",
+        "par": "(R_N)",
+        "label": "",
+        "artist": "NINEY AND THE OBSERVERS ",
+        "title": "confusion in a babylon",
+        "time": "(04:18:06)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(04:23:26)",
+        "par": "PBB - Luckily We Still Have Music(04:23:26)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(04:23:26)"
+    },
+    {
+        "otitle": "(Dt_N) ZIGGY ZEITGEIST & ERICA TUCCERI - Tzimtzum _ LA SAPE(04:23:36)",
+        "par": "(Dt_N)",
+        "label": " LA SAPE",
+        "artist": "ZIGGY ZEITGEIST & ERICA TUCCERI ",
+        "title": "Tzimtzum ",
+        "time": "(04:23:36)"
+    },
+    {
+        "otitle": "(R) SCOTTY - i worry(04:26:31)",
+        "par": "(R)",
+        "label": "",
+        "artist": "SCOTTY ",
+        "title": "i worry",
+        "time": "(04:26:31)"
+    },
+    {
+        "otitle": "(Beats_N) HUGO MASSIEN - Matter Of Time _ E BEAMZ(04:29:26)",
+        "par": "(Beats_N)",
+        "label": " E BEAMZ",
+        "artist": "HUGO MASSIEN ",
+        "title": "Matter Of Time ",
+        "time": "(04:29:26)"
+    },
+    {
+        "otitle": "(X_T_N) TAKUYA YAMASHITA - A Thread of Light (for piano & strings orchestra Mix)(04:34:16)",
+        "par": "(X_T_N)",
+        "label": "",
+        "artist": "TAKUYA YAMASHITA ",
+        "title": "A Thread of Light (for piano & strings orchestra Mix)",
+        "time": "(04:34:16)"
+    },
+    {
+        "otitle": "(E) JON_HOPKINS_ - vessel_(04:42:21)",
+        "par": "(E)",
+        "label": "",
+        "artist": "JON_HOPKINS_ ",
+        "title": "vessel",
+        "time": "(04:42:21)"
+    },
+    {
+        "otitle": "(J) STEVE KUHN TRIO - ida lupino(04:47:01)",
+        "par": "(J)",
+        "label": "",
+        "artist": "STEVE KUHN TRIO ",
+        "title": "ida lupino",
+        "time": "(04:47:01)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(04:49:31)",
+        "par": "PBB - Luckily We Still Have Music(04:49:31)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(04:49:31)"
+    },
+    {
+        "otitle": "(J_N) SHEILA JORDAN - dat dere BLUE NOTE(04:49:46)",
+        "par": "(J_N)",
+        "label": "",
+        "artist": "SHEILA JORDAN ",
+        "title": "dat dere BLUE NOTE",
+        "time": "(04:49:46)"
+    },
+    {
+        "otitle": "(P_N) CHAIN AND THE GANG - don't make me dream(04:52:26)",
+        "par": "(P_N)",
+        "label": "",
+        "artist": "CHAIN AND THE GANG ",
+        "title": "don't make me dream",
+        "time": "(04:52:26)"
+    },
+    {
+        "otitle": "(D_N) KING TUBBY & THE AGGROVATORS - dub fi gwaan(04:56:26)",
+        "par": "(D_N)",
+        "label": "",
+        "artist": "KING TUBBY & THE AGGROVATORS ",
+        "title": "dub fi gwaan",
+        "time": "(04:56:26)"
+    },
+    {
+        "otitle": "(E) GENER8ION - h 808(05:00:26)",
+        "par": "(E)",
+        "label": "",
+        "artist": "GENER8ION ",
+        "title": "h 808",
+        "time": "(05:00:26)"
+    },
+    {
+        "otitle": "(N_N) ENIK - how to destroy(05:03:11)",
+        "par": "(N_N)",
+        "label": "",
+        "artist": "ENIK ",
+        "title": "how to destroy",
+        "time": "(05:03:11)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(05:07:01)",
+        "par": "PBB - Luckily We Still Have Music(05:07:01)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(05:07:01)"
+    },
+    {
+        "otitle": "(Beats_N) ETCH x LUO - Amygdala _ SNEAKER SOCIAL CLUB(05:07:16)",
+        "par": "(Beats_N)",
+        "label": " SNEAKER SOCIAL CLUB",
+        "artist": "ETCH x LUO ",
+        "title": "Amygdala ",
+        "time": "(05:07:16)"
+    },
+    {
+        "otitle": "(W) EDDIE HARRIS & AMOA - heyjoler ATLANTIC(05:14:46)",
+        "par": "(W)",
+        "label": "",
+        "artist": "EDDIE HARRIS & AMOA ",
+        "title": "heyjoler ATLANTIC",
+        "time": "(05:14:46)"
+    },
+    {
+        "otitle": "(H_N) PIERS KIRWAN - Hijack(05:22:51)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "PIERS KIRWAN ",
+        "title": "Hijack",
+        "time": "(05:22:51)"
+    },
+    {
+        "otitle": "(E_N) SALAMI ROSE JOE LOUIS - We're Dumb(05:28:26)",
+        "par": "(E_N)",
+        "label": "",
+        "artist": "SALAMI ROSE JOE LOUIS ",
+        "title": "We're Dumb",
+        "time": "(05:28:26)"
+    },
+    {
+        "otitle": "(E) ILLANGELO - The Haunting(05:30:56)",
+        "par": "(E)",
+        "label": "",
+        "artist": "ILLANGELO ",
+        "title": "The Haunting",
+        "time": "(05:30:56)"
+    },
+    {
+        "otitle": "(J) SHIRLEY HORN - fever VERVE(05:34:16)",
+        "par": "(J)",
+        "label": "",
+        "artist": "SHIRLEY HORN ",
+        "title": "fever VERVE",
+        "time": "(05:34:16)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(05:38:56)",
+        "par": "PBB - Luckily We Still Have Music(05:38:56)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(05:38:56)"
+    },
+    {
+        "otitle": "(X_N) HENRIETTA SMITH ROLLA - A Song For Him _SA(05:39:21)",
+        "par": "(X_N)",
+        "label": "SA",
+        "artist": "HENRIETTA SMITH ROLLA ",
+        "title": "A Song For Him ",
+        "time": "(05:39:21)"
+    },
+    {
+        "otitle": "(X_N) TUXEDOMOON - cagli five o(05:42:16)",
+        "par": "(X_N)",
+        "label": "",
+        "artist": "TUXEDOMOON ",
+        "title": "cagli five o",
+        "time": "(05:42:16)"
+    },
+    {
+        "otitle": "(X_N) UNIKO - emo(05:49:31)",
+        "par": "(X_N)",
+        "label": "",
+        "artist": "UNIKO ",
+        "title": "emo",
+        "time": "(05:49:31)"
+    },
+    {
+        "otitle": "(N) PEACE ORCHESTRA  - shining(05:59:46)",
+        "par": "(N)",
+        "label": "",
+        "artist": "PEACE ORCHESTRA  ",
+        "title": "shining",
+        "time": "(05:59:46)"
+    },
+    {
+        "otitle": "(Db) M ZINE - Tfatv _ SOFA SOUND(06:04:31)",
+        "par": "(Db)",
+        "label": " SOFA SOUND",
+        "artist": "M ZINE ",
+        "title": "Tfatv ",
+        "time": "(06:04:31)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(06:09:01)",
+        "par": "PBB - Luckily We Still Have Music(06:09:01)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(06:09:01)"
+    },
+    {
+        "otitle": "(F) MR PRESIDENT - before the peaks turn red(06:09:26)",
+        "par": "(F)",
+        "label": "",
+        "artist": "MR PRESIDENT ",
+        "title": "before the peaks turn red",
+        "time": "(06:09:26)"
+    },
+    {
+        "otitle": "(W) ARAT KILO - . madala(06:13:21)",
+        "par": "(W)",
+        "label": "",
+        "artist": "ARAT KILO ",
+        "title": ". madala",
+        "time": "(06:13:21)"
+    },
+    {
+        "otitle": "(T) THE MARTIANS - pipe carrier(06:18:21)",
+        "par": "(T)",
+        "label": "",
+        "artist": "THE MARTIANS ",
+        "title": "pipe carrier",
+        "time": "(06:18:21)"
+    },
+    {
+        "otitle": "(H_N) &ME - the rapture Pt.II(06:24:36)",
+        "par": "(H_N)",
+        "label": "",
+        "artist": "&ME ",
+        "title": "the rapture Pt.II",
+        "time": "(06:24:36)"
+    },
+    {
+        "otitle": "(E) MILDNAG - gerloch(06:33:11)",
+        "par": "(E)",
+        "label": "",
+        "artist": "MILDNAG ",
+        "title": "gerloch",
+        "time": "(06:33:11)"
+    },
+    {
+        "otitle": "(Dt_N) JACK CUTTER - Serpent Strut (Larry Heard's Fingers Deep Remix) (Larry Heard's Fingers Deep Remix)(06:39:06)",
+        "par": "(Dt_N)",
+        "label": "",
+        "artist": "JACK CUTTER ",
+        "title": "Serpent Strut (Larry Heard's Fingers Deep Remix) (Larry Heard's Fingers Deep Remix)",
+        "time": "(06:39:06)"
+    },
+    {
+        "otitle": "(F) VINCENT MONTANA - heavy vibes(06:46:06)",
+        "par": "(F)",
+        "label": "",
+        "artist": "VINCENT MONTANA ",
+        "title": "heavy vibes",
+        "time": "(06:46:06)"
+    },
+    {
+        "otitle": "(J_E) GONNO & MASUMURA - circuit(06:53:51)",
+        "par": "(J_E)",
+        "label": "",
+        "artist": "GONNO & MASUMURA ",
+        "title": "circuit",
+        "time": "(06:53:51)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(07:03:46)",
+        "par": "PBB - Luckily We Still Have Music(07:03:46)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(07:03:46)"
+    },
+    {
+        "otitle": "(Ro_N) THE DOORS - when the music's over(07:04:26)",
+        "par": "(Ro_N)",
+        "label": "",
+        "artist": "THE DOORS ",
+        "title": "when the music's over",
+        "time": "(07:04:26)"
+    },
+    {
+        "otitle": "(P) NEW ORDER - blue monday(07:16:51)",
+        "par": "(P)",
+        "label": "",
+        "artist": "NEW ORDER ",
+        "title": "blue monday",
+        "time": "(07:16:51)"
+    },
+    {
+        "otitle": "(Brok) NIKITCH & KUNA MAZE - 46 Rue Du Fort (Sivey Rmx) _ TRU THOUGHTS(07:24:11)",
+        "par": "(Brok)",
+        "label": " TRU THOUGHTS",
+        "artist": "NIKITCH & KUNA MAZE ",
+        "title": "46 Rue Du Fort (Sivey Rmx) ",
+        "time": "(07:24:11)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(07:29:46)",
+        "par": "PBB - Luckily We Still Have Music(07:29:46)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(07:29:46)"
+    },
+    {
+        "otitle": "(R_N) WALDA GABRIEL - boss man(07:30:11)",
+        "par": "(R_N)",
+        "label": "",
+        "artist": "WALDA GABRIEL ",
+        "title": "boss man",
+        "time": "(07:30:11)"
+    },
+    {
+        "otitle": "(F) QUINCY JONES - Hicky Burr(07:34:01)",
+        "par": "(F)",
+        "label": "",
+        "artist": "QUINCY JONES ",
+        "title": "Hicky Burr",
+        "time": "(07:34:01)"
+    },
+    {
+        "otitle": "(t_N) lontano - low scapes(07:37:56)",
+        "par": "(t_N)",
+        "label": "",
+        "artist": "lontano ",
+        "title": "low scapes",
+        "time": "(07:37:56)"
+    },
+    {
+        "otitle": "(Brok) ZERO DB - bongos bleeps and basslines(07:45:36)",
+        "par": "(Brok)",
+        "label": "",
+        "artist": "ZERO DB ",
+        "title": "bongos bleeps and basslines",
+        "time": "(07:45:36)"
+    },
+    {
+        "otitle": "(Dt) ARTHUR VEROCAI - sylvia(07:52:21)",
+        "par": "(Dt)",
+        "label": "",
+        "artist": "ARTHUR VEROCAI ",
+        "title": "sylvia",
+        "time": "(07:52:21)"
+    },
+    {
+        "otitle": "(Ro) JOY DIVISION - glass(07:55:11)",
+        "par": "(Ro)",
+        "label": "",
+        "artist": "JOY DIVISION ",
+        "title": "glass",
+        "time": "(07:55:11)"
+    },
+    {
+        "otitle": "(Ra) SCRUBADUB_ - One_ting_i_know_(07:59:08)",
+        "par": "(Ra)",
+        "label": "ting_i_know_",
+        "artist": "SCRUBADUB_ ",
+        "title": "One",
+        "time": "(07:59:08)"
+    },
+    {
+        "otitle": "(R_N) THE MIGHTY THREES - sata(08:04:38)",
+        "par": "(R_N)",
+        "label": "",
+        "artist": "THE MIGHTY THREES ",
+        "title": "sata",
+        "time": "(08:04:38)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(08:08:03)",
+        "par": "PBB - Luckily We Still Have Music(08:08:03)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(08:08:03)"
+    },
+    {
+        "otitle": "(Blues) JOHN LEE HOOKER - i'm going upstairs(08:08:28)",
+        "par": "(Blues)",
+        "label": "",
+        "artist": "JOHN LEE HOOKER ",
+        "title": "i'm going upstairs",
+        "time": "(08:08:28)"
+    },
+    {
+        "otitle": "(T) SOLOMUN AND GEBRUDER TON - tagesschau(08:14:33)",
+        "par": "(T)",
+        "label": "",
+        "artist": "SOLOMUN AND GEBRUDER TON ",
+        "title": "tagesschau",
+        "time": "(08:14:33)"
+    },
+    {
+        "otitle": "(T) JULES WELLS & WILLIAM MASSON - Human Condition in 2020(08:23:33)",
+        "par": "(T)",
+        "label": "",
+        "artist": "JULES WELLS & WILLIAM MASSON ",
+        "title": "Human Condition in 2020",
+        "time": "(08:23:33)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(08:31:23)",
+        "par": "PBB - Luckily We Still Have Music(08:31:23)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": "(08:31:23)"
+    },
+    {
+        "otitle": "(F) CAN - vitamine c EMI(08:31:43)",
+        "par": "(F)",
+        "label": "",
+        "artist": "CAN ",
+        "title": "vitamine c EMI",
+        "time": "(08:31:43)"
+    }
+]
