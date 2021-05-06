@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    table,
+    th,
+    td {
+      border: thin solid grey;
+    }
+    th,
+    td {
+      padding: 0.25em 0.5em;
+    }
+    .export-btn {
+      margin-top: 1em;
+    }
+    .json-view {
+      position: absolute;
+      min-width: 12em;
+      min-height: 4em;
+      z-index: 100;
+      right: 1em;
+      border: thin solid grey;
+      font-family: monospace;
+      white-space: pre;
+      padding: 0.25em;
+      font-size: smaller;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="json-view"></div>
+  <script>
+
+    let data = [{ a: 1, b: 2, c: 3 }, { a: 4, b: 5, c: 6 }, { a: 7, b: 8, c: 9 }];
+
+    updateJsonView(data);
+
+    document.body.appendChild(jsonToTable(data, { class: 'json-table' }));
+    document.body.appendChild(createExportButton({
+      click: e => {
+        updateJsonView(tableToJson(document.querySelector('.json-table')));
+      }
+    }));
+
+    function updateJsonView(data) {
+      document.querySelector('.json-view').textContent = JSON.stringify(data, null, 2);
+    }
+
+    function tableToJson(table, options = {}) {
+      let fields = Array.from(table.querySelectorAll('thead tr th')).map(th => th.textContent);
+      return Array.from(table.querySelectorAll('tbody tr')).map(tr => {
+        return Array.from(tr.querySelectorAll('td')).reduce((record, td, index) => {
+          return Object.assign(record, { [fields[index]]: formatValue(td.textContent) });
+        }, {});
+      });
+    }
+
+    function formatValue(value) {
+      if (typeof value === 'string' && isNumeric(value)) {
+        return parseInt(value, 10);
+      }
+      return value;
+    }
+
+    function jsonToTable(json, opts = {}) {
+      let headers = Object.keys(json[0]);
+      let table = document.createElement('table');
+      let thead = document.createElement('thead');
+      let tbody = document.createElement('tbody');
+      let thead_tr = document.createElement('tr');
+      if (opts.class) table.classList.add(opts.class);
+      headers.forEach(header => {
+        let th = document.createElement('th');
+        th.textContent = header;
+        thead_tr.appendChild(th);
+      });
+      json.forEach(record => {
+        let tr = document.createElement('tr');
+        headers.forEach(field => {
+          let td = document.createElement('td');
+          td.textContent = record[field];
+          td.setAttribute('contenteditable', true);
+          tr.appendChild(td);
+        });
+        tbody.append(tr);
+      });
+      thead.appendChild(thead_tr);
+      table.appendChild(thead);
+      table.appendChild(tbody);
+      return table;
+    }
+
+    function createExportButton(handlers) {
+      let btn = document.createElement('button');
+      btn.textContent = 'Update JSON';
+      btn.classList.add('export-btn');
+      btn.addEventListener('click', handlers.click);
+      return btn;
+    }
+
+    function isNumeric(num) {
+      return !isNaN(num)
+    }
+  </script>
+
+
+</body>
+
+</html>

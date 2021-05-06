@@ -17,7 +17,7 @@ function myTimer() {
 }
  
 </script>
-<div id="time">time: </div><hr/>
+<div id="time" class="clock">time: </div><hr/>
 <?php 
 #$path = "./";
 #$temp_files = scandir($path);

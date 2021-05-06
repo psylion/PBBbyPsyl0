@@ -46,7 +46,7 @@ print($stream);
             }
         }
         if($stream)
-            fclose($stream_url);
+            fclose($steam_url);
         return $stream;
     }
 ?>
