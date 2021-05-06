@@ -23,13 +23,13 @@ header('Content-Type: text/html; charset=utf-8');
       var d = new Date();
       //d = d.substring(d.indexOf('T')+1,d.length-5);
       // correcting difference between javascript time locale between Mac and Windows
-      d = d.toTimeString().substr(0, 8);
-
+      t = d.toTimeString().substr(0, 8);
+      d = d.toISOString()
       $("#date").html(d);
 
       if ($("#current").text() != info) {
         //$("#log").append(smallinfo +"(smallinfo)<br/>");
-        $("#log").append(info + "(" + d + ")<br/>");
+        $("#log").html(t + "|"+ info + "(" + d + ")<br/>");
         $("#current").html(info);
         //call php passing info through the call
 
@@ -48,12 +48,16 @@ header('Content-Type: text/html; charset=utf-8');
       }
     }
   </script>
+  Flux:
   <div id="flux">Flux: </div>
   <hr />
+  current:
   <div id="current"> </div>
   <hr />
+  date:
   <div id="date">date: </div>
   <hr />
+  Log:
   <div id="log"> </div>
 </body>
 
