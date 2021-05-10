@@ -39,10 +39,15 @@ function extractEle($str){
 
   $ftitle = $str;
   $par =  substr($ftitle,0,strpos($ftitle,")")+1);
-  $time = substr($ftitle,strlen($ftitle)-10);
-  $ft2 = substr($ftitle,strlen($par),-10);
-  $artist = substr($ft2,1,strpos($ft2,"-")-1);
-  $ft3 = substr($ft2,strlen($artist)+3);
+  $ntitle = substr($ftitle,strpos($ftitle,")")+1);
+  
+  // strrpos : lst ocurrence
+  $time = substr($ntitle,strrpos($ntitle,"("));
+  //$time = substr($ftitle,strlen($ftitle)-10);
+  $ntitle = substr($ntitle,0,-strlen($time)+1);
+  //$ft2 = substr($ftitle,strlen($par),-10);
+  $artist = substr($ntitle,1,strpos($ntitle,"-")-1);
+  $ft3 = substr($ntitle,strlen($artist)+3,-1);
   if (strlen(strpos($ft3,"_"))>0) {
     $title = substr($ft3,0,strpos($ft3,"_"));
     $ft4 = substr($ft3,strlen($title)+1);

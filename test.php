@@ -13,7 +13,6 @@ header('Content-Type: text/html; charset=utf-8');
     $(document).ready(function() {
       var myVar = setInterval(myTimer, 5000);
       $("#flux").load("title.php");
-
     });
 
     function myTimer() {
@@ -24,7 +23,7 @@ header('Content-Type: text/html; charset=utf-8');
       //d = d.substring(d.indexOf('T')+1,d.length-5);
       // correcting difference between javascript time locale between Mac and Windows
       t = d.toTimeString().substr(0, 8);
-      d = d.toISOString()
+      d = d.toISOString().split('.')[0]+"Z";
       $("#date").html(d);
 
       if ($("#current").text() != info) {
