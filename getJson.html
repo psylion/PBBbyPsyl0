@@ -8,18 +8,19 @@
 <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="/css/hackers.css" rel="stylesheet" media="screen">
 <script src="/js/jquery-3.6.0.js" type="text/javascript"></script>
-<!-- header('Content-Type: application/json; charset=utf-8'); -->
+<script type="text/javascript" src="js/background.cycle.js"></script>
 <style>
     audio {
-  filter: sepia(200%) saturate(400%) grayscale(0) contrast(100%) hue-rotate(360deg) invert(99%);
-  }
+        filter: sepia(200%) saturate(400%) grayscale(0) contrast(100%) hue-rotate(360deg) invert(99%);
+    }
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 <body>
     <script>
-        $(document).ready(function () {
+        $imgFiles = [];
+        $(document).ready(function() {
             $pload = new Date();
             $checkSaved = new Date();
             $lastSaved = new Date();
@@ -27,21 +28,42 @@
             // correcting difference between javascript time locale between Mac and Windows
             //            var d = new Date();
             $2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
-            console.log("today: " + $2day);
+            //console.log("today: " + $2day);
             $pload = $pload.toTimeString().substr(0, 8);
-            $("#time").html("page loaded: " + $pload);
+            //$("#time").html("page loaded: " + $pload);
             $jsonFile = $2day + "results.json";
             reloadJSON();
-            $("#load").html("<br/>lastSaved (main):" + $lastSaved);
-            var myVar = setInterval(function () { myTimer('bucht'); }, 5000);
+            //$("#load").html("<br/>lastSaved (main):" + $lastSaved);
+            var myVar = setInterval(function() {
+                myTimer('bucht');
+            }, 5000);
             var myTim = setInterval(myTime, 1000);
+            // Background slideshow
+            $.get('/img/bkg/', function(data) {
+                //data.reverse();
+                $.each(data, function(i, item) {
+                    // need to add the path location
+                    $imgFiles.push('http://psylo.ddns.net/img/bkg/' + item.name);
+                })
+                $("body").backgroundCycle({
+                    imageUrls: $imgFiles,
+                    fadeSpeed: 5000,
+                    duration: 15000,
+                    backgroundSize: SCALING_MODE_COVER
+                });
+            });
         });
+
         function reloadJSON() {
-            $.getJSON($jsonFile, function (data) {
+            $.getJSON($jsonFile, function(data) {
                 var items = [];
                 data.reverse();
-                $.each(data, function (i, item) {
-                    if (i == 0) $('#currentTrack').html(item.par + " " + item.title + " - " + item.artist + "<br/>" + item.time);
+                $.each(data, function(i, item) {
+                    if (i == 0) {
+                        var myTitle = item.par + " " + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
+                        $('#currentTrack').html(myTitle + "<br/>" + item.time);
+                        document.title = 'PBBbyPsyl0::' + item.par + "" + item.title + "::" + item.artist;
+                    }
                     if (i >= 1) {
                         items.push("<li id='" + i + "'>" + item.otitle + "</li>");
                         items.push("<dl class='dl-horizontal'><dt>Title</dt><dd>" + item.title + "</dd>");
@@ -56,87 +78,92 @@
 
             });
             $lastSaved = getLastSaved();
-            console.log($lastSaved);
+            //console.log($lastSaved);
         }
+
         function getLastSaved() {
             var xhr = $.ajax({
                 url: $jsonFile,
-                success: function (response) {
+                success: function(response) {
                     $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
-                    $("#saved").html("<br/>saved (from getLastSaved): " + $checkSaved);
+                    //$("#saved").html("<br/>saved (from getLastSaved): " + $checkSaved);
                 }
             });
             //console.log($lastSaved);
             return $checkSaved;
         }
+
         function myTimer(str) {
             $pload = new Date();
             $pload = $pload.toTimeString().substr(0, 8);
             //$lastSaved = $lastSaved.toTimeString().substr(0,8);
-            $("#time").html("check refresh: " + $pload + "(" + str + ")" +
+            /*$("#time").html("check refresh: " + $pload + "(" + str + ")" +
                 "<br/>lastSaved (myTimer): " + $lastSaved +
                 "<br/>saved (getLastSaved): " + getLastSaved() +
-                "<br/>saved (checkSaved): " + $checkSaved);
+                "<br/>saved (checkSaved): " + $checkSaved);*/
             //console.log("fromTimer:" + $lastSaved +"<br/>checkSaved"+$checkSaved);
             if ($lastSaved != $checkSaved) {
                 $("#content").html("");
                 reloadJSON();
-                $("#time").append("<b>Reloaded</b>");
+                //$("#time").append("<b>Reloaded</b>");
                 $("#load").html("<br/>lastLoad: " + $lastLoad + " and saved:" + getLastSaved());
             }
         }
+
         function myTime() {
             $time = new Date();
             $("#timeSpan").html($time.toTimeString().substr(0, 8));
         }
     </script>
+    <!-- New nav bar -->
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#">PBBbyPsyl0</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link blink" href="/stats.html">Stats !! NEW !!</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End new nav bar -->
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-
-                <a class="brand" href="#">PBBbyPsyl0</a>
-
-                <!--/.nav-collapse -->
-            </div>
-        </div>
-    </div>
     <div class="container">
         <!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row">
-            <div class="jumbotron jumbotron-fluid  col-sm-7">
+            <div class="jumbotron jumbotron-fluid  col-sm-10 bg-teaser">
                 <h2>Welcome to PBB-by-Psyl0</h2>
                 <h3>Laurent Garnier PBB Radio </h3>
                 <i>(This site is currently under construction...)</i>
-                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black;"
-                        class=""></span></h2><audio controls="" autoplay="false" name="media"
-                    style="height:30px; width:450px;">
+                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black;" class=""></span></h2><audio controls="" autoplay="false" name="media" style="height:30px; width:450px;">
                     <source src="https://pbbradio.com:8443/128" type="audio/aac">
                 </audio>
                 <div id="currentTrack" class="jumbotron-fluid " style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large;">current</div>
                 <!-- <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p> -->
             </div>
-            <div id="todoList" class="jumbotron jumbotron-fluid col-sm-4">
-                <br />
-                I'm currently implementing a way to search by time and also display statistics.<br />
-                I started this project by the end of April 2021...
-                <h3>Todo in the near futur:</h3>
-                <ul>
-                    <li>Inject json into Database</li>
-                    <li>get data from DB</li>
-                    <li>search from DB</li>
-                    <li>enhance genre tagging</li>
-                    <li>Mobile responsive display</li>
-                </ul>
-            </div>
+
         </div>
         <!-- Example row of columns -->
-
-        <div class="row">
+        <div id="todoList" class="jumbotron-fluid col-sm-4 float-lg-start bg-teaser">
+            <br /> I'm currently implementing a way to search by time and also display statistics.<br /> I started this project by the end of April 2021...
+            <h3>Todo in the near futur:</h3>
+            <ul>
+                <li>Inject json into Database</li>
+                <li>get data from DB</li>
+                <li>search from DB</li>
+                <li>enhance genre tagging</li>
+                <li>Mobile responsive display</li>
+            </ul>
+            Thanks to <a href="https://www.kdbuzz.com/PBB/" target="_blank">KDBuzz</a> for code sharing<br/> other links:
+            <ul>
+                <li><a href="https://www.laurentgarnier.com/" target="_blank">laurentgarnier.com</a></li>
+                <li><a href="https://pbbradio.com:8443/128" target="_blank">PBB Radio</a></li>
+                <li><a href="https://www.facebook.com/pbbradio" target="_blank">FB pbbradio</a></li>
+            </ul>
+        </div>
+        <div class="row bg-teaser">
             <div class="span8">
                 <h2>Latest track played:</h2>
                 <p>
-                <div id="content"></div>
+                    <div id="content"></div>
                 </p>
                 <!-- <p><a class="btn" href="#">View details »</a></p> -->
             </div>
@@ -145,9 +172,9 @@
             <div class="span3">
                 <h4>Debug output</h4>
                 <p>
-                <div id="time"> </div>
-                <div id="load"> </div>
-                <div id="saved"> </div>
+                    <div id="time"> </div>
+                    <div id="load"> </div>
+                    <div id="saved"> </div>
                 </p>
                 <!-- <p><a class="btn" href="#">View details »</a></p> -->
             </div>
