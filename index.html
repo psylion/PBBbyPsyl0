@@ -35,23 +35,39 @@
 
 
         $(document).ready(function() {
+            $imgFiles = [];
             $("#test").html("JQuery loaded");
-
-            $("body").backgroundCycle({
-                imageUrls: [
-                    'http://psylo.ddns.net/img/bkg/cyb10.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb2.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb3.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb4.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb5.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb6.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb7.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb8.jpg',
-                    'http://psylo.ddns.net/img/bkg/cyb9.jpg',
-                ],
-                fadeSpeed: 5000,
-                duration: 15000,
-                backgroundSize: SCALING_MODE_COVER
+            // get last trax
+            $.getJSON("mongo.php")
+                .done(function(result) {
+                    $.each(result, function(i, item) {
+                        if (item.artist != "PBB") {
+                            var row = '<tr><td>' + item.time.replace("T", " ") + '</td> \
+                            <td>' + item.artist + '</td> \
+                            <td>' + item.title + '</td>  \
+                            <td>' + item.label + '</td>  \
+                            <td>' + item.genre + '</td>  \
+                            <td>' + item.time + '</td>' + '</tr>';
+                            $('#lastTrax').append(row);
+                            // $("lastTrax").append(item + " ");
+                            // console.log(item);
+                        }
+                    });
+                });
+            // Background slideshow
+            $.get('/img/lg/', function(data) {
+                //data.reverse();
+                $.each(data, function(i, item) {
+                    // need to add the path location
+                    $imgFiles.push('http://psylo.ddns.net/img/lg/' + item.name);
+                })
+                shuffle($imgFiles);
+                $("body").backgroundCycle({
+                    imageUrls: $imgFiles,
+                    fadeSpeed: 5000,
+                    duration: 15000,
+                    backgroundSize: SCALING_MODE_CONTAIN
+                });
             });
 
         });
@@ -64,10 +80,20 @@
         <ul>
             <li>lastest <a href="getJson.html" style="font-size: x-large;">PBBbyPsylo</a> played tracks from PBB</li>
             <li>NEW <a href="stats.html" style="font-size: x-large;">PBBbyPsylo - Stats/JSON</a> </li>
-            <li><span id="sp">TEST color</span></li>
+            <li><span id="sp">Please find hereunder the last 50 Trax from PBB radio: <i>NEW (Stored online in MongoDB)</i></span></li>
         </ul>
     </div>
     <div class="wrapper"></div>
+    <div class="bg-trax ">
+        <table id="lastTrax" class="lastTrax">
+            <th>time</th>
+            <th>artist</th>
+            <th>title</th>
+            <th>label</th>
+            <th>genre</th>
+            <th>time</th>
+        </table>
+    </div>
     <!-- 
     <p id="test">test</p>
     <div id="tabs">

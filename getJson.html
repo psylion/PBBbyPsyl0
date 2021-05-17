@@ -9,6 +9,7 @@
 <link href="/css/hackers.css" rel="stylesheet" media="screen">
 <script src="/js/jquery-3.6.0.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/background.cycle.js"></script>
+<script type="text/javascript" src="js/psylo.js"></script>
 <style>
     audio {
         filter: sepia(200%) saturate(400%) grayscale(0) contrast(100%) hue-rotate(360deg) invert(99%);
@@ -39,19 +40,36 @@
             }, 5000);
             var myTim = setInterval(myTime, 1000);
             // Background slideshow
-            $.get('/img/bkg/', function(data) {
+            // $.get('/img/bkg/', function(data) {
+            //     //data.reverse();
+            //     $.each(data, function(i, item) {
+            //         // need to add the path location
+            //         $imgFiles.push('http://psylo.ddns.net/img/bkg/' + item.name);
+            //     })
+            //     shuffle($imgFiles);
+            //     $("body").backgroundCycle({
+            //         imageUrls: $imgFiles,
+            //         fadeSpeed: 5000,
+            //         duration: 15000,
+            //         backgroundSize: SCALING_MODE_COVER
+            //     });
+            // });
+            // Background slideshow
+            $.get('/img/lg/', function(data) {
                 //data.reverse();
                 $.each(data, function(i, item) {
                     // need to add the path location
-                    $imgFiles.push('http://psylo.ddns.net/img/bkg/' + item.name);
+                    $imgFiles.push('http://psylo.ddns.net/img/lg/' + item.name);
                 })
+                shuffle($imgFiles);
                 $("body").backgroundCycle({
                     imageUrls: $imgFiles,
                     fadeSpeed: 5000,
                     duration: 15000,
-                    backgroundSize: SCALING_MODE_COVER
+                    backgroundSize: SCALING_MODE_CONTAIN
                 });
             });
+
         });
 
         function reloadJSON() {
@@ -117,7 +135,7 @@
     </script>
     <!-- New nav bar -->
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#">PBBbyPsyl0</a>
+        <a class="navbar-brand" href="/">PBBbyPsyl0</a>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link blink" href="/stats.html">Stats !! NEW !!</a>

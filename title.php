@@ -7,7 +7,7 @@
 $pbbs = "https://pbbradio.com:8443/128";
 $pbb = "https://www.kdbuzz.com/PBB/pbbstream.php";
 
-$f= fopen($pbb, "rb", false, $context);
+$f= fopen($pbb, "rb", false);
 $lines = "";
 do{
   $data=fread($f,1024);
