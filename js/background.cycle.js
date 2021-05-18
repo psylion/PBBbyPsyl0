@@ -80,30 +80,29 @@ $.fn.backgroundCycle = function(options) {
         var sizeMode;
 
         switch (settings.backgroundSize) {
-            default:
-                sizeMode = settings.backgroundSize;
-                break;
+            default: sizeMode = settings.backgroundSize;
+            break;
             case SCALING_MODE_NONE:
-                sizeMode = 'auto';
+                    sizeMode = 'auto';
                 break;
             case SCALING_MODE_STRETCH:
-                sizeMode = '100% 100%';
+                    sizeMode = '100% 100%';
                 break;
             case SCALING_MODE_COVER:
-                sizeMode = 'cover';
+                    sizeMode = 'cover';
                 break;
             case SCALING_MODE_CONTAIN:
-                sizeMode = 'contain';
+                    sizeMode = 'contain';
                 break;
         }
 
         image.css({
             'background-image': "url('" + src + "')",
-            'background-repeat': 'no-repeat',
+            'background-repeat': 'repeat-x',
             'background-size': sizeMode,
             '-moz-background-size': sizeMode,
             '-webkit-background-size': sizeMode,
-            position: 'absolute',
+            position: 'fixed',
             left: marginLeft,
             top: marginTop,
             right: marginRight,

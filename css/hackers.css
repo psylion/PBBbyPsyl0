@@ -7843,14 +7843,15 @@
         background-color: rgba(0, 0, 0, .75);
         /*opacity: 1;*/
         max-width: max-content;
+        max-height: max-content;
     }
     
     .bg-trax {
-        background-color: rgba(0, 0, 0, .0);
+        background-color: rgba(0, 0, 0, .70);
         /*opacity: 1;*/
         max-width: max-content;
         position: relative;
-        left: 100px;
+        left: 10px;
     }
     
     .centre-container {
@@ -7858,12 +7859,17 @@
         width: 500px;
     }
     
+    table#tbComp td {
+        vertical-align: top;
+    }
+    
     table#lastTrax.lastTrax {
         font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         text-shadow: 2px 2px 2px #000, -1px -1px 3px #0000FF;
     }
     
-    table#lastTrax.lastTrax th {
+    table#lastTrax.lastTrax th,
+    table#lastTrax2.lastTrax th {
         letter-spacing: 3px;
         text-align: center;
         font-size: larger;
@@ -7871,7 +7877,8 @@
         border: 1px solid;
     }
     
-    table#lastTrax.lastTrax td {
+    table#lastTrax.lastTrax td,
+    table#lastTrax2.lastTrax td {
         border: 1px solid;
         padding-left: 7px;
         padding-right: 7px;
