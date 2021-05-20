@@ -1,7 +1,6 @@
-[
-    {
+[{
         "otitle": "(T_N) JEFF MILLS - The Infinite Voyage _ AXIS(18:02:41)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": " AXIS",
         "artist": "JEFF MILLS ",
         "title": "The Infinite Voyage ",
@@ -9,7 +8,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(18:05:36)",
-        "par": "PBB - Luckily We Still Have Music(18:05:36)",
+        "genre": "PBB - Luckily We Still Have Music(18:05:36)",
         "label": "",
         "artist": false,
         "title": false,
@@ -17,7 +16,7 @@
     },
     {
         "otitle": "(H) STEVE POINTDEXTER - Work that Mutha Fucka(18:06:01)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "STEVE POINTDEXTER ",
         "title": "Work that Mutha Fucka",
@@ -25,7 +24,7 @@
     },
     {
         "otitle": "(T) THEUS MAGO & LOCAL SUICIDE - Komm Ins Loch(18:12:17)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "THEUS MAGO & LOCAL SUICIDE ",
         "title": "Komm Ins Loch",
@@ -33,7 +32,7 @@
     },
     {
         "otitle": "(F) CARLOS NILMMNS - Life In the Loire(18:20:00)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "CARLOS NILMMNS ",
         "title": "Life In the Loire",
@@ -41,7 +40,7 @@
     },
     {
         "otitle": "(F) SHEILA E - a love bizzare PAISLEY PARK(18:24:00)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "SHEILA E ",
         "title": "a love bizzare PAISLEY PARK",
@@ -49,7 +48,7 @@
     },
     {
         "otitle": "(H_N) IRON CURTIS - rawls(18:33:00)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "IRON CURTIS ",
         "title": "rawls",
@@ -57,7 +56,7 @@
     },
     {
         "otitle": "(Ro) THE BLACK KEYS - breaks(18:41:00)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE BLACK KEYS ",
         "title": "breaks",
@@ -65,7 +64,7 @@
     },
     {
         "otitle": "(Ro) REPLIKAS - gece kadar rahatsiz etmiyor(18:44:00)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "REPLIKAS ",
         "title": "gece kadar rahatsiz etmiyor",
@@ -73,7 +72,7 @@
     },
     {
         "otitle": "(P) KIT SEBASTIAN - Questions _ MR BONGO(18:45:16)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": " MR BONGO",
         "artist": "KIT SEBASTIAN ",
         "title": "Questions ",
@@ -81,7 +80,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(18:48:11)",
-        "par": "PBB - Luckily We Still Have Music(18:48:11)",
+        "genre": "PBB - Luckily We Still Have Music(18:48:11)",
         "label": "",
         "artist": false,
         "title": false,
@@ -89,7 +88,7 @@
     },
     {
         "otitle": "(Db) INJA & PETE CANNON - her room(18:48:31)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": "",
         "artist": "INJA & PETE CANNON ",
         "title": "her room",
@@ -97,7 +96,7 @@
     },
     {
         "otitle": "(D) THE ROLLING STONES - out of control_remix VIRGIN(18:52:07)",
-        "par": "(D)",
+        "genre": "(D)",
         "label": "remix VIRGIN",
         "artist": "THE ROLLING STONES ",
         "title": "out of control",
@@ -105,7 +104,7 @@
     },
     {
         "otitle": "(Jup) JOHNNY GUITAR WATSON - She Moves Me(18:59:01)",
-        "par": "(Jup)",
+        "genre": "(Jup)",
         "label": "",
         "artist": "JOHNNY GUITAR WATSON ",
         "title": "She Moves Me",
@@ -113,7 +112,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(19:01:01)",
-        "par": "PBB - Luckily We Still Have Music(19:01:01)",
+        "genre": "PBB - Luckily We Still Have Music(19:01:01)",
         "label": "",
         "artist": false,
         "title": false,
@@ -121,7 +120,7 @@
     },
     {
         "otitle": "(H) FRANCK ROGER Feat. JOVONN - Remember (Rocco Rodamaal Remix) REAL TONE(19:02:01)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "FRANCK ROGER Feat. JOVONN ",
         "title": "Remember (Rocco Rodamaal Remix) REAL TONE",
@@ -129,7 +128,7 @@
     },
     {
         "otitle": "(T) R.O.S.H. - thanks for keeping it real(19:08:01)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "R.O.S.H. ",
         "title": "thanks for keeping it real",
@@ -137,7 +136,7 @@
     },
     {
         "otitle": "(F) KYLIE AULDIST - cut you loose(19:14:01)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "KYLIE AULDIST ",
         "title": "cut you loose",
@@ -145,7 +144,7 @@
     },
     {
         "otitle": "(Disco) VOYAGE - From East To West(19:18:01)",
-        "par": "(Disco)",
+        "genre": "(Disco)",
         "label": "",
         "artist": "VOYAGE ",
         "title": "From East To West",
@@ -153,7 +152,7 @@
     },
     {
         "otitle": "(Brok_N) NUFF PEDALS - hang glide(19:25:01)",
-        "par": "(Brok_N)",
+        "genre": "(Brok_N)",
         "label": "",
         "artist": "NUFF PEDALS ",
         "title": "hang glide",
@@ -161,7 +160,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(19:29:01)",
-        "par": "PBB - Luckily We Still Have Music(19:29:01)",
+        "genre": "PBB - Luckily We Still Have Music(19:29:01)",
         "label": "",
         "artist": false,
         "title": false,
@@ -169,7 +168,7 @@
     },
     {
         "otitle": "(Ro) THE CRAMPS - can your pussy do the dog(19:30:01)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE CRAMPS ",
         "title": "can your pussy do the dog",
@@ -177,7 +176,7 @@
     },
     {
         "otitle": "(Ro) STEEPLE REMOVE - set it(19:33:01)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "STEEPLE REMOVE ",
         "title": "set it",
@@ -185,7 +184,7 @@
     },
     {
         "otitle": "(HH) MOKA ONLY - Let Me Bust _URBANET(19:39:01)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "URBANET",
         "artist": "MOKA ONLY ",
         "title": "Let Me Bust ",
@@ -193,7 +192,7 @@
     },
     {
         "otitle": "(HH) CADIK - helicopterss(19:42:01)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "CADIK ",
         "title": "helicopterss",
@@ -201,7 +200,7 @@
     },
     {
         "otitle": "(W) THIRD GENERATION BAND - because of money(19:45:01)",
-        "par": "(W)",
+        "genre": "(W)",
         "label": "",
         "artist": "THIRD GENERATION BAND ",
         "title": "because of money",
@@ -209,7 +208,7 @@
     },
     {
         "otitle": "(J) NITIN SAWHNEY - breathing light(19:51:00)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "NITIN SAWHNEY ",
         "title": "breathing light",
@@ -217,7 +216,7 @@
     },
     {
         "otitle": "(H) GARNIER - Slow Momo(19:56:01)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "GARNIER ",
         "title": "Slow Momo",
@@ -225,7 +224,7 @@
     },
     {
         "otitle": "(H) GARNIER - Slow Momo(20:00:44)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "GARNIER ",
         "title": "Slow Momo",
@@ -233,7 +232,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER - acid eiffel (Live salle Pleyel)(20:01:24)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "acid eiffel (Live salle Pleyel)",
@@ -241,7 +240,7 @@
     },
     {
         "otitle": "(F) TONY GREY & THE BLACK 7 - the feelings(20:13:24)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "TONY GREY & THE BLACK 7 ",
         "title": "the feelings",
@@ -249,7 +248,7 @@
     },
     {
         "otitle": "(F) MR NEVEUX - The Lesson(20:18:09)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "MR NEVEUX ",
         "title": "The Lesson",
@@ -257,7 +256,7 @@
     },
     {
         "otitle": "(h_N) Kiani & His Legion - Somdo Raptors(20:22:14)",
-        "par": "(h_N)",
+        "genre": "(h_N)",
         "label": "",
         "artist": "Kiani & His Legion ",
         "title": "Somdo Raptors",
@@ -265,7 +264,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(20:29:19)",
-        "par": "PBB - Luckily We Still Have Music(20:29:19)",
+        "genre": "PBB - Luckily We Still Have Music(20:29:19)",
         "label": "",
         "artist": false,
         "title": false,
@@ -273,7 +272,7 @@
     },
     {
         "otitle": "(Ro) JOY DIVISION - twenty four hours(20:29:29)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "JOY DIVISION ",
         "title": "twenty four hours",
@@ -281,7 +280,7 @@
     },
     {
         "otitle": "(P) THE NEON JUDGEMENT - nion(20:33:54)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "THE NEON JUDGEMENT ",
         "title": "nion",
@@ -289,7 +288,7 @@
     },
     {
         "otitle": "(HH) DEADHAND - Meanwhile _ SEA & GRAVE(20:38:39)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": " SEA & GRAVE",
         "artist": "DEADHAND ",
         "title": "Meanwhile ",
@@ -297,7 +296,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(20:40:39)",
-        "par": "PBB - Luckily We Still Have Music(20:40:39)",
+        "genre": "PBB - Luckily We Still Have Music(20:40:39)",
         "label": "",
         "artist": false,
         "title": false,
@@ -305,7 +304,7 @@
     },
     {
         "otitle": "(Db) BREAK - who got da funk(20:41:29)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": "",
         "artist": "BREAK ",
         "title": "who got da funk",
@@ -313,7 +312,7 @@
     },
     {
         "otitle": "(R) CEDRIC IM BROOKS - shaft(20:46:24)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "CEDRIC IM BROOKS ",
         "title": "shaft",
@@ -321,7 +320,7 @@
     },
     {
         "otitle": "(J) SERGIO MENDES - after midnight(20:50:04)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "SERGIO MENDES ",
         "title": "after midnight",
@@ -329,7 +328,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(20:53:54)",
-        "par": "PBB - Luckily We Still Have Music(20:53:54)",
+        "genre": "PBB - Luckily We Still Have Music(20:53:54)",
         "label": "",
         "artist": false,
         "title": false,
@@ -337,7 +336,7 @@
     },
     {
         "otitle": "(Brok_S) DELGUI - boogie bride(20:54:09)",
-        "par": "(Brok_S)",
+        "genre": "(Brok_S)",
         "label": "",
         "artist": "DELGUI ",
         "title": "boogie bride",
@@ -345,7 +344,7 @@
     },
     {
         "otitle": "(X_N) SAGE ALYTE - Effigie de personne, figure de dragon _ VLEK(21:00:34)",
-        "par": "(X_N)",
+        "genre": "(X_N)",
         "label": " VLEK",
         "artist": "SAGE ALYTE ",
         "title": "Effigie de personne, figure de dragon ",
@@ -353,7 +352,7 @@
     },
     {
         "otitle": "(E) TRYCYCLE - Various_Productionsvars022(21:07:39)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "Productionsvars022",
         "artist": "TRYCYCLE ",
         "title": "Various",
@@ -361,7 +360,7 @@
     },
     {
         "otitle": "(S_N) MARVIN GAYE - inner city blues(21:11:59)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "MARVIN GAYE ",
         "title": "inner city blues",
@@ -369,7 +368,7 @@
     },
     {
         "otitle": "(R) DILLINGER - african world wide(21:17:19)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "DILLINGER ",
         "title": "african world wide",
@@ -377,7 +376,7 @@
     },
     {
         "otitle": "(S) SKELETONS - adam and eve(21:20:54)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "SKELETONS ",
         "title": "adam and eve",
@@ -385,7 +384,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(21:23:49)",
-        "par": "PBB - Luckily We Still Have Music(21:23:49)",
+        "genre": "PBB - Luckily We Still Have Music(21:23:49)",
         "label": "",
         "artist": false,
         "title": false,
@@ -393,7 +392,7 @@
     },
     {
         "otitle": "(J) RAMSEY LEWIS - aufu oodu COLUMBIA(21:23:59)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "RAMSEY LEWIS ",
         "title": "aufu oodu COLUMBIA",
@@ -401,7 +400,7 @@
     },
     {
         "otitle": "(T_N) WLADIMIR M. - Disappointment _DELSIN(21:29:59)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "DELSIN",
         "artist": "WLADIMIR M. ",
         "title": "Disappointment ",
@@ -409,7 +408,7 @@
     },
     {
         "otitle": "(Ro_N) MENLO PARK - Wave Goodbye Whore(21:35:39)",
-        "par": "(Ro_N)",
+        "genre": "(Ro_N)",
         "label": "",
         "artist": "MENLO PARK ",
         "title": "Wave Goodbye Whore",
@@ -417,7 +416,7 @@
     },
     {
         "otitle": "(T) FELIX DA HOUSECAT (Aphrohead) - While they watch(21:38:54)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "FELIX DA HOUSECAT (Aphrohead) ",
         "title": "While they watch",
@@ -425,7 +424,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(21:50:24)",
-        "par": "PBB - Luckily We Still Have Music(21:50:24)",
+        "genre": "PBB - Luckily We Still Have Music(21:50:24)",
         "label": "",
         "artist": false,
         "title": false,
@@ -433,7 +432,7 @@
     },
     {
         "otitle": "(F) MFSB - famify affair PHILLY SOUND(21:50:39)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "MFSB ",
         "title": "famify affair PHILLY SOUND",
@@ -441,7 +440,7 @@
     },
     {
         "otitle": "(Ro) THE STOOGES - loose(21:52:54)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE STOOGES ",
         "title": "loose",
@@ -449,7 +448,7 @@
     },
     {
         "otitle": "(P_N) THOM YORKE - The Eraser(21:56:24)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "",
         "artist": "THOM YORKE ",
         "title": "The Eraser",
@@ -457,7 +456,7 @@
     },
     {
         "otitle": "(H_N) APPAREL WAX - 008b1 _APPAREL MUSIC(22:01:19)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "APPAREL MUSIC",
         "artist": "APPAREL WAX ",
         "title": "008b1 ",
@@ -465,7 +464,7 @@
     },
     {
         "otitle": "(N) UNFORSCENE - check da cent(22:07:19)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "UNFORSCENE ",
         "title": "check da cent",
@@ -473,7 +472,7 @@
     },
     {
         "otitle": "(HH_N) AKUA NARU - Black Genius(22:12:09)",
-        "par": "(HH_N)",
+        "genre": "(HH_N)",
         "label": "",
         "artist": "AKUA NARU ",
         "title": "Black Genius",
@@ -481,7 +480,7 @@
     },
     {
         "otitle": "(Bra) ALCEU VALENCA & GERALDO AZEVEDO - mister mist\ufffdrio(22:17:24)",
-        "par": "(Bra)",
+        "genre": "(Bra)",
         "label": "",
         "artist": "ALCEU VALENCA & GERALDO AZEVEDO ",
         "title": "mister mist\ufffdrio",
@@ -489,7 +488,7 @@
     },
     {
         "otitle": "(F) DESIRE MOZAMBE - s\ufffdn\ufffdgal Part II(22:19:04)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "DESIRE MOZAMBE ",
         "title": "s\ufffdn\ufffdgal Part II",
@@ -497,7 +496,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(22:22:59)",
-        "par": "PBB - Luckily We Still Have Music(22:22:59)",
+        "genre": "PBB - Luckily We Still Have Music(22:22:59)",
         "label": "",
         "artist": false,
         "title": false,
@@ -505,7 +504,7 @@
     },
     {
         "otitle": "(J) THE RONGETZ FOUNDATION - five tigers(22:23:14)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "THE RONGETZ FOUNDATION ",
         "title": "five tigers",
@@ -513,7 +512,7 @@
     },
     {
         "otitle": "(H_N) VICTOR MENDOZA - Salty Noodles (Nacho Marco Sweet Remix) _ LOUDEAST(22:31:14)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": " LOUDEAST",
         "artist": "VICTOR MENDOZA ",
         "title": "Salty Noodles (Nacho Marco Sweet Remix) ",
@@ -521,7 +520,7 @@
     },
     {
         "otitle": "(Db_N) KEENO - the comet(22:38:09)",
-        "par": "(Db_N)",
+        "genre": "(Db_N)",
         "label": "",
         "artist": "KEENO ",
         "title": "the comet",
@@ -529,7 +528,7 @@
     },
     {
         "otitle": "(T) GARNIER - I'm Going Home(22:43:44)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "GARNIER ",
         "title": "I'm Going Home",
@@ -537,7 +536,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(22:52:54)",
-        "par": "PBB - Luckily We Still Have Music(22:52:54)",
+        "genre": "PBB - Luckily We Still Have Music(22:52:54)",
         "label": "",
         "artist": false,
         "title": false,
@@ -545,7 +544,7 @@
     },
     {
         "otitle": "(F) LOOSE JOINTS - is it all over my face WEST END(22:53:09)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "LOOSE JOINTS ",
         "title": "is it all over my face WEST END",
@@ -553,7 +552,7 @@
     },
     {
         "otitle": "(Ro) THE FALL - Pay Your Rates(22:57:54)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE FALL ",
         "title": "Pay Your Rates",
@@ -561,7 +560,7 @@
     },
     {
         "otitle": "(T_N) ESTROE - oktober(23:00:49)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "ESTROE ",
         "title": "oktober",
@@ -569,7 +568,7 @@
     },
     {
         "otitle": "(BB_N) JIMBO JONES - Frain Bried _ JPRM(23:07:34)",
-        "par": "(BB_N)",
+        "genre": "(BB_N)",
         "label": " JPRM",
         "artist": "JIMBO JONES ",
         "title": "Frain Bried ",
@@ -577,7 +576,7 @@
     },
     {
         "otitle": "(Dt) PLANETSELF - Leylines(23:15:34)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "PLANETSELF ",
         "title": "Leylines",
@@ -585,7 +584,7 @@
     },
     {
         "otitle": "(F_N) CLIMAX - persuasion(23:18:49)",
-        "par": "(F_N)",
+        "genre": "(F_N)",
         "label": "",
         "artist": "CLIMAX ",
         "title": "persuasion",
@@ -593,7 +592,7 @@
     },
     {
         "otitle": "(R) BLUNDETTO - hercules(23:21:59)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "BLUNDETTO ",
         "title": "hercules",
@@ -601,7 +600,7 @@
     },
     {
         "otitle": "(F) SKULL SNAPS - my hang up is you(23:27:04)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "SKULL SNAPS ",
         "title": "my hang up is you",
@@ -609,7 +608,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(23:31:04)",
-        "par": "PBB - Luckily We Still Have Music(23:31:04)",
+        "genre": "PBB - Luckily We Still Have Music(23:31:04)",
         "label": "",
         "artist": false,
         "title": false,
@@ -617,7 +616,7 @@
     },
     {
         "otitle": "(J) CLARICE LABBE - no other love but you(23:31:49)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "CLARICE LABBE ",
         "title": "no other love but you",
@@ -625,7 +624,7 @@
     },
     {
         "otitle": "(T_N) VINCE WATSON - Cyclon _TRONIC(23:38:44)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "TRONIC",
         "artist": "VINCE WATSON ",
         "title": "Cyclon ",
@@ -633,7 +632,7 @@
     },
     {
         "otitle": "(T_N) NDNM - Papers Please(23:44:29)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "NDNM ",
         "title": "Papers Please",
@@ -641,7 +640,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER - Orgasm(23:51:09)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "Orgasm",
@@ -649,7 +648,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(23:58:49)",
-        "par": "PBB - Luckily We Still Have Music(23:58:49)",
+        "genre": "PBB - Luckily We Still Have Music(23:58:49)",
         "label": "",
         "artist": false,
         "title": false,
@@ -657,7 +656,7 @@
     },
     {
         "otitle": "(A_N) CHRISTIAN L\ufffdFFLER - Parsifal _ DEUTSCHE GRAMMOPHON(23:59:29)",
-        "par": "(A_N)",
+        "genre": "(A_N)",
         "label": " DEUTSCHE GRAMMOPHON",
         "artist": "CHRISTIAN L\ufffdFFLER ",
         "title": "Parsifal ",

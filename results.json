@@ -1,7 +1,6 @@
-[
-    {
+[{
         "otitle": "(Beats) NIKITCH & KUNA MAZE - another one(13:35:38)",
-        "par": "(Beats)",
+        "genre": "(Beats)",
         "label": "",
         "artist": "NIKITCH & KUNA MAZE ",
         "title": "another one",
@@ -9,7 +8,7 @@
     },
     {
         "otitle": "(Beats) NIKITCH & KUNA MAZE - another one(13:38:14)",
-        "par": "(Beats)",
+        "genre": "(Beats)",
         "label": "",
         "artist": "NIKITCH & KUNA MAZE ",
         "title": "another one",
@@ -17,7 +16,7 @@
     },
     {
         "otitle": "(Beats) NIKITCH & KUNA MAZE - another one(13:40:08)",
-        "par": "(Beats)",
+        "genre": "(Beats)",
         "label": "",
         "artist": "NIKITCH & KUNA MAZE ",
         "title": "another one",
@@ -25,7 +24,7 @@
     },
     {
         "otitle": "(E) ROBERT LE MAGNIFIQUE - k a m(13:40:48)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "ROBERT LE MAGNIFIQUE ",
         "title": "k a m",
@@ -33,7 +32,7 @@
     },
     {
         "otitle": "(N) POTE - ur 320210428(13:46:20)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "POTE ",
         "title": "ur 320210428",
@@ -41,7 +40,7 @@
     },
     {
         "otitle": "(N) POTE - ur 320210428(13:46:26)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "POTE ",
         "title": "ur 320210428",
@@ -49,7 +48,7 @@
     },
     {
         "otitle": "(N) POTE - ur 3(13:47:10)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "POTE ",
         "title": "ur 3",
@@ -57,7 +56,7 @@
     },
     {
         "otitle": "(P_D) SARGASSO TRIO - dub the saxlingham one(13:48:20)",
-        "par": "(P_D)",
+        "genre": "(P_D)",
         "label": "",
         "artist": "SARGASSO TRIO ",
         "title": "dub the saxlingham one",
@@ -65,7 +64,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(13:54:40)",
-        "par": "PBB - Luckily We Still Have Music(13:54:40)",
+        "genre": "PBB - Luckily We Still Have Music(13:54:40)",
         "label": "",
         "artist": false,
         "title": false,
@@ -73,7 +72,7 @@
     },
     {
         "otitle": "(J) SOM 3 - margarida b(13:54:55)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "SOM 3 ",
         "title": "margarida b",
@@ -81,7 +80,7 @@
     },
     {
         "otitle": "(J) SOM 3 - margarida b(1:56:46 PM)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "SOM 3 ",
         "title": "margarida b(1",
@@ -89,7 +88,7 @@
     },
     {
         "otitle": "(S_N) ODETTA - pastures of plenty(1:58:06 PM)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "ODETTA ",
         "title": "pastures of plenty(1",
@@ -97,7 +96,7 @@
     },
     {
         "otitle": "(HH_N) DEADHAND - Touch _ SEA & GRAVE(2:02:06 PM)",
-        "par": "(HH_N)",
+        "genre": "(HH_N)",
         "label": " SEA & GRAVE(2",
         "artist": "DEADHAND ",
         "title": "Touch ",
@@ -105,7 +104,7 @@
     },
     {
         "otitle": "(Brok) CENGIZ - Tribute _ COOP(2:05:26 PM)",
-        "par": "(Brok)",
+        "genre": "(Brok)",
         "label": " COOP(2",
         "artist": "CENGIZ ",
         "title": "Tribute ",
@@ -113,7 +112,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(2:10:42 PM)",
-        "par": "PBB - Luckily We Still Have Music(2:10:42 PM)",
+        "genre": "PBB - Luckily We Still Have Music(2:10:42 PM)",
         "label": "",
         "artist": false,
         "title": false,
@@ -121,7 +120,7 @@
     },
     {
         "otitle": "(Beats) HUGO MASSIEN - Different People _ E BEAMZ(2:10:56 PM)",
-        "par": "(Beats)",
+        "genre": "(Beats)",
         "label": " E BEAMZ(2",
         "artist": "HUGO MASSIEN ",
         "title": "Different People ",
@@ -129,7 +128,7 @@
     },
     {
         "otitle": "(T) FIERCE RULING DIVA - You gotta beleive(2:14:46 PM)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "FIERCE RULING DIVA ",
         "title": "You gotta beleive(2",
@@ -137,7 +136,7 @@
     },
     {
         "otitle": "(DubStep) CALIBRE - stolen shadow(2:21:50 PM)",
-        "par": "(DubStep)",
+        "genre": "(DubStep)",
         "label": "",
         "artist": "CALIBRE ",
         "title": "stolen shadow(2",
@@ -145,7 +144,7 @@
     },
     {
         "otitle": "(Disco) EVELYN CHAMPAGNE KING - shame(2:26:35 PM)",
-        "par": "(Disco)",
+        "genre": "(Disco)",
         "label": "",
         "artist": "EVELYN CHAMPAGNE KING ",
         "title": "shame(2",
@@ -153,7 +152,7 @@
     },
     {
         "otitle": "(R) GLENN ADAMS - Cant Hide Your Love(2:33:00 PM)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "GLENN ADAMS ",
         "title": "Cant Hide Your Love(2",
@@ -161,7 +160,7 @@
     },
     {
         "otitle": "(P) RADIOHEAD - no surprises EMI(2:36:05 PM)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "RADIOHEAD ",
         "title": "no surprises EMI(2",
@@ -169,7 +168,7 @@
     },
     {
         "otitle": "(Ro) VELVET UNDERGROUND - i m waiting for my men VERVE(2:39:55 PM)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "VELVET UNDERGROUND ",
         "title": "i m waiting for my men VERVE(2",
@@ -177,7 +176,7 @@
     },
     {
         "otitle": "(Db) WHINEY - Freedom Dub _ HOSPITAL(2:44:30 PM)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": " HOSPITAL(2",
         "artist": "WHINEY ",
         "title": "Freedom Dub ",
@@ -185,7 +184,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(2:48:35 PM)",
-        "par": "PBB - Luckily We Still Have Music(2:48:35 PM)",
+        "genre": "PBB - Luckily We Still Have Music(2:48:35 PM)",
         "label": "",
         "artist": false,
         "title": false,
@@ -193,7 +192,7 @@
     },
     {
         "otitle": "(HH_N) ABD AL MALIK - juliette greco(2:48:50 PM)",
-        "par": "(HH_N)",
+        "genre": "(HH_N)",
         "label": "",
         "artist": "ABD AL MALIK ",
         "title": "juliette greco(2",
@@ -201,7 +200,7 @@
     },
     {
         "otitle": "(J) COLLAGE - uheskoos(2:55:30 PM)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "COLLAGE ",
         "title": "uheskoos(2",
@@ -209,7 +208,7 @@
     },
     {
         "otitle": "(Dt) JAC BERROCAL - rock n roll station(2:58:20 PM)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "JAC BERROCAL ",
         "title": "rock n roll station(2",
@@ -217,7 +216,7 @@
     },
     {
         "otitle": "(T) DYSPAL - Guardian(3:03:01 PM)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "DYSPAL ",
         "title": "Guardian(3",
@@ -225,7 +224,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(3:09:53 PM)",
-        "par": "PBB - Luckily We Still Have Music(3:09:53 PM)",
+        "genre": "PBB - Luckily We Still Have Music(3:09:53 PM)",
         "label": "",
         "artist": false,
         "title": false,
@@ -233,7 +232,7 @@
     },
     {
         "otitle": "(H) KERRI CHANDLER & JEROME SYDENHAM (feat. Troy Denari) - You're in My System(3:09:56 PM)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "KERRI CHANDLER & JEROME SYDENHAM (feat. Troy Denari) ",
         "title": "You're in My System(3",
@@ -241,7 +240,7 @@
     },
     {
         "otitle": "(T) 2030 - in aeternum(3:17:12 PM)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "2030 ",
         "title": "in aeternum(3",
@@ -249,7 +248,7 @@
     },
     {
         "otitle": "(W) DONSO - mogoya(3:22:12 PM)",
-        "par": "(W)",
+        "genre": "(W)",
         "label": "",
         "artist": "DONSO ",
         "title": "mogoya(3",
@@ -257,7 +256,7 @@
     },
     {
         "otitle": "(S) ARETHA FRANKLIN - the house that jack built(3:25:25 PM)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "ARETHA FRANKLIN ",
         "title": "the house that jack built(3",
@@ -265,7 +264,7 @@
     },
     {
         "otitle": "(HH) MARLOWE - Later with It(3:27:40 PM)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "MARLOWE ",
         "title": "Later with It(3",
@@ -273,7 +272,7 @@
     },
     {
         "otitle": "(Dt) fuck knows - B1 ET 2(3:30:30 PM)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "fuck knows ",
         "title": "B1 ET 2(3",
@@ -281,7 +280,7 @@
     },
     {
         "otitle": "(N) JOHN BELTRAN - clouds pull(3:38:15 PM)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "JOHN BELTRAN ",
         "title": "clouds pull(3",
@@ -289,7 +288,7 @@
     },
     {
         "otitle": "(Ro_L) THE DOORS - break on through(3:41:55 PM)",
-        "par": "(Ro_L)",
+        "genre": "(Ro_L)",
         "label": "",
         "artist": "THE DOORS ",
         "title": "break on through(3",
@@ -297,7 +296,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(3:48:00 PM)",
-        "par": "PBB - Luckily We Still Have Music(3:48:00 PM)",
+        "genre": "PBB - Luckily We Still Have Music(3:48:00 PM)",
         "label": "",
         "artist": false,
         "title": false,
@@ -305,7 +304,7 @@
     },
     {
         "otitle": "(Blues) HI REVVING TONGUES - little red rooster(3:48:15 PM)",
-        "par": "(Blues)",
+        "genre": "(Blues)",
         "label": "",
         "artist": "HI REVVING TONGUES ",
         "title": "little red rooster(3",
@@ -313,7 +312,7 @@
     },
     {
         "otitle": "(D_N) BOHEME - seasons remix(3:53:15 PM)",
-        "par": "(D_N)",
+        "genre": "(D_N)",
         "label": "",
         "artist": "BOHEME ",
         "title": "seasons remix(3",
@@ -321,7 +320,7 @@
     },
     {
         "otitle": "(T_N) SIMONCINO - Ambient Deep _ JUST JACK(3:58:00 PM)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": " JUST JACK(3",
         "artist": "SIMONCINO ",
         "title": "Ambient Deep ",
@@ -329,7 +328,7 @@
     },
     {
         "otitle": "(H) SHADOW CHILD - FFFound _SHALL NOT FADE(4:01:55 PM)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "SHALL NOT FADE(4",
         "artist": "SHADOW CHILD ",
         "title": "FFFound ",
@@ -337,7 +336,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(4:07:25 PM)",
-        "par": "PBB - Luckily We Still Have Music(4:07:25 PM)",
+        "genre": "PBB - Luckily We Still Have Music(4:07:25 PM)",
         "label": "",
         "artist": false,
         "title": false,
@@ -345,7 +344,7 @@
     },
     {
         "otitle": "(P) BOULEVARDS - Brother! _NORMALTOWN(4:07:35 PM)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "NORMALTOWN(4",
         "artist": "BOULEVARDS ",
         "title": "Brother! ",
@@ -353,7 +352,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER - coloured city(4:11:30 PM)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "coloured city(4",
@@ -361,7 +360,7 @@
     },
     {
         "otitle": "(HH) BETA HECTOR - Oracle Bones(4:17:40 PM)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "BETA HECTOR ",
         "title": "Oracle Bones(4",
@@ -369,7 +368,7 @@
     },
     {
         "otitle": "(S) HAMMER - tuane(4:20:40 PM)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "HAMMER ",
         "title": "tuane(4",
@@ -377,7 +376,7 @@
     },
     {
         "otitle": "(Bra) MAGA BO - no balan\ufffdo da canoa(4:23:45 PM)",
-        "par": "(Bra)",
+        "genre": "(Bra)",
         "label": "",
         "artist": "MAGA BO ",
         "title": "no balan\ufffdo da canoa(4",
@@ -385,7 +384,7 @@
     },
     {
         "otitle": "(Ro) MALACHAI - snowflake(4:27:46 PM)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "MALACHAI ",
         "title": "snowflake(4",
@@ -393,7 +392,7 @@
     },
     {
         "otitle": "(Ro) THE DOORS - who do you love(2021-04-28T14:35:30.853Z)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE DOORS ",
         "title": "who do you love(2021-04-28T14:3",
@@ -401,7 +400,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(T14:42:44)",
-        "par": "PBB - Luckily We Still Have Music(T14:42:44)",
+        "genre": "PBB - Luckily We Still Have Music(T14:42:44)",
         "label": "",
         "artist": false,
         "title": false,
@@ -409,7 +408,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(14:43:02)",
-        "par": "PBB - Luckily We Still Have Music(14:43:02)",
+        "genre": "PBB - Luckily We Still Have Music(14:43:02)",
         "label": "",
         "artist": false,
         "title": false,
@@ -417,7 +416,7 @@
     },
     {
         "otitle": "(S_N) CHILDREN OF ZEUS - hard work(14:43:17)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "CHILDREN OF ZEUS ",
         "title": "hard work",
@@ -425,7 +424,7 @@
     },
     {
         "otitle": "(J) STEVE REID - dabronxxar(14:46:42)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "STEVE REID ",
         "title": "dabronxxar",
@@ -433,7 +432,7 @@
     },
     {
         "otitle": "(N) PLUMBLINE AND ROGER ENO - transparency(14:56:52)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "PLUMBLINE AND ROGER ENO ",
         "title": "transparency",
@@ -441,7 +440,7 @@
     },
     {
         "otitle": "(P_N) BOULEVARDS - Losmahway _NORMALTOWN(15:00:27)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "NORMALTOWN",
         "artist": "BOULEVARDS ",
         "title": "Losmahway ",
@@ -449,7 +448,7 @@
     },
     {
         "otitle": "(T) ARTIST CODE 53504D & 414D41 - Poliritmo _ COD3 QR(15:03:37)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": " COD3 QR",
         "artist": "ARTIST CODE 53504D & 414D41 ",
         "title": "Poliritmo ",
@@ -457,7 +456,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(15:09:27)",
-        "par": "PBB - Luckily We Still Have Music(15:09:27)",
+        "genre": "PBB - Luckily We Still Have Music(15:09:27)",
         "label": "",
         "artist": false,
         "title": false,
@@ -465,7 +464,7 @@
     },
     {
         "otitle": "(H) MARC OVEOUS - On Again(15:10:12)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "MARC OVEOUS ",
         "title": "On Again",
@@ -473,7 +472,7 @@
     },
     {
         "otitle": "(T) HEIKO LAUX - there there(15:15:17)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "HEIKO LAUX ",
         "title": "there there",
@@ -481,7 +480,7 @@
     },
     {
         "otitle": "(W) THE RIFT VALLEY BROTHERS - tiga kurira(15:23:57)",
-        "par": "(W)",
+        "genre": "(W)",
         "label": "",
         "artist": "THE RIFT VALLEY BROTHERS ",
         "title": "tiga kurira",
@@ -489,7 +488,7 @@
     },
     {
         "otitle": "(S) BETA HECTOR - payback(15:28:22)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "BETA HECTOR ",
         "title": "payback",
@@ -497,7 +496,7 @@
     },
     {
         "otitle": "(HH) JONWAYNE - these words are everything(15:31:42)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "JONWAYNE ",
         "title": "these words are everything",
@@ -505,7 +504,7 @@
     },
     {
         "otitle": "(HH) JONWAYNE - these words are everything(15:33:48)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "JONWAYNE ",
         "title": "these words are everything",
@@ -513,7 +512,7 @@
     },
     {
         "otitle": "(N) VISTA LE VIE - crime in stereo(15:36:53)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "VISTA LE VIE ",
         "title": "crime in stereo",
@@ -521,7 +520,7 @@
     },
     {
         "otitle": "(N) SAND - melodica SATELLITE(15:40:49)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "SAND ",
         "title": "melodica SATELLITE",
@@ -529,7 +528,7 @@
     },
     {
         "otitle": "(N) SAND - melodica SATELLITE(15:40:52)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "SAND ",
         "title": "melodica SATELLITE",
@@ -537,7 +536,7 @@
     },
     {
         "otitle": "(Ro) THE HEAVY - just my luck(15:46:03)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE HEAVY ",
         "title": "just my luck",
@@ -545,7 +544,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(15:48:49)",
-        "par": "PBB - Luckily We Still Have Music(15:48:49)",
+        "genre": "PBB - Luckily We Still Have Music(15:48:49)",
         "label": "",
         "artist": false,
         "title": false,
@@ -553,7 +552,7 @@
     },
     {
         "otitle": "(J) JOHN COLTRANE - naima ATLANTIC(15:49:23)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "JOHN COLTRANE ",
         "title": "naima ATLANTIC",
@@ -561,7 +560,7 @@
     },
     {
         "otitle": "(BB_N) ARTS THE BEATDOCTOR - between the lines(15:53:48)",
-        "par": "(BB_N)",
+        "genre": "(BB_N)",
         "label": "",
         "artist": "ARTS THE BEATDOCTOR ",
         "title": "between the lines",
@@ -569,7 +568,7 @@
     },
     {
         "otitle": "Flux: (17:55:36)",
-        "par": "Flux: (17:55:36)",
+        "genre": "Flux: (17:55:36)",
         "label": "",
         "artist": false,
         "title": false,
@@ -577,7 +576,7 @@
     },
     {
         "otitle": "(BB_N) ARTS THE BEATDOCTOR - between the lines(17:55:41)",
-        "par": "(BB_N)",
+        "genre": "(BB_N)",
         "label": "",
         "artist": "ARTS THE BEATDOCTOR ",
         "title": "between the lines",
@@ -585,7 +584,7 @@
     },
     {
         "otitle": "(T_N) JEFF MILLS - The Infinite Voyage _ AXIS(17:59:46)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": " AXIS",
         "artist": "JEFF MILLS ",
         "title": "The Infinite Voyage ",

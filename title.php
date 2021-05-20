@@ -59,7 +59,7 @@ function extractEle($str){
   }else{$label="";}
   
   //echo "<hr/>ftitle: " . $ftitle . "<br/>par: "  . $par . "<br/>artist:" . $artist . "<br/>title: " . $title . "<br/>label: " .$label . "<br/>time: " .$time;  
-  $array = array('otitle'=>$ftitle,'par' => $par,'label' => $label,'artist' => $artist,'title' => $title,'time'=> $time);
+  $array = array('otitle'=>$ftitle,'genre' => $par,'label' => $label,'artist' => $artist,'title' => $title,'time'=> $time);
   //echo "<hr/> array: " . 
   json_encode($array);
   //echo "<hr/> append2json: " . 

@@ -10,7 +10,6 @@
     <script type="text/javascript" src="js/psylo.js"></script>
     <script>
         $(function() {
-            //$("#jsonFiles").selectmenu();
             $("#jsonFiles").selectmenu({
                 select: function(event, data) {
                     //var firstVal = $('#jsonFiles').find(':selected').text();
@@ -20,7 +19,6 @@
                     $('#artist').keyup(function() {
                         setTimeout(stat2, 100);
                     }).keyup();
-
                     return false;
                 }
             });
@@ -28,7 +26,6 @@
                 $('#debug').html("FROM selectemenuselect selected file: " + $('#jsonFiles').val());
                 stat1();
             });
-
         });
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -51,16 +48,15 @@
         }
 
         function stat2() {
-
             var res = $.grep($jsonData, function(n, i) {
                 return n.otitle.toLowerCase().indexOf($("#artist").val().toLowerCase()) > -1;
             });
             var outputstr = "<table id='lastTrax' class='lastTrax'>" +
-                "<thead><th>Genre</th><th>Artist</th><th>Title</th><th>label</th><th>time</th></thead>";
+                "<thead><th>time</th><th>Genre</th><th>Artist</th><th>Title</th><th>label</th></thead>";
 
             $.each(res.reverse(), function(i, n) {
-                if (n.artist != false) {
-                    outputstr += "<tr><td width='70'>" + n.par + "</td><td width='200'>" + n.artist + "</td><td width='200'>" + n.title + "</td><td>" + n.label + "</td><td>" + n.time + "</td></tr>";
+                if (n.artist != false && n.artist != 'PBB') {
+                    outputstr += "<tr><td>" + n.time + "</td><td width='70'>" + n.genre + "</td><td width='200'>" + n.artist + "</td><td width='200'>" + n.title + "</td><td>" + n.label + "</td></tr>";
                 }
             });
             outputstr += "</table>";
@@ -70,22 +66,11 @@
 
         $(document).ready(function() {
             $(".brand").append(" - Stats");
-
-            // $.get('/img/bkg/', function(data) {
-            //     //data.reverse();
-            //     $.each(data, function(i, item) {
-            //         // need to add the path location
-            //         $imgFiles.push('http://psylo.ddns.net/img/bkg/' + item.name);
-            //     })
-            //     $("body").backgroundCycle({
-            //         imageUrls: $imgFiles,
-            //         fadeSpeed: 5000,
-            //         duration: 15000,
-            //         backgroundSize: SCALING_MODE_COVER
-            //     });
+            // $.ajaxSetup({
+            //     cache: false
             // });
             $.get("/json", function(data) {
-                data.reverse();
+                //data.reverse();
                 $.each(data, function(i, item) {
                     $("#content").append(item.name + "<br/>");
 
@@ -97,12 +82,11 @@
                 $('#jsonFiles :first-child').attr('selected', 'selected');
                 $('#jsonFiles').selectmenu('refresh').trigger('selectmenuselect');
             });
-            //stat2();
+            // simulate keyup in artist field
             $('#artist').focus();
             $('#artist').keyup(function() {
                 setTimeout(stat2, 100);
             }).keyup();
-            // Background slideshow
             // Background slideshow
             $.get('/img/lg/', function(data) {
                 //data.reverse();
@@ -152,7 +136,7 @@
                     <select name="jsonFiles" id="jsonFiles" style="background-color: darkgreen !important;">
                     </select>
                 </fieldset>
-                Search artist/title: <input type="text" id="artist" size="50" onkeyup="stat2();" style="background-color: darkgreen" />
+                Search: <input type="text" id="artist" size="50" onkeyup="stat2();" style="background-color: darkgreen" />
                 <div id="content" class="bg-trax"></div>
 
                 <!-- <p><a class="btn" href="#">View details »</a></p> -->

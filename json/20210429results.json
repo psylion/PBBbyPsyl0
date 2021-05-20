@@ -1,7 +1,6 @@
-[
-    {
+[{
         "otitle": "(Dt_N) WINSTON NEALE - Sinnerman _ TANGENTIAL MUSIC(00:02:09)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": " TANGENTIAL MUSIC",
         "artist": "WINSTON NEALE ",
         "title": "Sinnerman ",
@@ -9,7 +8,7 @@
     },
     {
         "otitle": "(Dt) NGYN, ESYDIA - Thanks for everything(00:08:14)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "NGYN, ESYDIA ",
         "title": "Thanks for everything",
@@ -17,7 +16,7 @@
     },
     {
         "otitle": "(J_P) BEN LAMAR GAY & EDINHO GERBER - swim swim(00:10:04)",
-        "par": "(J_P)",
+        "genre": "(J_P)",
         "label": "",
         "artist": "BEN LAMAR GAY & EDINHO GERBER ",
         "title": "swim swim",
@@ -25,7 +24,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(00:13:29)",
-        "par": "PBB - Luckily We Still Have Music(00:13:29)",
+        "genre": "PBB - Luckily We Still Have Music(00:13:29)",
         "label": "",
         "artist": false,
         "title": false,
@@ -33,7 +32,7 @@
     },
     {
         "otitle": "(t_N) plastikman - mind game(00:13:39)",
-        "par": "(t_N)",
+        "genre": "(t_N)",
         "label": "",
         "artist": "plastikman ",
         "title": "mind game",
@@ -41,7 +40,7 @@
     },
     {
         "otitle": "(A_N) LIGOVSKOI - Thessalonians(00:18:19)",
-        "par": "(A_N)",
+        "genre": "(A_N)",
         "label": "",
         "artist": "LIGOVSKOI ",
         "title": "Thessalonians",
@@ -49,7 +48,7 @@
     },
     {
         "otitle": "(E_N) MOHLAO - amber(00:21:49)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "",
         "artist": "MOHLAO ",
         "title": "amber",
@@ -57,7 +56,7 @@
     },
     {
         "otitle": "(E) JON_HOPKINS_ - light_through_the_veins_(00:27:29)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "through_the_veins_",
         "artist": "JON_HOPKINS_ ",
         "title": "light",
@@ -65,7 +64,7 @@
     },
     {
         "otitle": "(J_N) PORTICO QUARTET - beyond dialogue(00:36:44)",
-        "par": "(J_N)",
+        "genre": "(J_N)",
         "label": "",
         "artist": "PORTICO QUARTET ",
         "title": "beyond dialogue",
@@ -73,7 +72,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(00:43:24)",
-        "par": "PBB - Luckily We Still Have Music(00:43:24)",
+        "genre": "PBB - Luckily We Still Have Music(00:43:24)",
         "label": "",
         "artist": false,
         "title": false,
@@ -81,7 +80,7 @@
     },
     {
         "otitle": "(Bb_N) M VAUGHAN - Softly _ SUPER TUFF(00:43:39)",
-        "par": "(Bb_N)",
+        "genre": "(Bb_N)",
         "label": " SUPER TUFF",
         "artist": "M VAUGHAN ",
         "title": "Softly ",
@@ -89,7 +88,7 @@
     },
     {
         "otitle": "(Ra) SLEEPIN GIANTZ - badungdeng(00:47:09)",
-        "par": "(Ra)",
+        "genre": "(Ra)",
         "label": "",
         "artist": "SLEEPIN GIANTZ ",
         "title": "badungdeng",
@@ -97,7 +96,7 @@
     },
     {
         "otitle": "(H_N) PARIS BRIGHTLEDGE & ROBERT BOND - For Love (Eric Kupper Remix) _ CLONE(00:51:34)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": " CLONE",
         "artist": "PARIS BRIGHTLEDGE & ROBERT BOND ",
         "title": "For Love (Eric Kupper Remix) ",
@@ -105,7 +104,7 @@
     },
     {
         "otitle": "(H_N) PELETRONIC - About The Void _ FORTUNEA(00:57:34)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": " FORTUNEA",
         "artist": "PELETRONIC ",
         "title": "About The Void ",
@@ -113,7 +112,7 @@
     },
     {
         "otitle": "(E) LALI PUNA - together in electric dreams(01:03:09)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "LALI PUNA ",
         "title": "together in electric dreams",
@@ -121,7 +120,7 @@
     },
     {
         "otitle": "(Blues_W) SAINKHO NAMTCHYLAK  - Erge Chokka To - PONDEROSA(01:07:39)",
-        "par": "(Blues_W)",
+        "genre": "(Blues_W)",
         "label": "",
         "artist": "SAINKHO NAMTCHYLAK  ",
         "title": "Erge Chokka To - PONDEROSA",
@@ -129,7 +128,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(01:14:09)",
-        "par": "PBB - Luckily We Still Have Music(01:14:09)",
+        "genre": "PBB - Luckily We Still Have Music(01:14:09)",
         "label": "",
         "artist": false,
         "title": false,
@@ -137,7 +136,7 @@
     },
     {
         "otitle": "(Dt_N) LONE - Borea(01:14:29)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": "",
         "artist": "LONE ",
         "title": "Borea",
@@ -145,7 +144,7 @@
     },
     {
         "otitle": "(H_N) MONOLITHIC - time(01:17:59)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "MONOLITHIC ",
         "title": "time",
@@ -153,7 +152,7 @@
     },
     {
         "otitle": "(E_N) LAPALUX - Earth(01:24:44)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "",
         "artist": "LAPALUX ",
         "title": "Earth",
@@ -161,7 +160,7 @@
     },
     {
         "otitle": "(E) FRANZ KIRMANN - liza(01:29:24)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "FRANZ KIRMANN ",
         "title": "liza",
@@ -169,7 +168,7 @@
     },
     {
         "otitle": "(S_N) THA 4RCE - neva shoulda(01:35:19)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "THA 4RCE ",
         "title": "neva shoulda",
@@ -177,7 +176,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(01:39:29)",
-        "par": "PBB - Luckily We Still Have Music(01:39:29)",
+        "genre": "PBB - Luckily We Still Have Music(01:39:29)",
         "label": "",
         "artist": false,
         "title": false,
@@ -185,7 +184,7 @@
     },
     {
         "otitle": "(E_N) CHAPELIER FOU - 4, Rue d'Istanbul _ICI D'AILLEURS(01:39:44)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "ICI D'AILLEURS",
         "artist": "CHAPELIER FOU ",
         "title": "4, Rue d'Istanbul ",
@@ -193,7 +192,7 @@
     },
     {
         "otitle": "(D) SIDESHOW_ - youth_of_today_(01:41:59)",
-        "par": "(D)",
+        "genre": "(D)",
         "label": "of_today_",
         "artist": "SIDESHOW_ ",
         "title": "youth",
@@ -201,7 +200,7 @@
     },
     {
         "otitle": "(H_N) SEVEN DAVID JR - One _ SECRET ANGELS(01:46:54)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": " SECRET ANGELS",
         "artist": "SEVEN DAVID JR ",
         "title": "One ",
@@ -209,7 +208,7 @@
     },
     {
         "otitle": "(Dt_N) JIMBO JONES - Almost Post Coital _ JPRM(01:53:34)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": " JPRM",
         "artist": "JIMBO JONES ",
         "title": "Almost Post Coital ",
@@ -217,7 +216,7 @@
     },
     {
         "otitle": "(E) LORN - weigh me down(01:57:09)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "LORN ",
         "title": "weigh me down",
@@ -225,7 +224,7 @@
     },
     {
         "otitle": "(J) LOS ALAMITOS - latin funk love song(02:00:49)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "LOS ALAMITOS ",
         "title": "latin funk love song",
@@ -233,7 +232,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(02:07:39)",
-        "par": "PBB - Luckily We Still Have Music(02:07:39)",
+        "genre": "PBB - Luckily We Still Have Music(02:07:39)",
         "label": "",
         "artist": false,
         "title": false,
@@ -241,7 +240,7 @@
     },
     {
         "otitle": "(H_N) CHYMERA - umbrella(02:07:54)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "CHYMERA ",
         "title": "umbrella",
@@ -249,7 +248,7 @@
     },
     {
         "otitle": "(W_N) TRIO TEKKE - Excerpt (in da alt. version)(02:14:49)",
-        "par": "(W_N)",
+        "genre": "(W_N)",
         "label": "",
         "artist": "TRIO TEKKE ",
         "title": "Excerpt (in da alt. version)",
@@ -257,7 +256,7 @@
     },
     {
         "otitle": "(H_N) TIM DELUXE - tryin find a way(02:17:34)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "TIM DELUXE ",
         "title": "tryin find a way",
@@ -265,7 +264,7 @@
     },
     {
         "otitle": "(E) RONE - Babel(02:24:39)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "RONE ",
         "title": "Babel",
@@ -273,7 +272,7 @@
     },
     {
         "otitle": "(Dt_N) SONNYMOON - blast off(02:28:49)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": "",
         "artist": "SONNYMOON ",
         "title": "blast off",
@@ -281,7 +280,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(02:32:59)",
-        "par": "PBB - Luckily We Still Have Music(02:32:59)",
+        "genre": "PBB - Luckily We Still Have Music(02:32:59)",
         "label": "",
         "artist": false,
         "title": false,
@@ -289,7 +288,7 @@
     },
     {
         "otitle": "(T_N) ANDREA PASSENGER - Begin n(02:33:14)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "ANDREA PASSENGER ",
         "title": "Begin n",
@@ -297,7 +296,7 @@
     },
     {
         "otitle": "(R) DJ VADIM - Hidden Treasure ft. Sabira Jade & Kwasi Asante(02:38:44)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "DJ VADIM ",
         "title": "Hidden Treasure ft. Sabira Jade & Kwasi Asante",
@@ -305,7 +304,7 @@
     },
     {
         "otitle": "(J_N) SCRUSCRU - Rain In A Bamboo Grove _ OMENA(02:42:24)",
-        "par": "(J_N)",
+        "genre": "(J_N)",
         "label": " OMENA",
         "artist": "SCRUSCRU ",
         "title": "Rain In A Bamboo Grove ",
@@ -313,7 +312,7 @@
     },
     {
         "otitle": "(T_N) ANTHONY ROTHER - The Unknown X(02:46:19)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "ANTHONY ROTHER ",
         "title": "The Unknown X",
@@ -321,7 +320,7 @@
     },
     {
         "otitle": "(N) KING KRIMSON - nuages VIRGIN(02:51:09)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "KING KRIMSON ",
         "title": "nuages VIRGIN",
@@ -329,7 +328,7 @@
     },
     {
         "otitle": "(J) SATHIMA BEA BENJAMIN - africa(02:55:54)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "SATHIMA BEA BENJAMIN ",
         "title": "africa",
@@ -337,7 +336,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(03:03:54)",
-        "par": "PBB - Luckily We Still Have Music(03:03:54)",
+        "genre": "PBB - Luckily We Still Have Music(03:03:54)",
         "label": "",
         "artist": false,
         "title": false,
@@ -345,7 +344,7 @@
     },
     {
         "otitle": "(Fr_N) ALAIN BASHUNG - la nuit je mens (unplugged)(03:04:09)",
-        "par": "(Fr_N)",
+        "genre": "(Fr_N)",
         "label": "",
         "artist": "ALAIN BASHUNG ",
         "title": "la nuit je mens (unplugged)",
@@ -353,7 +352,7 @@
     },
     {
         "otitle": "(F_N) THE SOUND DEFECTS - dreaming about dreams(03:08:34)",
-        "par": "(F_N)",
+        "genre": "(F_N)",
         "label": "",
         "artist": "THE SOUND DEFECTS ",
         "title": "dreaming about dreams",
@@ -361,7 +360,7 @@
     },
     {
         "otitle": "(T_N) SARA BERG - another night(03:09:39)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "SARA BERG ",
         "title": "another night",
@@ -369,7 +368,7 @@
     },
     {
         "otitle": "(N) LAMBCHOP - the daily growl CITY SLANG(03:14:49)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "LAMBCHOP ",
         "title": "the daily growl CITY SLANG",
@@ -377,7 +376,7 @@
     },
     {
         "otitle": "(S_N) ARLO PARKS - Sophie(03:21:29)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "ARLO PARKS ",
         "title": "Sophie",
@@ -385,7 +384,7 @@
     },
     {
         "otitle": "(Db_N) MITEKISS - Rain (Falling Down)(03:25:04)",
-        "par": "(Db_N)",
+        "genre": "(Db_N)",
         "label": "",
         "artist": "MITEKISS ",
         "title": "Rain (Falling Down)",
@@ -393,7 +392,7 @@
     },
     {
         "otitle": "(L) DEADLINE VS BATACUMBELE - batacumbele(03:29:34)",
-        "par": "(L)",
+        "genre": "(L)",
         "label": "",
         "artist": "DEADLINE VS BATACUMBELE ",
         "title": "batacumbele",
@@ -401,7 +400,7 @@
     },
     {
         "otitle": "(Ft_N) JOSEPH EFI - This Is Lovely(03:35:29)",
-        "par": "(Ft_N)",
+        "genre": "(Ft_N)",
         "label": "",
         "artist": "JOSEPH EFI ",
         "title": "This Is Lovely",
@@ -409,7 +408,7 @@
     },
     {
         "otitle": "(T_N) VINCE WATSON - First Wave(03:39:49)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "VINCE WATSON ",
         "title": "First Wave",
@@ -417,7 +416,7 @@
     },
     {
         "otitle": "(Dt) TALL BLACK GUY - water no enemy(03:45:24)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "TALL BLACK GUY ",
         "title": "water no enemy",
@@ -425,7 +424,7 @@
     },
     {
         "otitle": "(J) DOMINICK MARTIN - the marches(03:50:04)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "DOMINICK MARTIN ",
         "title": "the marches",
@@ -433,7 +432,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(03:55:24)",
-        "par": "PBB - Luckily We Still Have Music(03:55:24)",
+        "genre": "PBB - Luckily We Still Have Music(03:55:24)",
         "label": "",
         "artist": false,
         "title": false,
@@ -441,7 +440,7 @@
     },
     {
         "otitle": "(E_N) AKIDO - la memoire de l onde(03:55:39)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "",
         "artist": "AKIDO ",
         "title": "la memoire de l onde",
@@ -449,7 +448,7 @@
     },
     {
         "otitle": "(T_N) VOPHONIQ - enter the mystic truth (OBE version)(03:58:39)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "VOPHONIQ ",
         "title": "enter the mystic truth (OBE version)",
@@ -457,7 +456,7 @@
     },
     {
         "otitle": "(X_N) FRANCESCO TRISTANO - mambo(04:10:29)",
-        "par": "(X_N)",
+        "genre": "(X_N)",
         "label": "",
         "artist": "FRANCESCO TRISTANO ",
         "title": "mambo",
@@ -465,7 +464,7 @@
     },
     {
         "otitle": "(N) ANDRE ZIMMA - mermaids bay(04:17:04)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "ANDRE ZIMMA ",
         "title": "mermaids bay",
@@ -473,7 +472,7 @@
     },
     {
         "otitle": "(Db_N) BETA 2 - cabin fever(04:22:44)",
-        "par": "(Db_N)",
+        "genre": "(Db_N)",
         "label": "",
         "artist": "BETA 2 ",
         "title": "cabin fever",
@@ -481,7 +480,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(04:28:19)",
-        "par": "PBB - Luckily We Still Have Music(04:28:19)",
+        "genre": "PBB - Luckily We Still Have Music(04:28:19)",
         "label": "",
         "artist": false,
         "title": false,
@@ -489,7 +488,7 @@
     },
     {
         "otitle": "(Dt_N) ZIGGY ZEITGEIST & ERICA TUCCERI - Learning Curve _ LA SAPE(04:28:39)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": " LA SAPE",
         "artist": "ZIGGY ZEITGEIST & ERICA TUCCERI ",
         "title": "Learning Curve ",
@@ -497,7 +496,7 @@
     },
     {
         "otitle": "(R) PRINCE FATTY MEETS THE MUTANT HIFI (04:31:54)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "PRINCE FATTY MEETS THE MUTANT HIFI",
         "title": false,
@@ -505,7 +504,7 @@
     },
     {
         "otitle": "(E_N) BOP - Nde(04:35:14)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "",
         "artist": "BOP ",
         "title": "Nde",
@@ -513,7 +512,7 @@
     },
     {
         "otitle": "(E_N) CHAPELIER FOU - Senestre Eldorado _ICI D'AILLEURS(04:40:39)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "ICI D'AILLEURS",
         "artist": "CHAPELIER FOU ",
         "title": "Senestre Eldorado ",
@@ -521,7 +520,7 @@
     },
     {
         "otitle": "(N) A REMINISCENT DRIVE - i want to remember F COMM(04:44:24)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "A REMINISCENT DRIVE ",
         "title": "i want to remember F COMM",
@@ -529,7 +528,7 @@
     },
     {
         "otitle": "(J) CHICK COREA - return to forever(04:48:44)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "CHICK COREA ",
         "title": "return to forever",
@@ -537,7 +536,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(05:00:39)",
-        "par": "PBB - Luckily We Still Have Music(05:00:39)",
+        "genre": "PBB - Luckily We Still Have Music(05:00:39)",
         "label": "",
         "artist": false,
         "title": false,
@@ -545,7 +544,7 @@
     },
     {
         "otitle": "(Db_N) BREAK AND HYDRO - immaculate(05:00:54)",
-        "par": "(Db_N)",
+        "genre": "(Db_N)",
         "label": "",
         "artist": "BREAK AND HYDRO ",
         "title": "immaculate",
@@ -553,7 +552,7 @@
     },
     {
         "otitle": "(Db_N) ANILE - another year(05:07:39)",
-        "par": "(Db_N)",
+        "genre": "(Db_N)",
         "label": "",
         "artist": "ANILE ",
         "title": "another year",
@@ -561,7 +560,7 @@
     },
     {
         "otitle": "(X_N) MYRIAM ALTER - Inviting You(05:12:49)",
-        "par": "(X_N)",
+        "genre": "(X_N)",
         "label": "",
         "artist": "MYRIAM ALTER ",
         "title": "Inviting You",
@@ -569,7 +568,7 @@
     },
     {
         "otitle": "(E) MILDNAG - gerloch(05:19:29)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "MILDNAG ",
         "title": "gerloch",
@@ -577,7 +576,7 @@
     },
     {
         "otitle": "(Blues_N) LOWELL FULSON - trouble trouble(05:25:24)",
-        "par": "(Blues_N)",
+        "genre": "(Blues_N)",
         "label": "",
         "artist": "LOWELL FULSON ",
         "title": "trouble trouble",
@@ -585,7 +584,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(05:28:14)",
-        "par": "PBB - Luckily We Still Have Music(05:28:14)",
+        "genre": "PBB - Luckily We Still Have Music(05:28:14)",
         "label": "",
         "artist": false,
         "title": false,
@@ -593,7 +592,7 @@
     },
     {
         "otitle": "(E_N) DANIEL AVERY - After The Fire _PHANTASY SOUND(05:28:34)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "PHANTASY SOUND",
         "artist": "DANIEL AVERY ",
         "title": "After The Fire ",
@@ -601,7 +600,7 @@
     },
     {
         "otitle": "(L) MILTON ZAPATA - viva zapata(05:31:19)",
-        "par": "(L)",
+        "genre": "(L)",
         "label": "",
         "artist": "MILTON ZAPATA ",
         "title": "viva zapata",
@@ -609,7 +608,7 @@
     },
     {
         "otitle": "(H_N) JIMPSTER - Think Of You Always(05:37:54)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "JIMPSTER ",
         "title": "Think Of You Always",
@@ -617,7 +616,7 @@
     },
     {
         "otitle": "(H_N) LAROYE - Potion For Love Never (Give It Up) _ LOCAL TALK(05:44:09)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": " LOCAL TALK",
         "artist": "LAROYE ",
         "title": "Potion For Love Never (Give It Up) ",
@@ -625,7 +624,7 @@
     },
     {
         "otitle": "(Dt) SISSI - the voice of the ocean CUP OF TEA(05:52:04)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "SISSI ",
         "title": "the voice of the ocean CUP OF TEA",
@@ -633,7 +632,7 @@
     },
     {
         "otitle": "(J) YUSSEF KAMAAL - strings of light(05:55:24)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "YUSSEF KAMAAL ",
         "title": "strings of light",
@@ -641,7 +640,7 @@
     },
     {
         "otitle": "(E) LLYR - Powergraze 3D _ MESH(06:03:49)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": " MESH",
         "artist": "LLYR ",
         "title": "Powergraze 3D ",
@@ -649,7 +648,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(06:09:34)",
-        "par": "PBB - Luckily We Still Have Music(06:09:34)",
+        "genre": "PBB - Luckily We Still Have Music(06:09:34)",
         "label": "",
         "artist": false,
         "title": false,
@@ -657,7 +656,7 @@
     },
     {
         "otitle": "(S) DOMINIC GLOVER & GARY CROCKETT - jazz cat(06:10:09)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "DOMINIC GLOVER & GARY CROCKETT ",
         "title": "jazz cat",
@@ -665,7 +664,7 @@
     },
     {
         "otitle": "(L) FAMILY ATLANTICA - Arena(06:13:24)",
-        "par": "(L)",
+        "genre": "(L)",
         "label": "",
         "artist": "FAMILY ATLANTICA ",
         "title": "Arena",
@@ -673,7 +672,7 @@
     },
     {
         "otitle": "(H) ROY DAVIS JR - Gabriel(06:17:49)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "ROY DAVIS JR ",
         "title": "Gabriel",
@@ -681,7 +680,7 @@
     },
     {
         "otitle": "(Db_N) RUFIGE_CREW_VERSUS_COMMIX_ - envious_(06:25:09)",
-        "par": "(Db_N)",
+        "genre": "(Db_N)",
         "label": "",
         "artist": "RUFIGE_CREW_VERSUS_COMMIX_ ",
         "title": "envious",
@@ -689,7 +688,7 @@
     },
     {
         "otitle": "(N) GIL SCOTT HERON - me and the devil(06:32:04)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "GIL SCOTT HERON ",
         "title": "me and the devil",
@@ -697,7 +696,7 @@
     },
     {
         "otitle": "(N_N) THE RANDY WATSON EXPERIENCE - morning bell(06:35:39)",
-        "par": "(N_N)",
+        "genre": "(N_N)",
         "label": "",
         "artist": "THE RANDY WATSON EXPERIENCE ",
         "title": "morning bell",
@@ -705,7 +704,7 @@
     },
     {
         "otitle": "(S) THE TEMPOS - countdown(06:44:34)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "THE TEMPOS ",
         "title": "countdown",
@@ -713,7 +712,7 @@
     },
     {
         "otitle": "(J) MENAGERIE - the chosen(06:47:24)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "MENAGERIE ",
         "title": "the chosen",
@@ -721,7 +720,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(06:53:29)",
-        "par": "PBB - Luckily We Still Have Music(06:53:29)",
+        "genre": "PBB - Luckily We Still Have Music(06:53:29)",
         "label": "",
         "artist": false,
         "title": false,
@@ -729,7 +728,7 @@
     },
     {
         "otitle": "(Fr_N) SERGE GAINSBOURG - Ah Melody(06:53:44)",
-        "par": "(Fr_N)",
+        "genre": "(Fr_N)",
         "label": "",
         "artist": "SERGE GAINSBOURG ",
         "title": "Ah Melody",
@@ -737,7 +736,7 @@
     },
     {
         "otitle": "(P) LAURENT_GARNIER_ - pay_tv_ok_bonnie_remix_(06:55:29)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "tv_ok_bonnie_remix_",
         "artist": "LAURENT_GARNIER_ ",
         "title": "pay",
@@ -745,7 +744,7 @@
     },
     {
         "otitle": "(Beats) HUGO MASSIEN - Different People _ E BEAMZ(07:00:24)",
-        "par": "(Beats)",
+        "genre": "(Beats)",
         "label": " E BEAMZ",
         "artist": "HUGO MASSIEN ",
         "title": "Different People ",
@@ -753,7 +752,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(07:04:14)",
-        "par": "PBB - Luckily We Still Have Music(07:04:14)",
+        "genre": "PBB - Luckily We Still Have Music(07:04:14)",
         "label": "",
         "artist": false,
         "title": false,
@@ -761,7 +760,7 @@
     },
     {
         "otitle": "(F_N) CLAUDIA VITA - amame(07:04:29)",
-        "par": "(F_N)",
+        "genre": "(F_N)",
         "label": "",
         "artist": "CLAUDIA VITA ",
         "title": "amame",
@@ -769,7 +768,7 @@
     },
     {
         "otitle": "(S) THE_SOUL_FANTASTICS_ - aint_no_sunshine_(07:07:14)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "no_sunshine_",
         "artist": "THE_SOUL_FANTASTICS_ ",
         "title": "aint",
@@ -777,7 +776,7 @@
     },
     {
         "otitle": "(T_N) HIROSHI WATANABE - the Elements of spirit(07:10:24)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "HIROSHI WATANABE ",
         "title": "the Elements of spirit",
@@ -785,7 +784,7 @@
     },
     {
         "otitle": "(Brok) FOURTH WORLD - snake bite(07:19:09)",
-        "par": "(Brok)",
+        "genre": "(Brok)",
         "label": "",
         "artist": "FOURTH WORLD ",
         "title": "snake bite",
@@ -793,7 +792,7 @@
     },
     {
         "otitle": "(Dt) ALEX KID - i think(07:23:19)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "ALEX KID ",
         "title": "i think",
@@ -801,7 +800,7 @@
     },
     {
         "otitle": "(Fr) ENCRE - or CLAPPING MUSIC(07:30:04)",
-        "par": "(Fr)",
+        "genre": "(Fr)",
         "label": "",
         "artist": "ENCRE ",
         "title": "or CLAPPING MUSIC",
@@ -809,7 +808,7 @@
     },
     {
         "otitle": "(R) MCKAY - take me over(07:34:49)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "MCKAY ",
         "title": "take me over",
@@ -817,7 +816,7 @@
     },
     {
         "otitle": "(HH_N) DIALECT MUSIC - miroir(07:38:19)",
-        "par": "(HH_N)",
+        "genre": "(HH_N)",
         "label": "",
         "artist": "DIALECT MUSIC ",
         "title": "miroir",
@@ -825,7 +824,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(07:43:39)",
-        "par": "PBB - Luckily We Still Have Music(07:43:39)",
+        "genre": "PBB - Luckily We Still Have Music(07:43:39)",
         "label": "",
         "artist": false,
         "title": false,
@@ -833,7 +832,7 @@
     },
     {
         "otitle": "(J) AHMAD JAMAL - bogota(07:43:59)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "AHMAD JAMAL ",
         "title": "bogota",
@@ -841,7 +840,7 @@
     },
     {
         "otitle": "(HH) SAMPA THE GREAT - final form(07:47:59)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "SAMPA THE GREAT ",
         "title": "final form",
@@ -849,7 +848,7 @@
     },
     {
         "otitle": "(T) MARTIN PATINO - make love(07:51:39)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "MARTIN PATINO ",
         "title": "make love",
@@ -857,7 +856,7 @@
     },
     {
         "otitle": "(Brok) NIKITCH & KUNA MAZE - 46 Rue Du Fort (Sivey Rmx) _ TRU THOUGHTS(07:57:49)",
-        "par": "(Brok)",
+        "genre": "(Brok)",
         "label": " TRU THOUGHTS",
         "artist": "NIKITCH & KUNA MAZE ",
         "title": "46 Rue Du Fort (Sivey Rmx) ",
@@ -865,7 +864,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(08:03:24)",
-        "par": "PBB - Luckily We Still Have Music(08:03:24)",
+        "genre": "PBB - Luckily We Still Have Music(08:03:24)",
         "label": "",
         "artist": false,
         "title": false,
@@ -873,7 +872,7 @@
     },
     {
         "otitle": "(S) BRONX RIVER PARKWAY - quienes que resolverlo (Antes Que Acerlo)(08:03:39)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "BRONX RIVER PARKWAY ",
         "title": "quienes que resolverlo (Antes Que Acerlo)",
@@ -881,7 +880,7 @@
     },
     {
         "otitle": "(R) HORACE ANDY - evilest thing(08:06:34)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "HORACE ANDY ",
         "title": "evilest thing",
@@ -889,7 +888,7 @@
     },
     {
         "otitle": "(T) JAPANESE SYNCHRO SYSTEM - g1(08:09:19)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "JAPANESE SYNCHRO SYSTEM ",
         "title": "g1",
@@ -897,7 +896,7 @@
     },
     {
         "otitle": "(Db_N) CALIBRE - is it u(08:17:14)",
-        "par": "(Db_N)",
+        "genre": "(Db_N)",
         "label": "",
         "artist": "CALIBRE ",
         "title": "is it u",
@@ -905,7 +904,7 @@
     },
     {
         "otitle": "(N) AQUA BASSINO - ibiza F COMM(08:22:49)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "AQUA BASSINO ",
         "title": "ibiza F COMM",
@@ -913,7 +912,7 @@
     },
     {
         "otitle": "(N_N) NILS FRAHM - sunson(08:34:04)",
-        "par": "(N_N)",
+        "genre": "(N_N)",
         "label": "",
         "artist": "NILS FRAHM ",
         "title": "sunson",
@@ -921,7 +920,7 @@
     },
     {
         "otitle": "(F) JOHNNY PATE - shaft in africa(08:40:59)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "JOHNNY PATE ",
         "title": "shaft in africa",
@@ -929,7 +928,7 @@
     },
     {
         "otitle": "(J) PATCHWORKS - tribute to mulatu(08:43:59)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "PATCHWORKS ",
         "title": "tribute to mulatu",
@@ -937,7 +936,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(08:50:24)",
-        "par": "PBB - Luckily We Still Have Music(08:50:24)",
+        "genre": "PBB - Luckily We Still Have Music(08:50:24)",
         "label": "",
         "artist": false,
         "title": false,
@@ -945,7 +944,7 @@
     },
     {
         "otitle": "(Blues_N) THE ANIMALS - i believe to my soul(08:50:44)",
-        "par": "(Blues_N)",
+        "genre": "(Blues_N)",
         "label": "",
         "artist": "THE ANIMALS ",
         "title": "i believe to my soul",
@@ -953,7 +952,7 @@
     },
     {
         "otitle": "(Ro) THE BLACK ANGELS - haunting at 1300 McKinley(08:54:09)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE BLACK ANGELS ",
         "title": "haunting at 1300 McKinley",
@@ -961,7 +960,7 @@
     },
     {
         "otitle": "(H) PREQUEL - Love Is(08:56:34)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "PREQUEL ",
         "title": "Love Is",
@@ -969,7 +968,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(09:01:54)",
-        "par": "PBB - Luckily We Still Have Music(09:01:54)",
+        "genre": "PBB - Luckily We Still Have Music(09:01:54)",
         "label": "",
         "artist": false,
         "title": false,
@@ -977,7 +976,7 @@
     },
     {
         "otitle": "(D_N) CESSMAN - in the beginning(09:02:34)",
-        "par": "(D_N)",
+        "genre": "(D_N)",
         "label": "",
         "artist": "CESSMAN ",
         "title": "in the beginning",
@@ -985,7 +984,7 @@
     },
     {
         "otitle": "(S) CHARLES BRADLEY - Where Do We Go From Here(09:07:39)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "CHARLES BRADLEY ",
         "title": "Where Do We Go From Here",
@@ -993,7 +992,7 @@
     },
     {
         "otitle": "(T_N) NUMBERT OF NAMES - shari vari(09:10:49)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "NUMBERT OF NAMES ",
         "title": "shari vari",
@@ -1001,7 +1000,7 @@
     },
     {
         "otitle": "(T) TAKUYA YAMASHITA - daybreak(09:16:14)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "TAKUYA YAMASHITA ",
         "title": "daybreak",
@@ -1009,7 +1008,7 @@
     },
     {
         "otitle": "(E) LAURENT GARNIER - 9.01 9.06 _ F COMMUNICATIONS(09:24:04)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": " F COMMUNICATIONS",
         "artist": "LAURENT GARNIER ",
         "title": "9.01 9.06 ",
@@ -1017,7 +1016,7 @@
     },
     {
         "otitle": "(P) WAS HED OUT - far away(09:29:24)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "WAS HED OUT ",
         "title": "far away",
@@ -1025,7 +1024,7 @@
     },
     {
         "otitle": "(Spain) LHASA - pa llegar a tu lado(09:33:19)",
-        "par": "(Spain)",
+        "genre": "(Spain)",
         "label": "",
         "artist": "LHASA ",
         "title": "pa llegar a tu lado",
@@ -1033,7 +1032,7 @@
     },
     {
         "otitle": "(S_N) FATIMA - soul glo(09:37:54)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "FATIMA ",
         "title": "soul glo",
@@ -1041,7 +1040,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(09:41:24)",
-        "par": "PBB - Luckily We Still Have Music(09:41:24)",
+        "genre": "PBB - Luckily We Still Have Music(09:41:24)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1049,7 +1048,7 @@
     },
     {
         "otitle": "(J) BRAD MEHLDAU - song song WARNER(09:41:39)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "BRAD MEHLDAU ",
         "title": "song song WARNER",
@@ -1057,7 +1056,7 @@
     },
     {
         "otitle": "(HH) GHOSTPOET - cash & carry me home(09:48:04)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "GHOSTPOET ",
         "title": "cash & carry me home",
@@ -1065,7 +1064,7 @@
     },
     {
         "otitle": "(T) DAVE DK - Palmaille(09:51:34)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "DAVE DK ",
         "title": "Palmaille",
@@ -1073,7 +1072,7 @@
     },
     {
         "otitle": "(Db) GLXY - She Sings For Me _ SHOGUN AUDIO(09:58:49)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": " SHOGUN AUDIO",
         "artist": "GLXY ",
         "title": "She Sings For Me ",
@@ -1081,7 +1080,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(10:03:44)",
-        "par": "PBB - Luckily We Still Have Music(10:03:44)",
+        "genre": "PBB - Luckily We Still Have Music(10:03:44)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1089,7 +1088,7 @@
     },
     {
         "otitle": "(S) THE MAD'S - aouh aouh(10:04:34)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "THE MAD'S ",
         "title": "aouh aouh",
@@ -1097,7 +1096,7 @@
     },
     {
         "otitle": "(R) EARLY B - girls dem sexy(10:11:04)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "EARLY B ",
         "title": "girls dem sexy",
@@ -1105,7 +1104,7 @@
     },
     {
         "otitle": "(H) DETROIT SWINDLE - high life(10:14:59)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "DETROIT SWINDLE ",
         "title": "high life",
@@ -1113,7 +1112,7 @@
     },
     {
         "otitle": "(H_N) CALIBRE - mansionite(10:22:09)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "CALIBRE ",
         "title": "mansionite",
@@ -1121,7 +1120,7 @@
     },
     {
         "otitle": "(Dt) OZZY - paranoia(10:27:04)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "OZZY ",
         "title": "paranoia",
@@ -1129,7 +1128,7 @@
     },
     {
         "otitle": "(Dt_N) 2BAD & DJ METATRONS - What If Madness Is (The Only Relief Rework)(10:32:04)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": "",
         "artist": "2BAD & DJ METATRONS ",
         "title": "What If Madness Is (The Only Relief Rework)",
@@ -1137,7 +1136,7 @@
     },
     {
         "otitle": "(F) QUANTIC SOUL ORCHESTRA - panama city(10:41:24)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "QUANTIC SOUL ORCHESTRA ",
         "title": "panama city",
@@ -1145,7 +1144,7 @@
     },
     {
         "otitle": "(Jup) RUTH PAUL & HER RHYTHMAKERS - mambo baby(10:46:34)",
-        "par": "(Jup)",
+        "genre": "(Jup)",
         "label": "",
         "artist": "RUTH PAUL & HER RHYTHMAKERS ",
         "title": "mambo baby",
@@ -1153,7 +1152,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(10:49:14)",
-        "par": "PBB - Luckily We Still Have Music(10:49:14)",
+        "genre": "PBB - Luckily We Still Have Music(10:49:14)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1161,7 +1160,7 @@
     },
     {
         "otitle": "(P_N) COLOR CLIMAX - batidas latinas(10:49:34)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "",
         "artist": "COLOR CLIMAX ",
         "title": "batidas latinas",
@@ -1169,7 +1168,7 @@
     },
     {
         "otitle": "(P_J) LINEAR JOHN - night on the town(10:53:39)",
-        "par": "(P_J)",
+        "genre": "(P_J)",
         "label": "",
         "artist": "LINEAR JOHN ",
         "title": "night on the town",
@@ -1177,7 +1176,7 @@
     },
     {
         "otitle": "(T) VINCE WATSON - Metamorphosis(10:57:04)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "VINCE WATSON ",
         "title": "Metamorphosis",
@@ -1185,7 +1184,7 @@
     },
     {
         "otitle": "(T) IAN O'DONOVAN - Offworld(11:03:54)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "IAN O'DONOVAN ",
         "title": "Offworld",
@@ -1193,7 +1192,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(11:11:19)",
-        "par": "PBB - Luckily We Still Have Music(11:11:19)",
+        "genre": "PBB - Luckily We Still Have Music(11:11:19)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1201,7 +1200,7 @@
     },
     {
         "otitle": "(H) SIMONCINO & VIRGO FOUR MERWYN - On The Dance Floor(11:11:39)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "SIMONCINO & VIRGO FOUR MERWYN ",
         "title": "On The Dance Floor",
@@ -1209,7 +1208,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER & MADBEN - MG's Groove(11:17:49)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER & MADBEN ",
         "title": "MG's Groove",
@@ -1217,7 +1216,7 @@
     },
     {
         "otitle": "(W) SIBUSIL XABA - open letter to adoniah(11:28:14)",
-        "par": "(W)",
+        "genre": "(W)",
         "label": "",
         "artist": "SIBUSIL XABA ",
         "title": "open letter to adoniah",
@@ -1225,7 +1224,7 @@
     },
     {
         "otitle": "(F) MR THING - why Don t you take us(11:33:14)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "MR THING ",
         "title": "why Don t you take us",
@@ -1233,7 +1232,7 @@
     },
     {
         "otitle": "(F) MR THING - why Don t you take us(11:36:46)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "MR THING ",
         "title": "why Don t you take us",
@@ -1241,7 +1240,7 @@
     },
     {
         "otitle": "(HH) G O O D MUSIC - clique(11:37:06)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "G O O D MUSIC ",
         "title": "clique",
@@ -1249,7 +1248,7 @@
     },
     {
         "otitle": "(E) FULGEANCE - she knew(11:42:01)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "FULGEANCE ",
         "title": "she knew",
@@ -1257,7 +1256,7 @@
     },
     {
         "otitle": "(N) PRINCE - how come you don't call me WARNER(11:46:21)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "PRINCE ",
         "title": "how come you don't call me WARNER",
@@ -1265,7 +1264,7 @@
     },
     {
         "otitle": "(P) TALKING HEADS - born under punches SIRE(11:50:01)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "TALKING HEADS ",
         "title": "born under punches SIRE",
@@ -1273,7 +1272,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(11:55:36)",
-        "par": "PBB - Luckily We Still Have Music(11:55:36)",
+        "genre": "PBB - Luckily We Still Have Music(11:55:36)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1281,7 +1280,7 @@
     },
     {
         "otitle": "(J) WISE - trail of tears part 2(11:56:46)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "WISE ",
         "title": "trail of tears part 2",
@@ -1289,7 +1288,7 @@
     },
     {
         "otitle": "(F_N) MAULAWI - street rap(12:01:21)",
-        "par": "(F_N)",
+        "genre": "(F_N)",
         "label": "",
         "artist": "MAULAWI ",
         "title": "street rap",
@@ -1297,7 +1296,7 @@
     },
     {
         "otitle": "(T_N) GESLOTEN CIRKEL - Ifmmtv(12:07:26)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "GESLOTEN CIRKEL ",
         "title": "Ifmmtv",
@@ -1305,7 +1304,7 @@
     },
     {
         "otitle": "(T) SINITSIN - Pathfinder _ UKONX(12:12:26)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": " UKONX",
         "artist": "SINITSIN ",
         "title": "Pathfinder ",
@@ -1313,7 +1312,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(12:18:01)",
-        "par": "PBB - Luckily We Still Have Music(12:18:01)",
+        "genre": "PBB - Luckily We Still Have Music(12:18:01)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1321,7 +1320,7 @@
     },
     {
         "otitle": "(E) CHAPELIER FOU - Les Mariannes _ICI D'AILLEURS(12:18:21)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "ICI D'AILLEURS",
         "artist": "CHAPELIER FOU ",
         "title": "Les Mariannes ",
@@ -1329,7 +1328,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER - flashback F COMMUNICATIONS(12:22:16)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "flashback F COMMUNICATIONS",
@@ -1337,7 +1336,7 @@
     },
     {
         "otitle": "(DubStep_D) JAZZSTEPPA - one(12:29:26)",
-        "par": "(DubStep_D)",
+        "genre": "(DubStep_D)",
         "label": "",
         "artist": "JAZZSTEPPA ",
         "title": "one",
@@ -1345,7 +1344,7 @@
     },
     {
         "otitle": "(F) DOMINATRIX - dominatrix sleeps tonight WARNER(12:34:36)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "DOMINATRIX ",
         "title": "dominatrix sleeps tonight WARNER",
@@ -1353,7 +1352,7 @@
     },
     {
         "otitle": "(W) FELA ANIKULAPO KUTI & AFRIVA 70 - no agreement(12:38:11)",
-        "par": "(W)",
+        "genre": "(W)",
         "label": "",
         "artist": "FELA ANIKULAPO KUTI & AFRIVA 70 ",
         "title": "no agreement",
@@ -1361,7 +1360,7 @@
     },
     {
         "otitle": "(P) THE MOLDY PEACHES - jorge regula(12:53:41)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "THE MOLDY PEACHES ",
         "title": "jorge regula",
@@ -1369,7 +1368,7 @@
     },
     {
         "otitle": "(Ro) FOXYGEN - oh yeah(12:56:46)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "FOXYGEN ",
         "title": "oh yeah",
@@ -1377,7 +1376,7 @@
     },
     {
         "otitle": "(T) JULES WELLS & WILLIAM MASSON - Human Condition in 2020(13:02:01)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "JULES WELLS & WILLIAM MASSON ",
         "title": "Human Condition in 2020",
@@ -1385,7 +1384,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(13:09:51)",
-        "par": "PBB - Luckily We Still Have Music(13:09:51)",
+        "genre": "PBB - Luckily We Still Have Music(13:09:51)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1393,7 +1392,7 @@
     },
     {
         "otitle": "(P_N) THE SLITS - Animal space spacier(13:10:16)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "",
         "artist": "THE SLITS ",
         "title": "Animal space spacier",
@@ -1401,7 +1400,7 @@
     },
     {
         "otitle": "(J) DONNY HATHAWAY - sugar lee(13:16:56)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "DONNY HATHAWAY ",
         "title": "sugar lee",
@@ -1409,7 +1408,7 @@
     },
     {
         "otitle": "(E) DOBIE - she moans (FaltyDL Remix)(13:20:56)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "DOBIE ",
         "title": "she moans (FaltyDL Remix)",
@@ -1417,7 +1416,7 @@
     },
     {
         "otitle": "(Fr_N_N) RONE & FLAVIEN BERGER - Polichinelle _ INFINE(13:25:51)",
-        "par": "(Fr_N_N)",
+        "genre": "(Fr_N_N)",
         "label": " INFINE",
         "artist": "RONE & FLAVIEN BERGER ",
         "title": "Polichinelle ",
@@ -1425,7 +1424,7 @@
     },
     {
         "otitle": "(Db) QUARTZ - Coercion _ METALHEADZ(13:29:41)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": " METALHEADZ",
         "artist": "QUARTZ ",
         "title": "Coercion ",
@@ -1433,7 +1432,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(13:34:56)",
-        "par": "PBB - Luckily We Still Have Music(13:34:56)",
+        "genre": "PBB - Luckily We Still Have Music(13:34:56)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1441,7 +1440,7 @@
     },
     {
         "otitle": "(H) PIERRE - got the bug TRAX(13:35:16)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "PIERRE ",
         "title": "got the bug TRAX",
@@ -1449,7 +1448,7 @@
     },
     {
         "otitle": "(T) LITTLE COMPUTER PEOPLE - Little Computer People _PSI 49 NET(13:40:06)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "PSI 49 NET",
         "artist": "LITTLE COMPUTER PEOPLE ",
         "title": "Little Computer People ",
@@ -1457,7 +1456,7 @@
     },
     {
         "otitle": "(R) TAPPER ZUKIE - revolution(13:43:01)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "TAPPER ZUKIE ",
         "title": "revolution",
@@ -1465,7 +1464,7 @@
     },
     {
         "otitle": "(F) RICHIE HAVENS - going back to my roots EASY STREET(13:46:41)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "RICHIE HAVENS ",
         "title": "going back to my roots EASY STREET",
@@ -1473,7 +1472,7 @@
     },
     {
         "otitle": "(HH) MAYLAY SPARKS - 5034(13:51:21)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "MAYLAY SPARKS ",
         "title": "5034",
@@ -1481,7 +1480,7 @@
     },
     {
         "otitle": "(E) ZOMBIE ZOMBIE - whats happening in the city(13:55:16)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "ZOMBIE ZOMBIE ",
         "title": "whats happening in the city",
@@ -1489,7 +1488,7 @@
     },
     {
         "otitle": "(E) B WHAT - 4 lab SONY(13:58:41)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "B WHAT ",
         "title": "4 lab SONY",
@@ -1497,7 +1496,7 @@
     },
     {
         "otitle": "(Ro) ELBOW - mcgreggor(14:04:11)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "ELBOW ",
         "title": "mcgreggor",
@@ -1505,7 +1504,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(14:06:51)",
-        "par": "PBB - Luckily We Still Have Music(14:06:51)",
+        "genre": "PBB - Luckily We Still Have Music(14:06:51)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1513,7 +1512,7 @@
     },
     {
         "otitle": "(J) CLARICE LABBE - no other love but you(14:07:21)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "CLARICE LABBE ",
         "title": "no other love but you",
@@ -1521,7 +1520,7 @@
     },
     {
         "otitle": "(S_N) JOSE JAMES - lay you down(14:14:16)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "JOSE JAMES ",
         "title": "lay you down",
@@ -1529,7 +1528,7 @@
     },
     {
         "otitle": "(N_N) GOTTS STREET PARK - Ivory(14:19:26)",
-        "par": "(N_N)",
+        "genre": "(N_N)",
         "label": "",
         "artist": "GOTTS STREET PARK ",
         "title": "Ivory",
@@ -1537,7 +1536,7 @@
     },
     {
         "otitle": "(T) VINCE WATSON - (re)Evolution(14:21:26)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "VINCE WATSON ",
         "title": "(re)Evolution",
@@ -1545,7 +1544,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(14:29:06)",
-        "par": "PBB - Luckily We Still Have Music(14:29:06)",
+        "genre": "PBB - Luckily We Still Have Music(14:29:06)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1553,7 +1552,7 @@
     },
     {
         "otitle": "(T) ARTIST CODE 4C472E - How d'ya like your beef _ COD3 QR(14:29:36)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": " COD3 QR",
         "artist": "ARTIST CODE 4C472E ",
         "title": "How d'ya like your beef ",
@@ -1561,7 +1560,7 @@
     },
     {
         "otitle": "(T) TEVATRON - my origins Part 2(14:38:56)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "TEVATRON ",
         "title": "my origins Part 2",
@@ -1569,7 +1568,7 @@
     },
     {
         "otitle": "(HH) BUSTA RHYMES - True Indeed(14:47:31)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "BUSTA RHYMES ",
         "title": "True Indeed",
@@ -1577,7 +1576,7 @@
     },
     {
         "otitle": "(F) CHICAGO GANGSTERS - my ship(14:49:26)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "CHICAGO GANGSTERS ",
         "title": "my ship",
@@ -1585,7 +1584,7 @@
     },
     {
         "otitle": "(D) BAG O WIRE - bag o wire EPIC(14:52:31)",
-        "par": "(D)",
+        "genre": "(D)",
         "label": "",
         "artist": "BAG O WIRE ",
         "title": "bag o wire EPIC",
@@ -1593,7 +1592,7 @@
     },
     {
         "otitle": "(P) PREWAR YARDSALE - weird ROUGH TRADE(14:55:26)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "PREWAR YARDSALE ",
         "title": "weird ROUGH TRADE",
@@ -1601,7 +1600,7 @@
     },
     {
         "otitle": "(Ro) FUMACA PRETA - pupilas dilatadas(14:58:16)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "FUMACA PRETA ",
         "title": "pupilas dilatadas",
@@ -1609,7 +1608,7 @@
     },
     {
         "otitle": "(T) WILL SIMPSON - Beginning Of The End _ NATIVE DRUM(15:02:51)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": " NATIVE DRUM",
         "artist": "WILL SIMPSON ",
         "title": "Beginning Of The End ",
@@ -1617,7 +1616,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(15:07:36)",
-        "par": "PBB - Luckily We Still Have Music(15:07:36)",
+        "genre": "PBB - Luckily We Still Have Music(15:07:36)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1625,7 +1624,7 @@
     },
     {
         "otitle": "(H) NIGHT WRITERS - let the music use you DANCIA(15:07:51)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "NIGHT WRITERS ",
         "title": "let the music use you DANCIA",
@@ -1633,7 +1632,7 @@
     },
     {
         "otitle": "(T) MENTAL CUBE - q DEBUT(15:12:46)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "MENTAL CUBE ",
         "title": "q DEBUT",
@@ -1641,7 +1640,7 @@
     },
     {
         "otitle": "(R) KEN BOOTHE - it s because i m black(15:17:26)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "KEN BOOTHE ",
         "title": "it s because i m black",
@@ -1649,7 +1648,7 @@
     },
     {
         "otitle": "(F) JAMES BROWN - People Get Up And Drive Your Funky Soul (Long version)(15:21:06)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "JAMES BROWN ",
         "title": "People Get Up And Drive Your Funky Soul (Long version)",
@@ -1657,7 +1656,7 @@
     },
     {
         "otitle": "(Beats) THE MAGHREBAN - .monster(15:30:01)",
-        "par": "(Beats)",
+        "genre": "(Beats)",
         "label": "",
         "artist": "THE MAGHREBAN ",
         "title": ".monster",
@@ -1665,7 +1664,7 @@
     },
     {
         "otitle": "(E) TOH IMAGO - Baie D'Authie(15:35:46)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "TOH IMAGO ",
         "title": "Baie D'Authie",
@@ -1673,7 +1672,7 @@
     },
     {
         "otitle": "(N) FUNKI PORCINI - the big sea NINJA TUNE(15:39:01)",
-        "par": "(N)",
+        "genre": "(N)",
         "label": "",
         "artist": "FUNKI PORCINI ",
         "title": "the big sea NINJA TUNE",
@@ -1681,7 +1680,7 @@
     },
     {
         "otitle": "(P) SIA - breath me remix(15:46:56)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "SIA ",
         "title": "breath me remix",
@@ -1689,7 +1688,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(15:51:46)",
-        "par": "PBB - Luckily We Still Have Music(15:51:46)",
+        "genre": "PBB - Luckily We Still Have Music(15:51:46)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1697,7 +1696,7 @@
     },
     {
         "otitle": "(J) MILES DAVIS - weirdo(15:52:01)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "MILES DAVIS ",
         "title": "weirdo",
@@ -1705,7 +1704,7 @@
     },
     {
         "otitle": "(L_N) ANGA DIAZ - a love supreme(15:56:41)",
-        "par": "(L_N)",
+        "genre": "(L_N)",
         "label": "",
         "artist": "ANGA DIAZ ",
         "title": "a love supreme",
@@ -1713,7 +1712,7 @@
     },
     {
         "otitle": "(E_N) CHAPELIER FOU - Senestre Eldorado _ICI D'AILLEURS(16:02:36)",
-        "par": "(E_N)",
+        "genre": "(E_N)",
         "label": "ICI D'AILLEURS",
         "artist": "CHAPELIER FOU ",
         "title": "Senestre Eldorado ",
@@ -1721,7 +1720,7 @@
     },
     {
         "otitle": "(H) PARIS BRIGHTLEDGE - Deep In My Soul (Marshall Jefferson Remix) _ CLONE(16:06:21)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": " CLONE",
         "artist": "PARIS BRIGHTLEDGE ",
         "title": "Deep In My Soul (Marshall Jefferson Remix) ",
@@ -1729,7 +1728,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(16:12:51)",
-        "par": "PBB - Luckily We Still Have Music(16:12:51)",
+        "genre": "PBB - Luckily We Still Have Music(16:12:51)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1737,7 +1736,7 @@
     },
     {
         "otitle": "(T) ATYPICAL - Forenoon(16:13:51)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "ATYPICAL ",
         "title": "Forenoon",
@@ -1745,7 +1744,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER - electric djjedi disco biscuit(16:20:16)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "electric djjedi disco biscuit",
@@ -1753,7 +1752,7 @@
     },
     {
         "otitle": "(HH) JIGMASTAS - across the globe(16:29:36)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "JIGMASTAS ",
         "title": "across the globe",
@@ -1761,7 +1760,7 @@
     },
     {
         "otitle": "(F) DJ OIL - track 7(16:33:36)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "DJ OIL ",
         "title": "track 7",
@@ -1769,7 +1768,7 @@
     },
     {
         "otitle": "(W) ANDI OTTO - Bagore Beza(16:38:41)",
-        "par": "(W)",
+        "genre": "(W)",
         "label": "",
         "artist": "ANDI OTTO ",
         "title": "Bagore Beza",
@@ -1777,7 +1776,7 @@
     },
     {
         "otitle": "(P) OWEN PALLETT - keep the dog quiet(16:43:16)",
-        "par": "(P)",
+        "genre": "(P)",
         "label": "",
         "artist": "OWEN PALLETT ",
         "title": "keep the dog quiet",
@@ -1785,7 +1784,7 @@
     },
     {
         "otitle": "(Fr) EINSTURZENDE NEUBAUTEN - blume MUTE(16:46:26)",
-        "par": "(Fr)",
+        "genre": "(Fr)",
         "label": "",
         "artist": "EINSTURZENDE NEUBAUTEN ",
         "title": "blume MUTE",
@@ -1793,7 +1792,7 @@
     },
     {
         "otitle": "(T) LEON VYNEHALL - Mothra _ NINJA TUNE(16:51:01)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": " NINJA TUNE",
         "artist": "LEON VYNEHALL ",
         "title": "Mothra ",
@@ -1801,7 +1800,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(16:56:31)",
-        "par": "PBB - Luckily We Still Have Music(16:56:31)",
+        "genre": "PBB - Luckily We Still Have Music(16:56:31)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1809,7 +1808,7 @@
     },
     {
         "otitle": "(P_N) PAUL BEHNAM - Stroke Light _ROTARY LAB(16:56:46)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "ROTARY LAB",
         "artist": "PAUL BEHNAM ",
         "title": "Stroke Light ",
@@ -1817,7 +1816,7 @@
     },
     {
         "otitle": "(J) RUSS GABRIEL - flip down to break EMOTICON(16:58:56)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "RUSS GABRIEL ",
         "title": "flip down to break EMOTICON",
@@ -1825,7 +1824,7 @@
     },
     {
         "otitle": "(E) MR OIZO - track 9 demo(17:04:56)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "MR OIZO ",
         "title": "track 9 demo",
@@ -1833,7 +1832,7 @@
     },
     {
         "otitle": "(T_N) GESLOTEN CIRKEL - Ifmmtv(17:07:36)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "GESLOTEN CIRKEL ",
         "title": "Ifmmtv",
@@ -1841,7 +1840,7 @@
     },
     {
         "otitle": "(Db) CALIBRE - Say Enough _ SIGANTURE(17:12:36)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": " SIGANTURE",
         "artist": "CALIBRE ",
         "title": "Say Enough ",
@@ -1849,7 +1848,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(17:18:36)",
-        "par": "PBB - Luckily We Still Have Music(17:18:36)",
+        "genre": "PBB - Luckily We Still Have Music(17:18:36)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1857,7 +1856,7 @@
     },
     {
         "otitle": "(Brok) TRICKSKI - hormony(17:19:16)",
-        "par": "(Brok)",
+        "genre": "(Brok)",
         "label": "",
         "artist": "TRICKSKI ",
         "title": "hormony",
@@ -1865,7 +1864,7 @@
     },
     {
         "otitle": "(T) ROCKETMANN - Galactikka 1071 _APHROHEAD(17:26:36)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "APHROHEAD",
         "artist": "ROCKETMANN ",
         "title": "Galactikka 1071 ",
@@ -1873,7 +1872,7 @@
     },
     {
         "otitle": "(W) KADJA KOUYATE - si tu m'accompagne FRIKYWA(17:33:01)",
-        "par": "(W)",
+        "genre": "(W)",
         "label": "",
         "artist": "KADJA KOUYATE ",
         "title": "si tu m'accompagne FRIKYWA",
@@ -1881,7 +1880,7 @@
     },
     {
         "otitle": "(S) THE MARVELETTES - Here I Am Baby(17:37:11)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "THE MARVELETTES ",
         "title": "Here I Am Baby",
@@ -1889,7 +1888,7 @@
     },
     {
         "otitle": "(HH) PREFUSE 73 - nuno WARP(17:39:51)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "PREFUSE 73 ",
         "title": "nuno WARP",
@@ -1897,7 +1896,7 @@
     },
     {
         "otitle": "(Dt) PORTISHEAD - Plastic(17:42:56)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "PORTISHEAD ",
         "title": "Plastic",
@@ -1905,7 +1904,7 @@
     },
     {
         "otitle": "(Dt) OZZY - paranoia(17:46:21)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "OZZY ",
         "title": "paranoia",
@@ -1913,7 +1912,7 @@
     },
     {
         "otitle": "(X) HOMELIFE - banjo(17:51:21)",
-        "par": "(X)",
+        "genre": "(X)",
         "label": "",
         "artist": "HOMELIFE ",
         "title": "banjo",
@@ -1921,7 +1920,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(17:53:56)",
-        "par": "PBB - Luckily We Still Have Music(17:53:56)",
+        "genre": "PBB - Luckily We Still Have Music(17:53:56)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1929,7 +1928,7 @@
     },
     {
         "otitle": "(J) NITIN SAWHNEY - breathing light(17:54:16)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "NITIN SAWHNEY ",
         "title": "breathing light",
@@ -1937,7 +1936,7 @@
     },
     {
         "otitle": "(W_N) TETA LANDO - irmao ama o teu irmao(17:59:01)",
-        "par": "(W_N)",
+        "genre": "(W_N)",
         "label": "",
         "artist": "TETA LANDO ",
         "title": "irmao ama o teu irmao",
@@ -1945,7 +1944,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(18:03:21)",
-        "par": "PBB - Luckily We Still Have Music(18:03:21)",
+        "genre": "PBB - Luckily We Still Have Music(18:03:21)",
         "label": "",
         "artist": false,
         "title": false,
@@ -1953,7 +1952,7 @@
     },
     {
         "otitle": "(T) QUINTO - dawn(18:03:31)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "QUINTO ",
         "title": "dawn",
@@ -1961,7 +1960,7 @@
     },
     {
         "otitle": "(T) CLARK_ - Rainbow_Voodoo_(18:09:21)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "Voodoo_",
         "artist": "CLARK_ ",
         "title": "Rainbow",
@@ -1969,7 +1968,7 @@
     },
     {
         "otitle": "(S) NOSTALGIA_77_ - seven_nation_army_(18:14:01)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "nation_army_",
         "artist": "NOSTALGIA_77_ ",
         "title": "seven",
@@ -1977,7 +1976,7 @@
     },
     {
         "otitle": "(F) DENNIS COFFEY & LUCHI DE JESUS - drama(18:18:21)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "DENNIS COFFEY & LUCHI DE JESUS ",
         "title": "drama",
@@ -1985,7 +1984,7 @@
     },
     {
         "otitle": "(T_N) AXS - de2(18:21:21)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "AXS ",
         "title": "de2",
@@ -1993,7 +1992,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(18:28:46)",
-        "par": "PBB - Luckily We Still Have Music(18:28:46)",
+        "genre": "PBB - Luckily We Still Have Music(18:28:46)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2001,7 +2000,7 @@
     },
     {
         "otitle": "(Fr) SERGE GAINSBOURG - en melody(18:29:11)",
-        "par": "(Fr)",
+        "genre": "(Fr)",
         "label": "",
         "artist": "SERGE GAINSBOURG ",
         "title": "en melody",
@@ -2009,7 +2008,7 @@
     },
     {
         "otitle": "(Ro) JIMI HENDRIX - hey joe(18:32:21)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "JIMI HENDRIX ",
         "title": "hey joe",
@@ -2017,7 +2016,7 @@
     },
     {
         "otitle": "(Db) WHINEY - Headlines _ HOSPITAL(18:36:21)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": " HOSPITAL",
         "artist": "WHINEY ",
         "title": "Headlines ",
@@ -2025,7 +2024,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(18:39:41)",
-        "par": "PBB - Luckily We Still Have Music(18:39:41)",
+        "genre": "PBB - Luckily We Still Have Music(18:39:41)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2033,7 +2032,7 @@
     },
     {
         "otitle": "(Db) LAURENT GARNIER - m bass(18:39:56)",
-        "par": "(Db)",
+        "genre": "(Db)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "m bass",
@@ -2041,7 +2040,7 @@
     },
     {
         "otitle": "(Bra) MARTHINO DA VILA - plim plim(18:47:41)",
-        "par": "(Bra)",
+        "genre": "(Bra)",
         "label": "",
         "artist": "MARTHINO DA VILA ",
         "title": "plim plim",
@@ -2049,7 +2048,7 @@
     },
     {
         "otitle": "(J) TRANSITION COSMIC POWER - leonard(18:50:51)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "TRANSITION COSMIC POWER ",
         "title": "leonard",
@@ -2057,7 +2056,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(18:59:31)",
-        "par": "PBB - Luckily We Still Have Music(18:59:31)",
+        "genre": "PBB - Luckily We Still Have Music(18:59:31)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2065,7 +2064,7 @@
     },
     {
         "otitle": "(H) SAM IRL - rain technique(19:00:06)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "SAM IRL ",
         "title": "rain technique",
@@ -2073,7 +2072,7 @@
     },
     {
         "otitle": "(T) HUSBANDS - Let Me Down (Laurent Garnier RMX)(19:06:41)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "HUSBANDS ",
         "title": "Let Me Down (Laurent Garnier RMX)",
@@ -2081,7 +2080,7 @@
     },
     {
         "otitle": "(F) TOMMY MC GEE - give and take(19:14:56)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "TOMMY MC GEE ",
         "title": "give and take",
@@ -2089,7 +2088,7 @@
     },
     {
         "otitle": "(F) DJ FORMAT - 1 2 3 scrape(19:17:56)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "DJ FORMAT ",
         "title": "1 2 3 scrape",
@@ -2097,7 +2096,7 @@
     },
     {
         "otitle": "(T_N) CARL CRAIG - twilight digital bounce 1(19:22:41)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "CARL CRAIG ",
         "title": "twilight digital bounce 1",
@@ -2105,7 +2104,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(19:30:46)",
-        "par": "PBB - Luckily We Still Have Music(19:30:46)",
+        "genre": "PBB - Luckily We Still Have Music(19:30:46)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2113,7 +2112,7 @@
     },
     {
         "otitle": "(Ro) THE CRAMPS - i was a teenage werewolf(19:30:56)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE CRAMPS ",
         "title": "i was a teenage werewolf",
@@ -2121,7 +2120,7 @@
     },
     {
         "otitle": "(Ro) THE WHITE STRIPES - jumble jumble(19:34:01)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE WHITE STRIPES ",
         "title": "jumble jumble",
@@ -2129,7 +2128,7 @@
     },
     {
         "otitle": "(HH) LOW END ACTIVIST - Get Dark _ LOW END ACTIVIST(19:35:51)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": " LOW END ACTIVIST",
         "artist": "LOW END ACTIVIST ",
         "title": "Get Dark ",
@@ -2137,7 +2136,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(19:40:01)",
-        "par": "PBB - Luckily We Still Have Music(19:40:01)",
+        "genre": "PBB - Luckily We Still Have Music(19:40:01)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2145,7 +2144,7 @@
     },
     {
         "otitle": "(HH) THE LAST POETS - we must be cacred (Rmx)(19:40:36)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "THE LAST POETS ",
         "title": "we must be cacred (Rmx)",
@@ -2153,7 +2152,7 @@
     },
     {
         "otitle": "(R) BIG YOUTH - 6 dead 19 gone STUDIO ONE(19:44:56)",
-        "par": "(R)",
+        "genre": "(R)",
         "label": "",
         "artist": "BIG YOUTH ",
         "title": "6 dead 19 gone STUDIO ONE",
@@ -2161,7 +2160,7 @@
     },
     {
         "otitle": "(J) GREGORY PORTER - 1960 what(19:48:06)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "GREGORY PORTER ",
         "title": "1960 what",
@@ -2169,7 +2168,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(19:56:36)",
-        "par": "PBB - Luckily We Still Have Music(19:56:36)",
+        "genre": "PBB - Luckily We Still Have Music(19:56:36)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2177,7 +2176,7 @@
     },
     {
         "otitle": "(H) LB BAD - i like to move(19:56:51)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "LB BAD ",
         "title": "i like to move",
@@ -2185,7 +2184,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER - the sound of big babou(20:01:51)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "the sound of big babou",
@@ -2193,7 +2192,7 @@
     },
     {
         "otitle": "(S) THE CAPITOLS - cool jerk(20:09:06)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "THE CAPITOLS ",
         "title": "cool jerk",
@@ -2201,7 +2200,7 @@
     },
     {
         "otitle": "(F) CRO MAGNON JIM - free your mind(20:11:36)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "CRO MAGNON JIM ",
         "title": "free your mind",
@@ -2209,7 +2208,7 @@
     },
     {
         "otitle": "(H_N) JAY TRIPWIRE - move like water(20:14:36)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "JAY TRIPWIRE ",
         "title": "move like water",
@@ -2217,7 +2216,7 @@
     },
     {
         "otitle": "(Ro) THE ROLLING STONES - rain fall down(20:18:46)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE ROLLING STONES ",
         "title": "rain fall down",
@@ -2225,7 +2224,7 @@
     },
     {
         "otitle": "(Ro) THE DOORS - light my fire ELEKTRA(20:24:36)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE DOORS ",
         "title": "light my fire ELEKTRA",
@@ -2233,7 +2232,7 @@
     },
     {
         "otitle": "(T) ANTHONY ROTHER - Deuterium(20:31:41)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "ANTHONY ROTHER ",
         "title": "Deuterium",
@@ -2241,7 +2240,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(20:39:11)",
-        "par": "PBB - Luckily We Still Have Music(20:39:11)",
+        "genre": "PBB - Luckily We Still Have Music(20:39:11)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2249,7 +2248,7 @@
     },
     {
         "otitle": "(HH) SCHOOLLY D - do it do it FLAME(20:39:36)",
-        "par": "(HH)",
+        "genre": "(HH)",
         "label": "",
         "artist": "SCHOOLLY D ",
         "title": "do it do it FLAME",
@@ -2257,7 +2256,7 @@
     },
     {
         "otitle": "(L) JOE BATAAn - subway joe(20:42:01)",
-        "par": "(L)",
+        "genre": "(L)",
         "label": "",
         "artist": "JOE BATAAn ",
         "title": "subway joe",
@@ -2265,7 +2264,7 @@
     },
     {
         "otitle": "(J) GARY BARTZ - celestial blues(20:44:56)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "GARY BARTZ ",
         "title": "celestial blues",
@@ -2273,7 +2272,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(20:52:26)",
-        "par": "PBB - Luckily We Still Have Music(20:52:26)",
+        "genre": "PBB - Luckily We Still Have Music(20:52:26)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2281,7 +2280,7 @@
     },
     {
         "otitle": "(H) JINADU - turning the tide(20:52:46)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "JINADU ",
         "title": "turning the tide",
@@ -2289,7 +2288,7 @@
     },
     {
         "otitle": "(T) DJ GILBR - Pressure(20:58:01)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "DJ GILBR ",
         "title": "Pressure",
@@ -2297,7 +2296,7 @@
     },
     {
         "otitle": "(H_N) I Still Love You _ LUMBERJACKS IN HELL -(21:06:26)",
-        "par": "(H_N)",
+        "genre": "(H_N)",
         "label": "",
         "artist": "I Still Love You _ LUMBERJACKS IN HELL ",
         "title": false,
@@ -2305,7 +2304,7 @@
     },
     {
         "otitle": "(E) KATE WAX - echoes and the light(21:16:41)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "KATE WAX ",
         "title": "echoes and the light",
@@ -2313,7 +2312,7 @@
     },
     {
         "otitle": "(S_N) ANN PEEBLES - Heartaches, Heartaches(21:22:01)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "ANN PEEBLES ",
         "title": "Heartaches, Heartaches",
@@ -2321,7 +2320,7 @@
     },
     {
         "otitle": "(Bra) NARA LEAO - Cacar\ufffd(21:25:16)",
-        "par": "(Bra)",
+        "genre": "(Bra)",
         "label": "",
         "artist": "NARA LEAO ",
         "title": "Cacar\ufffd",
@@ -2329,7 +2328,7 @@
     },
     {
         "otitle": "(F) MR PRESIDENT FEAT MISTER DAY - You Move Me(21:27:06)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "MR PRESIDENT FEAT MISTER DAY ",
         "title": "You Move Me",
@@ -2337,7 +2336,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(21:31:36)",
-        "par": "PBB - Luckily We Still Have Music(21:31:36)",
+        "genre": "PBB - Luckily We Still Have Music(21:31:36)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2345,7 +2344,7 @@
     },
     {
         "otitle": "(J) MARIUS CULTIER - zouk(21:31:41)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "MARIUS CULTIER ",
         "title": "zouk",
@@ -2353,7 +2352,7 @@
     },
     {
         "otitle": "(T_N) HAALLEYCKS - Anxiety (G(21:36:51)",
-        "par": "(T_N)",
+        "genre": "(T_N)",
         "label": "",
         "artist": "HAALLEYCKS ",
         "title": "Anxiety (G",
@@ -2361,7 +2360,7 @@
     },
     {
         "otitle": "(P_N) TOM WAITS - how's it gonna end(21:44:31)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "",
         "artist": "TOM WAITS ",
         "title": "how's it gonna end",
@@ -2369,7 +2368,7 @@
     },
     {
         "otitle": "(H) LIL LOUIS - jupiter(21:49:21)",
-        "par": "(H)",
+        "genre": "(H)",
         "label": "",
         "artist": "LIL LOUIS ",
         "title": "jupiter",
@@ -2377,7 +2376,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(21:54:41)",
-        "par": "PBB - Luckily We Still Have Music(21:54:41)",
+        "genre": "PBB - Luckily We Still Have Music(21:54:41)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2385,7 +2384,7 @@
     },
     {
         "otitle": "(S) SPLEEN, AUDREY AND BENMO  - Intro +Bounz -(21:55:01)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "SPLEEN, AUDREY AND BENMO  ",
         "title": "Intro +Bounz -",
@@ -2393,7 +2392,7 @@
     },
     {
         "otitle": "(Fr) ALAIN BASHUNG - faites monter(21:58:51)",
-        "par": "(Fr)",
+        "genre": "(Fr)",
         "label": "",
         "artist": "ALAIN BASHUNG ",
         "title": "faites monter",
@@ -2401,7 +2400,7 @@
     },
     {
         "otitle": "(Fr) ALAIN BASHUNG - faites monter(21:59:33)",
-        "par": "(Fr)",
+        "genre": "(Fr)",
         "label": "",
         "artist": "ALAIN BASHUNG ",
         "title": "faites monter",
@@ -2409,7 +2408,7 @@
     },
     {
         "otitle": "(N_N) LAPALUX - forgetting and learning again(22:03:13)",
-        "par": "(N_N)",
+        "genre": "(N_N)",
         "label": "",
         "artist": "LAPALUX ",
         "title": "forgetting and learning again",
@@ -2417,7 +2416,7 @@
     },
     {
         "otitle": "(Dt_N) LEON VYNEHALL - Ecce Ego _ NINJA TUNE(22:07:28)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": " NINJA TUNE",
         "artist": "LEON VYNEHALL ",
         "title": "Ecce Ego ",
@@ -2425,7 +2424,7 @@
     },
     {
         "otitle": "(E) PEDRO - i am keeping up(22:10:58)",
-        "par": "(E)",
+        "genre": "(E)",
         "label": "",
         "artist": "PEDRO ",
         "title": "i am keeping up",
@@ -2433,7 +2432,7 @@
     },
     {
         "otitle": "(S_N) GYPSYKIND - room 126 feat. Amalia(22:16:03)",
-        "par": "(S_N)",
+        "genre": "(S_N)",
         "label": "",
         "artist": "GYPSYKIND ",
         "title": "room 126 feat. Amalia",
@@ -2441,7 +2440,7 @@
     },
     {
         "otitle": "(Creole) LE RY CO JAZZ - Tu bois beaucoup(22:18:58)",
-        "par": "(Creole)",
+        "genre": "(Creole)",
         "label": "",
         "artist": "LE RY CO JAZZ ",
         "title": "Tu bois beaucoup",
@@ -2449,7 +2448,7 @@
     },
     {
         "otitle": "(F) MATATA - i feel funky(22:22:48)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "MATATA ",
         "title": "i feel funky",
@@ -2457,7 +2456,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(22:25:48)",
-        "par": "PBB - Luckily We Still Have Music(22:25:48)",
+        "genre": "PBB - Luckily We Still Have Music(22:25:48)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2465,7 +2464,7 @@
     },
     {
         "otitle": "(Jup) BIG JAY Mc NEELY & BAND - psycho serenade(22:26:03)",
-        "par": "(Jup)",
+        "genre": "(Jup)",
         "label": "",
         "artist": "BIG JAY Mc NEELY & BAND ",
         "title": "psycho serenade",
@@ -2473,7 +2472,7 @@
     },
     {
         "otitle": "(Bb_N) PARADOX - Proceed(22:28:08)",
-        "par": "(Bb_N)",
+        "genre": "(Bb_N)",
         "label": "",
         "artist": "PARADOX ",
         "title": "Proceed",
@@ -2481,7 +2480,7 @@
     },
     {
         "otitle": "(N_N) FINK - q&a (Sideshow Remix)(22:35:03)",
-        "par": "(N_N)",
+        "genre": "(N_N)",
         "label": "",
         "artist": "FINK ",
         "title": "q&a (Sideshow Remix)",
@@ -2489,7 +2488,7 @@
     },
     {
         "otitle": "(T) DREXCIYA - sea snake SHOCKWAVE(22:40:13)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "DREXCIYA ",
         "title": "sea snake SHOCKWAVE",
@@ -2497,7 +2496,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(22:44:53)",
-        "par": "PBB - Luckily We Still Have Music(22:44:53)",
+        "genre": "PBB - Luckily We Still Have Music(22:44:53)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2505,7 +2504,7 @@
     },
     {
         "otitle": "(F) ATTARAZAT ADDAHABIA - Unknown(22:45:13)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "ATTARAZAT ADDAHABIA ",
         "title": "Unknown",
@@ -2513,7 +2512,7 @@
     },
     {
         "otitle": "(Ro) THE CURE - lost(22:49:28)",
-        "par": "(Ro)",
+        "genre": "(Ro)",
         "label": "",
         "artist": "THE CURE ",
         "title": "lost",
@@ -2521,7 +2520,7 @@
     },
     {
         "otitle": "(P_N) MARCELIUS - come and boogie(22:53:33)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "",
         "artist": "MARCELIUS ",
         "title": "come and boogie",
@@ -2529,7 +2528,7 @@
     },
     {
         "otitle": "(Dt_N) UNKLE - Do Yourself Some Good(22:59:48)",
-        "par": "(Dt_N)",
+        "genre": "(Dt_N)",
         "label": "",
         "artist": "UNKLE ",
         "title": "Do Yourself Some Good",
@@ -2537,7 +2536,7 @@
     },
     {
         "otitle": "(Dt) RASA - round midnight REVIRTH(23:07:59)",
-        "par": "(Dt)",
+        "genre": "(Dt)",
         "label": "",
         "artist": "RASA ",
         "title": "round midnight REVIRTH",
@@ -2545,7 +2544,7 @@
     },
     {
         "otitle": "(J_Db_N) TORINO UNLIMITED NOISE - Brahms Groove(23:18:00)",
-        "par": "(J_Db_N)",
+        "genre": "(J_Db_N)",
         "label": "",
         "artist": "TORINO UNLIMITED NOISE ",
         "title": "Brahms Groove",
@@ -2553,7 +2552,7 @@
     },
     {
         "otitle": "(Bra_Db) DRUMAGICK - sambarock(23:24:00)",
-        "par": "(Bra_Db)",
+        "genre": "(Bra_Db)",
         "label": "",
         "artist": "DRUMAGICK ",
         "title": "sambarock",
@@ -2561,7 +2560,7 @@
     },
     {
         "otitle": "(F) JR FUNK - feel good party time CASABLANCA(23:28:00)",
-        "par": "(F)",
+        "genre": "(F)",
         "label": "",
         "artist": "JR FUNK ",
         "title": "feel good party time CASABLANCA",
@@ -2569,7 +2568,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(23:34:00)",
-        "par": "PBB - Luckily We Still Have Music(23:34:00)",
+        "genre": "PBB - Luckily We Still Have Music(23:34:00)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2577,7 +2576,7 @@
     },
     {
         "otitle": "(J) SONAR KOLLEKTIV ORCHESTRA - held him first(23:35:00)",
-        "par": "(J)",
+        "genre": "(J)",
         "label": "",
         "artist": "SONAR KOLLEKTIV ORCHESTRA ",
         "title": "held him first",
@@ -2585,7 +2584,7 @@
     },
     {
         "otitle": "(J_N) VICTOR MENDOZA - Salty Noodles _ LOUDEAST(23:39:00)",
-        "par": "(J_N)",
+        "genre": "(J_N)",
         "label": " LOUDEAST",
         "artist": "VICTOR MENDOZA ",
         "title": "Salty Noodles ",
@@ -2593,7 +2592,7 @@
     },
     {
         "otitle": "(P_N) JASON EDWARDS - oghulum(23:45:00)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "",
         "artist": "JASON EDWARDS ",
         "title": "oghulum",
@@ -2601,7 +2600,7 @@
     },
     {
         "otitle": "(P_N) JASON EDWARDS - oghulum(23:45:26)",
-        "par": "(P_N)",
+        "genre": "(P_N)",
         "label": "",
         "artist": "JASON EDWARDS ",
         "title": "oghulum",
@@ -2609,7 +2608,7 @@
     },
     {
         "otitle": "(T) LAURENT GARNIER - breathless(23:46:46)",
-        "par": "(T)",
+        "genre": "(T)",
         "label": "",
         "artist": "LAURENT GARNIER ",
         "title": "breathless",
@@ -2617,7 +2616,7 @@
     },
     {
         "otitle": "PBB - Luckily We Still Have Music(23:57:41)",
-        "par": "PBB - Luckily We Still Have Music(23:57:41)",
+        "genre": "PBB - Luckily We Still Have Music(23:57:41)",
         "label": "",
         "artist": false,
         "title": false,
@@ -2625,7 +2624,7 @@
     },
     {
         "otitle": "(S) USARIES - Are You Ready To Come (With Me) Pt.1(23:58:06)",
-        "par": "(S)",
+        "genre": "(S)",
         "label": "",
         "artist": "USARIES ",
         "title": "Are You Ready To Come (With Me) Pt.1",

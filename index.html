@@ -38,8 +38,33 @@
             $imgFiles = [];
             $("#test").html("JQuery loaded");
             // get last trax
+            LoadDb();
+            // Background slideshow
+            $.get('/img/lg/', function(data) {
+                //data.reverse();
+                $.each(data, function(i, item) {
+                    // need to add the path location
+                    $imgFiles.push('http://psylo.ddns.net/img/lg/' + item.name);
+                })
+                shuffle($imgFiles);
+                $("body").backgroundCycle({
+                    imageUrls: $imgFiles,
+                    fadeSpeed: 5000,
+                    duration: 15000,
+                    backgroundSize: SCALING_MODE_CONTAIN
+                });
+            });
+            var myVar = setInterval(function() {
+                LoadDb();
+                $time = new Date();
+                $("#timeSpan").html($time.toTimeString().substr(0, 8));
+            }, 10000);
+        });
+
+        function LoadDb() {
             $.getJSON("mongo.php")
                 .done(function(result) {
+                    $('#lastTrax').html('');
                     $.each(result, function(i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
@@ -56,6 +81,7 @@
                 });
             $.getJSON("mongoTest.php")
                 .done(function(result) {
+                    $('#lastTrax2').html('');
                     $.each(result, function(i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
@@ -70,24 +96,8 @@
                         }
                     });
                 });
-            // Background slideshow
-            $.get('/img/lg/', function(data) {
-                //data.reverse();
-                $.each(data, function(i, item) {
-                    // need to add the path location
-                    $imgFiles.push('http://psylo.ddns.net/img/lg/' + item.name);
-                })
-                shuffle($imgFiles);
-                $("body").backgroundCycle({
-                    imageUrls: $imgFiles,
-                    fadeSpeed: 5000,
-                    duration: 15000,
-                    backgroundSize: SCALING_MODE_CONTAIN
-                });
-            });
-
-        });
-        const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+        }
+        //const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
         // wrapper backgroun slideshow
     </script>
     <div class="bg-teaser">
@@ -97,7 +107,7 @@
             <li>lastest <a href="getJson.html" style="font-size: x-large;">PBBbyPsylo</a> played tracks from PBB</li>
             <li>NEW <a href="stats.html" style="font-size: x-large;">PBBbyPsylo - Stats/JSON</a> </li>
             <li><span id="sp">Please find hereunder the last 50 Trax from PBB radio: <i>NEW (Stored online in
-                        MongoDB)</i></span></li>
+                        MongoDB)</i></span> Reloaded @<span id="timeSpan"></span></li>
         </ul>
     </div>
     <!-- <div class="wrapper"></div> -->
