@@ -1814,15 +1814,16 @@
     @media (min-width:768px) {
         .dl-horizontal dt {
             float: left;
-            width: 160px;
+            width: 60px;
             clear: left;
-            text-align: right;
+            margin-left: 20px;
+            text-align: left;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap
         }
         .dl-horizontal dd {
-            margin-left: 180px
+            margin-left: 50px
         }
     }
     
@@ -7896,4 +7897,17 @@
     .saved,
     .load {
         display: inline-block;
+    }
+    
+    dl {
+        display: block;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+    }
+    
+    dd {
+        display: block;
+        -webkit-margin-start: 40px;
     }
