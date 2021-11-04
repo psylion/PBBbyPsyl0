@@ -6,8 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="/css/hackers.css" rel="stylesheet" media="screen">
-<script src="/js/jquery-3.6.0.js" type="text/javascript"></script>
+<link href="css/hackers.css" rel="stylesheet" media="screen">
+<!-- <script src="/js/jquery-3.6.0.js" type="text/javascript"></script> -->
+<script src="/js/jquery-2.1.1.min.js"></script>
+<script src="/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/background.cycle.js"></script>
 <script type="text/javascript" src="js/psylo.js"></script>
@@ -32,6 +34,7 @@
     <script>
         $imgFiles = [];
         $(document).ready(function() {
+            LoadDb();
             $pload = new Date();
             $checkSaved = new Date();
             $lastSaved = new Date();
@@ -43,11 +46,12 @@
             $pload = $pload.toTimeString().substr(0, 8);
             //$("#time").html("page loaded: " + $pload);
             $jsonFile = $2day + "results.json";
-            reloadJSON();
+            //reloadJSON();
             //$("#load").html("<br/>lastSaved (main):" + $lastSaved);
             var myVar = setInterval(function() {
-                myTimer('bucht');
-            }, 5000);
+                LoadDb();
+                //myTimer('bucht');
+            }, 10000);
             var myTim = setInterval(myTime, 1000);
 
             $.get('/img/lg/', function(data) {
@@ -65,6 +69,7 @@
                 });
             });
 
+
         });
 
         function reloadJSON() {
@@ -73,8 +78,14 @@
                 data.reverse();
                 $.each(data, function(i, item) {
                     if (i == 0) {
+                        nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                        nTime = nTime.toLocaleTimeString([], {
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            second: '2-digit'
+                        });
                         var myTitle = item.genre + " " + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
-                        $('#currentTrack').html(myTitle + "<br/>" + item.time.replaceAll("T", " "));
+                        $('#currentTrack').html(myTitle + "<br/>" + nTime);
                         document.title = 'PBBbyPsyl0::' + item.genre + "" + item.title + "::" + item.artist;
                     }
                     if ((i >= 1) && (item.otitle.substr(0, 3) != 'PBB')) {
@@ -112,16 +123,50 @@
             return $checkSaved;
         }
 
+        function LoadDb() {
+            $.getJSON("mongoTest.php")
+                .done(function(result) {
+                    $('#lastTrax2').html('<th>time</th>\
+                            <th> genre</th>\
+                            <th>artist</th>\
+                            <th>title</th>\
+                            <th>label</th>');
+                    $.each(result, function(i, item) {
+                        if (item.artist != "PBB") {
+                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
+                            <td>' + item.genre + '</td>  \
+                            <td>' + item.artist + '</td> \
+                            <td>' + item.title + '</td>  \
+                            <td>' + item.label + '</td>  \
+                            </tr>';
+                            $('#lastTrax2').append(row);
+                        }
+                        //console.log(row);
+                        nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                        nTime = nTime.toLocaleTimeString([], {
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            second: '2-digit'
+                        });
+                        var myTitle = result[0].genre + " - " + result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
+                        $('#currentTrack').html(myTitle + "<br/>" + nTime);
+                        document.title = 'PBBbyPsyl0::' + result[0].genre + "" + result[0].title + "::" + result[0].artist;
+                    });
+                });
+        }
+
         function myTimer(str) {
-            getLastSaved();
-            $("#saved").html(getLastSaved()).trigger('change');
+            //getLastSaved();
+            //$("#saved").html(getLastSaved()).trigger('change');
+            LoadDb();
+
             $pload = new Date();
             $pload = $pload.toTimeString().substr(0, 8);
             $("#checked").html($pload + ' ls:' + $lastSaved + ' cs: ' + $checkSaved);
             if ($lastSaved != $checkSaved) {
                 $("#content").html("");
                 $("#checked").html('REALOADJSON: ' + $time.toTimeString().substr(0, 8));
-                reloadJSON();
+                //reloadJSON();
                 $("#load").html($time.toTimeString().substr(0, 8));
 
             }
@@ -160,7 +205,32 @@
 
         </div>
         <!-- Example row of columns -->
-        <div id="todoList" class="jumbotron-fluid col-sm-4 float-lg-start bg-teaser ">
+        <div class="row bg-teaser ">
+            <div class="">
+                <p>
+                    <div id="bg-trax">
+                        <h2>Latest track played:</h2>
+                        <table id="tbComp">
+                            <tr>
+                                <td>Recorded from python Service running with systemctl</td>
+                                <tr>
+                                    <td>
+                                        <table id="lastTrax2" class="lastTrax" width="80%">
+                                            <th>time</th>
+                                            <th>genre</th>
+                                            <th>artist</th>
+                                            <th>title</th>
+                                            <th>label</th>
+                                        </table>BUCHT
+                                    </td>
+                                </tr>
+                        </table>
+                    </div>
+                </p>
+                <!-- <p><a class="btn " href="# ">View details »</a></p> -->
+            </div>
+        </div>
+        <div id="todoList" class="jumbotron-fluid col-sm-6 float-lg-start bg-teaser ">
             <br /> I'm currently implementing a way to search by time and also display statistics.<br /> I started this project by the end of April 2021...
             <h3>Todo in the near futur:</h3>
             <ul>
@@ -170,26 +240,18 @@
                 <li>enhance genre tagging</li>
                 <li>Mobile responsive display(PARTIALLY COMPLETED)</li>
             </ul>
-            Thanks to <a href="https://www.kdbuzz.com/PBB/ " target="_blank ">KDBuzz</a> for code sharing<br/> other links:
+            Thanks to <a href="https://www.kdbuzz.com/PBB/ " target="_blank ">KDBuzz</a> for code sharing<br /> other links:
             <ul>
                 <li><a href="https://www.laurentgarnier.com/ " target="_blank ">laurentgarnier.com</a></li>
                 <li><a href="https://pbbradio.com:8443/128 " target="_blank ">PBB Radio</a></li>
                 <li><a href="https://www.facebook.com/pbbradio " target="_blank ">FB pbbradio</a></li>
             </ul>
         </div>
-        <div class="row bg-teaser ">
-            <div class="span8">
-                <h2>Latest track played:</h2>
-                <p>
-                    <div id="content"></div>
-                </p>
-                <!-- <p><a class="btn " href="# ">View details »</a></p> -->
-            </div>
-        </div>
+
         <div class="row">
             <div class="span3 bg-teaser debug-top">
                 <h4>Debug output</h4>
-                time:<span id="time"> </span> <br/> load:
+                time:<span id="time"> </span> <br /> load:
                 <span id="load"> </span> <br /> saved:
                 <span id="saved"> </span><br /> checked:
                 <span id="checked"> </span>

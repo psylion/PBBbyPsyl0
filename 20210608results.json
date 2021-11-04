@@ -1,0 +1,994 @@
+[
+    {
+        "otitle": "(P_N) BOULEVARDS - Losmahway _NORMALTOWN(2021-06-07T22:01:23Z)",
+        "genre": "(P_N)",
+        "label": "NORMALTOWN",
+        "artist": "BOULEVARDS ",
+        "title": "Losmahway ",
+        "time": "(2021-06-07T22:01:23Z)"
+    },
+    {
+        "otitle": "(H_N) APPAREL WAX - 008b1 _APPAREL MUSIC(2021-06-07T22:04:33Z)",
+        "genre": "(H_N)",
+        "label": "APPAREL MUSIC",
+        "artist": "APPAREL WAX ",
+        "title": "008b1 ",
+        "time": "(2021-06-07T22:04:33Z)"
+    },
+    {
+        "otitle": "(E) NATHAN FAKE - the sky was pink(2021-06-07T22:10:33Z)",
+        "genre": "(E)",
+        "label": "",
+        "artist": "NATHAN FAKE ",
+        "title": "the sky was pink",
+        "time": "(2021-06-07T22:10:33Z)"
+    },
+    {
+        "otitle": "(RnB) KITTY WHITE - im gonna be a fool next monday(2021-06-07T22:15:23Z)",
+        "genre": "(RnB)",
+        "label": "",
+        "artist": "KITTY WHITE ",
+        "title": "im gonna be a fool next monday",
+        "time": "(2021-06-07T22:15:23Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-07T22:17:18Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-07T22:17:18Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(Dt_N) KAGE - impossible bridge LUMINA(2021-06-07T22:17:43Z)",
+        "genre": "(Dt_N)",
+        "label": "",
+        "artist": "KAGE ",
+        "title": "impossible bridge LUMINA",
+        "time": "(2021-06-07T22:17:43Z)"
+    },
+    {
+        "otitle": "(X_N) MOZART - requiem (Lacrimosa)(2021-06-07T22:22:38Z)",
+        "genre": "(X_N)",
+        "label": "",
+        "artist": "MOZART ",
+        "title": "requiem (Lacrimosa)",
+        "time": "(2021-06-07T22:22:38Z)"
+    },
+    {
+        "otitle": "(E_N) AUTOMAT - prelude(2021-06-07T22:25:33Z)",
+        "genre": "(E_N)",
+        "label": "",
+        "artist": "AUTOMAT ",
+        "title": "prelude",
+        "time": "(2021-06-07T22:25:33Z)"
+    },
+    {
+        "otitle": "(E) RIVAL CONSOLES - lone(2021-06-07T22:30:43Z)",
+        "genre": "(E)",
+        "label": "",
+        "artist": "RIVAL CONSOLES ",
+        "title": "lone",
+        "time": "(2021-06-07T22:30:43Z)"
+    },
+    {
+        "otitle": "(X_N) KEN NORDINE - hello(2021-06-07T22:36:28Z)",
+        "genre": "(X_N)",
+        "label": "",
+        "artist": "KEN NORDINE ",
+        "title": "hello",
+        "time": "(2021-06-07T22:36:28Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-07T22:38:23Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-07T22:38:23Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(T_N) FLORENCE - The Vineyard (Convextion Remix) _DELSIN(2021-06-07T22:38:43Z)",
+        "genre": "(T_N)",
+        "label": "DELSIN",
+        "artist": "FLORENCE ",
+        "title": "The Vineyard (Convextion Remix) ",
+        "time": "(2021-06-07T22:38:43Z)"
+    },
+    {
+        "otitle": "(W) ARIYA ASTROBEAT ARKESTRA - african kings(2021-06-07T22:44:48Z)",
+        "genre": "(W)",
+        "label": "",
+        "artist": "ARIYA ASTROBEAT ARKESTRA ",
+        "title": "african kings",
+        "time": "(2021-06-07T22:44:48Z)"
+    },
+    {
+        "otitle": "(Dt_N) WINSTON NEALE - Sinnerman _ TANGENTIAL MUSIC(2021-06-07T22:52:13Z)",
+        "genre": "(Dt_N)",
+        "label": " TANGENTIAL MUSIC",
+        "artist": "WINSTON NEALE ",
+        "title": "Sinnerman ",
+        "time": "(2021-06-07T22:52:13Z)"
+    },
+    {
+        "otitle": "(H_N) WILL SIMPSON - Geektown Est.1983(2021-06-07T22:58:18Z)",
+        "genre": "(H_N)",
+        "label": "",
+        "artist": "WILL SIMPSON ",
+        "title": "Geektown Est.1983",
+        "time": "(2021-06-07T22:58:18Z)"
+    },
+    {
+        "otitle": "(E) APHEX TWIN - meltphace 6 WARP(2021-06-07T23:04:48Z)",
+        "genre": "(E)",
+        "label": "",
+        "artist": "APHEX TWIN ",
+        "title": "meltphace 6 WARP",
+        "time": "(2021-06-07T23:04:48Z)"
+    },
+    {
+        "otitle": "(J_F) BROTHER JACK MC DUFF - can't get satisfied(2021-06-07T23:11:08Z)",
+        "genre": "(J_F)",
+        "label": "",
+        "artist": "BROTHER JACK MC DUFF ",
+        "title": "can't get satisfied",
+        "time": "(2021-06-07T23:11:08Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-07T23:16:13Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-07T23:16:13Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(J_R_N) CAMARADAS 7 - balinha(2021-06-07T23:16:28Z)",
+        "genre": "(J_R_N)",
+        "label": "",
+        "artist": "CAMARADAS 7 ",
+        "title": "balinha",
+        "time": "(2021-06-07T23:16:28Z)"
+    },
+    {
+        "otitle": "(J_N) TONY ALLEN - life is beautiful(2021-06-07T23:22:03Z)",
+        "genre": "(J_N)",
+        "label": "",
+        "artist": "TONY ALLEN ",
+        "title": "life is beautiful",
+        "time": "(2021-06-07T23:22:03Z)"
+    },
+    {
+        "otitle": "(Mahreb_N) TITI ROBIN - mehdi(2021-06-07T23:28:23Z)",
+        "genre": "(Mahreb_N)",
+        "label": "",
+        "artist": "TITI ROBIN ",
+        "title": "mehdi",
+        "time": "(2021-06-07T23:28:23Z)"
+    },
+    {
+        "otitle": "(E) ROBERT LE MAGNIFIQUE - k a m(2021-06-07T23:38:48Z)",
+        "genre": "(E)",
+        "label": "",
+        "artist": "ROBERT LE MAGNIFIQUE ",
+        "title": "k a m",
+        "time": "(2021-06-07T23:38:48Z)"
+    },
+    {
+        "otitle": "(X_N) DAVID AXELROD - a divine image(2021-06-07T23:42:33Z)",
+        "genre": "(X_N)",
+        "label": "",
+        "artist": "DAVID AXELROD ",
+        "title": "a divine image",
+        "time": "(2021-06-07T23:42:33Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-07T23:47:08Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-07T23:47:08Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(HH_N) DEADHAND - Touch _ SEA & GRAVE(2021-06-07T23:47:33Z)",
+        "genre": "(HH_N)",
+        "label": " SEA & GRAVE",
+        "artist": "DEADHAND ",
+        "title": "Touch ",
+        "time": "(2021-06-07T23:47:33Z)"
+    },
+    {
+        "otitle": "(D) BLUNDETTO - mustang With budos band horns(2021-06-07T23:50:58Z)",
+        "genre": "(D)",
+        "label": "",
+        "artist": "BLUNDETTO ",
+        "title": "mustang With budos band horns",
+        "time": "(2021-06-07T23:50:58Z)"
+    },
+    {
+        "otitle": "(E_N) DANIEL AVERY - After The Fire _PHANTASY SOUND(2021-06-07T23:54:28Z)",
+        "genre": "(E_N)",
+        "label": "PHANTASY SOUND",
+        "artist": "DANIEL AVERY ",
+        "title": "After The Fire ",
+        "time": "(2021-06-07T23:54:28Z)"
+    },
+    {
+        "otitle": "(Beats_N) AL WOOTTON - Alder _ TRULE(2021-06-07T23:57:13Z)",
+        "genre": "(Beats_N)",
+        "label": " TRULE",
+        "artist": "AL WOOTTON ",
+        "title": "Alder ",
+        "time": "(2021-06-07T23:57:13Z)"
+    },
+    {
+        "otitle": "(Dt) JAC BERROCAL - rock n roll station(2021-06-08T00:02:48Z)",
+        "genre": "(Dt)",
+        "label": "",
+        "artist": "JAC BERROCAL ",
+        "title": "rock n roll station",
+        "time": "(2021-06-08T00:02:48Z)"
+    },
+    {
+        "otitle": "(J) PATRICIA BARBER - pieces BLUE NOTE(2021-06-08T00:07:28Z)",
+        "genre": "(J)",
+        "label": "",
+        "artist": "PATRICIA BARBER ",
+        "title": "pieces BLUE NOTE",
+        "time": "(2021-06-08T00:07:28Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T00:12:58Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T00:12:58Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(Dt_N) CHERRYSTONES - the broken clock(2021-06-08T00:13:13Z)",
+        "genre": "(Dt_N)",
+        "label": "",
+        "artist": "CHERRYSTONES ",
+        "title": "the broken clock",
+        "time": "(2021-06-08T00:13:13Z)"
+    },
+    {
+        "otitle": "(E_N) APPARAT - lighton(2021-06-08T00:16:58Z)",
+        "genre": "(E_N)",
+        "label": "",
+        "artist": "APPARAT ",
+        "title": "lighton",
+        "time": "(2021-06-08T00:16:58Z)"
+    },
+    {
+        "otitle": "(J_N) SKALPEL - deep breath(2021-06-08T00:22:03Z)",
+        "genre": "(J_N)",
+        "label": "",
+        "artist": "SKALPEL ",
+        "title": "deep breath",
+        "time": "(2021-06-08T00:22:03Z)"
+    },
+    {
+        "otitle": "(Dt) fuck knows - B1 ET 2(2021-06-08T00:26:38Z)",
+        "genre": "(Dt)",
+        "label": "",
+        "artist": "fuck knows ",
+        "title": "B1 ET 2",
+        "time": "(2021-06-08T00:26:38Z)"
+    },
+    {
+        "otitle": "(T_N) AFRIQUA - Shout(2021-06-08T00:34:28Z)",
+        "genre": "(T_N)",
+        "label": "",
+        "artist": "AFRIQUA ",
+        "title": "Shout",
+        "time": "(2021-06-08T00:34:28Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T00:39:53Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T00:39:53Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(Db_N) ECHO BROWN - Affirmations _ THE NORTH QUARTER(2021-06-08T00:40:13Z)",
+        "genre": "(Db_N)",
+        "label": " THE NORTH QUARTER",
+        "artist": "ECHO BROWN ",
+        "title": "Affirmations ",
+        "time": "(2021-06-08T00:40:13Z)"
+    },
+    {
+        "otitle": "(R) CARL DAWKINS - mr satisfaction(2021-06-08T00:44:58Z)",
+        "genre": "(R)",
+        "label": "",
+        "artist": "CARL DAWKINS ",
+        "title": "mr satisfaction",
+        "time": "(2021-06-08T00:44:58Z)"
+    },
+    {
+        "otitle": "(T_N) HAALLEYCKS - Anxiety (G(2021-06-08T00:46:53Z)",
+        "genre": "(T_N)",
+        "label": "",
+        "artist": "HAALLEYCKS ",
+        "title": "Anxiety (G",
+        "time": "(2021-06-08T00:46:53Z)"
+    },
+    {
+        "otitle": "(Dt_N) ZIGGY ZEITGEIST & ERICA TUCCERI - Learning Curve _ LA SAPE(2021-06-08T00:54:33Z)",
+        "genre": "(Dt_N)",
+        "label": " LA SAPE",
+        "artist": "ZIGGY ZEITGEIST & ERICA TUCCERI ",
+        "title": "Learning Curve ",
+        "time": "(2021-06-08T00:54:33Z)"
+    },
+    {
+        "otitle": "(E) TRYCYCLE - Various_Productionsvars022(2021-06-08T00:57:48Z)",
+        "genre": "(E)",
+        "label": "Productionsvars022",
+        "artist": "TRYCYCLE ",
+        "title": "Various",
+        "time": "(2021-06-08T00:57:48Z)"
+    },
+    {
+        "otitle": "(J) LAURENT DE WILDE - the present WARNER(2021-06-08T01:02:03Z)",
+        "genre": "(J)",
+        "label": "",
+        "artist": "LAURENT DE WILDE ",
+        "title": "the present WARNER",
+        "time": "(2021-06-08T01:02:03Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T01:07:13Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T01:07:13Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(T_N) OXIA - never forget(2021-06-08T01:07:43Z)",
+        "genre": "(T_N)",
+        "label": "",
+        "artist": "OXIA ",
+        "title": "never forget",
+        "time": "(2021-06-08T01:07:43Z)"
+    },
+    {
+        "otitle": "(t_N) BEN VEDREN - Space Lab(2021-06-08T01:13:08Z)",
+        "genre": "(t_N)",
+        "label": "",
+        "artist": "BEN VEDREN ",
+        "title": "Space Lab",
+        "time": "(2021-06-08T01:13:08Z)"
+    },
+    {
+        "otitle": "(F_N) WINDY C - 100% pure poison BLUE NOTE(2021-06-08T01:18:33Z)",
+        "genre": "(F_N)",
+        "label": "",
+        "artist": "WINDY C ",
+        "title": "100% pure poison BLUE NOTE",
+        "time": "(2021-06-08T01:18:33Z)"
+    },
+    {
+        "otitle": "(N) UNFORSCENE - check da cent(2021-06-08T01:23:43Z)",
+        "genre": "(N)",
+        "label": "",
+        "artist": "UNFORSCENE ",
+        "title": "check da cent",
+        "time": "(2021-06-08T01:23:43Z)"
+    },
+    {
+        "otitle": "(T_N) DARLING - 80 axes(2021-06-08T01:28:33Z)",
+        "genre": "(T_N)",
+        "label": "",
+        "artist": "DARLING ",
+        "title": "80 axes",
+        "time": "(2021-06-08T01:28:33Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T01:33:53Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T01:33:53Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(Beats_N) ETCH x LUO - Amygdala _ SNEAKER SOCIAL CLUB(2021-06-08T01:34:08Z)",
+        "genre": "(Beats_N)",
+        "label": " SNEAKER SOCIAL CLUB",
+        "artist": "ETCH x LUO ",
+        "title": "Amygdala ",
+        "time": "(2021-06-08T01:34:08Z)"
+    },
+    {
+        "otitle": "(R) HORACE ANDY - ain't no sunshine(2021-06-08T01:41:33Z)",
+        "genre": "(R)",
+        "label": "",
+        "artist": "HORACE ANDY ",
+        "title": "ain't no sunshine",
+        "time": "(2021-06-08T01:41:33Z)"
+    },
+    {
+        "otitle": "(2021-06-08T08:14:13Z)",
+        "genre": "(2021-06-08T08:14:13Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(R) HORACE ANDY - ain't no sunshine(2021-06-08T08:14:18Z)",
+        "genre": "(R)",
+        "label": "",
+        "artist": "HORACE ANDY ",
+        "title": "ain't no sunshine",
+        "time": "(2021-06-08T08:14:18Z)"
+    },
+    {
+        "otitle": "(J) TWITCH - blow your blues away KEY(2021-06-08T17:24:08Z)",
+        "genre": "(J)",
+        "label": "",
+        "artist": "TWITCH ",
+        "title": "blow your blues away KEY",
+        "time": "(2021-06-08T17:24:08Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T17:28:23Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T17:28:23Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(H) LONE - minds eye melody(2021-06-08T17:28:28Z)",
+        "genre": "(H)",
+        "label": "",
+        "artist": "LONE ",
+        "title": "minds eye melody",
+        "time": "(2021-06-08T17:28:28Z)"
+    },
+    {
+        "otitle": "(T) REDCELL - paradroid B12(2021-06-08T17:36:18Z)",
+        "genre": "(T)",
+        "label": "",
+        "artist": "REDCELL ",
+        "title": "paradroid B12",
+        "time": "(2021-06-08T17:36:18Z)"
+    },
+    {
+        "otitle": "(F) THE BABY HUEY STORY - mighty mighty(2021-06-08T17:41:03Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "THE BABY HUEY STORY ",
+        "title": "mighty mighty",
+        "time": "(2021-06-08T17:41:03Z)"
+    },
+    {
+        "otitle": "(F) JIMMY SMITH - stay loose(2021-06-08T17:43:43Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "JIMMY SMITH ",
+        "title": "stay loose",
+        "time": "(2021-06-08T17:43:43Z)"
+    },
+    {
+        "otitle": "(T_N) SUBURBAN KNIGHT - roundtable chronicles PEACE FROG(2021-06-08T17:47:03Z)",
+        "genre": "(T_N)",
+        "label": "",
+        "artist": "SUBURBAN KNIGHT ",
+        "title": "roundtable chronicles PEACE FROG",
+        "time": "(2021-06-08T17:47:03Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T17:52:38Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T17:52:38Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(P) GRACE JONES - she s lost control(2021-06-08T17:52:58Z)",
+        "genre": "(P)",
+        "label": "",
+        "artist": "GRACE JONES ",
+        "title": "she s lost control",
+        "time": "(2021-06-08T17:52:58Z)"
+    },
+    {
+        "otitle": "(Ro) BIGOTT - I Love Monkeys(2021-06-08T17:58:53Z)",
+        "genre": "(Ro)",
+        "label": "",
+        "artist": "BIGOTT ",
+        "title": "I Love Monkeys",
+        "time": "(2021-06-08T17:58:53Z)"
+    },
+    {
+        "otitle": "(H) JIMPSTER - Porchlight And Rocking Chairs (KiNK Remix)(2021-06-08T18:01:08Z)",
+        "genre": "(H)",
+        "label": "",
+        "artist": "JIMPSTER ",
+        "title": "Porchlight And Rocking Chairs (KiNK Remix)",
+        "time": "(2021-06-08T18:01:08Z)"
+    },
+    {
+        "otitle": "(T) R.O.S.H. - hard year(2021-06-08T18:08:08Z)",
+        "genre": "(T)",
+        "label": "",
+        "artist": "R.O.S.H. ",
+        "title": "hard year",
+        "time": "(2021-06-08T18:08:08Z)"
+    },
+    {
+        "otitle": "(F) THE BLACKBYRDS - rock creek park ACE(2021-06-08T18:15:28Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "THE BLACKBYRDS ",
+        "title": "rock creek park ACE",
+        "time": "(2021-06-08T18:15:28Z)"
+    },
+    {
+        "otitle": "(F) LIQUID LIQUID - Cavern (Re-Edit)(2021-06-08T18:19:53Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "LIQUID LIQUID ",
+        "title": "Cavern (Re-Edit)",
+        "time": "(2021-06-08T18:19:53Z)"
+    },
+    {
+        "otitle": "(h_N) Esa - Serenity(2021-06-08T18:26:58Z)",
+        "genre": "(h_N)",
+        "label": "",
+        "artist": "Esa ",
+        "title": "Serenity",
+        "time": "(2021-06-08T18:26:58Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T18:33:08Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T18:33:08Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(Ro) THE SONICS - boss hoss(2021-06-08T18:33:28Z)",
+        "genre": "(Ro)",
+        "label": "",
+        "artist": "THE SONICS ",
+        "title": "boss hoss",
+        "time": "(2021-06-08T18:33:28Z)"
+    },
+    {
+        "otitle": "(Ro) MY SISTER KLAUS - chateau rouge(2021-06-08T18:35:48Z)",
+        "genre": "(Ro)",
+        "label": "",
+        "artist": "MY SISTER KLAUS ",
+        "title": "chateau rouge",
+        "time": "(2021-06-08T18:35:48Z)"
+    },
+    {
+        "otitle": "(Db) M ZINE - Tfatv _ SOFA SOUND(2021-06-08T18:38:48Z)",
+        "genre": "(Db)",
+        "label": " SOFA SOUND",
+        "artist": "M ZINE ",
+        "title": "Tfatv ",
+        "time": "(2021-06-08T18:38:48Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T18:43:18Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T18:43:18Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(Db) SURVIVAL & ANT TC1 - Sleepless(2021-06-08T18:43:33Z)",
+        "genre": "(Db)",
+        "label": "",
+        "artist": "SURVIVAL & ANT TC1 ",
+        "title": "Sleepless",
+        "time": "(2021-06-08T18:43:33Z)"
+    },
+    {
+        "otitle": "(D) CALIBRE - overeaction dub(2021-06-08T18:48:48Z)",
+        "genre": "(D)",
+        "label": "",
+        "artist": "CALIBRE ",
+        "title": "overeaction dub",
+        "time": "(2021-06-08T18:48:48Z)"
+    },
+    {
+        "otitle": "(J) SHAY MANE - i women UNIVERSAL JAZZ(2021-06-08T18:54:28Z)",
+        "genre": "(J)",
+        "label": "",
+        "artist": "SHAY MANE ",
+        "title": "i women UNIVERSAL JAZZ",
+        "time": "(2021-06-08T18:54:28Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T18:58:23Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T18:58:23Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(H) LIl LOUIS - i called u (Why U Fall)(2021-06-08T18:58:38Z)",
+        "genre": "(H)",
+        "label": "",
+        "artist": "LIl LOUIS ",
+        "title": "i called u (Why U Fall)",
+        "time": "(2021-06-08T18:58:38Z)"
+    },
+    {
+        "otitle": "(J_N) SCRUSCRU - Rain In A Bamboo Grove _ OMENA(2021-06-08T19:03:08Z)",
+        "genre": "(J_N)",
+        "label": " OMENA",
+        "artist": "SCRUSCRU ",
+        "title": "Rain In A Bamboo Grove ",
+        "time": "(2021-06-08T19:03:08Z)"
+    },
+    {
+        "otitle": "(E) LORN - weigh me down(2021-06-08T19:07:08Z)",
+        "genre": "(E)",
+        "label": "",
+        "artist": "LORN ",
+        "title": "weigh me down",
+        "time": "(2021-06-08T19:07:08Z)"
+    },
+    {
+        "otitle": "(J_N) COUNT OSSIE - way back home(2021-06-08T19:10:48Z)",
+        "genre": "(J_N)",
+        "label": "",
+        "artist": "COUNT OSSIE ",
+        "title": "way back home",
+        "time": "(2021-06-08T19:10:48Z)"
+    },
+    {
+        "otitle": "(W) SWEET TALKS - eyi su ngaangaa(2021-06-08T19:15:23Z)",
+        "genre": "(W)",
+        "label": "",
+        "artist": "SWEET TALKS ",
+        "title": "eyi su ngaangaa",
+        "time": "(2021-06-08T19:15:23Z)"
+    },
+    {
+        "otitle": "(F) MILEZ BENJAMIN - Chop That Wood(2021-06-08T19:19:53Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "MILEZ BENJAMIN ",
+        "title": "Chop That Wood",
+        "time": "(2021-06-08T19:19:53Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T19:25:23Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T19:25:23Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(J_Db) JAMES HARDWAY - see through me(2021-06-08T19:25:38Z)",
+        "genre": "(J_Db)",
+        "label": "",
+        "artist": "JAMES HARDWAY ",
+        "title": "see through me",
+        "time": "(2021-06-08T19:25:38Z)"
+    },
+    {
+        "otitle": "(E_N) CHAPELIER FOU - Senestre Eldorado _ICI D'AILLEURS(2021-06-08T19:30:38Z)",
+        "genre": "(E_N)",
+        "label": "ICI D'AILLEURS",
+        "artist": "CHAPELIER FOU ",
+        "title": "Senestre Eldorado ",
+        "time": "(2021-06-08T19:30:38Z)"
+    },
+    {
+        "otitle": "(E_N) DAF - der rauber und der printz(2021-06-08T19:34:18Z)",
+        "genre": "(E_N)",
+        "label": "",
+        "artist": "DAF ",
+        "title": "der rauber und der printz",
+        "time": "(2021-06-08T19:34:18Z)"
+    },
+    {
+        "otitle": "(T) UNDERWORLD - rez JUNIOR BOYS OWN(2021-06-08T19:37:48Z)",
+        "genre": "(T)",
+        "label": "",
+        "artist": "UNDERWORLD ",
+        "title": "rez JUNIOR BOYS OWN",
+        "time": "(2021-06-08T19:37:48Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T19:45:48Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T19:45:48Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(S) MORTON STEVENS - the long wait(2021-06-08T19:46:38Z)",
+        "genre": "(S)",
+        "label": "",
+        "artist": "MORTON STEVENS ",
+        "title": "the long wait",
+        "time": "(2021-06-08T19:46:38Z)"
+    },
+    {
+        "otitle": "(P) BRAKES - ny pie(2021-06-08T19:48:58Z)",
+        "genre": "(P)",
+        "label": "",
+        "artist": "BRAKES ",
+        "title": "ny pie",
+        "time": "(2021-06-08T19:48:58Z)"
+    },
+    {
+        "otitle": "(Maghreb_N) ORIENT EXPRESSIONS - istambul 1 26 am(2021-06-08T19:50:53Z)",
+        "genre": "(Maghreb_N)",
+        "label": "",
+        "artist": "ORIENT EXPRESSIONS ",
+        "title": "istambul 1 26 am",
+        "time": "(2021-06-08T19:50:53Z)"
+    },
+    {
+        "otitle": "(Dt_N) ZIGGY ZEITGEIST & ERICA TUCCERI - Tzimtzum _ LA SAPE(2021-06-08T19:57:28Z)",
+        "genre": "(Dt_N)",
+        "label": " LA SAPE",
+        "artist": "ZIGGY ZEITGEIST & ERICA TUCCERI ",
+        "title": "Tzimtzum ",
+        "time": "(2021-06-08T19:57:28Z)"
+    },
+    {
+        "otitle": "(N) KING KRIMSON - nuages VIRGIN(2021-06-08T20:00:28Z)",
+        "genre": "(N)",
+        "label": "",
+        "artist": "KING KRIMSON ",
+        "title": "nuages VIRGIN",
+        "time": "(2021-06-08T20:00:28Z)"
+    },
+    {
+        "otitle": "(J_N) PHILIP COHRAN & THE ARTISTIC HERITAGE ENSEMBLE - malcolm x(2021-06-08T20:05:13Z)",
+        "genre": "(J_N)",
+        "label": "",
+        "artist": "PHILIP COHRAN & THE ARTISTIC HERITAGE ENSEMBLE ",
+        "title": "malcolm x",
+        "time": "(2021-06-08T20:05:13Z)"
+    },
+    {
+        "otitle": "(R) I ROY - water rate(2021-06-08T20:10:28Z)",
+        "genre": "(R)",
+        "label": "",
+        "artist": "I ROY ",
+        "title": "water rate",
+        "time": "(2021-06-08T20:10:28Z)"
+    },
+    {
+        "otitle": "(F) BOBBY BIRD - if you don t work(2021-06-08T20:13:53Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "BOBBY BIRD ",
+        "title": "if you don t work",
+        "time": "(2021-06-08T20:13:53Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T20:17:53Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T20:17:53Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(J) CHRISTIAN PROMMERS DRUMLESSON - beau monde plage(2021-06-08T20:17:58Z)",
+        "genre": "(J)",
+        "label": "",
+        "artist": "CHRISTIAN PROMMERS DRUMLESSON ",
+        "title": "beau monde plage",
+        "time": "(2021-06-08T20:17:58Z)"
+    },
+    {
+        "otitle": "(Beats_N) BLUTCH - Cobalan _ ASTROPOLIS(2021-06-08T20:21:43Z)",
+        "genre": "(Beats_N)",
+        "label": " ASTROPOLIS",
+        "artist": "BLUTCH ",
+        "title": "Cobalan ",
+        "time": "(2021-06-08T20:21:43Z)"
+    },
+    {
+        "otitle": "(P_N) SEBASTIEN SCHULLER - tears coming home(2021-06-08T20:25:38Z)",
+        "genre": "(P_N)",
+        "label": "",
+        "artist": "SEBASTIEN SCHULLER ",
+        "title": "tears coming home",
+        "time": "(2021-06-08T20:25:38Z)"
+    },
+    {
+        "otitle": "(T) INNER CITY - good life(2021-06-08T20:30:33Z)",
+        "genre": "(T)",
+        "label": "",
+        "artist": "INNER CITY ",
+        "title": "good life",
+        "time": "(2021-06-08T20:30:33Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T20:38:43Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T20:38:43Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(F) RYO KAWASAKI - bamboo child TONKA(2021-06-08T20:39:18Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "RYO KAWASAKI ",
+        "title": "bamboo child TONKA",
+        "time": "(2021-06-08T20:39:18Z)"
+    },
+    {
+        "otitle": "(P) KELLY STOLTZ - birdies singing(2021-06-08T20:43:28Z)",
+        "genre": "(P)",
+        "label": "",
+        "artist": "KELLY STOLTZ ",
+        "title": "birdies singing",
+        "time": "(2021-06-08T20:43:28Z)"
+    },
+    {
+        "otitle": "(N_N) ALICE RUSSELL - i m just here(2021-06-08T20:46:48Z)",
+        "genre": "(N_N)",
+        "label": "",
+        "artist": "ALICE RUSSELL ",
+        "title": "i m just here",
+        "time": "(2021-06-08T20:46:48Z)"
+    },
+    {
+        "otitle": "(J_F_N) MFP - Your_Warmth _ R2(2021-06-08T20:51:53Z)",
+        "genre": "(J_F_N)",
+        "label": "Warmth _ R2",
+        "artist": "MFP ",
+        "title": "Your",
+        "time": "(2021-06-08T20:51:53Z)"
+    },
+    {
+        "otitle": "(Dt) TALL BLACK GUY - water no enemy(2021-06-08T20:55:48Z)",
+        "genre": "(Dt)",
+        "label": "",
+        "artist": "TALL BLACK GUY ",
+        "title": "water no enemy",
+        "time": "(2021-06-08T20:55:48Z)"
+    },
+    {
+        "otitle": "(HH_N) ART BLEEK - night nurse(2021-06-08T21:00:28Z)",
+        "genre": "(HH_N)",
+        "label": "",
+        "artist": "ART BLEEK ",
+        "title": "night nurse",
+        "time": "(2021-06-08T21:00:28Z)"
+    },
+    {
+        "otitle": "(L) PAPI BRANDAO Y SUS EJECUTIVOS - bilongo(2021-06-08T21:05:03Z)",
+        "genre": "(L)",
+        "label": "",
+        "artist": "PAPI BRANDAO Y SUS EJECUTIVOS ",
+        "title": "bilongo",
+        "time": "(2021-06-08T21:05:03Z)"
+    },
+    {
+        "otitle": "(F) BRENDA AND THE TABULATIONS - let s go all the way(2021-06-08T21:08:08Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "BRENDA AND THE TABULATIONS ",
+        "title": "let s go all the way",
+        "time": "(2021-06-08T21:08:08Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T21:14:28Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T21:14:28Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(J) CHASSOL - la route de la trace(2021-06-08T21:14:38Z)",
+        "genre": "(J)",
+        "label": "",
+        "artist": "CHASSOL ",
+        "title": "la route de la trace",
+        "time": "(2021-06-08T21:14:38Z)"
+    },
+    {
+        "otitle": "(Bb_N) M VAUGHAN - Hotboxing(2021-06-08T21:16:58Z)",
+        "genre": "(Bb_N)",
+        "label": "",
+        "artist": "M VAUGHAN ",
+        "title": "Hotboxing",
+        "time": "(2021-06-08T21:16:58Z)"
+    },
+    {
+        "otitle": "(P_N) MAHAVISHNU ORCHESTRA - you know you know(2021-06-08T21:22:38Z)",
+        "genre": "(P_N)",
+        "label": "",
+        "artist": "MAHAVISHNU ORCHESTRA ",
+        "title": "you know you know",
+        "time": "(2021-06-08T21:22:38Z)"
+    },
+    {
+        "otitle": "(T) KiNK - existence(2021-06-08T21:27:48Z)",
+        "genre": "(T)",
+        "label": "",
+        "artist": "KiNK ",
+        "title": "existence",
+        "time": "(2021-06-08T21:27:48Z)"
+    },
+    {
+        "otitle": "PBB - Luckily We Still Have Music(2021-06-08T21:33:28Z)",
+        "genre": "PBB - Luckily We Still Have Music(2021-06-08T21:33:28Z)",
+        "label": "",
+        "artist": false,
+        "title": false,
+        "time": ""
+    },
+    {
+        "otitle": "(F) JEB LOY NICHOLS - dont drop me(2021-06-08T21:34:18Z)",
+        "genre": "(F)",
+        "label": "",
+        "artist": "JEB LOY NICHOLS ",
+        "title": "dont drop me",
+        "time": "(2021-06-08T21:34:18Z)"
+    },
+    {
+        "otitle": "(Ro) THE TONGUES OF TRUTH - let's talk about girls(2021-06-08T21:37:23Z)",
+        "genre": "(Ro)",
+        "label": "",
+        "artist": "THE TONGUES OF TRUTH ",
+        "title": "let's talk about girls",
+        "time": "(2021-06-08T21:37:23Z)"
+    },
+    {
+        "otitle": "(Dt_N) JAMES KUMO - fantasy (Beatless Mix)(2021-06-08T21:40:08Z)",
+        "genre": "(Dt_N)",
+        "label": "",
+        "artist": "JAMES KUMO ",
+        "title": "fantasy (Beatless Mix)",
+        "time": "(2021-06-08T21:40:08Z)"
+    },
+    {
+        "otitle": "(H_N) NOWSM - Love Beams(2021-06-08T21:45:38Z)",
+        "genre": "(H_N)",
+        "label": "",
+        "artist": "NOWSM ",
+        "title": "Love Beams",
+        "time": "(2021-06-08T21:45:38Z)"
+    },
+    {
+        "otitle": "(N) ANDRE ZIMMA - mermaids bay(2021-06-08T21:49:43Z)",
+        "genre": "(N)",
+        "label": "",
+        "artist": "ANDRE ZIMMA ",
+        "title": "mermaids bay",
+        "time": "(2021-06-08T21:49:43Z)"
+    },
+    {
+        "otitle": "(R_N) MIDNIGHT GROOVERS - Stranger(2021-06-08T21:55:28Z)",
+        "genre": "(R_N)",
+        "label": "",
+        "artist": "MIDNIGHT GROOVERS ",
+        "title": "Stranger",
+        "time": "(2021-06-08T21:55:28Z)"
+    }
+]

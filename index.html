@@ -4,7 +4,7 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>psylo.ddns.net / pi4Psylo</title>
+<title>psylo.ddns.net / pi4Psylo / Index</title>
 <link rel="stylesheet" href="/js/jquery-ui-1.12.1/jquery-ui.css">
 <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/hackers.css" rel="stylesheet" media="screen">
@@ -81,7 +81,11 @@
                 });
             $.getJSON("mongoTest.php")
                 .done(function(result) {
-                    $('#lastTrax2').html('');
+                    $('#lastTrax2').html('<th>time</th>\
+                            <th> genre</th>\
+                            <th>artist</th>\
+                            <th>title</th>\
+                            <th>label</th>');
                     $.each(result, function(i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
@@ -92,7 +96,7 @@
                             </tr>';
                             $('#lastTrax2').append(row);
                             // $("lastTrax").append(item + " ");
-                            //console.log(item);
+                            //console.log(row);
                         }
                     });
                 });
