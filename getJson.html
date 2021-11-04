@@ -140,17 +140,21 @@
                             <td>' + item.label + '</td>  \
                             </tr>';
                             $('#lastTrax2').append(row);
+
                         }
                         //console.log(row);
-                        nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                        nTime = new Date(result[0].time.replaceAll('(', '').replaceAll(')', ''));
                         nTime = nTime.toLocaleTimeString([], {
                             hour: '2-digit',
                             minute: '2-digit',
                             second: '2-digit'
                         });
-                        var myTitle = result[0].genre + " - " + result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
-                        $('#currentTrack').html(myTitle + "<br/>" + nTime);
+                        var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
+                        $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime);
                         document.title = 'PBBbyPsyl0::' + result[0].genre + "" + result[0].title + "::" + result[0].artist;
+                        if (i == 10) {
+                            return false;
+                        }
                     });
                 });
         }

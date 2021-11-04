@@ -62,23 +62,23 @@
         });
 
         function LoadDb() {
-            $.getJSON("mongo.php")
-                .done(function(result) {
-                    $('#lastTrax').html('');
-                    $.each(result, function(i, item) {
-                        if (item.artist != "PBB") {
-                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                            <td>' + item.genre + '</td>  \
-                            <td>' + item.artist + '</td> \
-                            <td>' + item.title + '</td>  \
-                            <td>' + item.label + '</td>  \
-                            </tr>';
-                            $('#lastTrax').append(row);
-                            // $("lastTrax").append(item + " ");
-                            // console.log(item);
-                        }
-                    });
-                });
+            // $.getJSON("mongo.php")
+            //     .done(function(result) {
+            //         $('#lastTrax').html('');
+            //         $.each(result, function(i, item) {
+            //             if (item.artist != "PBB") {
+            //                 var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
+            //                 <td>' + item.genre + '</td>  \
+            //                 <td>' + item.artist + '</td> \
+            //                 <td>' + item.title + '</td>  \
+            //                 <td>' + item.label + '</td>  \
+            //                 </tr>';
+            //                 $('#lastTrax').append(row);
+            //                 // $("lastTrax").append(item + " ");
+            //                 // console.log(item);
+            //             }
+            //         });
+            //     });
             $.getJSON("mongoTest.php")
                 .done(function(result) {
                     $('#lastTrax2').html('<th>time</th>\
@@ -118,10 +118,10 @@
     <div class="bg-trax ">
         <table id="tbComp">
             <tr>
-                <td>Recorded into DB from PythonScript running in terminal</td>
+                <!-- <td>Recorded into DB from PythonScript running in terminal</td> -->
                 <td>Recorded from python Service running with systemctl</td>
                 <tr>
-                    <td>
+                    <!-- <td>
                         <table id="lastTrax" class="lastTrax" width="50%">
                             <th>time</th>
                             <th>genre</th>
@@ -129,7 +129,7 @@
                             <th>title</th>
                             <th>label</th>
                         </table>
-                    </td>
+                    </td> -->
                     <td>
                         <table id="lastTrax2" class="lastTrax" width="50%">
                             <th>time</th>
