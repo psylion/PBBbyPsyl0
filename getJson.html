@@ -74,13 +74,13 @@
         });
 
         function getGenre(ab) {
-            console.log('genre AB: ' + ab);
+            //console.log('genre AB: ' + ab);
             var ret = ab;
             //$.getJSON('/json/genre.json', function(data) {
             $.each($genreList.responseJSON, function(i, res) {
                 //console.log('genreLoop:' + data.genre);
                 if (res.genre == ab) {
-                    console.log('Selected: ' + res.genre + ': ' + res.main);
+                    //console.log('Selected: ' + res.genre + ': ' + res.main);
                     ret = res.main;
                     //alert(res.main);
                 }
