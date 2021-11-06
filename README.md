@@ -12,3 +12,9 @@ I've received the php code to extract those information, and I'm planning to cre
 
 ### References
 - [History Log](historylog.md)
+
+### Create JSON from Google sheet
+- I extracted all the Genre tags from PBB
+- Community help me to create the definition of the abbreviated tags - Thanks to Bruno Ferrari!
+- Link to convert with Google API script editor http://blog.pamelafox.org/2013/06/exporting-google-spreadsheet-as-json.html
+- TODO next :: Load the genre and make a display of the definition

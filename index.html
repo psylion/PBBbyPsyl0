@@ -32,10 +32,12 @@
         var SCALING_MODE_CONTAIN = 3;
         //Sets 'background-size' to 'contain'. This scales the bakcground image to the largest size such 
         //that both its width and its height can fit inside the content area
-
+        //Create global array for genre tagging
+        $genreList = [];
 
         $(document).ready(function() {
             $imgFiles = [];
+            $genreList = $.getJSON('/json/genre.json', function(data) {});
             $("#test").html("JQuery loaded");
             // get last trax
             LoadDb();
@@ -89,7 +91,7 @@
                     $.each(result, function(i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                            <td>' + item.genre + '</td>  \
+                            <td>' + getGenre(item.genre) + '</td>  \
                             <td>' + item.artist + '</td> \
                             <td>' + item.title + '</td>  \
                             <td>' + item.label + '</td>  \
@@ -100,6 +102,22 @@
                         }
                     });
                 });
+        }
+        // function to map the tags to the genre
+        function getGenre(ab) {
+            console.log('genre AB: ' + ab);
+            var ret = ab;
+            //$.getJSON('/json/genre.json', function(data) {
+            $.each($genreList.responseJSON, function(i, res) {
+                //console.log('genreLoop:' + data.genre);
+                if (res.genre == ab) {
+                    console.log('Selected: ' + res.genre + ': ' + res.main);
+                    ret = res.main;
+                    //alert(res.main);
+                }
+            });
+            // });
+            return ret;
         }
         //const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
         // wrapper backgroun slideshow

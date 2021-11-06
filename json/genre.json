@@ -1,0 +1,248 @@
+[{
+        "genre": "A",
+        "main": "Ambient"
+    },
+    {
+        "genre": "A_N",
+        "main": "Ambient New Age"
+    },
+    {
+        "genre": "BB",
+        "main": "Breakbeat"
+    },
+    {
+        "genre": "Bb",
+        "main": "Breakbeat"
+    },
+    {
+        "genre": "Bb_N",
+        "main": "Breakbeat New Age"
+    },
+    {
+        "genre": "Beats",
+        "main": "Beats"
+    },
+    {
+        "genre": "Beats_N",
+        "main": "Beats New Age"
+    },
+    {
+        "genre": "Blues",
+        "main": "Blues"
+    },
+    {
+        "genre": "Blues_N",
+        "main": "Blues New Age"
+    },
+    {
+        "genre": "Blues_W",
+        "main": "Blues World"
+    },
+    {
+        "genre": "Bra",
+        "main": "Brazilian"
+    },
+    {
+        "genre": "Brok",
+        "main": "Broken Beat"
+    },
+    {
+        "genre": "brok",
+        "main": "Broken Beat"
+    },
+    {
+        "genre": "D",
+        "main": "Dub"
+    },
+    {
+        "genre": "D_N",
+        "main": "Dub New Age"
+    },
+    {
+        "genre": "D_T_N",
+        "main": "Dub Techno New Age"
+    },
+    {
+        "genre": "Db",
+        "main": "Drum & Bass"
+    },
+    {
+        "genre": "Db_N",
+        "main": "Drum & Bass New Age"
+    },
+    {
+        "genre": "Disco",
+        "main": "Disco"
+    },
+    {
+        "genre": "Dt",
+        "main": "Downtempo"
+    },
+    {
+        "genre": "Dt_N",
+        "main": "Downtempo New Age"
+    },
+    {
+        "genre": "dt_N",
+        "main": "Downtempo New Age"
+    },
+    {
+        "genre": "Dubstep",
+        "main": "Dubstep"
+    },
+    {
+        "genre": "E",
+        "main": "Electro"
+    },
+    {
+        "genre": "E_N",
+        "main": "Electro New"
+    },
+    {
+        "genre": "F",
+        "main": "Funk"
+    },
+    {
+        "genre": "F_N",
+        "main": "Funk New Age"
+    },
+    {
+        "genre": "Folk_N",
+        "main": "Folk "
+    },
+    {
+        "genre": "Fr",
+        "main": "French"
+    },
+    {
+        "genre": "Fr_N_N",
+        "main": "French"
+    },
+    {
+        "genre": "Ft_N"
+    },
+    {
+        "genre": "H",
+        "main": "House"
+    },
+    {
+        "genre": "H_N",
+        "main": "House New Age"
+    },
+    {
+        "genre": "HH",
+        "main": "Hip Hop"
+    },
+    {
+        "genre": "HH_N",
+        "main": "Hip hop New Age"
+    },
+    {
+        "genre": "J",
+        "main": "Jazz"
+    },
+    {
+        "genre": "J_F",
+        "main": "Jazz Funk"
+    },
+    {
+        "genre": "J_Fr_N",
+        "main": "Jazz French New Age"
+    },
+    {
+        "genre": "J_H",
+        "main": "Jazz House"
+    },
+    {
+        "genre": "J_H_N",
+        "main": "Jazz House New Age"
+    },
+    {
+        "genre": "J_HH",
+        "main": "Jazz Hip Hop"
+    },
+    {
+        "genre": "J_N",
+        "main": "Jazz New Age"
+    },
+    {
+        "genre": "L",
+        "main": "Latin"
+    },
+    {
+        "genre": "N",
+        "main": "New"
+    },
+    {
+        "genre": "N_N",
+        "main": "New-New?"
+    },
+    {
+        "genre": "P",
+        "main": "Psychedelic"
+    },
+    {
+        "genre": "P_D",
+        "main": "Psychedelic Dub"
+    },
+    {
+        "genre": "P_E",
+        "main": "Psychedelic Electro"
+    },
+    {
+        "genre": "P_N",
+        "main": "Psychedelic New Age"
+    },
+    {
+        "genre": "R",
+        "main": "Rap"
+    },
+    {
+        "genre": "Ra",
+        "main": "Reggae or Ragga"
+    },
+    {
+        "genre": "Ro",
+        "main": "Rock"
+    },
+    {
+        "genre": "S",
+        "main": "Soul"
+    },
+    {
+        "genre": "S_N",
+        "main": "Soul New"
+    },
+    {
+        "genre": "Spain_N",
+        "main": "Spain New"
+    },
+    {
+        "genre": "T",
+        "main": "Techno"
+    },
+    {
+        "genre": "T_N",
+        "main": "Techno New"
+    },
+    {
+        "genre": "T_Ro",
+        "main": "Techno Rock"
+    },
+    {
+        "genre": "W",
+        "main": "World"
+    },
+    {
+        "genre": "W_N",
+        "main": "World New"
+    },
+    {
+        "genre": "X",
+        "main": "Soundtrack"
+    },
+    {
+        "genre": "X_N",
+        "main": "Soundtrack New"
+    }
+]

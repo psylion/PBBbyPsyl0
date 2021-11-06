@@ -33,8 +33,11 @@
 <body>
     <script>
         $imgFiles = [];
+        $genreList = [];
+
         $(document).ready(function() {
             LoadDb();
+            $genreList = $.getJSON('/json/genre.json', function(data) {});
             $pload = new Date();
             $checkSaved = new Date();
             $lastSaved = new Date();
@@ -68,9 +71,23 @@
                     backgroundSize: SCALING_MODE_CONTAIN
                 });
             });
-
-
         });
+
+        function getGenre(ab) {
+            console.log('genre AB: ' + ab);
+            var ret = ab;
+            //$.getJSON('/json/genre.json', function(data) {
+            $.each($genreList.responseJSON, function(i, res) {
+                //console.log('genreLoop:' + data.genre);
+                if (res.genre == ab) {
+                    console.log('Selected: ' + res.genre + ': ' + res.main);
+                    ret = res.main;
+                    //alert(res.main);
+                }
+            });
+            // });
+            return ret;
+        }
 
         function reloadJSON() {
             $.getJSON($jsonFile, function(data) {
@@ -127,14 +144,14 @@
             $.getJSON("mongoTest.php")
                 .done(function(result) {
                     $('#lastTrax2').html('<th>time</th>\
-                            <th> genre</th>\
+                            <th>genre</th>\
                             <th>artist</th>\
                             <th>title</th>\
                             <th>label</th>');
                     $.each(result, function(i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                            <td>' + item.genre + '</td>  \
+                            <td>' + getGenre(item.genre) + '</td>  \
                             <td>' + item.artist + '</td> \
                             <td>' + item.title + '</td>  \
                             <td>' + item.label + '</td>  \
@@ -149,10 +166,11 @@
                             minute: '2-digit',
                             second: '2-digit'
                         });
-                        var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
-                        $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime);
-                        document.title = 'PBBbyPsyl0::' + result[0].genre + "" + result[0].title + "::" + result[0].artist;
                         if (i == 10) {
+                            var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
+                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime);
+                            document.title = 'PBBbyPsyl0::' + getGenre(result[0].genre) + "" + result[0].title + "::" + result[0].artist;
+
                             return false;
                         }
                     });
@@ -241,7 +259,7 @@
                 <li>Inject json into Database (COMPLETED) MySql & MongoDB</li>
                 <li>get data from DB (COMPLETED) see <a href="/">index.html</a></li>
                 <li>search from DB</li>
-                <li>enhance genre tagging</li>
+                <li>enhance genre tagging (COMPLTED) :: Finally I've been able to map the tags from Lolo to the genre definition.</li>
                 <li>Mobile responsive display(PARTIALLY COMPLETED)</li>
             </ul>
             Thanks to <a href="https://www.kdbuzz.com/PBB/ " target="_blank ">KDBuzz</a> for code sharing<br /> other links:
