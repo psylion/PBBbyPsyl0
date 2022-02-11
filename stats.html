@@ -70,14 +70,16 @@
             //     cache: false
             // });
             $.get("/json", function(data) {
-                //data.reverse();
+                data.reverse();
                 $.each(data, function(i, item) {
+                    if (item.name != 'genre.json'){
                     $("#content").append(item.name + "<br/>");
 
                     $('#jsonFiles').append($('<option>', {
                         value: item.name,
                         text: item.name
                     }));
+                    }
                 })
                 $('#jsonFiles :first-child').attr('selected', 'selected');
                 $('#jsonFiles').selectmenu('refresh').trigger('selectmenuselect');

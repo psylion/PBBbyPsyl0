@@ -1,0 +1,842 @@
+[
+  {
+    "otitle": "(P_N) CV VISION - 1 The U _ KRYPTOX",
+    "artist": "CV VISION",
+    "title": "CV VISION - 1 The U",
+    "genre": "P_N",
+    "label": "KRYPTOX",
+    "time": "2021-12-07T00:01:05"
+  },
+  {
+    "otitle": "(A_N) TRU. - dark noize",
+    "artist": "TRU.",
+    "title": "dark noize",
+    "genre": "A_N",
+    "label": "",
+    "time": "2021-12-07T00:04:53"
+  },
+  {
+    "otitle": "(E) APHEX TWIN - meltphace 6 WARP",
+    "artist": "APHEX TWIN",
+    "title": "meltphace 6",
+    "genre": "E",
+    "label": "WARP",
+    "time": "2021-12-07T00:07:43"
+  },
+  {
+    "otitle": "(J) PHINEAS NEWBORN JR. - manteca",
+    "artist": "PHINEAS NEWBORN JR.",
+    "title": "manteca",
+    "genre": "J",
+    "label": "",
+    "time": "2021-12-07T00:14:02"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T00:18:18"
+  },
+  {
+    "otitle": "(Bra_N) VINICIUS DE MORAES - canto de ossanha",
+    "artist": "VINICIUS DE MORAES",
+    "title": "canto de ossanha",
+    "genre": "Bra_N",
+    "label": "",
+    "time": "2021-12-07T00:18:30"
+  },
+  {
+    "otitle": "(t_N) arne weinberg - romantic machinery",
+    "artist": "arne weinberg",
+    "title": "romantic machinery",
+    "genre": "t_N",
+    "label": "",
+    "time": "2021-12-07T00:21:47"
+  },
+  {
+    "otitle": "(H_N) R - A",
+    "artist": "R",
+    "title": "",
+    "genre": "H_N",
+    "label": "A",
+    "time": "2021-12-07T00:25:53"
+  },
+  {
+    "otitle": "(E) SAO PARIS - butterfly",
+    "artist": "SAO PARIS",
+    "title": "butterfly",
+    "genre": "E",
+    "label": "",
+    "time": "2021-12-07T00:31:38"
+  },
+  {
+    "otitle": "(T_N) APPLESCAL_ - the_history_of_love_",
+    "artist": "APPLESCAL_",
+    "title": "the_history_of_love_",
+    "genre": "T_N",
+    "label": "",
+    "time": "2021-12-07T00:34:22"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T00:39:36"
+  },
+  {
+    "otitle": "(H_N) MARK E - Rain _ 18437 REC",
+    "artist": "MARK E",
+    "title": "MARK E - Rain",
+    "genre": "H_N",
+    "label": "18437 REC",
+    "time": "2021-12-07T00:39:54"
+  },
+  {
+    "otitle": "(L) LARRY HARLOW - yo soy latino",
+    "artist": "LARRY HARLOW",
+    "title": "yo soy latino",
+    "genre": "L",
+    "label": "",
+    "time": "2021-12-07T00:46:02"
+  },
+  {
+    "otitle": "(Beats_N) JASPER TYGNER - With You _ SILVER BEAR",
+    "artist": "JASPER TYGNER",
+    "title": "JASPER TYGNER - With You",
+    "genre": "Beats_N",
+    "label": "SILVER BEAR",
+    "time": "2021-12-07T00:49:44"
+  },
+  {
+    "otitle": "(Db_N) INJA - Pressure (feat. Cleveland Watkiss) _ HOSPITAL",
+    "artist": "INJA",
+    "title": "INJA - Pressure (feat. Cleveland Watkiss)",
+    "genre": "Db_N",
+    "label": "HOSPITAL",
+    "time": "2021-12-07T00:51:18"
+  },
+  {
+    "otitle": "(E) MAXIME DANGLES - clamart (unreleased)",
+    "artist": "MAXIME DANGLES",
+    "title": "clamart (unreleased)",
+    "genre": "E",
+    "label": "",
+    "time": "2021-12-07T00:55:35"
+  },
+  {
+    "otitle": "(Blues) PONY SHERRELLl - don't do anything til you've heard from me",
+    "artist": "PONY SHERRELLl",
+    "title": "don't do anything til you've heard from me",
+    "genre": "Blues",
+    "label": "",
+    "time": "2021-12-07T01:01:20"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T01:03:45"
+  },
+  {
+    "otitle": "(F_N) CLAUDIA VITA - amame",
+    "artist": "CLAUDIA VITA",
+    "title": "amame",
+    "genre": "F_N",
+    "label": "",
+    "time": "2021-12-07T01:04:08"
+  },
+  {
+    "otitle": "(Ro_N) JOHN FRUSCIANTE AND JOSH KLINGHOFFER - at your enemies",
+    "artist": "JOHN FRUSCIANTE AND JOSH KLINGHOFFER",
+    "title": "at your enemies",
+    "genre": "Ro_N",
+    "label": "",
+    "time": "2021-12-07T01:06:50"
+  },
+  {
+    "otitle": "(F_N) CARVELLI - l'etrange Dr personne",
+    "artist": "CARVELLI",
+    "title": "l'etrange Dr personne",
+    "genre": "F_N",
+    "label": "",
+    "time": "2021-12-07T01:11:18"
+  },
+  {
+    "otitle": "(E) LAURENT GARNIER - communication from the lab F COMM",
+    "artist": "LAURENT GARNIER",
+    "title": "communication from the lab",
+    "genre": "E",
+    "label": "F COMM",
+    "time": "2021-12-07T01:14:24"
+  },
+  {
+    "otitle": "(Ro_N) JOHN CALE - look horizon",
+    "artist": "JOHN CALE",
+    "title": "look horizon",
+    "genre": "Ro_N",
+    "label": "",
+    "time": "2021-12-07T01:19:11"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T01:24:13"
+  },
+  {
+    "otitle": "(A_N) BODY CORP - The Slow _ BEDROOM SUCK",
+    "artist": "BODY CORP",
+    "title": "BODY CORP - The Slow",
+    "genre": "A_N",
+    "label": "BEDROOM SUCK",
+    "time": "2021-12-07T01:25:00"
+  },
+  {
+    "otitle": "(D) THE ROLLING STONES - out of control_remix VIRGIN",
+    "artist": "THE ROLLING STONES",
+    "title": "out of control_remix",
+    "genre": "D",
+    "label": "VIRGIN",
+    "time": "2021-12-07T01:28:36"
+  },
+  {
+    "otitle": "(Bb_N) SYNPAL - Passing Clouds _ SMOKING SESSIONS",
+    "artist": "SYNPAL",
+    "title": "SYNPAL - Passing Clouds",
+    "genre": "Bb_N",
+    "label": "SMOKING SESSIONS",
+    "time": "2021-12-07T01:33:40"
+  },
+  {
+    "otitle": "(Dt_N) TURBULANCE - Introduction _ COOPERATION",
+    "artist": "TURBULANCE",
+    "title": "TURBULANCE - Introduction",
+    "genre": "Dt_N",
+    "label": "COOPERATION",
+    "time": "2021-12-07T01:38:38"
+  },
+  {
+    "otitle": "(E) NATHAN FAKE - the sky was pink",
+    "artist": "NATHAN FAKE",
+    "title": "the sky was pink",
+    "genre": "E",
+    "label": "",
+    "time": "2021-12-07T01:42:10"
+  },
+  {
+    "otitle": "(J) GIL SCOTT HERON - evolution BMG",
+    "artist": "GIL SCOTT HERON",
+    "title": "evolution",
+    "genre": "J",
+    "label": "BMG",
+    "time": "2021-12-07T01:47:02"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T01:50:19"
+  },
+  {
+    "otitle": "(F_N) ARCHIE BELL & THE DRELLS - don't let love get you down",
+    "artist": "ARCHIE BELL & THE DRELLS",
+    "title": "don't let love get you down",
+    "genre": "F_N",
+    "label": "",
+    "time": "2021-12-07T01:50:49"
+  },
+  {
+    "otitle": "(S_N) AMP FIDLER - faith",
+    "artist": "AMP FIDLER",
+    "title": "faith",
+    "genre": "S_N",
+    "label": "",
+    "time": "2021-12-07T01:58:42"
+  },
+  {
+    "otitle": "(F_N) AHMED FAKROUN - Nisyan",
+    "artist": "AHMED FAKROUN",
+    "title": "Nisyan",
+    "genre": "F_N",
+    "label": "",
+    "time": "2021-12-07T02:02:12"
+  },
+  {
+    "otitle": "(Dt) PORTISHEAD - sour times GO DISC",
+    "artist": "PORTISHEAD",
+    "title": "sour times",
+    "genre": "Dt",
+    "label": "GO DISC",
+    "time": "2021-12-07T02:06:29"
+  },
+  {
+    "otitle": "(Ro_N) WITCH - hometown",
+    "artist": "WITCH",
+    "title": "hometown",
+    "genre": "Ro_N",
+    "label": "",
+    "time": "2021-12-07T02:10:39"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T02:14:55"
+  },
+  {
+    "otitle": "(H_N) RAFAEL MORAES - Fingers _ YORUBA",
+    "artist": "RAFAEL MORAES",
+    "title": "RAFAEL MORAES - Fingers",
+    "genre": "H_N",
+    "label": "YORUBA",
+    "time": "2021-12-07T02:15:25"
+  },
+  {
+    "otitle": "(R) RAS MICHAEL & THE SONS OF NEGUS - boma yeah",
+    "artist": "RAS MICHAEL & THE SONS OF NEGUS",
+    "title": "boma yeah",
+    "genre": "R",
+    "label": "",
+    "time": "2021-12-07T02:20:50"
+  },
+  {
+    "otitle": "(H_N) PREQUEL - When Love Is New _ RHYTHM SECTION",
+    "artist": "PREQUEL",
+    "title": "PREQUEL - When Love Is New",
+    "genre": "H_N",
+    "label": "RHYTHM SECTION",
+    "time": "2021-12-07T02:26:34"
+  },
+  {
+    "otitle": "(A_N) LEON VYNEHALL - Farewell Magnus Gabbro _ NINJA TUNE",
+    "artist": "LEON VYNEHALL",
+    "title": "LEON VYNEHALL - Farewell Magnus Gabbro",
+    "genre": "A_N",
+    "label": "NINJA TUNE",
+    "time": "2021-12-07T02:35:12"
+  },
+  {
+    "otitle": "(N) FINK - the model",
+    "artist": "FINK",
+    "title": "the model",
+    "genre": "N",
+    "label": "",
+    "time": "2021-12-07T02:39:45"
+  },
+  {
+    "otitle": "(Blues) RAY CHARLES & MILT JACKSON - blue funk",
+    "artist": "RAY CHARLES & MILT JACKSON",
+    "title": "blue funk",
+    "genre": "Blues",
+    "label": "",
+    "time": "2021-12-07T02:42:59"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T02:50:56"
+  },
+  {
+    "otitle": "(H_N) KOKO - jehlaz",
+    "artist": "KOKO",
+    "title": "jehlaz",
+    "genre": "H_N",
+    "label": "",
+    "time": "2021-12-07T02:51:48"
+  },
+  {
+    "otitle": "(T_N) BXENTIC - patch valley",
+    "artist": "BXENTIC",
+    "title": "patch valley",
+    "genre": "T_N",
+    "label": "",
+    "time": "2021-12-07T02:59:17"
+  },
+  {
+    "otitle": "(H_N) MIKE SHANNON - under the radar",
+    "artist": "MIKE SHANNON",
+    "title": "under the radar",
+    "genre": "H_N",
+    "label": "",
+    "time": "2021-12-07T03:05:29"
+  },
+  {
+    "otitle": "(E) BOARDS OF CANADA - gyroscope WARP",
+    "artist": "BOARDS OF CANADA",
+    "title": "gyroscope",
+    "genre": "E",
+    "label": "WARP",
+    "time": "2021-12-07T03:12:40"
+  },
+  {
+    "otitle": "(T_N) BENEDIKT FREY - pol 326",
+    "artist": "BENEDIKT FREY",
+    "title": "pol 326",
+    "genre": "T_N",
+    "label": "",
+    "time": "2021-12-07T03:16:16"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T03:21:13"
+  },
+  {
+    "otitle": "(H_N) MAKEZ - Not so different _ HEIST",
+    "artist": "MAKEZ",
+    "title": "MAKEZ - Not so different",
+    "genre": "H_N",
+    "label": "HEIST",
+    "time": "2021-12-07T03:21:25"
+  },
+  {
+    "otitle": "(W) BLICK BASSY - ddje yem",
+    "artist": "BLICK BASSY",
+    "title": "ddje yem",
+    "genre": "W",
+    "label": "",
+    "time": "2021-12-07T03:26:05"
+  },
+  {
+    "otitle": "(Beats_N) MILLIDIU - Look Ahead",
+    "artist": "MILLIDIU",
+    "title": "Look Ahead",
+    "genre": "Beats_N",
+    "label": "",
+    "time": "2021-12-07T03:29:29"
+  },
+  {
+    "otitle": "(P_N) TURISTA PER SEMPRE - La Vague _ PXP MUSIC",
+    "artist": "TURISTA PER SEMPRE",
+    "title": "TURISTA PER SEMPRE - La Vague",
+    "genre": "P_N",
+    "label": "PXP MUSIC",
+    "time": "2021-12-07T03:33:58"
+  },
+  {
+    "otitle": "(E) CHAPELIER FOU - Alk",
+    "artist": "CHAPELIER FOU",
+    "title": "Alk",
+    "genre": "E",
+    "label": "",
+    "time": "2021-12-07T03:37:59"
+  },
+  {
+    "otitle": "(Blues) CAREY BELL - hard working woman",
+    "artist": "CAREY BELL",
+    "title": "hard working woman",
+    "genre": "Blues",
+    "label": "",
+    "time": "2021-12-07T03:41:34"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T03:48:40"
+  },
+  {
+    "otitle": "(D_F_N) THE SKATELITES - herb man dub",
+    "artist": "THE SKATELITES",
+    "title": "herb man dub",
+    "genre": "D_F_N",
+    "label": "",
+    "time": "2021-12-07T03:48:53"
+  },
+  {
+    "otitle": "(P_N) OWEN PALLETT - the great elsewhere",
+    "artist": "OWEN PALLETT",
+    "title": "the great elsewhere",
+    "genre": "P_N",
+    "label": "",
+    "time": "2021-12-07T03:52:00"
+  },
+  {
+    "otitle": "(Blues_N) HENRY SALVADOR - salvador plays the blues",
+    "artist": "HENRY SALVADOR",
+    "title": "salvador plays the blues",
+    "genre": "Blues_N",
+    "label": "",
+    "time": "2021-12-07T03:57:55"
+  },
+  {
+    "otitle": "(E) VISTA LE VIE - refuse resist part 2  F COMM",
+    "artist": "VISTA LE VIE",
+    "title": "refuse resist part 2",
+    "genre": "E",
+    "label": "F COMM",
+    "time": "2021-12-07T04:04:55"
+  },
+  {
+    "otitle": "(P_N) RAPHELSON - starbox",
+    "artist": "RAPHELSON",
+    "title": "starbox",
+    "genre": "P_N",
+    "label": "",
+    "time": "2021-12-07T04:10:38"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T04:15:23"
+  },
+  {
+    "otitle": "(S_N) MMYYKK - Divine _ RHYTHM SECTION",
+    "artist": "MMYYKK",
+    "title": "MMYYKK - Divine",
+    "genre": "S_N",
+    "label": "RHYTHM SECTION",
+    "time": "2021-12-07T04:15:35"
+  },
+  {
+    "otitle": "(R) CAREY JOHNSON - go ahead",
+    "artist": "CAREY JOHNSON",
+    "title": "go ahead",
+    "genre": "R",
+    "label": "",
+    "time": "2021-12-07T04:19:00"
+  },
+  {
+    "otitle": "(H_N) MPESHNYK - Broken _ ATJAZZ",
+    "artist": "MPESHNYK",
+    "title": "MPESHNYK - Broken",
+    "genre": "H_N",
+    "label": "ATJAZZ",
+    "time": "2021-12-07T04:22:01"
+  },
+  {
+    "otitle": "(Dt_N) DOCTOR L - I'm Broke _ COMET",
+    "artist": "DOCTOR L",
+    "title": "DOCTOR L - I'm Broke",
+    "genre": "Dt_N",
+    "label": "COMET",
+    "time": "2021-12-07T04:28:05"
+  },
+  {
+    "otitle": "(Dt) BUCK 65 - 463",
+    "artist": "BUCK 65",
+    "title": "463",
+    "genre": "Dt",
+    "label": "",
+    "time": "2021-12-07T04:32:40"
+  },
+  {
+    "otitle": "(J_HH) THE HELIOCENTRICS - distant star",
+    "artist": "THE HELIOCENTRICS",
+    "title": "distant star",
+    "genre": "J_HH",
+    "label": "",
+    "time": "2021-12-07T04:36:40"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T04:38:55"
+  },
+  {
+    "otitle": "(Ro_N) THE 5.6.7.8's - teenage cleopatra",
+    "artist": "THE 5.6.7.8's",
+    "title": "teenage cleopatra",
+    "genre": "Ro_N",
+    "label": "",
+    "time": "2021-12-07T04:39:13"
+  },
+  {
+    "otitle": "(S_N) WILLIE DIXON AND MENPHIS SLIM - sittin and crying ACE",
+    "artist": "WILLIE DIXON AND MENPHIS SLIM",
+    "title": "sittin and crying",
+    "genre": "S_N",
+    "label": "ACE",
+    "time": "2021-12-07T04:42:37"
+  },
+  {
+    "otitle": "(Dt_N) THE GASLAMP KILLER - pathetic dreams",
+    "artist": "THE GASLAMP KILLER",
+    "title": "pathetic dreams",
+    "genre": "Dt_N",
+    "label": "",
+    "time": "2021-12-07T04:45:46"
+  },
+  {
+    "otitle": "(E) CLARK - the pining pt1",
+    "artist": "CLARK",
+    "title": "the pining pt1",
+    "genre": "E",
+    "label": "",
+    "time": "2021-12-07T04:51:30"
+  },
+  {
+    "otitle": "(S_N) WEELAND & THE URBAN SOUL COLLECTIVE - lil sumthin",
+    "artist": "WEELAND & THE URBAN SOUL COLLECTIVE",
+    "title": "lil sumthin",
+    "genre": "S_N",
+    "label": "",
+    "time": "2021-12-07T04:55:53"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T04:59:29"
+  },
+  {
+    "otitle": "(D_N) KABANJAK & FAT ALBERT EINSTEIN - Southern Hemi _ SWITCHSTANCE",
+    "artist": "KABANJAK & FAT ALBERT EINSTEIN",
+    "title": "KABANJAK & FAT ALBERT EINSTEIN - Southern Hemi",
+    "genre": "D_N",
+    "label": "SWITCHSTANCE",
+    "time": "2021-12-07T04:59:41"
+  },
+  {
+    "otitle": "(R) RAYMOND NAPTALI - tek you hand offa me",
+    "artist": "RAYMOND NAPTALI",
+    "title": "tek you hand offa me",
+    "genre": "R",
+    "label": "",
+    "time": "2021-12-07T05:03:34"
+  },
+  {
+    "otitle": "(E_N) NTO - Apnea",
+    "artist": "NTO",
+    "title": "Apnea",
+    "genre": "E_N",
+    "label": "",
+    "time": "2021-12-07T05:07:05"
+  },
+  {
+    "otitle": "(HH_N) KOREA TOWN ACID - Dazed (feat LJ The Alien) _ URBNET",
+    "artist": "KOREA TOWN ACID",
+    "title": "KOREA TOWN ACID - Dazed (feat LJ The Alien)",
+    "genre": "HH_N",
+    "label": "URBNET",
+    "time": "2021-12-07T05:10:06"
+  },
+  {
+    "otitle": "(E) RONE - Babel",
+    "artist": "RONE",
+    "title": "Babel",
+    "genre": "E",
+    "label": "",
+    "time": "2021-12-07T05:13:13"
+  },
+  {
+    "otitle": "(J) LONNIE LISTON SMITH - astral traveling RCA",
+    "artist": "LONNIE LISTON SMITH",
+    "title": "astral traveling",
+    "genre": "J",
+    "label": "RCA",
+    "time": "2021-12-07T05:17:29"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T05:23:02"
+  },
+  {
+    "otitle": "(H_N) DANIEL MAUNICK - Dirty Trix",
+    "artist": "DANIEL MAUNICK",
+    "title": "Dirty Trix",
+    "genre": "H_N",
+    "label": "",
+    "time": "2021-12-07T05:23:26"
+  },
+  {
+    "otitle": "(T_N) ANDY BROS - Artemisia",
+    "artist": "ANDY BROS",
+    "title": "Artemisia",
+    "genre": "T_N",
+    "label": "",
+    "time": "2021-12-07T05:28:18"
+  },
+  {
+    "otitle": "(H_N) COSTA VAYA - the morning after",
+    "artist": "COSTA VAYA",
+    "title": "the morning after",
+    "genre": "H_N",
+    "label": "",
+    "time": "2021-12-07T05:36:34"
+  },
+  {
+    "otitle": "(N) DJ LOGIC - hip hopera ROPEADOPE",
+    "artist": "DJ LOGIC",
+    "title": "hip hopera",
+    "genre": "N",
+    "label": "ROPEADOPE",
+    "time": "2021-12-07T05:44:55"
+  },
+  {
+    "otitle": "(T_N) ALTER EGO - fragile",
+    "artist": "ALTER EGO",
+    "title": "fragile",
+    "genre": "T_N",
+    "label": "",
+    "time": "2021-12-07T05:49:35"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T05:53:18"
+  },
+  {
+    "otitle": "(Dt_N) ZEB SAMUELS & VANILLA - New Light _ DEEP HEADS",
+    "artist": "ZEB SAMUELS & VANILLA",
+    "title": "ZEB SAMUELS & VANILLA - New Light",
+    "genre": "Dt_N",
+    "label": "DEEP HEADS",
+    "time": "2021-12-07T05:53:32"
+  },
+  {
+    "otitle": "(R) GREGORY ISSAC & CHRISTINE - rock on",
+    "artist": "GREGORY ISSAC & CHRISTINE",
+    "title": "rock on",
+    "genre": "R",
+    "label": "",
+    "time": "2021-12-07T05:58:19"
+  },
+  {
+    "otitle": "(Beats) MACHINEDRUM - Inner Ear _ NINJA TUNE",
+    "artist": "MACHINEDRUM",
+    "title": "MACHINEDRUM - Inner Ear",
+    "genre": "Beats",
+    "label": "NINJA TUNE",
+    "time": "2021-12-07T06:03:46"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T06:07:56"
+  },
+  {
+    "otitle": "(F) SWEDEART - electric men",
+    "artist": "SWEDEART",
+    "title": "electric men",
+    "genre": "F",
+    "label": "",
+    "time": "2021-12-07T06:08:43"
+  },
+  {
+    "otitle": "(R) MUNGO'S HI FI - rules of the dance",
+    "artist": "MUNGO'S HI FI",
+    "title": "rules of the dance",
+    "genre": "R",
+    "label": "",
+    "time": "2021-12-07T06:13:05"
+  },
+  {
+    "otitle": "(Brok_J) YUKIHIRO FUKUTOMI - continuous function",
+    "artist": "YUKIHIRO FUKUTOMI",
+    "title": "continuous function",
+    "genre": "Brok_J",
+    "label": "",
+    "time": "2021-12-07T06:17:21"
+  },
+  {
+    "otitle": "(H_N) ASHLEY BEEDLE - droned",
+    "artist": "ASHLEY BEEDLE",
+    "title": "droned",
+    "genre": "H_N",
+    "label": "",
+    "time": "2021-12-07T06:24:55"
+  },
+  {
+    "otitle": "(E) LINDRED - Logrouse",
+    "artist": "LINDRED",
+    "title": "Logrouse",
+    "genre": "E",
+    "label": "",
+    "time": "2021-12-07T06:31:40"
+  },
+  {
+    "otitle": "(N_N) ZAGAR - whitout shades",
+    "artist": "ZAGAR",
+    "title": "whitout shades",
+    "genre": "N_N",
+    "label": "",
+    "time": "2021-12-07T06:35:39"
+  },
+  {
+    "otitle": "(F) TJ_SWANN - and_you_know_that",
+    "artist": "TJ_SWANN",
+    "title": "and_you_know_that",
+    "genre": "F",
+    "label": "",
+    "time": "2021-12-07T06:39:57"
+  },
+  {
+    "otitle": "(J) MULATU_ASTATKE_ - chinese_new_year_",
+    "artist": "MULATU_ASTATKE_",
+    "title": "chinese_new_year_",
+    "genre": "J",
+    "label": "",
+    "time": "2021-12-07T06:47:39"
+  },
+  {
+    "otitle": "PBB - Luckily We Still Have Music",
+    "artist": "PBB",
+    "title": "Luckily We Still Have Music",
+    "genre": "BB - Luckily We Still Have Musi",
+    "label": "",
+    "time": "2021-12-07T06:51:20"
+  },
+  {
+    "otitle": "(P_N) JUAN TRIP - consolation",
+    "artist": "JUAN TRIP",
+    "title": "consolation",
+    "genre": "P_N",
+    "label": "",
+    "time": "2021-12-07T06:51:44"
+  },
+  {
+    "otitle": "(Ro) LEFT CHANNEL - sleeping nun",
+    "artist": "LEFT CHANNEL",
+    "title": "sleeping nun",
+    "genre": "Ro",
+    "label": "",
+    "time": "2021-12-07T06:56:01"
+  },
+  {
+    "otitle": "(H) PREQUEL - Unaware Of Love _ RHYTHM SECTION",
+    "artist": "PREQUEL",
+    "title": "PREQUEL - Unaware Of Love",
+    "genre": "H",
+    "label": "RHYTHM SECTION",
+    "time": "2021-12-07T07:00:00"
+  }
+]
