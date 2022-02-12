@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>psylo.ddns.net / pi4Psylo / Index</title>
+<link rel="stylesheet" href="/js/jquery-ui-1.12.1/jquery-ui.css">
+<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/larahackers.css" rel="stylesheet" media="screen">
+<script src="/js/jquery-2.1.1.min.js"></script>
+<script src="/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/background.cycle.js"></script>
+<script type="text/javascript" src="js/psylo.js"></script>
+<script>
+    $(function() {
+        $("#tabs").tabs();
+    });
+</script>
+</head>
+
+<body class="" style="margin: 0;">
+    <script lang="JavaScript">
+        var SCALING_MODE_NONE = 0;
+        //Uses the original image size 2
+        var SCALING_MODE_STRETCH = 1;
+        //Sets 'background-size' to '100% 100%'. 
+        //This stretches the background image to fill the container, discarding the images aspect ratio.3
+        var SCALING_MODE_COVER = 2;
+        //Sets 'background-size' to 'cover'. 
+        //This makes the background images fill the entire container while retaining its aspect ratio.
+        var SCALING_MODE_CONTAIN = 3;
+        //Sets 'background-size' to 'contain'. This scales the bakcground image to the largest size such 
+        //that both its width and its height can fit inside the content area
+        //Create global array for genre tagging
+        $genreList = [];
+
+        $(document).ready(function() {
+            $imgFiles = [];
+            $genreList = $.getJSON('/json/genre.json', function(data) {});
+            $("#test").html("JQuery loaded");
+            // get last trax
+            LoadDb();
+            // Background slideshow
+            $.get('/img/lg/', function(data) {
+                //data.reverse();
+                $.each(data, function(i, item) {
+                    // need to add the path location
+                    $imgFiles.push('https://psylo.ddns.net/img/lg/' + item.name);
+                })
+                shuffle($imgFiles);
+                $("body").backgroundCycle({
+                    imageUrls: $imgFiles,
+                    fadeSpeed: 5000,
+                    duration: 15000,
+                    backgroundSize: SCALING_MODE_CONTAIN
+                });
+            });
+            var myVar = setInterval(function() {
+                LoadDb();
+                $time = new Date();
+                $("#timeSpan").html($time.toTimeString().substr(0, 8));
+            }, 10000);
+        });
+
+        function LoadDb() {
+            // $.getJSON("mongo.php")
+            //     .done(function(result) {
+            //         $('#lastTrax').html('');
+            //         $.each(result, function(i, item) {
+            //             if (item.artist != "PBB") {
+            //                 var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
+            //                 <td>' + item.genre + '</td>  \
+            //                 <td>' + item.artist + '</td> \
+            //                 <td>' + item.title + '</td>  \
+            //                 <td>' + item.label + '</td>  \
+            //                 </tr>';
+            //                 $('#lastTrax').append(row);
+            //                 // $("lastTrax").append(item + " ");
+            //                 // console.log(item);
+            //             }
+            //         });
+            //     });
+            $.getJSON("mongoTest.php")
+                .done(function(result) {
+                    $('#lastTrax2').html('<th>time</th>\
+                            <th> genre</th>\
+                            <th>artist</th>\
+                            <th>title</th>\
+                            <th>label</th>');
+                    $.each(result, function(i, item) {
+                        if (item.artist != "PBB") {
+                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
+                            <td>' + getGenre(item.genre) + '</td>  \
+                            <td>' + item.artist + '</td> \
+                            <td>' + item.title + '</td>  \
+                            <td>' + item.label + '</td>  \
+                            </tr>';
+                            $('#lastTrax2').append(row);
+                            // $("lastTrax").append(item + " ");
+                            //console.log(row);
+                        }
+                    });
+                });
+        }
+        // function to map the tags to the genre
+        function getGenre(ab) {
+            console.log('genre AB: ' + ab);
+            var ret = ab;
+            //$.getJSON('/json/genre.json', function(data) {
+            $.each($genreList.responseJSON, function(i, res) {
+                //console.log('genreLoop:' + data.genre);
+                if (res.genre == ab) {
+                    console.log('Selected: ' + res.genre + ': ' + res.main);
+                    ret = res.main;
+                    //alert(res.main);
+                }
+            });
+            // });
+            return ret;
+        }
+        //const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+        // wrapper backgroun slideshow
+    </script>
+    <div class="bg-teaser">
+        <h1>Welcome to psylo.ddns.net</h1>
+        This is a personnal web server, to host stuffs...
+        <ul>
+            <li>lastest <a href="getJson.html" style="font-size: x-large;">PBBbyPsylo</a> played tracks from PBB</li>
+            <li>NEW <a href="stats.html" style="font-size: x-large;">PBBbyPsylo - Stats/JSON</a> </li>
+            <li><span id="sp">Please find hereunder the last 50 Trax from PBB radio: <i>NEW (Stored online in
+                        MongoDB)</i></span> Reloaded @<span id="timeSpan"></span></li>
+        </ul>
+    </div>
+    <!-- <div class="wrapper"></div> -->
+    <div class="bg-trax ">
+        <table id="tbComp">
+            <tr>
+                <!-- <td>Recorded into DB from PythonScript running in terminal</td> -->
+                <td>Recorded from python Service running with systemctl</td>
+                <tr>
+                    <!-- <td>
+                        <table id="lastTrax" class="lastTrax" width="50%">
+                            <th>time</th>
+                            <th>genre</th>
+                            <th>artist</th>
+                            <th>title</th>
+                            <th>label</th>
+                        </table>
+                    </td> -->
+                    <td>
+                        <table id="lastTrax2" class="lastTrax" width="50%">
+                            <th>time</th>
+                            <th>genre</th>
+                            <th>artist</th>
+                            <th>title</th>
+                            <th>label</th>
+                        </table>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</body>
+
+</HTML>
