@@ -1,6 +1,4 @@
-<?php
-
-?>
+<?php?>
 <HTML>
 
 <HEAD>
@@ -75,7 +73,7 @@
 			<A HREF="https://pbbradio.com:8443/128" target="_blank" style="font-family:arial; color:#8b8b8b; font-size:90%;">pbbradio.com:8443</A> - <A HREF="https://www.laurentgarnier.com/" target="_blank" style="color:#8b8b8b;  font-size:90%;">laurentgarnier.com</A>
 			<BR>
 			<BR>
-		</center>
+		</CENTER>
 	</div>
 </BODY>
 

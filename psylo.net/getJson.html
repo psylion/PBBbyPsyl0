@@ -36,7 +36,7 @@
         $genreList = [];
 
         $(document).ready(function() {
-            LoadDb();
+            //LoadDb(); Commented until MongoConnectisBack
             $genreList = $.getJSON('/json/genre.json', function(data) {});
             $pload = new Date();
             $checkSaved = new Date();
@@ -48,13 +48,14 @@
             //console.log("today: " + $2day);
             $pload = $pload.toTimeString().substr(0, 8);
             //$("#time").html("page loaded: " + $pload);
-            $jsonFile = $2day + "results.json";
-            //reloadJSON();
+            $jsonFile = "/json/"+$2day + ".json";
+            reloadJSON();
+            LoadDb();
             //$("#load").html("<br/>lastSaved (main):" + $lastSaved);
             var myVar = setInterval(function() {
                 LoadDb();
                 //myTimer('bucht');
-            }, 10000);
+            }, 10000); //commented until MongoConnecIsBack
             var myTim = setInterval(myTime, 1000);
 
             $.get('/img/lg/', function(data) {
@@ -141,7 +142,7 @@
         }
 
         function LoadDb() {
-            $.getJSON("mongoTest.php")
+            $.getJSON("mongo.php")
                 .done(function(result) {
                     $('#lastTrax2').html('<th>time</th>\
                             <th>genre</th>\
