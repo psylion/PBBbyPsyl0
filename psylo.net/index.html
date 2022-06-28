@@ -64,24 +64,7 @@
         });
 
         function LoadDb() {
-            // $.getJSON("mongo.php")
-            //     .done(function(result) {
-            //         $('#lastTrax').html('');
-            //         $.each(result, function(i, item) {
-            //             if (item.artist != "PBB") {
-            //                 var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-            //                 <td>' + item.genre + '</td>  \
-            //                 <td>' + item.artist + '</td> \
-            //                 <td>' + item.title + '</td>  \
-            //                 <td>' + item.label + '</td>  \
-            //                 </tr>';
-            //                 $('#lastTrax').append(row);
-            //                 // $("lastTrax").append(item + " ");
-            //                 // console.log(item);
-            //             }
-            //         });
-            //     });
-            $.getJSON("mongoTest.php")
+            $.getJSON("mongo.php")
                 .done(function(result) {
                     $('#lastTrax2').html('<th>time</th>\
                             <th> genre</th>\
