@@ -104,7 +104,7 @@
                         });
                         var myTitle = item.genre + " " + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
                         $('#currentTrack').html(myTitle + "<br/>" + nTime);
-                        document.title = 'PBBbyPsyl0::' + item.genre + "" + item.title + "::" + item.artist;
+                        document.title = item.genre + ":" + item.title + ":" + item.artist + ':PBBbyPsyl0:.';
                     }
                     if ((i >= 1) && (item.otitle.substr(0, 3) != 'PBB')) {
                         bxlTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
@@ -170,7 +170,7 @@
                         if (i == 10) {
                             var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
                             $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime);
-                            document.title = 'PBBbyPsyl0::' + getGenre(result[0].genre) + "" + result[0].title + "::" + result[0].artist;
+                            document.title = getGenre(result[0].genre) + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
 
                             return false;
                         }

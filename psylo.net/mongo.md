@@ -28,5 +28,8 @@ For:
     db.users.find({name: /ro$/}) //like '%ro'
 Output: pedro
 
+## Log new search
+search for empty title with label = xx
 
+    `{title:  {"$exists" : true, "$eq" : ""}, label : "MR BONGO"}`
 

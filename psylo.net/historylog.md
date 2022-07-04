@@ -2,10 +2,10 @@
 #### Log actions and status feedback during developpment 
 *(Record New log on top)*
 
-## 28 Jun 2022: restored PBBbyPsyl0 after crash SDCard
+## 28 Jun 2022: restored PBBbyPsyl0 after crash of Raspberry SDCard
 - Missing latest changes (Full MongoDB storage and many more changes)
 - Only Github changes has been restored
-
+- more to log...
 
 ## 01 May 2021: new pages and more
 - In the latest 2 days I've been looking to adapt the project to display tracks.
