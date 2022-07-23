@@ -15,6 +15,21 @@
 <script>
     $(function() {
         $("#tabs").tabs();
+        $('#btn50').on("click", function(event){
+            LoadDb();
+            $searchEnabled = 0;
+        });
+        $("#btnSrch").on("click", function(event){
+            SearchDb();
+        });
+        $('#strSrch').keypress(function (e) {
+            var key = e.which;
+            if (key == 13)  // the enter key code
+            {
+                $('#btnSrch').click();
+                return false;
+            }
+        }); 
     });
 </script>
 </head>
@@ -34,6 +49,7 @@
         //that both its width and its height can fit inside the content area
         //Create global array for genre tagging
         $genreList = [];
+        $searchEnabled = 0;
 
         $(document).ready(function() {
             $imgFiles = [];
@@ -56,29 +72,57 @@
                     backgroundSize: SCALING_MODE_CONTAIN
                 });
             });
-            var myVar = setInterval(function() {
-                LoadDb();
-                $time = new Date();
-                $("#timeSpan").html($time.toTimeString().substr(0, 8));
-            }, 10000);
+            if (!$searchEnabled){
+                var myVar = setInterval(function() {
+                    LoadDb();
+                    $time = new Date();
+                    $("#timeSpan").html($time.toTimeString().substr(0, 8));
+                }, 10000);
+            }
         });
 
         function LoadDb() {
             $.getJSON("mongo.php")
-                .done(function(result) {
+                .done(function (result) {
                     $('#lastTrax2').html('<th>time</th>\
-                            <th> genre</th>\
-                            <th>artist</th>\
-                            <th>title</th>\
-                            <th>label</th>');
-                    $.each(result, function(i, item) {
+                        <th> genre</th>\
+                        <th>artist</th>\
+                        <th>title</th>\
+                        <th>label</th>');
+                    $.each(result, function (i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                            <td>' + getGenre(item.genre) + '</td>  \
-                            <td>' + item.artist + '</td> \
-                            <td>' + item.title + '</td>  \
-                            <td>' + item.label + '</td>  \
-                            </tr>';
+                        <td>' + getGenre(item.genre) + '</td>  \
+                        <td>' + item.artist + '</td> \
+                        <td>' + item.title + '</td>  \
+                        <td>' + item.label + '</td>  \
+                        </tr>';
+                            $('#lastTrax2').append(row);
+                            // $("lastTrax").append(item + " ");
+                            //console.log(row);
+                        }
+                    });
+                });
+        }
+        // New search functionon 05/07/2022
+        function SearchDb() {
+            $searchEnabled = 1;
+            //alert($("#strSrch").text() + "-"+ $("#strSrch").html() +"-"+ $("#strSrch").val() );
+            $.getJSON("mgsrch.php?srch="+$("#strSrch").val())
+                .done(function (result) {
+                    $('#lastTrax2').html('<th>time</th>\
+                        <th> genre</th>\
+                        <th>artist</th>\
+                        <th>title</th>\
+                        <th>label</th>');
+                    $.each(result, function (i, item) {
+                        if (item.artist != "PBB") {
+                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
+                        <td>' + getGenre(item.genre) + '</td>  \
+                        <td>' + item.artist + '</td> \
+                        <td>' + item.title + '</td>  \
+                        <td>' + item.label + '</td>  \
+                        </tr>';
                             $('#lastTrax2').append(row);
                             // $("lastTrax").append(item + " ");
                             //console.log(row);
@@ -107,7 +151,6 @@
     </script>
     <div class="bg-teaser">
         <h1>Welcome to psylo.ddns.net</h1>
-        This is a personnal web server, to host stuffs...
         <ul>
             <li>lastest <a href="getJson.html" style="font-size: x-large;">PBBbyPsylo</a> played tracks from PBB</li>
             <li>NEW <a href="stats.html" style="font-size: x-large;">PBBbyPsylo - Stats/JSON</a> </li>
@@ -120,7 +163,9 @@
         <table id="tbComp">
             <tr>
                 <!-- <td>Recorded into DB from PythonScript running in terminal</td> -->
-                <td>Recorded from python Service running with systemctl</td>
+                <td>
+                    <button id="btn50">Last 50 Trax</button>|
+                    <button id="btnSrch">Search:</button><input type="text" id="strSrch"/>|
                 <tr>
                     <!-- <td>
                         <table id="lastTrax" class="lastTrax" width="50%">

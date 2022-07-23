@@ -2,6 +2,24 @@
 #### Log actions and status feedback during developpment 
 *(Record New log on top)*
 
+### Ideas/Improvements
+- index page switch from latest50 trax to search by:
+  - freetext
+  - artist
+  - title
+  - ... 
+
+## 21 Jul 2022: some of the original title from PBB does not containt ' _ '
+- this will cause the current logic to be wrongly interprated
+- title loged into AtlasMongoDB contain the LABEL
+- Looking at thelatest changes I discovered that sometime there are no 'space underscore space' in the sequence
+- Must change the regular expression to match all HIGH CAPS from the end of string
+- this should be solved with the following regex sequence:
+
+  `
+/([A-Z*\s]*\w)$/
+`
+ 
 ## 28 Jun 2022: restored PBBbyPsyl0 after crash of Raspberry SDCard
 - Missing latest changes (Full MongoDB storage and many more changes)
 - Only Github changes has been restored
