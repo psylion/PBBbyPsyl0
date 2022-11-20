@@ -170,7 +170,7 @@
                         if (i == 10) {
                             var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
                             var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ result[0].artist +'%20track:'+ result[0].title +'" title="Search in Spotify" target="_blank"><img src="img/spotify.png" width="20" style="vertical-align:middle"/></a>'  ;
-                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk);
+                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk +"<br/><i style='font-size: smaller;color:lightgreen;'>"+ result[0].otitle+"</i>" );
                             document.title = getGenre(result[0].genre) + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
 
                             return false;
