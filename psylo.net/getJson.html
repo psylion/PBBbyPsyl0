@@ -27,6 +27,12 @@
             });
         });
     });
+    /* Add eventlistener to prevent scrolling when space bar pressed */
+    window.addEventListener('keydown', function (e) {
+            if (e.keyCode == 32 && e.target == document.body) {
+                e.preventDefault();
+            }
+        });
 </script>
 </head>
 
@@ -72,6 +78,20 @@
                     backgroundSize: SCALING_MODE_CONTAIN
                 });
             });
+                /* keyboard SPACE event CATCH*/
+            const audio = document.querySelector("#audio");
+            var isPlaying = false;
+            document.onkeydown = function (e) {
+                if (e.keyCode == 32) {
+                    if (isPlaying) {
+                        audio.pause();
+                    } else {
+                        audio.play();
+                    }
+                    isPlaying = !isPlaying; // if true equal false, if false equal true
+                }
+            };
+
         });
 
         function getGenre(ab) {
@@ -220,7 +240,7 @@
                 <h2>Welcome to PBB-by-Psyl0</h2>
                 <h3>Laurent Garnier PBB Radio </h3>
                 <i>(08/02/2022: Updated to match new PBB with tracklist)</i>
-                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio controls=" " autoplay="false " name="media " style="height:30px; width:450px; ">
+                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="false " name="media " style="height:30px; width:450px; ">
                     <source src="https://pbbradio.com:8443/128" type="audio/aac ">
                 </audio>
                 <div id="currentTrack" class="jumbotron-fluid " style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large; ">current</div>
