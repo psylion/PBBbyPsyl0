@@ -9,6 +9,13 @@
   - title
   - ... 
 
+## 24 Nov 2022: Removed MongoDB CLustor0 and Project PBBbyPsylo
+- Renamed PPBtest by PBBbyPsylo after removing obsolete cluster/project
+  - Chart was sill active, i was unable to remove delete the project
+  - Chart delete option not enough
+  - other option had to be selected from Project Setting
+- No change in the connection - Update of new tracks continue to be written
+
 ## 21 Jul 2022: some of the original title from PBB does not containt ' _ '
 - this will cause the current logic to be wrongly interprated
 - title loged into AtlasMongoDB contain the LABEL
