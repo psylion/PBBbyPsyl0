@@ -13,13 +13,13 @@
 <script type="text/javascript" src="js/background.cycle.js"></script>
 <script type="text/javascript" src="js/psylo.js"></script>
 <script>
-    $(function() {
+    $(function () {
         $("#tabs").tabs();
-        $('#btn50').on("click", function(event){
+        $('#btn50').on("click", function (event) {
             LoadDb();
             $searchEnabled = 0;
         });
-        $("#btnSrch").on("click", function(event){
+        $("#btnSrch").on("click", function (event) {
             SearchDb();
         });
         $('#strSrch').keypress(function (e) {
@@ -29,7 +29,7 @@
                 $('#btnSrch').click();
                 return false;
             }
-        }); 
+        });
     });
 </script>
 </head>
@@ -51,16 +51,16 @@
         $genreList = [];
         $searchEnabled = 0;
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             $imgFiles = [];
-            $genreList = $.getJSON('/json/genre.json', function(data) {});
+            //$genreList = $.getJSON('/json/genre.json', function (data) { });
             $("#test").html("JQuery loaded");
             // get last trax
-            LoadDb();
+            //LoadDb();
             // Background slideshow
-            $.get('/img/lg/', function(data) {
+            $.get('/img/lg/', function (data) {
                 //data.reverse();
-                $.each(data, function(i, item) {
+                $.each(data, function (i, item) {
                     // need to add the path location
                     $imgFiles.push('https://psylo.ddns.net/img/lg/' + item.name);
                 })
@@ -72,13 +72,13 @@
                     backgroundSize: SCALING_MODE_CONTAIN
                 });
             });
-            if (!$searchEnabled){
-                var myVar = setInterval(function() {
-                    LoadDb();
-                    $time = new Date();
-                    $("#timeSpan").html($time.toTimeString().substr(0, 8));
-                }, 10000);
-            }
+            // if (!$searchEnabled) {
+            //     var myVar = setInterval(function () {
+            //         LoadDb();
+            //         $time = new Date();
+            //         $("#timeSpan").html($time.toTimeString().substr(0, 8));
+            //     }, 10000);
+            // }
         });
 
         function LoadDb() {
@@ -108,7 +108,7 @@
         function SearchDb() {
             $searchEnabled = 1;
             //alert($("#strSrch").text() + "-"+ $("#strSrch").html() +"-"+ $("#strSrch").val() );
-            $.getJSON("mgsrch.php?srch="+$("#strSrch").val())
+            $.getJSON("mgsrch.php?srch=" + $("#strSrch").val())
                 .done(function (result) {
                     $('#lastTrax2').html('<th>time</th>\
                         <th> genre</th>\
@@ -135,7 +135,7 @@
             console.log('genre AB: ' + ab);
             var ret = ab;
             //$.getJSON('/json/genre.json', function(data) {
-            $.each($genreList.responseJSON, function(i, res) {
+            $.each($genreList.responseJSON, function (i, res) {
                 //console.log('genreLoop:' + data.genre);
                 if (res.genre == ab) {
                     console.log('Selected: ' + res.genre + ': ' + res.main);
@@ -152,41 +152,20 @@
     <div class="bg-teaser">
         <h1>Welcome to psylo.ddns.net</h1>
         <ul>
-            <li>lastest <a href="getJson.html" style="font-size: x-large;">PBBbyPsylo</a> played tracks from PBB</li>
-            <li>NEW <a href="stats.html" style="font-size: x-large;">PBBbyPsylo - Stats/JSON</a> </li>
-            <li><span id="sp">Please find hereunder the last 50 Trax from PBB radio: <i>NEW (Stored online in
-                        MongoDB)</i></span> Reloaded @<span id="timeSpan"></span></li>
+            <li>New Radio streaming implemented from January 2024</li>
+            <li>Psylo Garden Studio in 3 flavors:
+                <ul>
+                    <li>House & Techno & Trance Classics from the 90's</li>
+                    <li>Various LiveSet and Mix Session's</li>
+                    <li>Lounge</li>
+                </ul>
+            </li>
+            <li>Probably new stream will come: Ambient / Chillout / Jazz</li>
         </ul>
     </div>
     <!-- <div class="wrapper"></div> -->
     <div class="bg-trax ">
-        <table id="tbComp">
-            <tr>
-                <!-- <td>Recorded into DB from PythonScript running in terminal</td> -->
-                <td>
-                    <button id="btn50">Last 50 Trax</button>|
-                    <button id="btnSrch">Search:</button><input type="text" id="strSrch"/>|
-                <tr>
-                    <!-- <td>
-                        <table id="lastTrax" class="lastTrax" width="50%">
-                            <th>time</th>
-                            <th>genre</th>
-                            <th>artist</th>
-                            <th>title</th>
-                            <th>label</th>
-                        </table>
-                    </td> -->
-                    <td>
-                        <table id="lastTrax2" class="lastTrax" width="50%">
-                            <th>time</th>
-                            <th>genre</th>
-                            <th>artist</th>
-                            <th>title</th>
-                            <th>label</th>
-                        </table>
-                    </td>
-                </tr>
-        </table>
+        <!-- Table removed 23Jan2024 -->
     </div>
 </body>
 
