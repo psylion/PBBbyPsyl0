@@ -20,19 +20,19 @@
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script>
-    $(function() {
-        $('#saved').on('change', function() {
-            $("#saved").fadeOut(5000, function() {
-                $("#saved").fadeIn(5000, function() {});
+    $(function () {
+        $('#saved').on('change', function () {
+            $("#saved").fadeOut(5000, function () {
+                $("#saved").fadeIn(5000, function () { });
             });
         });
     });
     /* Add eventlistener to prevent scrolling when space bar pressed */
     window.addEventListener('keydown', function (e) {
-            if (e.keyCode == 32 && e.target == document.body) {
-                e.preventDefault();
-            }
-        });
+        if (e.keyCode == 32 && e.target == document.body) {
+            e.preventDefault();
+        }
+    });
 </script>
 </head>
 
@@ -41,7 +41,7 @@
         $imgFiles = [];
         $genreList = [];
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             //LoadDb(); Commented until MongoConnectisBack
             //$genreList = $.getJSON('/json/genre.json', function(data) {});
             $pload = new Date();
@@ -64,9 +64,9 @@
             // }, 10000); //commented until MongoConnecIsBack
             // var myTim = setInterval(myTime, 1000);
             // LOAD Background images
-            $.get('/img/lg/', function(data) {
+            $.get('/img/lg/', function (data) {
                 //data.reverse();
-                $.each(data, function(i, item) {
+                $.each(data, function (i, item) {
                     // need to add the path location
                     $imgFiles.push('https://psylo.ddns.net/img/lg/' + item.name);
                 })
@@ -98,7 +98,7 @@
             //console.log('genre AB: ' + ab);
             var ret = ab;
             //$.getJSON('/json/genre.json', function(data) {
-            $.each($genreList.responseJSON, function(i, res) {
+            $.each($genreList.responseJSON, function (i, res) {
                 //console.log('genreLoop:' + data.genre);
                 if (res.genre == ab) {
                     //console.log('Selected: ' + res.genre + ': ' + res.main);
@@ -111,10 +111,10 @@
         }
 
         function reloadJSON() {
-            $.getJSON($jsonFile, function(data) {
+            $.getJSON($jsonFile, function (data) {
                 var items = [];
                 data.reverse();
-                $.each(data, function(i, item) {
+                $.each(data, function (i, item) {
                     if (i == 0) {
                         nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
                         nTime = nTime.toLocaleTimeString([], {
@@ -152,7 +152,7 @@
         function getLastSaved() {
             var xhr = $.ajax({
                 url: $jsonFile,
-                success: function(response) {
+                success: function (response) {
                     $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
                     //$("#saved").text("getLastSaved(): " + $checkSaved).trigger('change');
                 }
@@ -163,13 +163,13 @@
 
         function LoadDb() {
             $.getJSON("mongo.php")
-                .done(function(result) {
+                .done(function (result) {
                     $('#lastTrax2').html('<th>time</th>\
                             <th>genre</th>\
                             <th>artist</th>\
                             <th>title</th>\
                             <th>label</th>');
-                    $.each(result, function(i, item) {
+                    $.each(result, function (i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
                             <td>' + getGenre(item.genre) + '</td>  \
@@ -189,8 +189,8 @@
                         });
                         if (i == 10) {
                             var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
-                            var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ result[0].artist +'%20track:'+ result[0].title +'" title="Search in Spotify" target="_blank"><img src="img/spotify.png" width="20" style="vertical-align:middle"/></a>'  ;
-                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk +"<br/><i style='font-size: smaller;color:lightgreen;'>"+ result[0].otitle+"</i>" );
+                            var SpotLnk = '<a href="https://open.spotify.com/search/artist:' + result[0].artist + '%20track:' + result[0].title + '" title="Search in Spotify" target="_blank"><img src="img/spotify.png" width="20" style="vertical-align:middle"/></a>';
+                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk + "<br/><i style='font-size: smaller;color:lightgreen;'>" + result[0].otitle + "</i>");
                             document.title = getGenre(result[0].genre) + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
 
                             return false;
@@ -247,12 +247,15 @@
         <div class="row">
             <div class="jumbotron jumbotron-fluid col-sm-10 bg-teaser ">
                 <h2>Welcome to Psylo Garden Studio</h2>
-                <h3>PGS1: House /Trance / Techno classic's from the 90's </h3>
+                <h3>PGS3: Lounge with a taste of Chillout and Ambient</h3>
                 <i></i>
-                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="false " name="media " style="height:30px; width:450px; ">
-                    <source src="http://psylo.ddns.net/radio/PGS1" type="audio/mp3">
+                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; "
+                        class=" "></span></h2><audio id="audio" controls=" " autoplay="false " name="media "
+                    style="height:30px; width:450px; ">
+                    <source src="http://psylo.ddns.net/radio/PGS3" type="audio/mp3">
                 </audio>
-                <div id="currentTrack" class="jumbotron-fluid " style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large; ">current</div>
+                <div id="currentTrack" class="jumbotron-fluid "
+                    style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large; ">current</div>
                 <!-- <p><a href="# " class="btn btn-primary btn-large ">Learn more »</a></p> -->
             </div>
 
@@ -261,9 +264,9 @@
         <div class="row bg-teaser ">
             <div class="">
                 <p>
-                    <div id="bg-trax">
-               
-                    </div>
+                <div id="bg-trax">
+
+                </div>
                 </p>
                 <!-- <p><a class="btn " href="# ">View details »</a></p> -->
             </div>
