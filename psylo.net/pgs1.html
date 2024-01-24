@@ -64,11 +64,11 @@
             // }, 10000); //commented until MongoConnecIsBack
             // var myTim = setInterval(myTime, 1000);
             // LOAD Background images
-            $.get('/img/lg/', function(data) {
+            $.get('/img/bkg/', function(data) {
                 //data.reverse();
                 $.each(data, function(i, item) {
                     // need to add the path location
-                    $imgFiles.push('https://psylo.ddns.net/img/lg/' + item.name);
+                    $imgFiles.push('https://psylo.ddns.net/img/bkg/' + item.name);
                 })
                 shuffle($imgFiles);
                 $("body").backgroundCycle({
