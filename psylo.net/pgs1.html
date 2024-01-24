@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/hackers.css" rel="stylesheet" media="screen">
+<!-- <script src="/js/jquery-3.6.0.js" type="text/javascript"></script> -->
+<script src="/js/jquery-2.1.1.min.js"></script>
+<script src="/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/background.cycle.js"></script>
+<script type="text/javascript" src="js/psylo.js"></script>
+<style>
+    audio {
+        filter: sepia(200%) saturate(400%) grayscale(0) contrast(100%) hue-rotate(360deg) invert(99%);
+    }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script>
+    $(function() {
+        $('#saved').on('change', function() {
+            $("#saved").fadeOut(5000, function() {
+                $("#saved").fadeIn(5000, function() {});
+            });
+        });
+    });
+    /* Add eventlistener to prevent scrolling when space bar pressed */
+    window.addEventListener('keydown', function (e) {
+            if (e.keyCode == 32 && e.target == document.body) {
+                e.preventDefault();
+            }
+        });
+</script>
+</head>
+
+<body>
+    <script>
+        $imgFiles = [];
+        $genreList = [];
+
+        $(document).ready(function() {
+            //LoadDb(); Commented until MongoConnectisBack
+            //$genreList = $.getJSON('/json/genre.json', function(data) {});
+            $pload = new Date();
+            $checkSaved = new Date();
+            $lastSaved = new Date();
+            $lastLoad = new Date();
+            // correcting difference between javascript time locale between Mac and Windows
+            //            var d = new Date();
+            //$2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
+            //console.log("today: " + $2day);
+            //$pload = $pload.toTimeString().substr(0, 8);
+            //$("#time").html("page loaded: " + $pload);
+            //$jsonFile = "/json/"+$2day + ".json";
+            //reloadJSON();
+            //LoadDb();
+            //$("#load").html("<br/>lastSaved (main):" + $lastSaved);
+            // var myVar = setInterval(function() {
+            //     LoadDb();
+            //     //myTimer('bucht');
+            // }, 10000); //commented until MongoConnecIsBack
+            // var myTim = setInterval(myTime, 1000);
+            // LOAD Background images
+            $.get('/img/lg/', function(data) {
+                //data.reverse();
+                $.each(data, function(i, item) {
+                    // need to add the path location
+                    $imgFiles.push('https://psylo.ddns.net/img/lg/' + item.name);
+                })
+                shuffle($imgFiles);
+                $("body").backgroundCycle({
+                    imageUrls: $imgFiles,
+                    fadeSpeed: 5000,
+                    duration: 15000,
+                    backgroundSize: SCALING_MODE_CONTAIN
+                });
+            });
+            /* keyboard SPACE event CATCH*/
+            const audio = document.querySelector("#audio");
+            var isPlaying = false;
+            document.onkeydown = function (e) {
+                if (e.keyCode == 32) {
+                    if (isPlaying) {
+                        audio.pause();
+                    } else {
+                        audio.play();
+                    }
+                    isPlaying = !isPlaying; // if true equal false, if false equal true
+                }
+            };
+
+        });
+
+        function getGenre(ab) {
+            //console.log('genre AB: ' + ab);
+            var ret = ab;
+            //$.getJSON('/json/genre.json', function(data) {
+            $.each($genreList.responseJSON, function(i, res) {
+                //console.log('genreLoop:' + data.genre);
+                if (res.genre == ab) {
+                    //console.log('Selected: ' + res.genre + ': ' + res.main);
+                    ret = res.main;
+                    //alert(res.main);
+                }
+            });
+            // });
+            return ret;
+        }
+
+        function reloadJSON() {
+            $.getJSON($jsonFile, function(data) {
+                var items = [];
+                data.reverse();
+                $.each(data, function(i, item) {
+                    if (i == 0) {
+                        nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                        nTime = nTime.toLocaleTimeString([], {
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            second: '2-digit'
+                        });
+                        var myTitle = item.genre + " " + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
+                        $('#currentTrack').html(myTitle + "<br/>" + nTime);
+                        document.title = item.genre + ":" + item.title + ":" + item.artist + ':PBBbyPsyl0:.';
+                    }
+                    if ((i >= 1) && (item.otitle.substr(0, 3) != 'PBB')) {
+                        bxlTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                        items.push("<li id='" + i + "'>" + bxlTime.toLocaleTimeString([], {
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            second: '2-digit'
+                        }) + "</li>");
+                        items.push(item.otitle);
+                        items.push("<dl class='dl-horizontal'><dt>Title</dt><dd>" + item.title + "</dd>");
+                        items.push("<dt>Artist</dt><dd>" + item.artist + "</dd></dl>");
+                    }
+                    if (i == 10) return false;
+                });
+                $("<ul/>", {
+                    "class": "my-new-list",
+                    html: items.join("")
+                }).appendTo("#content");
+
+            });
+            $lastSaved = getLastSaved();
+            //console.log($lastSaved);
+        }
+
+        function getLastSaved() {
+            var xhr = $.ajax({
+                url: $jsonFile,
+                success: function(response) {
+                    $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
+                    //$("#saved").text("getLastSaved(): " + $checkSaved).trigger('change');
+                }
+            });
+            //console.log($lastSaved);
+            return $checkSaved;
+        }
+
+        function LoadDb() {
+            $.getJSON("mongo.php")
+                .done(function(result) {
+                    $('#lastTrax2').html('<th>time</th>\
+                            <th>genre</th>\
+                            <th>artist</th>\
+                            <th>title</th>\
+                            <th>label</th>');
+                    $.each(result, function(i, item) {
+                        if (item.artist != "PBB") {
+                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
+                            <td>' + getGenre(item.genre) + '</td>  \
+                            <td>' + item.artist + '</td> \
+                            <td>' + item.title + '</td>  \
+                            <td>' + item.label + '</td>  \
+                            </tr>';
+                            $('#lastTrax2').append(row);
+
+                        }
+                        //console.log(row);
+                        nTime = new Date(result[0].time.replaceAll('(', '').replaceAll(')', ''));
+                        nTime = nTime.toLocaleTimeString([], {
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            second: '2-digit'
+                        });
+                        if (i == 10) {
+                            var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
+                            var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ result[0].artist +'%20track:'+ result[0].title +'" title="Search in Spotify" target="_blank"><img src="img/spotify.png" width="20" style="vertical-align:middle"/></a>'  ;
+                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk +"<br/><i style='font-size: smaller;color:lightgreen;'>"+ result[0].otitle+"</i>" );
+                            document.title = getGenre(result[0].genre) + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
+
+                            return false;
+                        }
+                    });
+                });
+        }
+
+        function myTimer(str) {
+            //getLastSaved();
+            //$("#saved").html(getLastSaved()).trigger('change');
+            LoadDb();
+
+            $pload = new Date();
+            $pload = $pload.toTimeString().substr(0, 8);
+            $("#checked").html($pload + ' ls:' + $lastSaved + ' cs: ' + $checkSaved);
+            if ($lastSaved != $checkSaved) {
+                $("#content").html("");
+                $("#checked").html('REALOADJSON: ' + $time.toTimeString().substr(0, 8));
+                //reloadJSON();
+                $("#load").html($time.toTimeString().substr(0, 8));
+
+            }
+        }
+
+        function myTime() {
+            $time = new Date();
+            $("#timeSpan").html($time.toTimeString().substr(0, 8));
+            $("#time").html($time.toTimeString().substr(0, 8));
+        }
+    </script>
+    <!-- New nav bar -->
+    <nav class="navbar navbar-expand-lg bg-teaser">
+        <a class=" navbar-brand " href="/ ">PBBbyPsyl0</a>
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item ">
+                <a class="nav-link " href="/stats.html ">Stats</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End new nav bar -->
+
+    <div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid col-sm-10 bg-teaser ">
+                <h2>Welcome to Psylo Garden Studio</h2>
+                <h3>PGS1: House /Trance / Techno classic's from the 90's </h3>
+                <i></i>
+                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="false " name="media " style="height:30px; width:450px; ">
+                    <source src="http://psylo.ddns.net:8000/PGS1" type="audio/mp3">
+                </audio>
+                <div id="currentTrack" class="jumbotron-fluid " style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large; ">current</div>
+                <!-- <p><a href="# " class="btn btn-primary btn-large ">Learn more »</a></p> -->
+            </div>
+
+        </div>
+        <!-- Example row of columns -->
+        <div class="row bg-teaser ">
+            <div class="">
+                <p>
+                    <div id="bg-trax">
+               
+                    </div>
+                </p>
+                <!-- <p><a class="btn " href="# ">View details »</a></p> -->
+            </div>
+        </div>
+        <div id="todoList" class="jumbotron-fluid col-sm-6 float-lg-start bg-teaser ">
+            <br /> I'm currently implementing a way to search by time and also display statistics.<br /> I started this project by the end of April 2021...
+            <h3>Todo in the near futur:</h3>
+            <ul>
+                <li>search from DB</li>
+                <li>Think to develop Movile App</li>
+                <li>Mobile responsive display(PARTIALLY IMPLEMENTED)</li>
+            </ul>
+            <h4>Completed:</h4>
+            <ul>
+            <li>Inject json into Database MongoDB</li>
+                <li>get data from DB: see <a href="/">index.html</a></li>
+                <li>enhance genre tagging :: Finally I've been able to map the tags from Lolo to the genre definition.</li>
+            </ul>
+
+        </div>
+
+        <div class="row">
+            <div class="span3 bg-teaser debug-top">
+                <h4>Debug output</h4>
+                time:<span id="time"> </span> <br /> load:
+                <span id="load"> </span> <br /> saved:
+                <span id="saved"> </span><br /> checked:
+                <span id="checked"> </span>
+                <!-- <p><a class="btn " href="# ">View details »</a></p> -->
+            </div>
+        </div>
+        <hr>
+
+        <footer>
+            <p>© Psyl0 2024</p>
+        </footer>
+
+    </div>
+    <hr />
+    <!-- Le javascript  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/bootstrap/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>
