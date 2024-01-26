@@ -52,11 +52,11 @@
                 return n.otitle.toLowerCase().indexOf($("#artist").val().toLowerCase()) > -1;
             });
             var outputstr = "<table id='lastTrax' class='lastTrax'>" +
-                "<thead><th>time</th><th>Genre</th><th>Artist</th><th>Title</th><th>label</th></thead>";
+                "<thead><th>time</th><th>Genre</th><th>Artist</th><th>Title</th><th>album</th></thead>";
 
             $.each(res.reverse(), function(i, n) {
                 if (n.artist != false && n.artist != 'PBB') {
-                    outputstr += "<tr><td>" + n.time + "</td><td width='70'>" + n.genre + "</td><td width='200'>" + n.artist + "</td><td width='200'>" + n.title + "</td><td>" + n.label + "</td></tr>";
+                    outputstr += "<tr><td>" + n.time + "</td><td width='70'>" + n.genre + "</td><td width='200'>" + n.artist + "</td><td width='200'>" + n.title + "</td><td>" + n.album + "</td></tr>";
                 }
             });
             outputstr += "</table>";

@@ -39,30 +39,20 @@
 <body>
     <script>
         $imgFiles = [];
-        $genreList = [];
 
         $(document).ready(function() {
-            //LoadDb(); Commented until MongoConnectisBack
-            //$genreList = $.getJSON('/json/genre.json', function(data) {});
             $pload = new Date();
             $checkSaved = new Date();
             $lastSaved = new Date();
-            $lastLoad = new Date();
-            // correcting difference between javascript time locale between Mac and Windows
-            //            var d = new Date();
-            //$2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
-            //console.log("today: " + $2day);
-            //$pload = $pload.toTimeString().substr(0, 8);
-            //$("#time").html("page loaded: " + $pload);
-            //$jsonFile = "/json/"+$2day + ".json";
-            //reloadJSON();
-            //LoadDb();
-            //$("#load").html("<br/>lastSaved (main):" + $lastSaved);
-            // var myVar = setInterval(function() {
-            //     LoadDb();
-            //     //myTimer('bucht');
-            // }, 10000); //commented until MongoConnecIsBack
-            // var myTim = setInterval(myTime, 1000);
+            $lastLoad = new Date();            $2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
+            $pload = $pload.toTimeString().substr(0, 8);
+            $jsonFile = "/json/PGS1"+$2day + ".json";
+            reloadJSON();
+            LoadDb();
+            var myVar = setInterval(function() {
+                LoadDb();
+            }, 10000); //commented until MongoConnecIsBack
+            var myTim = setInterval(myTime, 1000);
             // LOAD Background images
             $.get('/img/bkg/', function(data) {
                 //data.reverse();
@@ -93,22 +83,6 @@
             };
 
         });
-
-        function getGenre(ab) {
-            //console.log('genre AB: ' + ab);
-            var ret = ab;
-            //$.getJSON('/json/genre.json', function(data) {
-            $.each($genreList.responseJSON, function(i, res) {
-                //console.log('genreLoop:' + data.genre);
-                if (res.genre == ab) {
-                    //console.log('Selected: ' + res.genre + ': ' + res.main);
-                    ret = res.main;
-                    //alert(res.main);
-                }
-            });
-            // });
-            return ret;
-        }
 
         function reloadJSON() {
             $.getJSON($jsonFile, function(data) {
@@ -146,7 +120,6 @@
 
             });
             $lastSaved = getLastSaved();
-            //console.log($lastSaved);
         }
 
         function getLastSaved() {
@@ -154,15 +127,13 @@
                 url: $jsonFile,
                 success: function(response) {
                     $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
-                    //$("#saved").text("getLastSaved(): " + $checkSaved).trigger('change');
                 }
             });
-            //console.log($lastSaved);
             return $checkSaved;
         }
 
         function LoadDb() {
-            $.getJSON("mongo.php")
+            $.getJSON("mongo2.php?radio=PGS1&")
                 .done(function(result) {
                     $('#lastTrax2').html('<th>time</th>\
                             <th>genre</th>\
@@ -172,15 +143,14 @@
                     $.each(result, function(i, item) {
                         if (item.artist != "PBB") {
                             var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                            <td>' + getGenre(item.genre) + '</td>  \
+                            <td>' + item.genre + '</td>  \
                             <td>' + item.artist + '</td> \
                             <td>' + item.title + '</td>  \
-                            <td>' + item.label + '</td>  \
+                            <td>' + item.album + '</td>  \
                             </tr>';
                             $('#lastTrax2').append(row);
 
                         }
-                        //console.log(row);
                         nTime = new Date(result[0].time.replaceAll('(', '').replaceAll(')', ''));
                         nTime = nTime.toLocaleTimeString([], {
                             hour: '2-digit',
@@ -190,9 +160,8 @@
                         if (i == 10) {
                             var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
                             var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ result[0].artist +'%20track:'+ result[0].title +'" title="Search in Spotify" target="_blank"><img src="img/spotify.png" width="20" style="vertical-align:middle"/></a>'  ;
-                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk +"<br/><i style='font-size: smaller;color:lightgreen;'>"+ result[0].otitle+"</i>" );
-                            document.title = getGenre(result[0].genre) + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
-
+                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk +"<br/><i style='font-size: smaller;color:lightgreen;'>"+ result[0].otitle+"</i>" );
+                            document.title = result[0].genre + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
                             return false;
                         }
                     });
@@ -200,8 +169,6 @@
         }
 
         function myTimer(str) {
-            //getLastSaved();
-            //$("#saved").html(getLastSaved()).trigger('change');
             LoadDb();
 
             $pload = new Date();
@@ -210,9 +177,7 @@
             if ($lastSaved != $checkSaved) {
                 $("#content").html("");
                 $("#checked").html('REALOADJSON: ' + $time.toTimeString().substr(0, 8));
-                //reloadJSON();
                 $("#load").html($time.toTimeString().substr(0, 8));
-
             }
         }
 
@@ -249,7 +214,7 @@
                 <h2>Welcome to Psylo Garden Studio</h2>
                 <h3>PGS1: House /Trance / Techno classic's from the 90's </h3>
                 <i>If you want to use an external player here is the link <a href="https://psylo.ddns.net/radio/PGS1">https://psylo.ddns.net/radio/PGS1</a></i>
-                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="false " name="media " style="height:30px; width:450px; ">
+                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="true" name="media" style="height:30px; width:450px; ">
                     <source src="https://psylo.ddns.net/radio/PGS1" type="audio/mp3">
                 </audio>
                 <div id="currentTrack" class="jumbotron-fluid " style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large; ">current</div>
@@ -262,10 +227,25 @@
             <div class="">
                 <p>
                     <div id="bg-trax">
-               
+                        <h2>Latest track played:</h2>
+                        <table id="tbComp">
+                            <tr>
+                                <td>Recorded from python Service running with systemctl</td>
+                            <tr>
+                                <td>
+                                    <table id="lastTrax2" class="lastTrax" width="80%">
+                                        <th>time</th>
+                                        <th>genre</th>
+                                        <th>artist</th>
+                                        <th>title</th>
+                                        <th>album</th>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </p>
-                <!-- <p><a class="btn " href="# ">View details »</a></p> -->
+
             </div>
         </div>
         <div id="todoList" class="jumbotron-fluid col-sm-6 float-lg-start bg-teaser ">

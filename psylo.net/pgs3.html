@@ -38,189 +38,154 @@
 
 <body>
     <script>
-        $imgFiles = [];
-        $genreList = [];
+            $imgFiles = [];
 
-        $(document).ready(function () {
-            //LoadDb(); Commented until MongoConnectisBack
-            //$genreList = $.getJSON('/json/genre.json', function(data) {});
-            $pload = new Date();
-            $checkSaved = new Date();
-            $lastSaved = new Date();
-            $lastLoad = new Date();
-            // correcting difference between javascript time locale between Mac and Windows
-            //            var d = new Date();
-            //$2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
-            //console.log("today: " + $2day);
-            //$pload = $pload.toTimeString().substr(0, 8);
-            //$("#time").html("page loaded: " + $pload);
-            //$jsonFile = "/json/"+$2day + ".json";
-            //reloadJSON();
-            //LoadDb();
-            //$("#load").html("<br/>lastSaved (main):" + $lastSaved);
-            // var myVar = setInterval(function() {
-            //     LoadDb();
-            //     //myTimer('bucht');
-            // }, 10000); //commented until MongoConnecIsBack
-            // var myTim = setInterval(myTime, 1000);
-            // LOAD Background images
-            $.get('/img/bkg/', function (data) {
-                //data.reverse();
-                $.each(data, function (i, item) {
-                    // need to add the path location
-                    $imgFiles.push('https://psylo.ddns.net/img/bkg/' + item.name);
-                })
-                shuffle($imgFiles);
-                $("body").backgroundCycle({
-                    imageUrls: $imgFiles,
-                    fadeSpeed: 5000,
-                    duration: 15000,
-                    backgroundSize: SCALING_MODE_CONTAIN
+            $(document).ready(function () {
+                $pload = new Date();
+                $checkSaved = new Date();
+                $lastSaved = new Date();
+                $lastLoad = new Date(); $2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
+                $pload = $pload.toTimeString().substr(0, 8);
+                $jsonFile = "/json/PGS3" + $2day + ".json";
+                reloadJSON();
+                LoadDb();
+                var myVar = setInterval(function () {
+                    LoadDb();
+                }, 10000); //commented until MongoConnecIsBack
+                var myTim = setInterval(myTime, 1000);
+                // LOAD Background images
+                $.get('/img/bkg/', function (data) {
+                    //data.reverse();
+                    $.each(data, function (i, item) {
+                        // need to add the path location
+                        $imgFiles.push('https://psylo.ddns.net/img/bkg/' + item.name);
+                    })
+                    shuffle($imgFiles);
+                    $("body").backgroundCycle({
+                        imageUrls: $imgFiles,
+                        fadeSpeed: 5000,
+                        duration: 15000,
+                        backgroundSize: SCALING_MODE_CONTAIN
+                    });
                 });
+                /* keyboard SPACE event CATCH*/
+                const audio = document.querySelector("#audio");
+                var isPlaying = false;
+                document.onkeydown = function (e) {
+                    if (e.keyCode == 32) {
+                        if (isPlaying) {
+                            audio.pause();
+                        } else {
+                            audio.play();
+                        }
+                        isPlaying = !isPlaying; // if true equal false, if false equal true
+                    }
+                };
+
             });
-            /* keyboard SPACE event CATCH*/
-            const audio = document.querySelector("#audio");
-            var isPlaying = false;
-            document.onkeydown = function (e) {
-                if (e.keyCode == 32) {
-                    if (isPlaying) {
-                        audio.pause();
-                    } else {
-                        audio.play();
-                    }
-                    isPlaying = !isPlaying; // if true equal false, if false equal true
-                }
-            };
 
-        });
+            function reloadJSON() {
+                $.getJSON($jsonFile, function (data) {
+                    var items = [];
+                    data.reverse();
+                    $.each(data, function (i, item) {
+                        if (i == 0) {
+                            nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                            nTime = nTime.toLocaleTimeString([], {
+                                hour: '2-digit',
+                                minute: '2-digit',
+                                second: '2-digit'
+                            });
+                            var myTitle = item.genre + " " + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
+                            $('#currentTrack').html(myTitle + "<br/>" + nTime);
+                            document.title = item.genre + ":" + item.title + ":" + item.artist + ':PBBbyPsyl0:.';
+                        }
+                        if ((i >= 1) && (item.otitle.substr(0, 3) != 'PBB')) {
+                            bxlTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                            items.push("<li id='" + i + "'>" + bxlTime.toLocaleTimeString([], {
+                                hour: '2-digit',
+                                minute: '2-digit',
+                                second: '2-digit'
+                            }) + "</li>");
+                            items.push(item.otitle);
+                            items.push("<dl class='dl-horizontal'><dt>Title</dt><dd>" + item.title + "</dd>");
+                            items.push("<dt>Artist</dt><dd>" + item.artist + "</dd></dl>");
+                        }
+                        if (i == 10) return false;
+                    });
+                    $("<ul/>", {
+                        "class": "my-new-list",
+                        html: items.join("")
+                    }).appendTo("#content");
 
-        function getGenre(ab) {
-            //console.log('genre AB: ' + ab);
-            var ret = ab;
-            //$.getJSON('/json/genre.json', function(data) {
-            $.each($genreList.responseJSON, function (i, res) {
-                //console.log('genreLoop:' + data.genre);
-                if (res.genre == ab) {
-                    //console.log('Selected: ' + res.genre + ': ' + res.main);
-                    ret = res.main;
-                    //alert(res.main);
-                }
-            });
-            // });
-            return ret;
-        }
-
-        function reloadJSON() {
-            $.getJSON($jsonFile, function (data) {
-                var items = [];
-                data.reverse();
-                $.each(data, function (i, item) {
-                    if (i == 0) {
-                        nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
-                        nTime = nTime.toLocaleTimeString([], {
-                            hour: '2-digit',
-                            minute: '2-digit',
-                            second: '2-digit'
-                        });
-                        var myTitle = item.genre + " " + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
-                        $('#currentTrack').html(myTitle + "<br/>" + nTime);
-                        document.title = item.genre + ":" + item.title + ":" + item.artist + ':PBBbyPsyl0:.';
-                    }
-                    if ((i >= 1) && (item.otitle.substr(0, 3) != 'PBB')) {
-                        bxlTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
-                        items.push("<li id='" + i + "'>" + bxlTime.toLocaleTimeString([], {
-                            hour: '2-digit',
-                            minute: '2-digit',
-                            second: '2-digit'
-                        }) + "</li>");
-                        items.push(item.otitle);
-                        items.push("<dl class='dl-horizontal'><dt>Title</dt><dd>" + item.title + "</dd>");
-                        items.push("<dt>Artist</dt><dd>" + item.artist + "</dd></dl>");
-                    }
-                    if (i == 10) return false;
                 });
-                $("<ul/>", {
-                    "class": "my-new-list",
-                    html: items.join("")
-                }).appendTo("#content");
+                $lastSaved = getLastSaved();
+            }
 
-            });
-            $lastSaved = getLastSaved();
-            //console.log($lastSaved);
-        }
+            function getLastSaved() {
+                var xhr = $.ajax({
+                    url: $jsonFile,
+                    success: function (response) {
+                        $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
+                    }
+                });
+                return $checkSaved;
+            }
 
-        function getLastSaved() {
-            var xhr = $.ajax({
-                url: $jsonFile,
-                success: function (response) {
-                    $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
-                    //$("#saved").text("getLastSaved(): " + $checkSaved).trigger('change');
-                }
-            });
-            //console.log($lastSaved);
-            return $checkSaved;
-        }
-
-        function LoadDb() {
-            $.getJSON("mongo.php")
-                .done(function (result) {
-                    $('#lastTrax2').html('<th>time</th>\
+            function LoadDb() {
+                $.getJSON("mongo2.php?radio=PGS3&")
+                    .done(function (result) {
+                        $('#lastTrax2').html('<th>time</th>\
                             <th>genre</th>\
                             <th>artist</th>\
                             <th>title</th>\
                             <th>label</th>');
-                    $.each(result, function (i, item) {
-                        if (item.artist != "PBB") {
-                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                            <td>' + getGenre(item.genre) + '</td>  \
+                        $.each(result, function (i, item) {
+                            if (item.artist != "PBB") {
+                                var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
+                            <td>' + item.genre + '</td>  \
                             <td>' + item.artist + '</td> \
                             <td>' + item.title + '</td>  \
-                            <td>' + item.label + '</td>  \
+                            <td>' + item.album + '</td>  \
                             </tr>';
-                            $('#lastTrax2').append(row);
+                                $('#lastTrax2').append(row);
 
-                        }
-                        //console.log(row);
-                        nTime = new Date(result[0].time.replaceAll('(', '').replaceAll(')', ''));
-                        nTime = nTime.toLocaleTimeString([], {
-                            hour: '2-digit',
-                            minute: '2-digit',
-                            second: '2-digit'
+                            }
+                            nTime = new Date(result[0].time.replaceAll('(', '').replaceAll(')', ''));
+                            nTime = nTime.toLocaleTimeString([], {
+                                hour: '2-digit',
+                                minute: '2-digit',
+                                second: '2-digit'
+                            });
+                            if (i == 10) {
+                                var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
+                                var SpotLnk = '<a href="https://open.spotify.com/search/artist:' + result[0].artist + '%20track:' + result[0].title + '" title="Search in Spotify" target="_blank"><img src="img/spotify.png" width="20" style="vertical-align:middle"/></a>';
+                                $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk + "<br/><i style='font-size: smaller;color:lightgreen;'>" + result[0].otitle + "</i>");
+                                document.title = result[0].genre + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
+                                return false;
+                            }
                         });
-                        if (i == 10) {
-                            var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
-                            var SpotLnk = '<a href="https://open.spotify.com/search/artist:' + result[0].artist + '%20track:' + result[0].title + '" title="Search in Spotify" target="_blank"><img src="img/spotify.png" width="20" style="vertical-align:middle"/></a>';
-                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + getGenre(result[0].genre) + " <i style='font-size: smaller;color:lightblue;'> @ </i>" + nTime + "|" + SpotLnk + "<br/><i style='font-size: smaller;color:lightgreen;'>" + result[0].otitle + "</i>");
-                            document.title = getGenre(result[0].genre) + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
-
-                            return false;
-                        }
                     });
-                });
-        }
-
-        function myTimer(str) {
-            //getLastSaved();
-            //$("#saved").html(getLastSaved()).trigger('change');
-            LoadDb();
-
-            $pload = new Date();
-            $pload = $pload.toTimeString().substr(0, 8);
-            $("#checked").html($pload + ' ls:' + $lastSaved + ' cs: ' + $checkSaved);
-            if ($lastSaved != $checkSaved) {
-                $("#content").html("");
-                $("#checked").html('REALOADJSON: ' + $time.toTimeString().substr(0, 8));
-                //reloadJSON();
-                $("#load").html($time.toTimeString().substr(0, 8));
-
             }
-        }
 
-        function myTime() {
-            $time = new Date();
-            $("#timeSpan").html($time.toTimeString().substr(0, 8));
-            $("#time").html($time.toTimeString().substr(0, 8));
-        }
+            function myTimer(str) {
+                LoadDb();
+
+                $pload = new Date();
+                $pload = $pload.toTimeString().substr(0, 8);
+                $("#checked").html($pload + ' ls:' + $lastSaved + ' cs: ' + $checkSaved);
+                if ($lastSaved != $checkSaved) {
+                    $("#content").html("");
+                    $("#checked").html('REALOADJSON: ' + $time.toTimeString().substr(0, 8));
+                    $("#load").html($time.toTimeString().substr(0, 8));
+                }
+            }
+
+            function myTime() {
+                $time = new Date();
+                $("#timeSpan").html($time.toTimeString().substr(0, 8));
+                $("#time").html($time.toTimeString().substr(0, 8));
+            }
     </script>
     <!-- New nav bar -->
     <nav class="navbar navbar-expand-lg bg-teaser">
@@ -266,6 +231,22 @@
             <div class="">
                 <p>
                 <div id="bg-trax">
+                        <h2>Latest track played:</h2>
+                        <table id="tbComp">
+                            <tr>
+                                <td>Recorded from python Service running with systemctl</td>
+                            <tr>
+                                <td>
+                                    <table id="lastTrax2" class="lastTrax" width="80%">
+                                        <th>time</th>
+                                        <th>genre</th>
+                                        <th>artist</th>
+                                        <th>title</th>
+                                        <th>album</th>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
 
                 </div>
                 </p>
