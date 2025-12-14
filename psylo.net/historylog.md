@@ -1,25 +1,25 @@
 # History log 
-#### Log actions and status feedback during developpment 
+#### Log actions and status feedback during development 
 *(Record New log on top)*
 
 ### Ideas/Improvements
 - index page switch from latest50 trax to search by:
-  - freetext
+  - free-text
   - artist
   - title
   - ... 
 
-## 24 Nov 2022: Removed MongoDB CLustor0 and Project PBBbyPsylo
+## 24 Nov 2022: Removed MongoDB CLuster0 and Project PBBbyPsylo
 - Renamed PPBtest by PBBbyPsylo after removing obsolete cluster/project
   - Chart was sill active, i was unable to remove delete the project
   - Chart delete option not enough
   - other option had to be selected from Project Setting
 - No change in the connection - Update of new tracks continue to be written
 
-## 21 Jul 2022: some of the original title from PBB does not containt ' _ '
-- this will cause the current logic to be wrongly interprated
-- title loged into AtlasMongoDB contain the LABEL
-- Looking at thelatest changes I discovered that sometime there are no 'space underscore space' in the sequence
+## 21 Jul 2022: some of the original title from PBB does not contain ' _ '
+- this will cause the current logic to be wrongly interpreted
+- title logged into AtlasMongoDB contain the LABEL
+- Looking at the latest changes I discovered that sometime there are no 'space underscore space' in the sequence
 - Must change the regular expression to match all HIGH CAPS from the end of string
 - this should be solved with the following regex sequence:
 
