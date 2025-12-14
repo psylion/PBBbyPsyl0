@@ -8,6 +8,12 @@
   - artist
   - title
   - ... 
+- 2025 Dec
+  - No More PBB from.... 
+  - Idea to select another online radio and keep listen trace log
+  - Somafm have a different output: https://api.somafm.com/channels.json
+  - Found on https://github.com/intergalacticfm/online-radio-channels
+  - .. .could be useful for future dev
 
 ## 24 Nov 2022: Removed MongoDB CLuster0 and Project PBBbyPsylo
 - Renamed PPBtest by PBBbyPsylo after removing obsolete cluster/project
