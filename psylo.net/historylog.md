@@ -20,6 +20,14 @@
 - Following the installation of new NAS (PsyloNAS) I started to use Containers
 - I have successfully implemented Jellyfin, Icecast and Liquidsoap
 - I'll start to move the PGS's radio stream into the NAS.
+  - List of Radio's:
+    - PGS1: House /Trance / Techno classic's from the 90's
+    - PGS2: Liveset & Mix sessions (maybe duplicate of LiveSet already in NAS)
+    - PGS3: Lounge with a taste of Chillout and Ambient
+    - PGS4: IDM/Ambient
+  - Already on NAS:
+    - LiveSet
+    - IIWII
 
 ## 24 Nov 2022: Removed MongoDB CLuster0 and Project PBBbyPsylo
 - Renamed PPBtest by PBBbyPsylo after removing obsolete cluster/project
