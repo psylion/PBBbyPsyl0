@@ -15,6 +15,12 @@
   - Found on https://github.com/intergalacticfm/online-radio-channels
   - .. .could be useful for future dev
 
+### New horizon
+- Summer 2026:
+  - Following the installation of new NAS (PsyloNAS) I started to use Containers
+  - I have successfully implemented Jellyfin, Icecast and Liquidsoap
+  - I'll start to move the PGS's radio stream into the NAS.
+
 ## 24 Nov 2022: Removed MongoDB CLuster0 and Project PBBbyPsylo
 - Renamed PPBtest by PBBbyPsylo after removing obsolete cluster/project
   - Chart was sill active, i was unable to remove delete the project
