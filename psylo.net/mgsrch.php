@@ -3,8 +3,7 @@ $mongoAccess = parse_ini_file('../access.ini');
 
 $user = $mongoAccess['user'];
 $passwd = $mongoAccess['passwd'];
-$srch = $_GET['srch'];
-
+$srch = preg_quote($_GET['srch'], '/');
 $client = new MongoDB\Driver\Manager(
     'mongodb+srv://'.$user.':'.$passwd.'@cluster0.3bhpn.mongodb.net/?retryWrites=true&w=majority');
 $filter = [

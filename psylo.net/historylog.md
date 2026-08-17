@@ -14,7 +14,7 @@
   - Found on https://github.com/intergalacticfm/online-radio-channels
   - .. .could be useful for future dev
 
-# New horizon
+# Latest changes - New horizon
 ## Summer 2026:
 - Following the installation of new NAS (PsyloNAS) I started to use Containers
 - I have successfully implemented Jellyfin, Icecast and LiquidSoap
@@ -27,6 +27,12 @@
   - Already on NAS:
     - LiveSet
     - IIWII
+
+## August 2026:
+- Refactored `index.html` to improve security and code quality
+  - Cleaned up `<head>` structure
+  - Implemented XSS prevention in `LoadDb` and `SearchDb` functions by using jQuery DOM manipulation instead of string concatenation
+  - Added `encodeURIComponent` to search queries in `SearchDb` for safer URL construction
 
 ## 24 Nov 2022: Removed MongoDB CLuster0 and Project PBBbyPsylo
 - Renamed PPBtest by PBBbyPsylo after removing obsolete cluster/project

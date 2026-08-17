@@ -1,14 +1,47 @@
 <!doctype html>
 <html lang="en">
-
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>psylo.ddns.net / pi4Psylo / Index</title>
-<link rel="stylesheet" href="/js/jquery-ui-1.12.1/jquery-ui.css">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial, shrink-to-fit=no">
+    <title>psylo.ddns.net / pi4Psylo / Index</title>
+    <link rel="stylesheet" href="/js/jquery-ui-1.12.1/jquery-ui.css">
 <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/hackers.css" rel="stylesheet" media="screen">
 <script src="/js/jquery-2.1.1.min.js"></script>
+<script src="/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/background.cycle.js"></script>
+    <script type="text/javascript" src="js/psylo.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+            $('#btn50').on("click", function (event) {
+                LoadDb();
+                $searchEnabled = 0;
+            });
+            $("#btnSrch").on("click", function (event) {
+                SearchDb();
+            });
+            $('#strSrch').keypress(function (e) {
+                var key = e.which;
+                if (key == 13)  // the enter key code
+                {
+                    $('#btnSrch').click();
+                    return false;
+                }
+            });
+        });
+    </script>
+</head>
+
+<body class="" style="margin: 0;">
+    <script lang="JavaScript">
+        // Global variables for app state
+        $genreList = [];
+        $searchEnabled = 0;
+    </script>
+    <!-- New nav bar -->
+    <nav class="navbar navbar-expand-lg bg-teaser">
 <script src="/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/background.cycle.js"></script>
 <script type="text/javascript" src="js/psylo.js"></script>
@@ -81,52 +114,40 @@
             // }
         });
 
+        function resetTable() {
+            $('#lastTrax2').html('<th class="nowrap">time</th><th>genre</th><th>artist</th><th>title</th><th>label</th>');
+        }
+
+        function appendTrackRow(item) {
+            if (item.artist !== "PBB") {
+                var $row = $('<tr');
+                $row.append($('<td>', { text: item.time.replace("T", " "), class: 'nowrap' }));
+                $row.append($('<td>', { text: getGenre(item.genre) }));
+                $row.append($('<td>', { text: item.artist }));
+                $row.append($('<td>', { text: item.title }));
+                $row.append($('<td>', { text: item.label }));
+                $row.append('</tr>');
+                $('#lastTrax2').append($row);
+            }
+        }
+
         function LoadDb() {
             $.getJSON("mongo.php")
                 .done(function (result) {
-                    $('#lastTrax2').html('<th>time</th>\
-                        <th> genre</th>\
-                        <th>artist</th>\
-                        <th>title</th>\
-                        <th>label</th>');
+                    resetTable();
                     $.each(result, function (i, item) {
-                        if (item.artist != "PBB") {
-                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                        <td>' + getGenre(item.genre) + '</td>  \
-                        <td>' + item.artist + '</td> \
-                        <td>' + item.title + '</td>  \
-                        <td>' + item.label + '</td>  \
-                        </tr>';
-                            $('#lastTrax2').append(row);
-                            // $("lastTrax").append(item + " ");
-                            //console.log(row);
-                        }
+                        appendTrackRow(item);
                     });
                 });
         }
-        // New search functionon 05/07/2022
+
         function SearchDb() {
             $searchEnabled = 1;
-            //alert($("#strSrch").text() + "-"+ $("#strSrch").html() +"-"+ $("#strSrch").val() );
-            $.getJSON("mgsrch.php?srch=" + $("#strSrch").val())
+            $.getJSON("mgsrch.php?srch=" + encodeURIComponent($("#strSrch").val()))
                 .done(function (result) {
-                    $('#lastTrax2').html('<th>time</th>\
-                        <th>genre</th>\
-                        <th>artist</th>\
-                        <th>title</th>\
-                        <th>label</th>');
+                    resetTable();
                     $.each(result, function (i, item) {
-                        if (item.artist != "PBB") {
-                            var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                        <td>' + getGenre(item.genre) + '</td>  \
-                        <td>' + item.artist + '</td> \
-                        <td>' + item.title + '</td>  \
-                        <td>' + item.label + '</td>  \
-                        </tr>';
-                            $('#lastTrax2').append(row);
-                            // $("lastTrax").append(item + " ");
-                            //console.log(row);
-                        }
+                        appendTrackRow(item);
                     });
                 });
         }
@@ -134,16 +155,14 @@
         function getGenre(ab) {
             console.log('genre AB: ' + ab);
             var ret = ab;
-            //$.getJSON('/json/genre.json', function(data) {
-            $.each($genreList.responseJSON, function (i, res) {
-                //console.log('genreLoop:' + data.genre);
-                if (res.genre == ab) {
-                    console.log('Selected: ' + res.genre + ': ' + res.main);
-                    ret = res.main;
-                    //alert(res.main);
-                }
-            });
-            // });
+            if ($genreList && $genreList.responseJSON) {
+                $.each($genreList.responseJSON, function (i, res) {
+                    if (res.genre == ab) {
+                        console.log('Selected: ' + res.genre + ': ' + res.main);
+                        ret = res.main;
+                    }
+                });
+            }
             return ret;
         }
         //const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
