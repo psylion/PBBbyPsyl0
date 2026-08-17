@@ -20,190 +20,233 @@
 </head>
 <body class="">
 <script>
-    $(function() {
-        $('#saved').on('change', function() {
-            $("#saved").fadeOut(5000, function() {
-                $("#saved").fadeIn(5000, function() {});
-            });
-        });
-    });
-    /* Add eventlistener to prevent scrolling when space bar pressed */
-    window.addEventListener('keydown', function (e) {
-        // modern check for Space key, with fallback to key
-        if ((e.code === 'Space' || e.key === ' ') && e.target === document.body) {
-            e.preventDefault();
+    // Encapsulate refactor inside an IIFE to avoid accidental globals
+    (function($) {
+        'use strict';
+
+        // Local state (no $ prefix unless jQuery object)
+        let imgFiles = [];
+        let ploadTime, checkSaved, lastSaved, lastLoad, twoDay, jsonFile, nowTime;
+
+        // helper: remove parentheses from time strings
+        function stripParens(s) {
+            if (!s) return s;
+            return typeof s === 'string' ? s.replace(/\(|\)/g, '') : s;
         }
-    });
 
-    // Declare globals explicitly to avoid accidental globals
-    let $imgFiles = [];
-    let $pload, $checkSaved, $lastSaved, $lastLoad, $twoDay, $jsonFile, $time;
+        // Build today's json filename using a stable toISOString slice
+        function buildJsonFileName(date = new Date()) {
+            const ymd = date.toISOString().slice(0,10).replace(/-/g, '');
+            return '/json/PGS1' + ymd + '.json';
+        }
 
-    // helper: remove parentheses from time strings (replaceAll may not exist in older browsers)
-    function stripParens(s) {
-        if (!s) return s;
-        return s.replace ? s.replace(/\(|\)/g, '') : s;
-    }
-
-    $(document).ready(function() {
-        $pload = new Date();
-        $checkSaved = new Date();
-        $lastSaved = new Date();
-        $lastLoad = new Date();
-        // variable names cannot start with a digit, rename to $twoDay
-        $twoDay = $pload.toJSON().substr(0, 10).replace(/-/g, "");
-        $pload = $pload.toTimeString().substr(0, 8);
-        $jsonFile = "/json/PGS1" + $twoDay + ".json";
-        reloadJSON();
-        LoadDb();
-        var myVar = setInterval(function() {
-            LoadDb();
-        }, 10000); //commented until MongoConnecIsBack
-        var myTim = setInterval(myTime, 1000);
-        // LOAD Background images
-        $.get('/img/bkg/', function(data) {
-            //data.reverse();
-            $.each(data, function(i, item) {
-                // need to add the path location
-                $imgFiles.push('https://psylo.ddns.net/img/bkg/' + item.name);
-            })
-            shuffle($imgFiles);
-            // SCALING_MODE_CONTAIN is expected to be provided by background.cycle.js; leave as-is
-            $("body").backgroundCycle({
-                imageUrls: $imgFiles,
-                fadeSpeed: 5000,
-                duration: 15000,
-                backgroundSize: SCALING_MODE_CONTAIN
-            });
-        });
-        /* keyboard SPACE event CATCH*/
-        const audio = document.querySelector("#audio");
-        var isPlaying = false;
-        document.onkeydown = function (e) {
-            // ignore when focus is on input/textarea or contenteditable elements
-            var ae = document.activeElement;
-            if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'TEXTAREA' || ae.isContentEditable)) return;
-            if (e.code === 'Space' || e.key === ' ') {
-                if (!audio) return; // nothing to do
-                if (isPlaying) {
-                    audio.pause();
-                } else {
-                    audio.play();
+        // Reload JSON with fetch, handle missing file and update lastModified
+        async function reloadJSON() {
+            if (!jsonFile) jsonFile = buildJsonFileName();
+            try {
+                const res = await fetch(jsonFile, { cache: 'no-store' });
+                if (!res.ok) {
+                    console.warn('reloadJSON: failed to fetch', jsonFile, res.status);
+                    return;
                 }
-                isPlaying = !isPlaying; // toggle
-                // prevent default to avoid page scroll
+                const data = await res.json();
+                // Update last-modified header if present
+                const lm = res.headers.get('last-modified');
+                if (lm) {
+                    checkSaved = new Date(lm).toTimeString().substr(0, 8);
+                }
+
+                // Build content
+                const items = [];
+                // operate on a copy so reversing doesn't mutate original unexpectedly
+                const copy = Array.isArray(data) ? data.slice().reverse() : [];
+
+                copy.forEach(function(item, i) {
+                    if (i === 0) {
+                        const nTime = new Date(stripParens(item.time)).toLocaleTimeString([], {
+                            hour: '2-digit', minute: '2-digit', second: '2-digit'
+                        });
+                        const myTitle = item.genre + ' ' + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
+                        $('#currentTrack').html(myTitle + '<br/>' + nTime);
+                        document.title = item.genre + ':' + item.title + ':' + item.artist + ':PBBbyPsyl0:.';
+                    }
+
+                    if (i >= 1 && item.otitle && item.otitle.substr(0,3) !== 'PBB') {
+                        const bxlTime = new Date(stripParens(item.time)).toLocaleTimeString([], {
+                            hour: '2-digit', minute: '2-digit', second: '2-digit'
+                        });
+                        items.push('<li id="' + i + '">' + bxlTime + '</li>');
+                        items.push(item.otitle);
+                        items.push('<dl class="dl-horizontal"><dt>Title</dt><dd>' + item.title + '</dd>');
+                        items.push('<dt>Artist</dt><dd>' + item.artist + '</dd></dl>');
+                    }
+                    if (i === 10) return; // stop after 10
+                });
+
+                // Replace content rather than append to avoid duplicates
+                $('#content').empty();
+                if (items.length) {
+                    $('<ul/>', { 'class': 'my-new-list', html: items.join('') }).appendTo('#content');
+                }
+
+                // set lastSaved from previous stored value
+                lastSaved = getLastSaved();
+
+            } catch (err) {
+                console.error('reloadJSON error for', jsonFile, err);
+            }
+        }
+
+        // Get Last-Modified header for the json file (returns the time string or null)
+        function getLastSaved() {
+            // Use synchronous-ish approach via fetch HEAD when possible
+            // But not all servers support HEAD for JSON; fall back to GET with no-cache
+            try {
+                // Try HEAD first
+                return fetch(jsonFile, { method: 'HEAD', cache: 'no-cache' })
+                    .then(function(res) {
+                        if (!res.ok) return null;
+                        const header = res.headers.get('last-modified');
+                        if (header) return new Date(header).toTimeString().substr(0, 8);
+                        return null;
+                    }).catch(function() {
+                        // fallback to GET if HEAD fails
+                        return fetch(jsonFile, { cache: 'no-cache' })
+                            .then(function(res) {
+                                if (!res.ok) return null;
+                                const header = res.headers.get('last-modified');
+                                if (header) return new Date(header).toTimeString().substr(0, 8);
+                                return null;
+                            }).catch(function() { return null; });
+                    });
+            } catch (e) {
+                return Promise.resolve(null);
+            }
+        }
+
+        // Load DB table - keep using jQuery $.getJSON for server-side php endpoint
+        function LoadDb() {
+            $.getJSON('mongo2.php?radio=PGS1&')
+                .done(function(result) {
+                    // Replace table header and body instead of appending
+                    $('#lastTrax2').html('<tr>\n<th>time</th>\n<th>genre</th>\n<th>artist</th>\n<th>title</th>\n<th>label</th>\n</tr>');
+                    $.each(result, function(i, item) {
+                        if (item.artist !== 'PBB') {
+                            const row = '<tr>' +
+                                '<td nowrap>' + (item.time ? item.time.replace('T', ' ') : '') + '</td>' +
+                                '<td>' + (item.genre || '') + '</td>' +
+                                '<td>' + (item.artist || '') + '</td>' +
+                                '<td>' + (item.title || '') + '</td>' +
+                                '<td>' + (item.album || '') + '</td>' +
+                                '</tr>';
+                            $('#lastTrax2').append(row);
+                        }
+
+                        // Use the first result to set current track and title (only once)
+                        if (i === 0) {
+                            const nTime = new Date(stripParens(result[0].time)).toLocaleTimeString([], {
+                                hour: '2-digit', minute: '2-digit', second: '2-digit'
+                            });
+                            const myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
+                            const SpotLnk = '<a href="https://open.spotify.com/search/artist:' + encodeURIComponent(result[0].artist) + '%20track:' + encodeURIComponent(result[0].title) + '" title="Search in Spotify" target="_blank" rel="noopener">Spotify</a>';
+                            $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + (result[0].genre || '') + ' ' + SpotLnk);
+                            document.title = (result[0].genre || '') + ':' + (result[0].title || '') + ':' + (result[0].artist || '') + ':PBBbyPsyl0:.';
+                        }
+
+                        if (i === 10) return false; // break
+                    });
+                }).fail(function(jqxhr, textStatus, error) {
+                    console.warn('LoadDb failed:', textStatus, error);
+                });
+        }
+
+        // Timer used to check and update UI
+        async function myTimer() {
+            LoadDb();
+
+            ploadTime = new Date();
+            const pstr = ploadTime.toTimeString().substr(0,8);
+            $('#checked').html(pstr + ' ls:' + (lastSaved || '') + ' cs: ' + (checkSaved || ''));
+
+            const ls = await getLastSaved();
+            if (ls && lastSaved !== ls) {
+                $('#content').html('');
+                $('#checked').html('RELOADJSON: ' + (nowTime ? nowTime.toTimeString().substr(0,8) : '')); 
+                $('#load').html((nowTime ? nowTime.toTimeString().substr(0,8) : ''));
+                // reload JSON explicitly
+                await reloadJSON();
+            }
+        }
+
+        function myTime() {
+            nowTime = new Date();
+            $('#timeSpan').html(nowTime.toTimeString().substr(0,8));
+            $('#time').html(nowTime.toTimeString().substr(0,8));
+        }
+
+        // Prevent page scroll on space when body is focused
+        window.addEventListener('keydown', function (e) {
+            if ((e.code === 'Space' || e.key === ' ') && e.target === document.body) {
                 e.preventDefault();
             }
-        };
-
-    });
-
-    function reloadJSON() {
-        $.getJSON($jsonFile, function(data) {
-            var items = [];
-            data.reverse();
-            $.each(data, function(i, item) {
-                if (i == 0) {
-                    var nTime = new Date(stripParens(item.time));
-                    nTime = nTime.toLocaleTimeString([], {
-                        hour: '2-digit',
-                        minute: '2-digit',
-                        second: '2-digit'
-                    });
-                    var myTitle = item.genre + " " + item.title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + item.artist;
-                    $('#currentTrack').html(myTitle + "<br/>" + nTime);
-                    document.title = item.genre + ":" + item.title + ":" + item.artist + ':PBBbyPsyl0:.';
-                }
-                if ((i >= 1) && (item.otitle.substr(0, 3) != 'PBB')) {
-                    var bxlTime = new Date(stripParens(item.time));
-                    items.push("<li id='" + i + "'>" + bxlTime.toLocaleTimeString([], {
-                        hour: '2-digit',
-                        minute: '2-digit',
-                        second: '2-digit'
-                    }) + "</li>");
-                    items.push(item.otitle);
-                    items.push("<dl class='dl-horizontal'><dt>Title</dt><dd>" + item.title + "</dd>");
-                    items.push("<dt>Artist</dt><dd>" + item.artist + "</dd></dl>");
-                }
-                if (i == 10) return false;
-            });
-            $("<ul/>", {
-                "class": "my-new-list",
-                html: items.join("")
-            }).appendTo("#content");
-
         });
-        $lastSaved = getLastSaved();
-    }
 
-    function getLastSaved() {
-        var xhr = $.ajax({
-            url: $jsonFile,
-            success: function(response) {
-                var header = xhr.getResponseHeader("Last-Modified");
-                if (header) {
-                    $checkSaved = new Date(header).toTimeString().substr(0, 8);
+        // Document ready - initialize state and intervals
+        $(function() {
+            ploadTime = new Date();
+            checkSaved = new Date().toTimeString().substr(0,8);
+            lastSaved = new Date().toTimeString().substr(0,8);
+            lastLoad = new Date();
+            jsonFile = buildJsonFileName();
+
+            // initial load
+            reloadJSON();
+            LoadDb();
+
+            // Polls
+            setInterval(LoadDb, 10000);
+            setInterval(myTime, 1000);
+            setInterval(myTimer, 15000);
+
+            // LOAD Background images
+            $.get('/img/bkg/', function(data) {
+                $.each(data, function(i, item) {
+                    imgFiles.push('https://psylo.ddns.net/img/bkg/' + item.name);
+                });
+                shuffle(imgFiles);
+                if (typeof SCALING_MODE_CONTAIN === 'undefined') {
+                    // fallback
+                    SCALING_MODE_CONTAIN = 'contain';
                 }
-            }
-        });
-        return $checkSaved;
-    }
-
-    function LoadDb() {
-        $.getJSON("mongo2.php?radio=PGS1&")
-            .done(function(result) {
-                $('#lastTrax2').html('<th>time</th>\\
-                        <th>genre</th>\\
-                        <th>artist</th>\\
-                        <th>title</th>\\
-                        <th>label</th>');
-                $.each(result, function(i, item) {
-                    if (item.artist != "PBB") {
-                        var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \\
-                        <td>' + item.genre + '</td>  \\
-                        <td>' + item.artist + '</td> \\
-                        <td>' + item.title + '</td>  \\
-                        <td>' + item.album + '</td>  \\
-                        </tr>';
-                        $('#lastTrax2').append(row);
-
-                    }
-                    var nTime = new Date(stripParens(result[0].time));
-                    nTime = nTime.toLocaleTimeString([], {
-                        hour: '2-digit',
-                        minute: '2-digit',
-                        second: '2-digit'
-                    });
-                    if (i == 10) {
-                        var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
-                        var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ encodeURIComponent(result[0].artist) +'%20track:'+ encodeURIComponent(result[0].title) +'" title="Search in Spotify" target="_blank">Search in Spotify</a>';
-                        $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " " + SpotLnk);
-                        document.title = result[0].genre + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
-                        return false;
-                    }
+                $('body').backgroundCycle({
+                    imageUrls: imgFiles,
+                    fadeSpeed: 5000,
+                    duration: 15000,
+                    backgroundSize: SCALING_MODE_CONTAIN
                 });
             });
-    }
 
-    function myTimer(str) {
-        LoadDb();
+            // keyboard SPACE event CATCH for audio control
+            const audio = document.querySelector('#audio');
+            if (audio) {
+                document.addEventListener('keydown', function(e) {
+                    const ae = document.activeElement;
+                    if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'TEXTAREA' || ae.isContentEditable)) return;
+                    if (e.code === 'Space' || e.key === ' ') {
+                        if (audio.paused) audio.play(); else audio.pause();
+                        e.preventDefault();
+                    }
+                });
+            }
 
-        $pload = new Date();
-        $pload = $pload.toTimeString().substr(0, 8);
-        $("#checked").html($pload + ' ls:' + $lastSaved + ' cs: ' + $checkSaved);
-        if ($lastSaved != $checkSaved) {
-            $("#content").html("");
-            $("#checked").html('REALOADJSON: ' + $time.toTimeString().substr(0, 8));
-            $("#load").html($time.toTimeString().substr(0, 8));
-        }
-    }
+            // saved element change animation (keeps original behaviour)
+            $('#saved').on('change', function() {
+                $('#saved').fadeOut(5000, function() { $('#saved').fadeIn(5000); });
+            });
+        });
 
-    function myTime() {
-        $time = new Date();
-        $("#timeSpan").html($time.toTimeString().substr(0, 8));
-        $("#time").html($time.toTimeString().substr(0, 8));
-    }
-    </script>
+    })(jQuery);
+</script>
     <!-- New nav bar -->
     <nav class="navbar navbar-expand-lg bg-teaser">
         <a class=" navbar-brand " href="/ ">PBBbyPsyl0</a>
