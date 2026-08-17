@@ -152,18 +152,18 @@
     function LoadDb() {
         $.getJSON("mongo2.php?radio=PGS1&")
             .done(function(result) {
-                $('#lastTrax2').html('<th>time</th>\
-                        <th>genre</th>\
-                        <th>artist</th>\
-                        <th>title</th>\
+                $('#lastTrax2').html('<th>time</th>\\
+                        <th>genre</th>\\
+                        <th>artist</th>\\
+                        <th>title</th>\\
                         <th>label</th>');
                 $.each(result, function(i, item) {
                     if (item.artist != "PBB") {
-                        var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \
-                        <td>' + item.genre + '</td>  \
-                        <td>' + item.artist + '</td> \
-                        <td>' + item.title + '</td>  \
-                        <td>' + item.album + '</td>  \
+                        var row = '<tr><td nowrap>' + item.time.replace("T", " ") + '</td> \\
+                        <td>' + item.genre + '</td>  \\
+                        <td>' + item.artist + '</td> \\
+                        <td>' + item.title + '</td>  \\
+                        <td>' + item.album + '</td>  \\
                         </tr>';
                         $('#lastTrax2').append(row);
 
@@ -176,8 +176,8 @@
                     });
                     if (i == 10) {
                         var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
-                        var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ result[0].artist +'%20track:'+ result[0].title +'" title="Search in Spotify" target="_blank"><img src="im[...][...]'
-                        $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " <i style='font-size: smaller;color:lightblue;'> @[...][...]'
+                        var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ encodeURIComponent(result[0].artist) +'%20track:'+ encodeURIComponent(result[0].title) +'" title="Search in Spotify" target="_blank">Search in Spotify</a>';
+                        $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " " + SpotLnk);
                         document.title = result[0].genre + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
                         return false;
                     }
@@ -234,7 +234,7 @@
                 <h2>Welcome to Psylo Garden Studio</h2>
                 <h3>PGS1: House /Trance / Techno classic's from the 90's </h3>
                 <i>If you want to use an external player here is the link <a href="https://psylo.ddns.net/radio/PGS1">https://psylo.ddns.net/radio/PGS1</a></i>
-                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="true" name=[...]
+                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls autoplay name="media">
                     <source src="https://psylo.ddns.net/radio/PGS1" type="audio/mp3">
                 </audio>
                 <div id="currentTrack" class="jumbotron-fluid " style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large; ">current</div>
