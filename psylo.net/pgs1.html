@@ -29,21 +29,31 @@
     });
     /* Add eventlistener to prevent scrolling when space bar pressed */
     window.addEventListener('keydown', function (e) {
-            if (e.keyCode == 32 && e.target == document.body) {
-                e.preventDefault();
-            }
-        });
+        // modern check for Space key, with fallback to key
+        if ((e.code === 'Space' || e.key === ' ') && e.target === document.body) {
+            e.preventDefault();
+        }
+    });
 
-    $imgFiles = [];
+    // Declare globals explicitly to avoid accidental globals
+    let $imgFiles = [];
+    let $pload, $checkSaved, $lastSaved, $lastLoad, $twoDay, $jsonFile, $time;
+
+    // helper: remove parentheses from time strings (replaceAll may not exist in older browsers)
+    function stripParens(s) {
+        if (!s) return s;
+        return s.replace ? s.replace(/\(|\)/g, '') : s;
+    }
 
     $(document).ready(function() {
         $pload = new Date();
         $checkSaved = new Date();
         $lastSaved = new Date();
-        $lastLoad = new Date();            
-        $2day = $pload.toJSON().substr(0, 10).replaceAll("-", "");
+        $lastLoad = new Date();
+        // variable names cannot start with a digit, rename to $twoDay
+        $twoDay = $pload.toJSON().substr(0, 10).replace(/-/g, "");
         $pload = $pload.toTimeString().substr(0, 8);
-        $jsonFile = "/json/PGS1"+$2day + ".json";
+        $jsonFile = "/json/PGS1" + $twoDay + ".json";
         reloadJSON();
         LoadDb();
         var myVar = setInterval(function() {
@@ -58,6 +68,7 @@
                 $imgFiles.push('https://psylo.ddns.net/img/bkg/' + item.name);
             })
             shuffle($imgFiles);
+            // SCALING_MODE_CONTAIN is expected to be provided by background.cycle.js; leave as-is
             $("body").backgroundCycle({
                 imageUrls: $imgFiles,
                 fadeSpeed: 5000,
@@ -69,13 +80,19 @@
         const audio = document.querySelector("#audio");
         var isPlaying = false;
         document.onkeydown = function (e) {
-            if (e.keyCode == 32) {
+            // ignore when focus is on input/textarea or contenteditable elements
+            var ae = document.activeElement;
+            if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'TEXTAREA' || ae.isContentEditable)) return;
+            if (e.code === 'Space' || e.key === ' ') {
+                if (!audio) return; // nothing to do
                 if (isPlaying) {
                     audio.pause();
                 } else {
                     audio.play();
                 }
-                isPlaying = !isPlaying; // if true equal false, if false equal true
+                isPlaying = !isPlaying; // toggle
+                // prevent default to avoid page scroll
+                e.preventDefault();
             }
         };
 
@@ -87,7 +104,7 @@
             data.reverse();
             $.each(data, function(i, item) {
                 if (i == 0) {
-                    nTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                    var nTime = new Date(stripParens(item.time));
                     nTime = nTime.toLocaleTimeString([], {
                         hour: '2-digit',
                         minute: '2-digit',
@@ -98,7 +115,7 @@
                     document.title = item.genre + ":" + item.title + ":" + item.artist + ':PBBbyPsyl0:.';
                 }
                 if ((i >= 1) && (item.otitle.substr(0, 3) != 'PBB')) {
-                    bxlTime = new Date(item.time.replaceAll('(', '').replaceAll(')', ''));
+                    var bxlTime = new Date(stripParens(item.time));
                     items.push("<li id='" + i + "'>" + bxlTime.toLocaleTimeString([], {
                         hour: '2-digit',
                         minute: '2-digit',
@@ -123,7 +140,10 @@
         var xhr = $.ajax({
             url: $jsonFile,
             success: function(response) {
-                $checkSaved = new Date(xhr.getResponseHeader("Last-Modified")).toTimeString().substr(0, 8);
+                var header = xhr.getResponseHeader("Last-Modified");
+                if (header) {
+                    $checkSaved = new Date(header).toTimeString().substr(0, 8);
+                }
             }
         });
         return $checkSaved;
@@ -148,7 +168,7 @@
                         $('#lastTrax2').append(row);
 
                     }
-                    nTime = new Date(result[0].time.replaceAll('(', '').replaceAll(')', ''));
+                    var nTime = new Date(stripParens(result[0].time));
                     nTime = nTime.toLocaleTimeString([], {
                         hour: '2-digit',
                         minute: '2-digit',
@@ -156,8 +176,8 @@
                     });
                     if (i == 10) {
                         var myTitle = result[0].title + " <i style='font-size: smaller;color:lightblue;'>by</i> " + result[0].artist;
-                        var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ result[0].artist +'%20track:'+ result[0].title +'" title="Search in Spotify" target="_blank"><img src="im[...]';
-                        $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " <i style='font-size: smaller;color:lightblue;'> @[...]");
+                        var SpotLnk = '<a href="https://open.spotify.com/search/artist:'+ result[0].artist +'%20track:'+ result[0].title +'" title="Search in Spotify" target="_blank"><img src="im[...][...]'
+                        $('#currentTrack').html(myTitle + "<br/><i style='font-size: smaller;color:lightblue;'>Genre: </i>" + result[0].genre + " <i style='font-size: smaller;color:lightblue;'> @[...][...]'
                         document.title = result[0].genre + ":" + result[0].title + ":" + result[0].artist + ':PBBbyPsyl0:.';
                         return false;
                     }
@@ -214,7 +234,7 @@
                 <h2>Welcome to Psylo Garden Studio</h2>
                 <h3>PGS1: House /Trance / Techno classic's from the 90's </h3>
                 <i>If you want to use an external player here is the link <a href="https://psylo.ddns.net/radio/PGS1">https://psylo.ddns.net/radio/PGS1</a></i>
-                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="true" name="media">
+                <h2>Player: <span id="timeSpan" style="font-size:x-large; font-weight: bolder;background-color: black; " class=" "></span></h2><audio id="audio" controls=" " autoplay="true" name=[...]
                     <source src="https://psylo.ddns.net/radio/PGS1" type="audio/mp3">
                 </audio>
                 <div id="currentTrack" class="jumbotron-fluid " style="color:chartreuse; background-color: rgb(24, 78, 80); font-size: x-large; ">current</div>
