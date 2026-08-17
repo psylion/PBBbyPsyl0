@@ -75,3 +75,8 @@
 
 ## 27 Apr 2021: test.php 
 is the current working page, with the title.php which is currently using the pbbstream.php from Kdbuz. Unfortunately I'm not able to request HTTPS with php from my PI4 Nginx webserver
+
+
+
+## 2026-08-17T19:00:18Z: Add meta charset to head in pgs1.html
+- Inserted missing <head> start tag and added meta charset to restore valid HTML structure. Minimal change committed to branch `New-branch-with-CopilotGH`.
